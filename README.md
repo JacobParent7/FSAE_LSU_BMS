@@ -3,3 +3,6 @@ Decentralized BMS designed around the STM32F1 and BQ79616/BQ79614/BQ79612 Texas 
 Hello there Jacob:)
 
 CLONE TEST
+
+
+Branch testing 
