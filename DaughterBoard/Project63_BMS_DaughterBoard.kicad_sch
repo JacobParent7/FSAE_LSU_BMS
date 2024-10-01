@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "325b096d-8e4c-4cdc-b4c5-634ea5e73c60")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 93.98 29.21)
+		(size 36.83 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fc75a92-430f-42ad-9ad5-d910a7d34c12")
+		(property "Sheetname" "Battery_To_Board"
+			(at 93.98 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 93.98 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 22.86)
+		(size 44.45 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ffa0956-e90f-44b3-af43-d8470a47be31")
+		(property "Sheetname" "BQ79614_Bootstrapping"
+			(at 25.4 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BQ79614_bootstrapping.kicad_sch"
+			(at 25.4 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
