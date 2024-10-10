@@ -334,13 +334,31 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -392,7 +410,15 @@
     ],
     [
       "2fc75a92-430f-42ad-9ad5-d910a7d34c12",
-      "Battery_To_Board"
+      "CB_VB Generation"
+    ],
+    [
+      "5bfb4acc-aeaf-4603-8e20-a08f6ed64fc0",
+      "BatterytoBoard"
+    ],
+    [
+      "f572dc6c-083b-4ebc-8b73-cb14171a47f1",
+      "Test Points"
     ]
   ],
   "text_variables": {}
