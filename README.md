@@ -1,8 +1,7 @@
 # FSAE_LSU_BMS
-Decentralized BMS designed around the STM32F1 and BQ79616/BQ79614/BQ79612 Texas Instruments precision battery monitor, balancer and integrated protector IC.
-Hello there Jacob:)
-
-CLONE TEST
+Decentralized FSAE BMS designed around an STM32 microcontroller and BQ79616/BQ79614/BQ79612 Texas Instruments precision battery monitor, balancer and integrated protector IC. 
 
 
-Branch testing 
+Initial System Level Description 
+
+![BMS - MOBO](https://github.com/user-attachments/assets/a75bd0b1-2bcd-46d9-97a1-86b38ced04c5)
