@@ -4,4 +4,4 @@ Decentralized FSAE BMS designed around an STM32 microcontroller and BQ79616/BQ79
 
 Initial System Level Description 
 
-![BMS - MOBO](https://github.com/user-attachments/assets/a75bd0b1-2bcd-46d9-97a1-86b38ced04c5)
+![BMS - MOBO (2)](https://github.com/user-attachments/assets/deba56ab-669f-4e94-b4b9-ad3d1f529435)
