@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1376357-3
+#/1644490/1466506/2.50/28/2/Connector
+DEF 1376357-3 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "1376357-3" 850 200 50 H V L CNN
+F2 "13763573" 850 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1376357%7FA4%7Fpdf%7FJapanese%7FJPN_CD_1376357_A4.pdf%7F1376357-3" 850 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Natural | Configuration Features: Number of Sections 1 | Number of Signal Positions 26 | PCB Mount Orientation Horizontal | Number of Rows 2 | Number of Positions 26 | Contact Features: Contact Size .63mm | Mating Tab Thickness .025 INCH | Mating Tab Width 2.3 MM | Contact Mating Area Plating Material Tin | Contact Type Tab | Mating Tab Width .64 MM | Mating Tab Thickness .64 MM | Mating Tab Width .025 INCH | Contact Size 2.28mm | Mating Tab Width .091 INCH | Dimensions:" 850 -100 50 H I L CNN "Description"
+F5 "18.1" 850 -200 50 H I L CNN "Height"
+F6 "571-1376357-3" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1376357-3?qs=Koa4dS0tnlFW%2FbM8mEy9lw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1376357-3" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 12 12 0 -1100 200 R 50 50 0 0 P
+X 13 13 0 -1200 200 R 50 50 0 0 P
+X 14 14 0 -1300 200 R 50 50 0 0 P
+X 15 15 1000 0 200 L 50 50 0 0 P
+X 16 16 1000 -100 200 L 50 50 0 0 P
+X 17 17 1000 -200 200 L 50 50 0 0 P
+X 18 18 1000 -300 200 L 50 50 0 0 P
+X 19 19 1000 -400 200 L 50 50 0 0 P
+X 20 20 1000 -500 200 L 50 50 0 0 P
+X 21 21 1000 -600 200 L 50 50 0 0 P
+X 22 22 1000 -700 200 L 50 50 0 0 P
+X 23 23 1000 -800 200 L 50 50 0 0 P
+X 24 24 1000 -900 200 L 50 50 0 0 P
+X 25 25 1000 -1000 200 L 50 50 0 0 P
+X 26 26 1000 -1100 200 L 50 50 0 0 P
+X MH1 MH1 1000 -1200 200 L 50 50 0 0 P
+X MH2 MH2 1000 -1300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1400 200 -1400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
