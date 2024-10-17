@@ -4151,6 +4151,17 @@
 			(pintype "unspecified")
 			(uuid "2c3cb269-3c7e-4c42-b704-cb1884fa4c67")
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/PAP0064A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -4473,6 +4484,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -4793,6 +4815,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -5091,6 +5124,17 @@
 				(pts
 					(xy 28.214206 -80.349199) (xy 28.912604 -80.349199) (xy 28.912604 -79.650801) (xy 28.214206 -79.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5413,6 +5457,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -5711,6 +5766,17 @@
 				(pts
 					(xy 24.95381 -76.139603) (xy 25.652208 -76.139603) (xy 25.652208 -75.441205) (xy 24.95381 -75.441205)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6035,6 +6101,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -6333,6 +6410,17 @@
 				(pts
 					(xy 24.95381 -80.349199) (xy 25.652208 -80.349199) (xy 25.652208 -79.650801) (xy 24.95381 -79.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6653,6 +6741,17 @@
 				(pts
 					(xy 78.873002 -20.349199) (xy 79.5714 -20.349199) (xy 79.5714 -19.650801) (xy 78.873002 -19.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6977,6 +7076,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -7295,6 +7405,17 @@
 				(pts
 					(xy 28.03921 -43.386406) (xy 29.637606 -43.386406) (xy 29.637606 -40.98801) (xy 28.03921 -40.98801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -7619,6 +7740,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -7937,6 +8069,17 @@
 				(pts
 					(xy 23.178816 -35.573614) (xy 24.777212 -35.573614) (xy 24.777212 -33.175218) (xy 23.178816 -33.175218)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -8259,6 +8402,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -8579,6 +8733,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "C0603C105K8RACAUTO:CAPC18095_95N_KEM-L"
 		(layer "F.Cu")
@@ -8877,6 +9042,17 @@
 				(pts
 					(xy 9.224601 -10.669401) (xy 9.523001 -10.669401) (xy 9.523001 -9.821003) (xy 9.224601 -9.821003)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CCS_CCSTD_0603_L1.8W0.95T0.95B0.35.step"
+			(offset
+				(xyz -0.88 -0.45 0.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9201,6 +9377,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -9521,6 +9708,17 @@
 				(pts
 					(xy 80.9896 -53.0324) (xy 81.4722 -53.0324) (xy 81.4722 -52.3212) (xy 80.9896 -52.3212)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9845,6 +10043,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -10145,6 +10354,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -10443,6 +10663,17 @@
 				(pts
 					(xy 28.214206 -76.139603) (xy 28.912604 -76.139603) (xy 28.912604 -75.441205) (xy 28.214206 -75.441205)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -10767,6 +10998,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -11065,6 +11307,17 @@
 				(pts
 					(xy 31.474602 -78.244401) (xy 32.173 -78.244401) (xy 32.173 -77.546003) (xy 31.474602 -77.546003)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11389,6 +11642,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R72A103KA37J:CAPC1608X90N"
 		(layer "F.Cu")
@@ -11401,7 +11665,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -11412,7 +11676,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -11566,6 +11830,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "e2df9973-ba8a-46de-9606-75f4f36b3287")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R72A103KA37J.step"
+			(offset
+				(xyz 0 -0.45 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -11887,6 +12162,17 @@
 				(pts
 					(xy 80.9896 -59.3852) (xy 81.4722 -59.3852) (xy 81.4722 -58.674) (xy 80.9896 -58.674)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -12211,6 +12497,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -12511,6 +12808,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -12809,6 +13117,17 @@
 				(pts
 					(xy 31.474602 -80.349199) (xy 32.173 -80.349199) (xy 32.173 -79.650801) (xy 31.474602 -79.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -13133,6 +13452,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM155R71A104KA55D:CAP_GCM15_1p05X0p55X0p55_MUR-L"
 		(layer "F.Cu")
@@ -13455,6 +13785,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_GCM15_1p05X0p55X0p55_MUR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "C0603C105K8RACAUTO:CAPC18095_95N_KEM-L"
 		(layer "F.Cu")
@@ -13755,6 +14096,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CCS_CCSTD_0603_L1.8W0.95T0.95B0.35.step"
+			(offset
+				(xyz -0.88 -0.45 0.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -14053,6 +14405,17 @@
 				(pts
 					(xy 24.95381 -78.244401) (xy 25.652208 -78.244401) (xy 25.652208 -77.546003) (xy 24.95381 -77.546003)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -14375,6 +14738,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -14693,6 +15067,17 @@
 				(pts
 					(xy 23.178816 -43.386406) (xy 24.777212 -43.386406) (xy 24.777212 -40.98801) (xy 23.178816 -40.98801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -15017,6 +15402,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "C0603C105K8RACAUTO:CAPC18095_95N_KEM-L"
 		(layer "F.Cu")
@@ -15315,6 +15711,17 @@
 				(pts
 					(xy 9.224601 -8.414603) (xy 9.523001 -8.414603) (xy 9.523001 -7.566205) (xy 9.224601 -7.566205)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CCS_CCSTD_0603_L1.8W0.95T0.95B0.35.step"
+			(offset
+				(xyz -0.88 -0.45 0.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -15639,6 +16046,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -15937,6 +16355,17 @@
 				(pts
 					(xy 28.214206 -69.825209) (xy 28.912604 -69.825209) (xy 28.912604 -69.126811) (xy 28.214206 -69.126811)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -16261,6 +16690,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -16581,6 +17021,17 @@
 				(pts
 					(xy 80.9896 -55.15) (xy 81.4722 -55.15) (xy 81.4722 -54.4388) (xy 80.9896 -54.4388)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -16905,6 +17356,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -17203,6 +17665,17 @@
 				(pts
 					(xy 28.214206 -78.244401) (xy 28.912604 -78.244401) (xy 28.912604 -77.546003) (xy 28.214206 -77.546003)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -17523,6 +17996,17 @@
 				(pts
 					(xy 32.899604 -51.199198) (xy 34.498 -51.199198) (xy 34.498 -48.800802) (xy 32.899604 -48.800802)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17854,6 +18338,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_2012_TDK.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -18174,6 +18669,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -18474,6 +18980,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -18481,7 +18998,7 @@
 		(at 74.3777 -27.5)
 		(tags "GCM188R71C474KA55D ")
 		(property "Reference" "C1"
-			(at 0 0 0)
+			(at 0 3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "96e919dd-bdc1-4d58-9f31-e48ef971fc26")
@@ -18493,7 +19010,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 0 0 0)
+			(at 0.5 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "87c52769-28e0-44bc-a90d-951459037a8f")
@@ -18553,10 +19070,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "G-188_MUR G-188_MUR-M G-188_MUR-L")
 		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/7431dc1d-25d4-4736-98df-a0b4aa934b4c")
-		(sheetname "CB_VB Generation")
-		(sheetfile "untitled.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.7907 0)
@@ -18740,18 +19254,6 @@
 			(layer "F.Fab")
 			(uuid "2a47a02d-7d78-4766-b6ed-7f54c5ec754d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f46c159c-6274-4a4a-8a98-14f0038115d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -0.6223 0)
 			(size 0.6604 0.762)
@@ -18794,6 +19296,17 @@
 				(pts
 					(xy 74.1364 -27.8556) (xy 74.619 -27.8556) (xy 74.619 -27.1444) (xy 74.1364 -27.1444)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19118,6 +19631,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -19416,6 +19940,17 @@
 				(pts
 					(xy 28.214206 -71.930007) (xy 28.912604 -71.930007) (xy 28.912604 -71.231609) (xy 28.214206 -71.231609)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19740,6 +20275,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -20060,6 +20606,17 @@
 				(pts
 					(xy 80.9896 -67.8556) (xy 81.4722 -67.8556) (xy 81.4722 -67.1444) (xy 80.9896 -67.1444)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -20765,6 +21322,17 @@
 			(pintype "unspecified")
 			(uuid "6af757c8-abcd-48c2-be20-41f99283fcb4")
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/705550019.stp"
+			(offset
+				(xyz -24 -7 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -21063,6 +21631,17 @@
 				(pts
 					(xy 24.95381 -71.930007) (xy 25.652208 -71.930007) (xy 25.652208 -71.231609) (xy 24.95381 -71.231609)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -21383,6 +21962,17 @@
 				(pts
 					(xy 23.178816 -31.667218) (xy 24.777212 -31.667218) (xy 24.777212 -29.268822) (xy 23.178816 -29.268822)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -21707,6 +22297,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -22007,6 +22608,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "C0603C105K8RACAUTO:CAPC18095_95N_KEM-L"
 		(layer "F.Cu")
@@ -22305,6 +22917,17 @@
 				(pts
 					(xy 59.123001 -15.424199) (xy 59.421401 -15.424199) (xy 59.421401 -14.575801) (xy 59.123001 -14.575801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CCS_CCSTD_0603_L1.8W0.95T0.95B0.35.step"
+			(offset
+				(xyz -0.88 -0.5 1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -22629,6 +23252,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -22947,6 +23581,17 @@
 				(pts
 					(xy 28.03921 -47.292802) (xy 29.637606 -47.292802) (xy 29.637606 -44.894406) (xy 28.03921 -44.894406)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -23271,6 +23916,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_GCM15_1p05X0p55X0p55_MUR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -23593,6 +24249,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -23911,6 +24578,17 @@
 				(pts
 					(xy 28.03921 -31.667218) (xy 29.637606 -31.667218) (xy 29.637606 -29.268822) (xy 28.03921 -29.268822)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -24235,6 +24913,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -24555,6 +25244,17 @@
 				(pts
 					(xy 85.063 -61.5028) (xy 85.5456 -61.5028) (xy 85.5456 -60.7916) (xy 85.063 -60.7916)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24879,6 +25579,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
 		(layer "F.Cu")
@@ -25199,6 +25910,17 @@
 				(pts
 					(xy 85.063 -67.8556) (xy 85.5456 -67.8556) (xy 85.5456 -67.1444) (xy 85.063 -67.1444)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -25523,6 +26245,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -25841,6 +26574,17 @@
 				(pts
 					(xy 23.178816 -51.199198) (xy 24.777212 -51.199198) (xy 24.777212 -48.800802) (xy 23.178816 -48.800802)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -26165,6 +26909,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM188R71C474KA55D.step"
+			(offset
+				(xyz 0 -0.4 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW121010R0FKEAHP:RC1210N_VIS-L"
 		(layer "F.Cu")
@@ -26483,6 +27238,17 @@
 				(pts
 					(xy 28.03921 -51.199198) (xy 29.637606 -51.199198) (xy 29.637606 -48.800802) (xy 28.03921 -48.800802)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW121010R0FKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
