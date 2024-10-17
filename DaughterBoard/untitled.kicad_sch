@@ -2850,6 +2850,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 326.39) (xy 349.25 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a326f537-6072-4c77-9d44-a91acea7fe77")
+	)
+	(wire
+		(pts
 			(xy 200.66 95.25) (xy 200.66 101.6)
 		)
 		(stroke
@@ -3467,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "fc0f7404-6472-4202-b2ea-46593b66c864")
-	)
-	(wire
-		(pts
-			(xy 334.01 326.39) (xy 349.25 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd7caef-4026-4e8b-a060-5908b7ea2fe5")
 	)
 	(global_label "Cell 0S"
 		(shape input)
