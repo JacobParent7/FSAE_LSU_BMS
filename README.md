@@ -1,7 +1,7 @@
 # FSAE BMS Design Log
 
 ## Main SLD
-![BMS - MOBO (2)](https://github.com/user-attachments/assets/96d7156e-f4e5-4c72-9286-f75833d57851)
+![SLD](https://github.com/user-attachments/assets/c1e21564-1ac7-4aae-a23a-20e109600b74)
 
 
 ## Thermistor Expansion SLD
