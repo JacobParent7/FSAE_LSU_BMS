@@ -47,6 +47,44 @@
 		)
 	)
 	(sheet
+		(at 219.71 22.86)
+		(size 50.8 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50508abc-94ca-4760-9b7e-3243f83fc341")
+		(property "Sheetname" "NPN Power Supply"
+			(at 219.71 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NPN Power Supply.kicad_sch"
+			(at 219.71 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 22.86)
 		(size 44.45 45.72)
 		(fields_autoplaced yes)
