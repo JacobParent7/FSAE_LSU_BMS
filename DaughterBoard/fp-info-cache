@@ -1,4 +1,11 @@
-23027490442354848
+23046522223413440
+5011 (1)
+TP_5011
+
+
+0
+1
+1
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2509,6 +2516,27 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CRCW12067R50FKEAHP
+RES_V1206_VIS
+
+CRCW12067R50FKEAHP 
+0
+2
+2
+CRCW12067R50FKEAHP
+RES_V1206_VIS-L
+
+CRCW12067R50FKEAHP 
+0
+2
+2
+CRCW12067R50FKEAHP
+RES_V1206_VIS-M
+
+CRCW12067R50FKEAHP 
 0
 2
 2
@@ -55600,6 +55628,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ERA-3AEB101V
+RC0603N_PAN
+
+ERA-3AEB101V 
+0
+2
+2
+ERA-3AEB101V
+RC0603N_PAN-L
+
+ERA-3AEB101V 
+0
+2
+2
+ERA-3AEB101V
+RC0603N_PAN-M
+
+ERA-3AEB101V 
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -56633,6 +56682,27 @@ Fuse
 Fuseholder_TR5_Littelfuse_No560_No460
 Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
 Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+GCM188R71C474KA55D
+G-188_MUR
+
+GCM188R71C474KA55D 
+0
+2
+2
+GCM188R71C474KA55D
+G-188_MUR-L
+
+GCM188R71C474KA55D 
+0
+2
+2
+GCM188R71C474KA55D
+G-188_MUR-M
+
+GCM188R71C474KA55D 
 0
 2
 2
@@ -88668,6 +88738,13 @@ Logo WEEE
 0
 0
 0
+TP5012
+TP_5012
+
+
+0
+1
+1
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

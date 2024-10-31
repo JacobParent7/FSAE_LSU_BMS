@@ -2779,12 +2779,20 @@
 		(uuid "52783f3a-2f85-4047-befe-3762876f803c")
 	)
 	(no_connect
+		(at 135.89 52.07)
+		(uuid "5ead48c5-c0f3-4ca7-9fb4-745a50c67eed")
+	)
+	(no_connect
 		(at 95.25 52.07)
 		(uuid "6ae38f1d-358e-4638-9ea5-b6cb20b8cab7")
 	)
 	(no_connect
 		(at 135.89 64.77)
 		(uuid "71d6ff90-aa4e-48f8-9c16-9f8d841daeba")
+	)
+	(no_connect
+		(at 135.89 54.61)
+		(uuid "7fefea91-c677-4f9d-81fd-0a9f09816f9f")
 	)
 	(no_connect
 		(at 135.89 62.23)
@@ -2803,6 +2811,10 @@
 		(uuid "9825dade-2dce-4e2c-9ab3-bfa2a93ad9db")
 	)
 	(no_connect
+		(at 135.89 80.01)
+		(uuid "cf71d9f9-1891-472a-93c2-573624e47c42")
+	)
+	(no_connect
 		(at 135.89 59.69)
 		(uuid "de625dea-b182-4dcb-97d3-85d948f15e51")
 	)
@@ -2813,24 +2825,6 @@
 	(no_connect
 		(at 95.25 57.15)
 		(uuid "f09142a9-13b4-463d-be8d-ee31faea5aa7")
-	)
-	(bus_entry
-		(at 172.72 52.07)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526f7d82-85e2-4a61-9711-63e5781fffe4")
-	)
-	(bus_entry
-		(at 172.72 54.61)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba4fd1b-69e7-4837-b4d2-b3f120fa8988")
 	)
 	(wire
 		(pts
@@ -3021,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "374a9683-ca18-4564-a099-b88a53673387")
-	)
-	(bus
-		(pts
-			(xy 175.26 54.61) (xy 175.26 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e73f29-3234-4438-8658-d03bc618ec00")
 	)
 	(wire
 		(pts
@@ -3414,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 172.72 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c49d268f-6529-453f-9e5a-50690a00a28c")
-	)
-	(wire
-		(pts
 			(xy 90.17 97.79) (xy 95.25 97.79)
 		)
 		(stroke
@@ -3491,16 +3465,6 @@
 			(type default)
 		)
 		(uuid "e2a1b638-39ba-4b48-bf15-764da23cf211")
-	)
-	(wire
-		(pts
-			(xy 135.89 52.07) (xy 172.72 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e99beb-79c0-4730-8a48-54431edb924f")
 	)
 	(wire
 		(pts
@@ -3611,28 +3575,6 @@
 			(type default)
 		)
 		(uuid "ff831245-7d3c-40da-b9ad-a1719f4c01f2")
-	)
-	(label "BBP"
-		(at 172.72 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c563543e-08f3-493e-ad90-9a383af02f1e")
-	)
-	(label "BBN"
-		(at 172.72 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dca832ad-13a3-431c-b946-a2ba7aedde9f")
 	)
 	(global_label "NEG5V"
 		(shape input)
