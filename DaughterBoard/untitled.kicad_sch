@@ -8,329 +8,6 @@
 		(title "Wire to Board Inputs (14Cells)")
 	)
 	(lib_symbols
-		(symbol "2024-10-08_02-17-57:CRCW121010R0FKEAHP"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CRCW121010R0FKEAHP"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RC1210N_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "CRCW121010R0FKEAHP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CRCW121010R0FKEAHP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RC1210N_VIS RC1210N_VIS-M RC1210N_VIS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW121010R0FKEAHP_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CRCW121010R0FKEAHP_1_2"
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "2024-10-08_02-22-32:GCM188R71C474KA55D"
 			(pin_names
 				(offset 0.254)
@@ -905,48 +582,50 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+		(symbol "2024-10-28_23-49-19:CRCW12067R50FKEAHP"
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "R"
+				(at 5.715 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "CRCW12067R50FKEAHP"
+				(at 6.35 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Footprint" "RES_V1206_VIS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
+			(property "Datasheet" "CRCW12067R50FKEAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -955,7 +634,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW12067R50FKEAHP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -964,7 +651,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_fp_filters" "RES_V1206_VIS RES_V1206_VIS-M RES_V1206_VIS-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -973,24 +660,95 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(symbol "CRCW12067R50FKEAHP_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1001,6 +759,416 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CRCW12067R50FKEAHP_1_2"
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "5011:5011"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5011"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "5011:TP_5011"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5011_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "5012:5012"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5012"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "5012:TP_5012"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5012_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1111,16 +1279,52 @@
 		(uuid "0029256b-a0c9-41a8-b659-38b480b117c8")
 	)
 	(junction
+		(at 143.51 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0209107d-3a80-49cd-b763-0173c5bc7f6c")
+	)
+	(junction
+		(at 163.83 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "021bb18a-056d-4bad-801c-07b2b6f3cdb9")
+	)
+	(junction
+		(at 297.18 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03efeb18-706e-46cb-81f5-998f16a57271")
+	)
+	(junction
 		(at 200.66 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "052b67e4-d2a0-4f43-967b-1dc1b5c63a28")
 	)
 	(junction
-		(at 149.86 297.18)
+		(at 143.51 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "083ce092-16c6-4b88-a389-459966763e04")
+		(uuid "05b034ae-e9ee-4910-82cf-8f469b59dd7e")
+	)
+	(junction
+		(at 297.18 339.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a52a2f-1cfa-40fd-bfdb-1931e2ae5969")
+	)
+	(junction
+		(at 163.83 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b919d3b-abf4-4d9e-993d-6709b3cdf89e")
+	)
+	(junction
+		(at 163.83 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bf352b8-5ef6-4cbf-b8a4-4228bf045733")
 	)
 	(junction
 		(at 200.66 73.66)
@@ -1129,22 +1333,16 @@
 		(uuid "0cc09c0b-0cd4-4c23-bc33-6a3bc789dbbd")
 	)
 	(junction
-		(at 149.86 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d3e3ea8-fc48-4f8c-b07e-f37df6c56af8")
-	)
-	(junction
-		(at 163.83 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e5d0cb3-a08e-4476-bb17-b7f297ec6ac8")
-	)
-	(junction
 		(at 290.83 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f72921b-1982-40b6-823d-798e679efd13")
+	)
+	(junction
+		(at 143.51 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f8b19d2-dd44-4e47-8fb1-cba9c7709bb3")
 	)
 	(junction
 		(at 157.48 254)
@@ -1165,46 +1363,70 @@
 		(uuid "16a325b5-d8fe-4e61-92cc-9a10246c5ac6")
 	)
 	(junction
+		(at 163.83 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f69d72-0c02-48e4-9560-d11985440e05")
+	)
+	(junction
+		(at 163.83 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182d0574-b583-4238-8609-10157ed5b2d5")
+	)
+	(junction
+		(at 297.18 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5eb7b7-0acc-4e50-857b-36c523503337")
+	)
+	(junction
 		(at 200.66 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a6c498f-4fd2-4658-9266-a0128f12c7ce")
 	)
 	(junction
-		(at 149.86 325.12)
+		(at 143.51 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2db44dd6-a1e4-424c-bb7c-493e4c11b7cc")
+		(uuid "1f233d9b-66b2-4c12-a921-3bd9f17a2649")
 	)
 	(junction
-		(at 283.21 298.45)
+		(at 163.83 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e9774ae-0116-4359-b2a2-950b16d0b6f6")
+		(uuid "21cfca91-8cbe-49f4-acc5-99baa8fecbc0")
 	)
 	(junction
-		(at 163.83 157.48)
+		(at 143.51 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30dfc04a-331d-4f3e-8475-8ccb726d47f9")
+		(uuid "2588844f-6270-4690-85d8-bd2e0612ced2")
 	)
 	(junction
-		(at 163.83 254)
+		(at 297.18 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3370f5cf-851c-4d5f-89f4-9cc76ed19169")
+		(uuid "29f05ad5-7a8e-42f3-b60c-5613fbe4df74")
 	)
 	(junction
-		(at 163.83 73.66)
+		(at 163.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38290c34-1573-454c-a167-d2f2388a77cd")
+		(uuid "2d41f848-b52d-4528-b633-df513942f41f")
 	)
 	(junction
-		(at 163.83 114.3)
+		(at 163.83 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "392d4b73-d969-4417-ba0e-1576104a7f1f")
+		(uuid "2e6f210b-fc16-4eae-91ae-5d0c0f0c544d")
+	)
+	(junction
+		(at 163.83 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "364247f1-eb7e-4a20-b6ad-599463d1447f")
 	)
 	(junction
 		(at 290.83 367.03)
@@ -1213,10 +1435,22 @@
 		(uuid "3f4e941c-43d8-40a9-8d16-79d44137b647")
 	)
 	(junction
-		(at 163.83 337.82)
+		(at 143.51 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fd1d93f-a38f-48e1-b5f5-402e433e7ab6")
+		(uuid "4b283894-95c3-4739-8d1c-c8c35feb3250")
+	)
+	(junction
+		(at 143.51 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c32d947-c873-449d-917b-1d16bace3e84")
+	)
+	(junction
+		(at 276.86 326.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e321b9d-5f33-41bb-b1da-309627a3b2da")
 	)
 	(junction
 		(at 157.48 114.3)
@@ -1225,16 +1459,10 @@
 		(uuid "4fd02d6e-d269-41d1-818c-218e2c082717")
 	)
 	(junction
-		(at 149.86 354.33)
+		(at 163.83 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fdc922e-ed5d-48dc-bc4f-e41a9dab3cff")
-	)
-	(junction
-		(at 297.18 311.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5265da8e-609e-40dd-ade6-2881569660ee")
+		(uuid "523499ff-b5b9-4f28-945c-a9cf3e47ebb2")
 	)
 	(junction
 		(at 200.66 241.3)
@@ -1249,16 +1477,10 @@
 		(uuid "5317d5ee-c757-4ad1-a835-185b53746065")
 	)
 	(junction
-		(at 163.83 213.36)
+		(at 143.51 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55cc02b7-f7e6-4a7b-ad3a-8ef838b25e83")
-	)
-	(junction
-		(at 163.83 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5772937a-e6e2-4598-9e34-b01239021829")
+		(uuid "56e9f77c-f0f8-43dc-a8e6-a335b57b48ce")
 	)
 	(junction
 		(at 334.01 354.33)
@@ -1267,22 +1489,16 @@
 		(uuid "57cb1651-0055-4690-bea3-f7d7158bf9b6")
 	)
 	(junction
-		(at 163.83 86.36)
+		(at 143.51 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "581144cb-c113-4a7a-8bfa-448c07a357ca")
+		(uuid "59402af0-5b1f-4bf8-a878-a38380501968")
 	)
 	(junction
-		(at 149.86 101.6)
+		(at 163.83 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "590d729c-3bca-4fb7-9570-bd359c05f0ad")
-	)
-	(junction
-		(at 163.83 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dfd4af7-9d2f-4e41-b08b-1b050ca114d3")
+		(uuid "5afdb63d-3ebe-446c-9f65-96dcab6d1a41")
 	)
 	(junction
 		(at 157.48 367.03)
@@ -1291,22 +1507,28 @@
 		(uuid "677724de-914d-41be-b443-17928c4c4402")
 	)
 	(junction
-		(at 297.18 339.09)
+		(at 142.24 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e8012e9-0af3-4e01-8713-27ba6242415a")
+		(uuid "6e11b209-de20-49c8-af61-09ca4b235648")
 	)
 	(junction
-		(at 297.18 354.33)
+		(at 276.86 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ff0b026-c93c-4d7f-819b-0df1ac54ebdb")
+		(uuid "74322bc6-6b7e-4e84-9299-9036ac37421d")
 	)
 	(junction
-		(at 283.21 354.33)
+		(at 297.18 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78c08797-062f-4294-8228-1c6ebd7ef0b7")
+		(uuid "77559b09-d2ce-4d87-8b5e-6a33399b97a4")
+	)
+	(junction
+		(at 163.83 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799f4423-4acb-4e3f-a868-77d21d187419")
 	)
 	(junction
 		(at 157.48 337.82)
@@ -1315,10 +1537,16 @@
 		(uuid "7d871664-9124-459e-a0d2-9d915de4466b")
 	)
 	(junction
-		(at 283.21 270.51)
+		(at 163.83 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80cdd149-4b33-4970-9656-ccbe48ed8c68")
+		(uuid "80ac24b8-9e3d-4b39-b2ab-1add824cdc4d")
+	)
+	(junction
+		(at 163.83 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86dc17bd-1ad2-4030-87f9-56016e41b6c8")
 	)
 	(junction
 		(at 334.01 326.39)
@@ -1333,10 +1561,10 @@
 		(uuid "8c8356b6-9e87-4b55-9742-5c217200ade8")
 	)
 	(junction
-		(at 163.83 354.33)
+		(at 163.83 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91334c61-4510-40b2-9bb8-b13b4c0cd2d5")
+		(uuid "8e863897-440d-4286-be45-c36ffa476018")
 	)
 	(junction
 		(at 157.48 198.12)
@@ -1345,16 +1573,16 @@
 		(uuid "927256c2-d803-443f-bc60-b5fff5c6b7e2")
 	)
 	(junction
-		(at 149.86 73.66)
+		(at 163.83 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9461f811-8f01-47c5-af92-b445ea90444c")
+		(uuid "93478b92-6916-4c3f-b7c7-7d5c2b072d3f")
 	)
 	(junction
-		(at 297.18 367.03)
+		(at 163.83 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94b04aae-03d5-4e35-9a21-05249b8d2ecb")
+		(uuid "9417f814-316b-48a9-a9a5-b6f4de604243")
 	)
 	(junction
 		(at 200.66 101.6)
@@ -1363,40 +1591,28 @@
 		(uuid "96cb6fbe-951a-47e5-8a78-d232e592962a")
 	)
 	(junction
-		(at 297.18 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ca5616a-8d95-438a-83ad-f8bf338d5308")
-	)
-	(junction
 		(at 334.01 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a608c24c-1fec-4bac-bd36-e2bff9f25e11")
 	)
 	(junction
-		(at 163.83 269.24)
+		(at 163.83 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6198d7e-cf60-48dc-a124-461603cdc335")
+		(uuid "a9cc5b36-7757-4b6a-a8fd-915e52784ea2")
 	)
 	(junction
-		(at 163.83 241.3)
+		(at 163.83 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa213b1c-65c8-4272-87f8-03a8e65fb3c0")
+		(uuid "b1228e5e-4f46-4f1e-a2cc-fc3b0d8b44cc")
 	)
 	(junction
-		(at 149.86 157.48)
+		(at 163.83 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b36c2e82-b221-4ec2-9535-a608004af05c")
-	)
-	(junction
-		(at 163.83 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4de55c2-afd4-42f5-898b-b5af0cba4489")
+		(uuid "b3394d6f-ab1f-4b6e-aebb-d3e72bfe66d6")
 	)
 	(junction
 		(at 200.66 129.54)
@@ -1405,52 +1621,16 @@
 		(uuid "b6283c83-48db-49b6-8aee-8a65da07843b")
 	)
 	(junction
-		(at 149.86 269.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bda4848a-6390-4e97-97b3-131c2f37bbf1")
-	)
-	(junction
-		(at 149.86 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb13b1e-c517-414e-9045-950cfcc8b120")
-	)
-	(junction
-		(at 163.83 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfd3df15-83f7-4f37-8770-0bf155ddce2c")
-	)
-	(junction
-		(at 163.83 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bff93260-dedd-42ec-8d5d-353e5fe07302")
-	)
-	(junction
-		(at 283.21 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0a610d1-fafb-4c6e-bde4-59445d8c43c0")
-	)
-	(junction
-		(at 297.18 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15f37d6-9262-487e-bd36-fe9e79766561")
-	)
-	(junction
 		(at 200.66 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c68a6f-94e6-4007-b029-c209ec66e65d")
 	)
 	(junction
-		(at 297.18 298.45)
+		(at 143.51 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c52e4b2b-0327-4b13-b860-1e5942fb13d8")
+		(uuid "c9e3a5fe-16c8-4128-a059-015773b38953")
 	)
 	(junction
 		(at 157.48 226.06)
@@ -1465,10 +1645,16 @@
 		(uuid "d475d567-6c40-4ccc-a761-7327a9a74850")
 	)
 	(junction
-		(at 149.86 241.3)
+		(at 297.18 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d88be754-48cb-4c2b-abad-677d4eb2c2c1")
+		(uuid "d6d25af7-f027-454a-833b-03ccd36071a5")
+	)
+	(junction
+		(at 163.83 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da57dc47-e21b-4afa-b9d4-15d8727ab7b1")
 	)
 	(junction
 		(at 334.01 298.45)
@@ -1477,52 +1663,34 @@
 		(uuid "dbfb5cf4-f495-4e3d-8f14-64fc5d67f1d2")
 	)
 	(junction
+		(at 276.86 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee57f64-8f6c-46e2-a81f-a17bf6589c2b")
+	)
+	(junction
+		(at 163.83 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2725657-6285-4149-844e-9be0abf83fe5")
+	)
+	(junction
 		(at 157.48 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e31ae3f2-9a0f-4075-ac1a-136c60a69d0b")
 	)
 	(junction
-		(at 163.83 185.42)
+		(at 297.18 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e32994e6-3fc9-4a7c-b7e4-c772a592b488")
+		(uuid "f01b585b-5c8c-43c6-9f2a-a6a56b9662a9")
 	)
 	(junction
-		(at 163.83 367.03)
+		(at 276.86 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea6133fc-f6bc-41c8-9aac-c69ab53aba4b")
-	)
-	(junction
-		(at 149.86 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eac53a62-ed0a-4240-a99f-b44ee7a65ab7")
-	)
-	(junction
-		(at 163.83 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec106dbf-1cae-4dba-b455-6fed876a4588")
-	)
-	(junction
-		(at 297.18 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed52c16b-dc79-4adb-9ce2-bf02e2f8104f")
-	)
-	(junction
-		(at 163.83 281.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efdf087f-44e0-434c-bc84-54c2c7f75824")
-	)
-	(junction
-		(at 163.83 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f43bbc52-7397-4c23-8adc-d6bceacba6e4")
+		(uuid "f49f19b9-81dc-4b1f-bf5b-e05089615875")
 	)
 	(junction
 		(at 200.66 297.18)
@@ -1537,10 +1705,10 @@
 		(uuid "f6c2f4c8-809b-41aa-bc78-3626e588bb49")
 	)
 	(junction
-		(at 163.83 309.88)
+		(at 297.18 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7f0038a-30bb-4b2a-b04a-defa3707e16e")
+		(uuid "fc93965e-6bb0-44cd-9730-d56d4c86d568")
 	)
 	(junction
 		(at 290.83 339.09)
@@ -1560,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 163.83 129.54)
+			(xy 127 129.54) (xy 143.51 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1600,23 +1768,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 269.24) (xy 163.83 269.24)
+			(xy 127 269.24) (xy 143.51 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a700f77-a9ec-44d8-8ae7-f6c647adc7bb")
-	)
-	(wire
-		(pts
-			(xy 283.21 354.33) (xy 297.18 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad85816-bd4a-41ed-8e2d-07ffa4d1d6e5")
 	)
 	(wire
 		(pts
@@ -1700,6 +1858,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 241.3) (xy 180.34 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148c5f81-bd27-4054-baca-9792a79aa37a")
+	)
+	(wire
+		(pts
 			(xy 193.04 269.24) (xy 200.66 269.24)
 		)
 		(stroke
@@ -1707,16 +1875,6 @@
 			(type default)
 		)
 		(uuid "14b2c71d-1b20-414d-9dc3-2533275868ff")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 180.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15020dc6-cf74-4bdc-b669-eaa7368dd395")
 	)
 	(wire
 		(pts
@@ -1730,7 +1888,17 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 354.33) (xy 313.69 354.33)
+			(xy 163.83 157.48) (xy 180.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1711653b-8e5b-44b9-bef1-df98cf699c79")
+	)
+	(wire
+		(pts
+			(xy 260.35 354.33) (xy 276.86 354.33)
 		)
 		(stroke
 			(width 0)
@@ -1740,23 +1908,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 325.12) (xy 180.34 325.12)
+			(xy 163.83 354.33) (xy 180.34 354.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18577245-72a9-4bf8-8403-d7425f6bf7a8")
-	)
-	(wire
-		(pts
-			(xy 260.35 298.45) (xy 283.21 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c1227a-fecd-418f-b41f-6330acc25a84")
+		(uuid "18c46b1b-afb9-4a7b-ba0d-cb9975ca529e")
 	)
 	(wire
 		(pts
@@ -1780,16 +1938,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 270.51) (xy 297.18 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4a3da6-252e-4225-92f6-c32a66e14ea9")
-	)
-	(wire
-		(pts
 			(xy 127 354.33) (xy 127 364.49)
 		)
 		(stroke
@@ -1810,23 +1958,13 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 326.39) (xy 313.69 326.39)
+			(xy 260.35 326.39) (xy 276.86 326.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c503944-a2f8-437b-bc70-bc229902c31a")
-	)
-	(wire
-		(pts
-			(xy 163.83 297.18) (xy 180.34 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e6c5de-fc19-4482-8466-acbccc171f2f")
 	)
 	(wire
 		(pts
@@ -2000,16 +2138,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 269.24) (xy 149.86 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3480b08f-6d72-4070-bbf6-a3f33219b3b3")
-	)
-	(wire
-		(pts
 			(xy 193.04 73.66) (xy 200.66 73.66)
 		)
 		(stroke
@@ -2020,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 297.18) (xy 163.83 297.18)
+			(xy 127 297.18) (xy 143.51 297.18)
 		)
 		(stroke
 			(width 0)
@@ -2037,6 +2165,16 @@
 			(type default)
 		)
 		(uuid "3500a09e-8f66-46d0-86bc-9316e6cc3d16")
+	)
+	(wire
+		(pts
+			(xy 143.51 297.18) (xy 163.83 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36181f77-8116-4f66-94bb-56bbe89a85f4")
 	)
 	(wire
 		(pts
@@ -2080,23 +2218,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 180.34 129.54)
+			(xy 297.18 270.51) (xy 313.69 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d0bd05b-f9bf-472e-b6ef-40e9d8f67721")
-	)
-	(wire
-		(pts
-			(xy 127 297.18) (xy 149.86 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3e4f00-4a4b-41ed-a4a9-b5cb68537b7f")
+		(uuid "3ea6e007-d53b-49bb-acc8-6aa589cf4718")
 	)
 	(wire
 		(pts
@@ -2107,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "3eb54c3c-9136-4aa8-b93f-a095e419226c")
+	)
+	(wire
+		(pts
+			(xy 297.18 298.45) (xy 313.69 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb2f5f0-de5d-4ab0-b10f-dc9dd154f9b0")
 	)
 	(wire
 		(pts
@@ -2150,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 213.36) (xy 163.83 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46967210-c887-4016-aa40-2e175bc4295b")
+	)
+	(wire
+		(pts
 			(xy 297.18 297.18) (xy 290.83 297.18)
 		)
 		(stroke
@@ -2166,7 +2314,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4723e51d-bee3-47f2-ba09-b6c0fc97f15c")
+		(uuid "4911b378-de2a-41d4-a854-4b131935af75")
 	)
 	(wire
 		(pts
@@ -2210,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 270.51) (xy 283.21 270.51)
+			(xy 260.35 270.51) (xy 276.86 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2240,16 +2388,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 185.42) (xy 180.34 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f67a573-ad52-4c81-983e-86656c697261")
-	)
-	(wire
-		(pts
 			(xy 151.13 254) (xy 157.48 254)
 		)
 		(stroke
@@ -2260,6 +2398,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 297.18) (xy 180.34 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526bf138-5ea5-42ca-b80d-099eea51fb51")
+	)
+	(wire
+		(pts
 			(xy 200.66 143.51) (xy 200.66 129.54)
 		)
 		(stroke
@@ -2267,6 +2415,26 @@
 			(type default)
 		)
 		(uuid "53de48a1-1760-4cf0-8451-fb6df4f1117f")
+	)
+	(wire
+		(pts
+			(xy 143.51 129.54) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55417d66-ccf6-4b97-be21-428c45d5652f")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576f0e27-d1d5-4ec7-8d82-8e0b6ed9a548")
 	)
 	(wire
 		(pts
@@ -2340,6 +2508,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 185.42) (xy 180.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609e5802-7b84-41c1-9740-2c2b551b4303")
+	)
+	(wire
+		(pts
+			(xy 143.51 185.42) (xy 163.83 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6149d08d-b6cf-42a0-852a-5b2607dc1309")
+	)
+	(wire
+		(pts
 			(xy 334.01 270.51) (xy 349.25 270.51)
 		)
 		(stroke
@@ -2360,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 185.42) (xy 149.86 185.42)
+			(xy 127 185.42) (xy 143.51 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2420,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 354.33) (xy 163.83 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baa855f-3bc1-4bde-8421-6d3ba3afdce6")
+	)
+	(wire
+		(pts
 			(xy 151.13 114.3) (xy 157.48 114.3)
 		)
 		(stroke
@@ -2430,13 +2628,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 149.86 129.54)
+			(xy 143.51 73.66) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eef413f-acc6-4117-b96a-14dbdaa9348b")
+		(uuid "6ecfe8e6-ed51-47e6-bc6f-69ee34dd8aa0")
 	)
 	(wire
 		(pts
@@ -2470,23 +2668,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 213.36) (xy 163.83 213.36)
+			(xy 143.51 157.48) (xy 163.83 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "722d03f8-20e5-44b5-9c15-a193c06f938c")
-	)
-	(wire
-		(pts
-			(xy 283.21 326.39) (xy 297.18 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726f061c-149d-41eb-8b5b-afb24bc41ea9")
+		(uuid "72923c44-aed5-4eda-9b73-0b48659bbb93")
 	)
 	(wire
 		(pts
@@ -2497,6 +2685,36 @@
 			(type default)
 		)
 		(uuid "750a657d-9a78-403f-93f6-b08fa91e7a51")
+	)
+	(wire
+		(pts
+			(xy 143.51 269.24) (xy 163.83 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ba4c02-9ce8-4666-8e23-6122abea7b68")
+	)
+	(wire
+		(pts
+			(xy 297.18 354.33) (xy 313.69 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7724ad4b-49bd-4473-aca8-4a13e55450bd")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783a2e3e-a04f-439e-894b-6efc039b182e")
 	)
 	(wire
 		(pts
@@ -2517,6 +2735,16 @@
 			(type default)
 		)
 		(uuid "79f28738-f953-4b20-8ecd-16b775ae6bac")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b560262-bcc5-48fc-8f95-32e50383b6ef")
 	)
 	(wire
 		(pts
@@ -2557,6 +2785,16 @@
 			(type default)
 		)
 		(uuid "7f80d4fe-3600-47c5-a390-1339f4c7d977")
+	)
+	(wire
+		(pts
+			(xy 297.18 326.39) (xy 313.69 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7faea517-c0cd-440b-8fca-83ec3c6ed178")
 	)
 	(wire
 		(pts
@@ -2620,17 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 185.42) (xy 163.83 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "856f0e96-8820-41ae-9de6-08bf87ffd14c")
-	)
-	(wire
-		(pts
-			(xy 149.86 325.12) (xy 163.83 325.12)
+			(xy 127 325.12) (xy 143.51 325.12)
 		)
 		(stroke
 			(width 0)
@@ -2650,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 149.86 157.48)
+			(xy 127 157.48) (xy 143.51 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2670,6 +2898,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 298.45) (xy 297.18 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa50d84-9890-4b3f-a8b3-91b0a6e9d5bb")
+	)
+	(wire
+		(pts
 			(xy 297.18 322.58) (xy 297.18 325.12)
 		)
 		(stroke
@@ -2677,6 +2915,26 @@
 			(type default)
 		)
 		(uuid "8b05ef3d-d543-4714-9f75-b4e5e1dacaac")
+	)
+	(wire
+		(pts
+			(xy 143.51 241.3) (xy 163.83 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2e9ea7-a92a-4e86-a25a-99d3c86ce4bd")
+	)
+	(wire
+		(pts
+			(xy 163.83 325.12) (xy 180.34 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c12fb31-5081-4975-927e-cb84c4809d36")
 	)
 	(wire
 		(pts
@@ -2690,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 354.33) (xy 149.86 354.33)
+			(xy 127 354.33) (xy 142.24 354.33)
 		)
 		(stroke
 			(width 0)
@@ -2770,16 +3028,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 325.12) (xy 149.86 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2819a5-77e6-4a7b-8905-614cede61b60")
-	)
-	(wire
-		(pts
 			(xy 157.48 351.79) (xy 157.48 367.03)
 		)
 		(stroke
@@ -2787,16 +3035,6 @@
 			(type default)
 		)
 		(uuid "9b58465c-2067-4560-8c81-f59b6aed0f19")
-	)
-	(wire
-		(pts
-			(xy 127 101.6) (xy 149.86 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bbeae01-7969-4746-bb86-7699dcd5e2bd")
 	)
 	(wire
 		(pts
@@ -2810,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 241.3) (xy 163.83 241.3)
+			(xy 127 241.3) (xy 143.51 241.3)
 		)
 		(stroke
 			(width 0)
@@ -2820,13 +3058,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 163.83 157.48)
+			(xy 163.83 129.54) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d10fb17-e10c-445c-bf09-e8aee99936d9")
+		(uuid "9eedc0e2-c35a-499f-b26f-dead5d8b8655")
 	)
 	(wire
 		(pts
@@ -2900,16 +3138,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 354.33) (xy 283.21 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa821d0c-27ba-4ccd-ad90-386c449ca3c5")
-	)
-	(wire
-		(pts
 			(xy 157.48 281.94) (xy 163.83 281.94)
 		)
 		(stroke
@@ -2920,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 213.36) (xy 149.86 213.36)
+			(xy 127 213.36) (xy 143.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2970,36 +3198,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 149.86 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6356677-2673-4443-9f0f-ab16e0c89556")
-	)
-	(wire
-		(pts
-			(xy 297.18 298.45) (xy 313.69 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65827d6-f8fb-4ed0-a951-f5c5fdf490ca")
-	)
-	(wire
-		(pts
-			(xy 163.83 101.6) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a6f324-f6c3-4e49-a78e-c7503372e76f")
-	)
-	(wire
-		(pts
 			(xy 200.66 87.63) (xy 200.66 73.66)
 		)
 		(stroke
@@ -3010,16 +3208,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 354.33) (xy 163.83 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8cb1b36-13f1-4dcf-a5b7-af8324d482e3")
-	)
-	(wire
-		(pts
 			(xy 163.83 86.36) (xy 163.83 90.17)
 		)
 		(stroke
@@ -3027,16 +3215,6 @@
 			(type default)
 		)
 		(uuid "b8ee245a-412e-4b68-8233-3dd6cac54242")
-	)
-	(wire
-		(pts
-			(xy 163.83 157.48) (xy 180.34 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa54eef-d8b3-4667-a099-c8d05663ebcf")
 	)
 	(wire
 		(pts
@@ -3200,6 +3378,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 354.33) (xy 297.18 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c32ce0-8c5a-4b31-99f3-d6df8fc1fef3")
+	)
+	(wire
+		(pts
 			(xy 157.48 267.97) (xy 157.48 281.94)
 		)
 		(stroke
@@ -3207,6 +3395,16 @@
 			(type default)
 		)
 		(uuid "d5634c43-2682-4e81-a46d-ff38ec438360")
+	)
+	(wire
+		(pts
+			(xy 143.51 325.12) (xy 163.83 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ffce81-75d9-41d8-a462-050db46a86ec")
 	)
 	(wire
 		(pts
@@ -3250,26 +3448,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 354.33) (xy 180.34 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2226be-2532-4693-b7b7-70a3eb33b880")
-	)
-	(wire
-		(pts
-			(xy 163.83 213.36) (xy 180.34 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd50ebd9-cae9-4085-81ec-f178fac6b5cf")
-	)
-	(wire
-		(pts
 			(xy 297.18 325.12) (xy 290.83 325.12)
 		)
 		(stroke
@@ -3290,13 +3468,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 163.83 73.66)
+			(xy 127 73.66) (xy 143.51 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df5b6352-48ef-4ba0-8d76-936d7349653d")
+	)
+	(wire
+		(pts
+			(xy 276.86 326.39) (xy 297.18 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e037bb55-a464-4340-af38-2893df15527a")
 	)
 	(wire
 		(pts
@@ -3317,6 +3505,16 @@
 			(type default)
 		)
 		(uuid "e440b33d-d954-46e0-a15c-041236466a2c")
+	)
+	(wire
+		(pts
+			(xy 163.83 213.36) (xy 180.34 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a629cc-3db0-4a67-9ce5-729d930eb3db")
 	)
 	(wire
 		(pts
@@ -3360,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 270.51) (xy 313.69 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec7b132d-1fe8-46b4-b1a8-9849300e18a1")
-	)
-	(wire
-		(pts
 			(xy 163.83 181.61) (xy 163.83 184.15)
 		)
 		(stroke
@@ -3390,17 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 241.3) (xy 149.86 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b6b680-acd7-4997-9ec7-c7c57fd547fc")
-	)
-	(wire
-		(pts
-			(xy 149.86 101.6) (xy 163.83 101.6)
+			(xy 127 101.6) (xy 143.51 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3420,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 326.39) (xy 283.21 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55e14ae-5c66-47cf-acd9-a1cd6266c8a1")
-	)
-	(wire
-		(pts
 			(xy 284.48 339.09) (xy 290.83 339.09)
 		)
 		(stroke
@@ -3440,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 298.45) (xy 297.18 298.45)
+			(xy 260.35 298.45) (xy 276.86 298.45)
 		)
 		(stroke
 			(width 0)
@@ -3470,13 +3638,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 241.3) (xy 180.34 241.3)
+			(xy 276.86 270.51) (xy 297.18 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc0f7404-6472-4202-b2ea-46593b66c864")
+		(uuid "fc54ced4-7171-4509-98c6-610752ce1923")
 	)
 	(global_label "Cell 0S"
 		(shape input)
@@ -4560,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 185.42 0)
 			(effects
 				(font
@@ -4639,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 313.69 326.39 0)
 			(effects
 				(font
@@ -4693,35 +4861,32 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 297.18 367.03 90)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 337.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "058ad8bc-8e08-478a-bf45-2b7bae6c96c3")
-		(property "Reference" "R27"
-			(at 299.72 359.4099 90)
+		(uuid "03f5fe2e-cf4b-41b4-9d68-68a27cfbd4b3")
+		(property "Reference" "R11"
+			(at 157.48 331.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 299.72 361.9499 90)
+			(at 160.02 331.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 297.18 367.03 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,8 +4895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 297.18 367.03 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,16 +4906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 297.18 367.03 0)
+			(at 163.83 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,15 +4915,133 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cc06155-7044-4d6d-b13d-c7fe95721c71")
+			(uuid "6cb5e1cc-7d20-4bc7-9511-1eba505318ac")
 		)
 		(pin "2"
-			(uuid "511a5169-05d2-4e03-9296-885c8677c1a0")
+			(uuid "01ad0f62-6b67-4b5a-940b-032114e2d36d")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R27")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 320.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0706021e-ffe4-4814-9afd-f6a2440931fe")
+		(property "Reference" "TP27"
+			(at 146.05 318.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 321.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "376a107e-db83-4136-b6a6-bfa8db13f059")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -4801,7 +5075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 209.55 0)
 			(effects
 				(font
@@ -4855,35 +5129,32 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 367.03 90)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 281.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "093f5474-3041-4b8d-8a6e-71aa51881e67")
-		(property "Reference" "R12"
-			(at 166.37 359.4099 90)
+		(uuid "092ad7c1-3b23-4df9-bc18-1de8c77b3ad7")
+		(property "Reference" "R9"
+			(at 157.48 275.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 166.37 361.9499 90)
+			(at 160.02 275.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 367.03 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,8 +5163,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 367.03 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,16 +5174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 367.03 0)
+			(at 163.83 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,15 +5183,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "44def503-f0d0-4f62-bc4c-f84bf4880142")
+			(uuid "bb5e4823-4c01-44ed-8f3e-96fb80b2e4eb")
 		)
 		(pin "2"
-			(uuid "92b766d9-2da3-4578-9a8d-4c6adb5c3fac")
+			(uuid "a3d3739d-5567-4519-a84a-afe9813f1587")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R12")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 297.18 311.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cf7f59a-66ac-4fd7-8e02-7ba7c475c8d7")
+		(property "Reference" "R26"
+			(at 290.83 304.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 Ohm"
+			(at 293.37 304.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 297.18 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 297.18 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7db01e3-7ebb-4394-a30c-e943ec097cc0")
+		)
+		(pin "2"
+			(uuid "6a24fbb8-4b26-447e-bc27-fe81d1111057")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 334.01 375.92 0)
 			(effects
 				(font
@@ -5017,72 +5348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d64840b-b0ce-4fee-b5e4-82c18e5fbd40")
-		(property "Reference" "TP25"
-			(at 140.462 263.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 3"
-			(at 140.462 266.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c41a7496-23db-4124-8dbb-cb18785f4939")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 297.18 378.46 90)
 		(unit 1)
@@ -5110,7 +5375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 297.18 378.46 0)
 			(effects
 				(font
@@ -5164,168 +5429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16d9888f-979e-4ea6-a77c-fae0e9647b37")
-		(property "Reference" "R5"
-			(at 166.37 162.5599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 166.37 165.0999 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "214c1761-833c-43ad-bb54-c8eb44d654ad")
-		)
-		(pin "2"
-			(uuid "4c20799b-062c-48c6-941d-74124bf950fe")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 226.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c8dbece-8135-439f-905a-a96b3e16d915")
-		(property "Reference" "R7"
-			(at 166.37 218.4399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 166.37 220.9799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRCW121010R0FKEAHP:RC1210N_VIS-L"
-			(at 163.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0981d3b3-0c6f-4a34-8499-5ca269f26e59")
-		)
-		(pin "2"
-			(uuid "0e28f6af-14f0-4f29-99cb-6064cfacd617")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 325.12 0)
 		(unit 1)
@@ -5351,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 325.12 0)
 			(effects
 				(font
@@ -5432,7 +5535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 346.71 0)
 			(effects
 				(font
@@ -5513,7 +5616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 334.01 292.1 0)
 			(effects
 				(font
@@ -5594,7 +5697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 151.13 0)
 			(effects
 				(font
@@ -5648,6 +5751,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29de40d8-8f7f-440a-8255-92ea5503c6b3")
+		(property "Reference" "TP23"
+			(at 146.05 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "95b982e6-824e-42cf-9b65-d0779d9c2be3")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 334.01 320.04 90)
 		(unit 1)
@@ -5675,7 +5896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 334.01 320.04 0)
 			(effects
 				(font
@@ -5756,7 +5977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 321.31 0)
 			(effects
 				(font
@@ -5810,52 +6031,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 283.21 270.51 0)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 309.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f5b8b56-db84-48f0-86ac-7211f49cb501")
-		(property "Reference" "TP29"
-			(at 273.812 265.176 0)
+		(uuid "33a708c6-782f-4952-8f00-4b62c5f3e1b8")
+		(property "Reference" "R10"
+			(at 157.48 303.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Cell 14"
-			(at 273.812 267.716 0)
+		(property "Value" "7.5 ohm"
+			(at 160.02 303.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 288.29 270.51 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 283.21 270.51 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,12 +6085,153 @@
 			)
 		)
 		(pin "1"
-			(uuid "98fd82d2-472f-438a-b33d-473f1d0c8427")
+			(uuid "8a2138ae-0240-477b-a672-247f8a06cfb1")
+		)
+		(pin "2"
+			(uuid "b3da8652-d5ed-4083-9d09-932baa81868a")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP29")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34760d16-0d59-412a-bee8-ef5e2239d192")
+		(property "Reference" "R2"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 Ohm"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19edd19d-4759-462c-aaf6-183bfe3f40ad")
+		)
+		(pin "2"
+			(uuid "4510e6b1-33b0-4099-b3b9-90db2d16b932")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ecfd08e-d4ef-4874-98e6-df7c8ee83bf0")
+		(property "Reference" "R6"
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 Ohm"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127cbc3f-7870-4f11-912b-9c62dd65d292")
+		)
+		(pin "2"
+			(uuid "5f152ede-cece-4d12-a19d-80546a65091c")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5903,7 +6265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 262.89 0)
 			(effects
 				(font
@@ -5984,7 +6346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 153.67 0)
 			(effects
 				(font
@@ -6063,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 313.69 354.33 0)
 			(effects
 				(font
@@ -6144,7 +6506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 349.25 0)
 			(effects
 				(font
@@ -6198,55 +6560,54 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 114.3 90)
+		(lib_id "5012:5012")
+		(at 143.51 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b0ddb00-85a8-413a-916d-0662fee8e3e3")
-		(property "Reference" "R3"
-			(at 166.37 106.6799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 166.37 109.2199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 114.3 0)
+		(uuid "4f989b0b-d7cf-47de-a97d-51be72b27520")
+		(property "Reference" "TP24"
+			(at 146.05 234.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 114.3 0)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 163.83 114.3 0)
+			(at 143.51 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,172 +6615,63 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 114.3 0)
+		(property "PARTREV" "F"
+			(at 143.51 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3905bcfc-933c-4ab6-8658-f0455a6ab448")
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "fa5079ca-c073-44a8-90e6-e2b0b4db98ad")
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "aa63e559-7424-4e95-9987-631169bdcec0")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ca8b0d9-1969-4a3a-9a74-add38299d31f")
-		(property "Reference" "TP26"
-			(at 140.462 291.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 2"
-			(at 140.462 294.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cafe48db-91b8-47ea-802f-4f8e541f0318")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 254 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5251b8c6-9d96-451f-8441-48aed52bec1a")
-		(property "Reference" "R8"
-			(at 166.37 246.3799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 166.37 248.9199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc8e6a28-0386-4228-a9ea-8862c42a1ea0")
-		)
-		(pin "2"
-			(uuid "e068d445-56d7-43c8-82f9-d57ec6ec11a9")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R8")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 290.83 0)
 			(effects
 				(font
@@ -6507,87 +6759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 297.18 283.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "554238d1-f99e-4965-9628-f3e3645d33a2")
-		(property "Reference" "R24"
-			(at 299.72 275.5899 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 299.72 278.1299 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 297.18 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 297.18 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 297.18 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "858ef857-6df0-4bd2-aa5f-059fe99f1d18")
-		)
-		(pin "2"
-			(uuid "20810ac4-4631-49f1-a3d6-548b1079ee1d")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 163.83 265.43 90)
 		(unit 1)
@@ -6615,7 +6786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 265.43 0)
 			(effects
 				(font
@@ -6696,7 +6867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 237.49 0)
 			(effects
 				(font
@@ -6775,7 +6946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -6829,35 +7000,32 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 309.88 90)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 297.18 367.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63eb6388-6083-48ca-a088-3fe6a1b12b3c")
-		(property "Reference" "R10"
-			(at 166.37 302.2599 90)
+		(uuid "656f97b6-15ff-4612-84ce-09351ad569f7")
+		(property "Reference" "R24"
+			(at 290.83 360.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 166.37 304.7999 90)
+			(at 293.37 360.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 309.88 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 297.18 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,8 +7034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 309.88 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 297.18 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,16 +7045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 309.88 0)
+			(at 297.18 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,50 +7054,165 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a5c935f-aaee-4a39-a5dc-aafd1220a775")
+			(uuid "86a3db16-7dba-4705-9e25-7a58b1e864b6")
 		)
 		(pin "2"
-			(uuid "8f849af8-25fa-4e20-90f6-958cf87210e8")
+			(uuid "e7bda12c-8f6d-4b97-8e85-aab5aa90977c")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R10")
+					(reference "R24")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 198.12 90)
+		(lib_id "5012:5012")
+		(at 276.86 293.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68c9770b-dfe1-48f6-a3d5-c667498e1314")
-		(property "Reference" "R6"
-			(at 166.37 190.4999 90)
+		(uuid "667d9530-4d6a-401b-b1ba-69d2cb74211c")
+		(property "Reference" "TP30"
+			(at 279.4 292.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 279.4 294.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 276.86 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "dfa8a0cd-602f-41c1-a9ca-2adb5e53d4d5")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 254 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67f0dd77-3a0b-47d5-a56c-1408343bfbae")
+		(property "Reference" "R8"
+			(at 157.48 247.65 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 166.37 193.0399 90)
+			(at 160.02 247.65 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 198.12 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,8 +7221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 198.12 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,16 +7232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 198.12 0)
+			(at 163.83 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,15 +7241,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9e442f1-ca74-4359-9daf-d610f8406db4")
+			(uuid "5973b37a-7214-49e2-9d51-75db3aa03077")
 		)
 		(pin "2"
-			(uuid "9fb1e30a-2a06-4367-9244-1cec66ed1bda")
+			(uuid "bbed3b52-a576-4b3a-b173-33a3997f9c40")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7057,6 +7322,75 @@
 		)
 	)
 	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69abc464-88c8-4b8a-9733-109932908156")
+		(property "Reference" "R4"
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 ohm"
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb9a6c2-45cc-439c-9c30-518825b8b97c")
+		)
+		(pin "2"
+			(uuid "c2ae18f0-7730-4bd2-9e49-3c270004f100")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 297.18 350.52 90)
 		(unit 1)
@@ -7084,7 +7418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 297.18 350.52 0)
 			(effects
 				(font
@@ -7138,6 +7472,75 @@
 		)
 	)
 	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71b4e060-bba7-43ac-9180-bf5eb30f8468")
+		(property "Reference" "R7"
+			(at 157.48 219.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 Ohm"
+			(at 160.02 219.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f6d68f-4093-4487-9305-6726177a67d8")
+		)
+		(pin "2"
+			(uuid "06377b12-acd1-4f45-8e2f-d56e3313cf58")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 269.24 0)
 		(unit 1)
@@ -7163,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 269.24 0)
 			(effects
 				(font
@@ -7244,7 +7647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 378.46 0)
 			(effects
 				(font
@@ -7298,6 +7701,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 292.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f1e5f6-e9a4-48d4-878a-898a9a923c1c")
+		(property "Reference" "TP26"
+			(at 146.05 290.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 293.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "af3b2b98-7767-4eff-9dbf-9e673c32e514")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 101.6 0)
 		(unit 1)
@@ -7323,7 +7844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -7404,7 +7925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 297.18 294.64 0)
 			(effects
 				(font
@@ -7458,35 +7979,32 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 337.82 90)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 297.18 339.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87a4df05-b945-4b81-ad22-6605e08a8cea")
-		(property "Reference" "R11"
-			(at 166.37 330.1999 90)
+		(uuid "83209122-05f0-4e14-bcf0-3579e3175713")
+		(property "Reference" "R25"
+			(at 290.83 332.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 166.37 332.7399 90)
+			(at 293.37 332.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 337.82 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 297.18 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,8 +8013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 337.82 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 297.18 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,16 +8024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 337.82 0)
+			(at 297.18 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,50 +8033,165 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc4b83f7-bbcb-4c0b-942c-8657c80b6195")
+			(uuid "7b0f884e-757d-4f6c-bf3c-7bd90d9540fa")
 		)
 		(pin "2"
-			(uuid "6b9600a6-cb63-4bef-9fb6-bf9d9531ccb0")
+			(uuid "1241f85d-f4c8-47c3-990e-4a6bd927d979")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R11")
+					(reference "R25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 142.24 90)
+		(lib_id "5011:5011")
+		(at 142.24 349.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b8af75f-7437-4aa9-8597-c3487e1f0dc3")
-		(property "Reference" "R4"
-			(at 166.37 134.6199 90)
+		(uuid "84071301-42f8-4de3-8673-809c85e0c35d")
+		(property "Reference" "TP32"
+			(at 144.78 347.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5011"
+			(at 144.78 350.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "5011 (1):TP_5011"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 142.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "b51b6f81-74e3-4329-9168-7b06ed302b46")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 367.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "876d9d5b-144c-4a00-8b3a-c678cfee35b3")
+		(property "Reference" "R12"
+			(at 157.48 360.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 166.37 137.1599 90)
+			(at 160.02 360.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 142.24 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,8 +8200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 142.24 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,16 +8211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 142.24 0)
+			(at 163.83 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,15 +8220,133 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d80c1db-d964-48ad-abc9-44c5be44655a")
+			(uuid "6831c67a-3e01-4450-be56-ba4aa7af423c")
 		)
 		(pin "2"
-			(uuid "391d27ef-dce6-4fa8-848d-10a301a36648")
+			(uuid "5e33c014-7b93-4c24-9706-fe3a69b93d71")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R4")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5012:5012")
+		(at 276.86 349.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e45e358-6ed6-4a95-ae2a-29765543752a")
+		(property "Reference" "TP28"
+			(at 279.4 347.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 279.4 350.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 276.86 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "fc0a881d-dcc9-4458-9efd-cb3ab7518bbe")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -7644,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 297.18 0)
 			(effects
 				(font
@@ -7698,87 +8431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 297.18 311.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ffe25ce-bef7-4a25-a447-0ef662c5c677")
-		(property "Reference" "R25"
-			(at 299.72 303.5299 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 299.72 306.0699 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 297.18 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 297.18 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 297.18 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "456c7ca1-7319-42a2-8779-d50697f3cd43")
-		)
-		(pin "2"
-			(uuid "21a8deef-5bdb-4f16-aa11-c368ff4425c3")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 200.66 179.07 90)
 		(unit 1)
@@ -7806,7 +8458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 179.07 0)
 			(effects
 				(font
@@ -7860,121 +8512,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 283.21 298.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99b1ffee-b809-47a6-893d-965c16cec872")
-		(property "Reference" "TP30"
-			(at 273.812 293.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 13"
-			(at 273.812 295.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 288.29 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 283.21 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ed6260e-0944-431b-b1e1-0e31ca38d0eb")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 281.94 90)
+		(lib_id "5012:5012")
+		(at 143.51 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b9f9e84-bce3-4be1-a3a2-c71766a19535")
-		(property "Reference" "R9"
-			(at 166.37 274.3199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10 Ohm"
-			(at 166.37 276.8599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRCW121010R0FKEAHP:RC1210N_VIS-L"
-			(at 163.83 281.94 0)
+		(uuid "9c665d7c-413d-4406-a5a8-677d517cc587")
+		(property "Reference" "TP22"
+			(at 146.05 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 281.94 0)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 163.83 281.94 0)
+			(at 143.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,25 +8567,63 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 281.94 0)
+		(property "PARTREV" "F"
+			(at 143.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2e9b5af4-60b2-4d93-8733-feb8409ca298")
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "a08c958b-854c-4f36-bdae-521c451ffeef")
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "5a1e287c-8cf3-4b9f-8d07-c7e5421c9e50")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R9")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8032,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 157.48 0)
 			(effects
 				(font
@@ -8086,52 +8709,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 241.3 0)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 297.18 283.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "adf36e70-44cc-4d0d-a324-8e382e0f8e8d")
-		(property "Reference" "TP24"
-			(at 140.462 235.966 0)
+		(uuid "a7523ea7-422f-4fa0-bfab-609b66d8f3d9")
+		(property "Reference" "R27"
+			(at 290.83 276.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Cell 4"
-			(at 140.462 238.506 0)
+		(property "Value" "7.5 Ohm"
+			(at 293.37 276.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 241.3 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 297.18 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 149.86 241.3 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 297.18 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,12 +8763,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "83ac764c-b2ef-4782-933c-594ee79f53eb")
+			(uuid "62083a61-e73f-4645-a2bd-91780e0954f3")
+		)
+		(pin "2"
+			(uuid "6cd27b20-6cda-435e-beb0-7a5d6da5eb4a")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP24")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab61467b-17fd-4eb0-8636-9a4d71d4b7ec")
+		(property "Reference" "R5"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "7.5 ohm"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f47dc576-9bc8-49f6-96ee-2b98e5720f95")
+		)
+		(pin "2"
+			(uuid "f46637e1-f349-4931-a2d7-41261aec21a4")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8179,7 +8874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 334.01 347.98 0)
 			(effects
 				(font
@@ -8233,6 +8928,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c22084-bfee-4d33-b6c3-3bfc7e65b41c")
+		(property "Reference" "TP18"
+			(at 146.05 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "55338b14-f204-43cf-b56e-0480ec062970")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 241.3 0)
 		(unit 1)
@@ -8258,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 241.3 0)
 			(effects
 				(font
@@ -8312,138 +9125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b868c169-aedd-47d0-be0d-ea5356218639")
-		(property "Reference" "TP23"
-			(at 140.462 208.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 5"
-			(at 140.462 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5536023-de5c-42ed-a566-e5bcc51546e1")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba3afce0-fbc7-443b-aa3e-3228dd9c948c")
-		(property "Reference" "TP27"
-			(at 140.462 319.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 1"
-			(at 140.462 322.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d300af3-6fc1-4033-97c1-e1ef4cabe6c7")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 200.66 207.01 90)
 		(unit 1)
@@ -8471,7 +9152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 207.01 0)
 			(effects
 				(font
@@ -8552,7 +9233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 95.25 0)
 			(effects
 				(font
@@ -8606,34 +9287,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 283.21 326.39 0)
+		(lib_id "5012:5012")
+		(at 276.86 265.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bf7687a0-e53c-4cc5-8907-bc347fd295b3")
+		(fields_autoplaced yes)
+		(uuid "c0e9ccb9-3ef9-427e-9c4a-9823529dac5f")
 		(property "Reference" "TP31"
-			(at 273.812 321.056 0)
+			(at 279.4 264.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Cell 12"
-			(at 273.812 323.596 0)
+		(property "Value" "5012"
+			(at 279.4 266.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 288.29 326.39 0)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 276.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 276.86 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,8 +9333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 288.29 326.39 0)
+		(property "Description" ""
+			(at 276.86 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,17 +9342,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 283.21 326.39 0)
+		(property "PARTREV" "F"
+			(at 276.86 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2b33d453-0aca-4bfc-80ef-73bbe723f78a")
+		(property "SNAPEDA_PN" "5010"
+			(at 276.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 276.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 276.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 276.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "957df882-bd55-42a3-958a-608fbcfd3583")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
@@ -8697,7 +9430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 313.69 298.45 0)
 			(effects
 				(font
@@ -8817,87 +9550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 163.83 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c681badc-682e-4cd0-921c-7ed57c14c0f9")
-		(property "Reference" "R2"
-			(at 166.37 78.7399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 166.37 81.2799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bd5e6c9-12a4-4c6c-b6a7-d175f54c459a")
-		)
-		(pin "2"
-			(uuid "c694c9ed-6b8e-4760-9151-f8e07c746cb4")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 313.69 270.51 0)
 		(unit 1)
@@ -8923,7 +9575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 313.69 270.51 0)
 			(effects
 				(font
@@ -9004,7 +9656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 123.19 0)
 			(effects
 				(font
@@ -9058,153 +9710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c915a261-11cb-4715-b170-ab7375984c02")
-		(property "Reference" "TP22"
-			(at 140.462 180.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 6"
-			(at 140.462 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc29adf-ec9b-48ed-a3e8-c2dc3fbceab7")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-10-08_02-17-57:CRCW121010R0FKEAHP")
-		(at 297.18 339.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caaa3f3b-3349-4dd7-9487-3815da96c13b")
-		(property "Reference" "R26"
-			(at 299.72 331.4699 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5 Ohm"
-			(at 299.72 334.0099 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 297.18 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CRCW121010R0FKEAHP"
-			(at 297.18 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW121010R0FKEAHP"
-			(at 297.18 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc86fb8-e47a-442c-8090-c59f9c86e030")
-		)
-		(pin "2"
-			(uuid "6a6c8f48-b6c1-4f2a-85fc-89d6369c0cea")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 163.83 125.73 90)
 		(unit 1)
@@ -9232,7 +9737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -9286,34 +9791,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 129.54 0)
+		(lib_id "5012:5012")
+		(at 143.51 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cb1e0215-8701-4f9f-8985-8d0920019aaf")
+		(fields_autoplaced yes)
+		(uuid "ce72f1c1-adf7-4dff-b1d5-eef6bba00ce0")
 		(property "Reference" "TP20"
-			(at 140.462 124.206 0)
+			(at 146.05 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Cell 8"
-			(at 140.462 126.746 0)
+		(property "Value" "5012"
+			(at 146.05 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 129.54 0)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,8 +9837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 154.94 129.54 0)
+		(property "Description" ""
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,17 +9846,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 149.86 129.54 0)
+		(property "PARTREV" "F"
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2499cc7c-be2a-4c9d-a64e-a7f8a960664e")
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "7b37a43b-7c5e-4bf9-8a11-798de2f4535c")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
@@ -9352,34 +9909,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 73.66 0)
+		(lib_id "5012:5012")
+		(at 276.86 321.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cb624872-2482-42b8-9933-973ea3035e68")
-		(property "Reference" "TP18"
-			(at 140.462 68.326 0)
+		(fields_autoplaced yes)
+		(uuid "cf10615f-03d5-42fb-b0ef-4a000332779e")
+		(property "Reference" "TP29"
+			(at 279.4 320.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Cell 10"
-			(at 140.462 70.866 0)
+		(property "Value" "5012"
+			(at 279.4 322.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 73.66 0)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 276.86 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 276.86 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,8 +9955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 154.94 73.66 0)
+		(property "Description" ""
+			(at 276.86 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,74 +9964,115 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 149.86 73.66 0)
+		(property "PARTREV" "F"
+			(at 276.86 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "19243d90-8f46-4a24-9025-d9628fcba636")
+		(property "SNAPEDA_PN" "5010"
+			(at 276.86 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 276.86 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 276.86 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 276.86 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "f8a669bf-be43-4340-b25f-be041d73c20b")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP18")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 283.21 354.33 0)
+		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
+		(at 163.83 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfd8d76b-e020-40a2-b45a-865cac026c25")
-		(property "Reference" "TP32"
-			(at 273.812 348.996 0)
+		(uuid "d2c13575-e7e9-44ce-ad2a-a06858911b4d")
+		(property "Reference" "R3"
+			(at 157.48 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Cell 11"
-			(at 273.812 351.536 0)
+		(property "Value" "7.5 Ohm"
+			(at 160.02 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 288.29 354.33 0)
+		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+			(at 163.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 283.21 354.33 0)
+		(property "Datasheet" "CRCW12067R50FKEAHP"
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,144 +10081,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fce5fd4-d3ea-49d3-b8ad-f95e7b0e59c0")
+			(uuid "2b086be7-9aec-4bbe-837e-989b70e8a159")
+		)
+		(pin "2"
+			(uuid "35422111-683c-4614-9cae-650bdb43d350")
 		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d18ff3ab-1d19-4844-80d1-ff213f1b75b5")
-		(property "Reference" "TP19"
-			(at 140.462 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 9"
-			(at 140.462 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c6d7719-213d-492d-8ae5-d80569fceb88")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 354.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d39462e8-b237-458b-a896-215000218aa9")
-		(property "Reference" "TP28"
-			(at 140.97 348.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 0S"
-			(at 140.97 351.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 154.94 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c60b96b9-5d12-422a-98c5-ca5aed1645bc")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP28")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9641,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 354.33 0)
 			(effects
 				(font
@@ -9722,7 +10202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 204.47 361.95 0)
 			(effects
 				(font
@@ -9801,7 +10281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 129.54 0)
 			(effects
 				(font
@@ -9880,7 +10360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
 			(at 180.34 213.36 0)
 			(effects
 				(font
@@ -9961,7 +10441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 318.77 0)
 			(effects
 				(font
@@ -10015,72 +10495,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "defdea65-2578-4f7e-97b8-7a4bd483063d")
-		(property "Reference" "TP21"
-			(at 140.462 152.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cell 7"
-			(at 140.462 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afff90be-bd8d-4ab1-b9d4-9ea1959298de")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 297.18 322.58 90)
 		(unit 1)
@@ -10108,7 +10522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 297.18 322.58 0)
 			(effects
 				(font
@@ -10162,6 +10576,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d0c7f1-ccf3-4d70-9a2a-7cf0d5a23a61")
+		(property "Reference" "TP19"
+			(at 146.05 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "db614e73-bc3a-4942-be96-b14a4736b87e")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 163.83 181.61 90)
 		(unit 1)
@@ -10189,7 +10721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 181.61 0)
 			(effects
 				(font
@@ -10243,6 +10775,242 @@
 		)
 	)
 	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 264.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b1c543-ae4b-48c5-9672-b76780dfb49f")
+		(property "Reference" "TP25"
+			(at 146.05 262.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 265.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "a70163a4-5b08-4c16-ad0d-614bcb2e5057")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5012:5012")
+		(at 143.51 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f810828b-abcb-4c5f-a3f8-118be1f01158")
+		(property "Reference" "TP21"
+			(at 146.05 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5012"
+			(at 146.05 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TP5012:TP_5012"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5010"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "767b5aa4-8a9b-45a5-9026-dcfeaec2a1d5")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 200.66 234.95 90)
 		(unit 1)
@@ -10270,7 +11038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 200.66 234.95 0)
 			(effects
 				(font
@@ -10351,7 +11119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 293.37 0)
 			(effects
 				(font
@@ -10432,7 +11200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
 			(at 163.83 97.79 0)
 			(effects
 				(font
