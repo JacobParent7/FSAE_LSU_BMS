@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=ZXTN4004KTC
+PartCategory=Transistor BJT NPN
+PackageCategory=Other
+PinCount=3
+Version=5.1
+Released=2016-04-20 15:17:11
+Downloaded=2024-11-02 19:50:27
+3D=N
