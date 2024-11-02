@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZXTN4004KTC
+D Bipolar (BJT) Transistor NPN 150 V 1 A 3.8 W Surface Mount TO-252-3
+K
+F https://www.diodes.com//assets/Datasheets/ZXTN4004K.pdf
+$ENDCMP
+#
+#End Doc Library

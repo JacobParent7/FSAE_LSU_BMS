@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ZXTN4004KTC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-29-09:17:42)
+    (mountForm default
+        (footprintRef "ZXTN4004KTC")
+        (spec "System")
+    )
+)

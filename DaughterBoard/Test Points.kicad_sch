@@ -140,102 +140,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(wire
 		(pts
@@ -256,16 +160,6 @@
 			(type default)
 		)
 		(uuid "1872c6e0-7fda-4c67-b451-50d43bbd1627")
-	)
-	(wire
-		(pts
-			(xy 69.85 35.56) (xy 69.85 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d01873e-54fb-4135-87b9-b5dc0fce5e36")
 	)
 	(wire
 		(pts
@@ -316,16 +210,6 @@
 			(type default)
 		)
 		(uuid "45abdea7-6c04-4268-b2aa-7b57b34a38a5")
-	)
-	(wire
-		(pts
-			(xy 49.53 35.56) (xy 49.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570c34b7-95aa-4796-a063-03406091b4d0")
 	)
 	(wire
 		(pts
@@ -416,16 +300,6 @@
 			(type default)
 		)
 		(uuid "b098fd55-e8a4-4371-b36f-6ffbdcf6db5a")
-	)
-	(wire
-		(pts
-			(xy 59.69 35.56) (xy 59.69 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b519ff28-954a-45a5-8147-28c1a216c1df")
 	)
 	(wire
 		(pts
@@ -852,138 +726,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5cac99-ea9b-4d16-84bd-3c4a727bbe63")
-		(property "Reference" "#PWR01"
-			(at 49.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b986c67-e2c1-4cfa-8a39-202c79ef71ce")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bbefadf-339a-4b00-8df6-e4bdacf1e3b1")
-		(property "Reference" "#PWR03"
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28be9e07-7c66-4b03-bfd8-1b91df59eed8")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "#PWR03")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2044,72 +1786,6 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b709775d-c733-499e-947b-570cb26fa750")
-		(property "Reference" "#PWR02"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "771e4694-5dad-47f5-831c-029507c16dc1")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ZXTN4004KTC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ZXTN4004KTC")
+        (spec "default")
+    )
+)
