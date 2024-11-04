@@ -588,6 +588,10 @@
     [
       "a79abe16-9d7e-418f-82e9-de5f72e3bb16",
       "IO"
+    ],
+    [
+      "f9c85247-a583-4593-8eb2-5cacb3a96479",
+      "PSU"
     ]
   ],
   "text_variables": {}

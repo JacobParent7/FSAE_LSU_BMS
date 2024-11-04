@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "56eaebd5-951d-4335-8c65-714ba5cb0c72")
+	(paper "A4")
+	(title_block
+		(title "STM32 Layout")
+		(date "2024-10-15")
+		(rev "A")
+		(company "FSAE LSU")
+		(comment 1 "Jacob Parent ")
+		(comment 2 "parent.jacob7@protonmail.com")
+	)
+	(lib_symbols)
+)
