@@ -9,6 +9,8 @@
 		(date "2024-10-15")
 		(rev "A")
 		(company "FSAE LSU")
+		(comment 1 "Jacob Parent ")
+		(comment 2 "parent.jacob7@protonmail.com")
 	)
 	(lib_symbols)
 	(sheet
@@ -85,6 +87,45 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 91.44)
+		(size 50.8 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9c85247-a583-4593-8eb2-5cacb3a96479")
+		(property "Sheetname" "PSU"
+			(at 38.1 89.4584 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 38.1 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca"
+					(page "4")
 				)
 			)
 		)
