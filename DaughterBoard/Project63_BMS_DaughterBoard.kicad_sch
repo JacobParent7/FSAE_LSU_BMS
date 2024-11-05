@@ -123,6 +123,44 @@
 		)
 	)
 	(sheet
+		(at 24.13 90.17)
+		(size 44.45 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d4a348c-1e09-4dff-8656-797547bf484e")
+		(property "Sheetname" "COMML"
+			(at 24.13 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "COMML.kicad_sch"
+			(at 24.13 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 22.86)
 		(size 44.45 45.72)
 		(fields_autoplaced yes)

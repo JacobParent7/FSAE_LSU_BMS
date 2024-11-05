@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 744242471
+D 470 H @ 100 kHz 2 Line Common Mode Choke Surface Mount 2.2 kOhms @ 15 MHz 400mA DCR 350mOhm
+K
+F https://www.we-online.com/components/products/datasheet/744242471.pdf
+$ENDCMP
+#
+#End Doc Library

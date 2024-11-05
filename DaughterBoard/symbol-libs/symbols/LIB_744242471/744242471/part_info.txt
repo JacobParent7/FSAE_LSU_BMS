@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=744242471
+PartCategory=Filter
+PackageCategory=Other
+PinCount=4
+Version=4.3
+Released=2017-01-12 20:05:57
+Downloaded=2024-11-05 18:51:26
+3D=Y
