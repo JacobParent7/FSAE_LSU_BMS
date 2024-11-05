@@ -1,0 +1,16 @@
+.744242471 :1 ;470 H @ 100 kHz 2 Line Common Mode Choke Surface Mount 2.2 kOhms @ 15 MHz 400mA DCR 350mOhm
+"744242471"
+*STM FL
+*NGS
+*PLB 1="N1+" 2="N2+" 3="N2-" 4="N1-"
+*MXP 4
+*DFN 744242471
+~!Mouser Part Number (710-744242471)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744242471?qs=PGXP4M47uW7UIiGXUC0ZiA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (744242471)
+~!Link Datasheet (https://www.we-online.com/components/products/datasheet/744242471.pdf)
+~!Height (3.6mm)
+~!3D_Model (744242471)
+"744242471"
+1.1!U 2.1!U 3.1!U 4.1!U 

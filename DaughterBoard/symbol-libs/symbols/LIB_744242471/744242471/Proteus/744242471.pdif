@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "744242471"
+   (description "470 H @ 100 kHz 2 Line Common Mode Choke Surface Mount 2.2 kOhms @ 15 MHz 400mA DCR 350mOhm")
+   (family "ANA")
+   (package "744242471")
+   (attribute "Datasheet Link" "https://www.we-online.com/components/products/datasheet/744242471.pdf")
+   (attribute "Geometry.Height" "3.6mm")
+   (attribute "Mouser Part Number" "710-744242471")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744242471?qs=PGXP4M47uW7UIiGXUC0ZiA%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "744242471")
+   (gate
+    (symbol "744242471")
+    (pin "N1+" 1 PS)
+    (pin "N2+" 2 PS)
+    (pin "N2-" 3 PS)
+    (pin "N1-" 4 PS)
+   )
+  )
+  (symbol "744242471"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "744242471"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 1.65)
+      (pt 3 1.65)
+      (pt 3 -1.65)
+      (pt -3 -1.65)
+      (pt -3 1.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.2 2.65)
+      (pt 4.2 2.65)
+      (pt 4.2 -2.65)
+      (pt -4.2 -2.65)
+      (pt -4.2 2.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.7 0.635)
+      (arc (pt -3.700 0.635) (pt -3.700 0.585) (pt -3.600 0.685) (start 180.0) (sweep 180.0))
+      (pt -3.6 0.635)
+      (arc (pt -3.600 0.635) (pt -3.700 0.585) (pt -3.600 0.685) (start 180.0) (sweep .0))
+      (pt -3.7 0.635))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 1.65)
+      (pt 3 1.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 -1.65)
+      (pt 3 -1.65))))
+   (leg 1 (pt -2.275 0.635) (padstack 0))
+   (leg 2 (pt -2.275 -0.635) (padstack 0))
+   (leg 3 (pt 2.275 -0.635) (padstack 0))
+   (leg 4 (pt 2.275 0.635) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 1.850 0 0 0.000))
+   )
+   (model "744242471.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
