@@ -12,24 +12,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
+			(property "Reference" "R32"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "CRCW2010100RFKEF"
-				(at 6.35 -3.81 0)
+			(property "Value" "100"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RES_CRCW_2010"
-				(at 0 0 0)
+			(property "Footprint" "CRCW2010100RFKEF:RES_CRCW_2010-L"
+				(at 0.762 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 				)
 			)
 			(property "Datasheet" "CRCW2010100RFKEF"
-				(at 0 0 0)
+				(at 0.762 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -168,7 +168,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -186,7 +186,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -335,24 +335,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
+			(property "Reference" "R33"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "CRCW2010200RFKEF"
-				(at 6.35 -3.81 0)
+			(property "Value" "200"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RC2010N_VIS"
-				(at 0 0 0)
+			(property "Footprint" "CRCW2010200RFKEF:RC2010N_VIS-L"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -362,7 +362,7 @@
 				)
 			)
 			(property "Datasheet" "CRCW2010200RFKEF"
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -491,7 +491,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -509,7 +509,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Footprint" "CRCW2010200RFKEF:RC2010N_VIS-L"
-			(at 184.15 106.68 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW2010200RFKEF"
-			(at 184.15 106.68 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" "CRCW2010100RFKEF:RES_CRCW_2010-L"
-			(at 149.86 106.68 0)
+			(at 150.622 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW2010100RFKEF"
-			(at 149.86 106.68 0)
+			(at 150.622 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
