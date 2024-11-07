@@ -313,24 +313,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
+			(property "Reference" "C41"
+				(at 5.0801 -3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "CL10B221JB8NNNC"
-				(at 3.81 -3.81 0)
+			(property "Value" "220pF"
+				(at 2.5401 -3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "CAP_CL10_SAM"
-				(at 0 0 0)
+			(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
+				(at 1.27 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -340,7 +342,7 @@
 				)
 			)
 			(property "Datasheet" "CL10B221JB8NNNC"
-				(at 0 0 0)
+				(at 0.762 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -433,7 +435,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -451,7 +453,174 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL10B221JB8NNNC_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C40"
+				(at 5.0801 -3.81 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "220pF"
+				(at 2.5401 -3.81 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
+				(at -0.508 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CL10B221JB8NNNC"
+				(at -0.508 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CL10B221JB8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_CL10_SAM CAP_CL10_SAM-M CAP_CL10_SAM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10B221JB8NNNC_1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -478,24 +647,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
+			(property "Reference" "R35"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "CRCW060351R0JNEA"
-				(at 6.35 -3.81 0)
+			(property "Value" "51"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RC0603N_VIS"
-				(at 0 0 0)
+			(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
+				(at -0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -505,7 +674,7 @@
 				)
 			)
 			(property "Datasheet" "CRCW060351R0JNEA"
-				(at 0 0 0)
+				(at -0.254 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -634,7 +803,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -652,7 +821,208 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW060351R0JNEA_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R34"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "51"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
+				(at -3.302 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW060351R0JNEA"
+				(at -3.302 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW060351R0JNEA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RC0603N_VIS RC0603N_VIS-M RC0603N_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW060351R0JNEA_1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -873,6 +1243,1614 @@
 				)
 			)
 		)
+		(symbol "CRCW08050000Z0EAHP_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R42"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -1.524 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -1.524 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R48"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_2_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R44"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at 1.524 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_3_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_4"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R45"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -1.27 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -1.27 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_4_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R43"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_5_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_6"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R47"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_6_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R46"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -0.762 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -0.762 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_7_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW08050000Z0EAHP_8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R41"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
+				(at -3.556 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CRCW08050000Z0EAHP"
+				(at -3.556 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CRCW08050000Z0EAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_CRCW_0805_VIS RES_CRCW_0805_VIS-M RES_CRCW_0805_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW08050000Z0EAHP_8_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ERJ-3EKF1001V:ERJ-3EKF1001V"
 			(pin_names
 				(offset 0.254)
@@ -880,24 +2858,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
+			(property "Reference" "R36"
+				(at 5.0799 2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "ERJ-3EKF1001V"
-				(at 6.35 -3.81 0)
+			(property "Value" "1.00K"
+				(at 7.6199 2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "RC0603N_PAN"
-				(at 0 0 0)
+			(property "Footprint" "ERJ-3EKF1001V:RC0603N_PAN-L"
+				(at -0.762 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -907,7 +2887,7 @@
 				)
 			)
 			(property "Datasheet" "ERJ-3EKF1001V"
-				(at 0 0 0)
+				(at -1.016 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1036,7 +3016,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -1054,7 +3034,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -1723,24 +3703,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
-				(at 11.43 7.366 0)
+			(property "Reference" "D2"
+				(at 10.1599 3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PESD1CAN_215"
-				(at 10.16 5.08 0)
+			(property "Value" "24V"
+				(at 12.6999 3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOT23_PESD1_NEX"
-				(at 0 0 0)
+			(property "Footprint" "PESD1CAN,215:SOT23_PESD1_NEX-L"
+				(at 0 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1750,7 +3732,7 @@
 				)
 			)
 			(property "Datasheet" "PESD1CAN_215"
-				(at 0 0 0)
+				(at -3.81 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2190,7 +4172,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 7.62)
 					(name "1"
@@ -2208,7 +4190,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "2"
@@ -2226,7 +4208,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 22.86 -2.54 180)
 					(length 7.62)
 					(name "3"
@@ -2253,24 +4235,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
+			(property "Reference" "R38"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "RC0603JR-070RL"
-				(at 6.35 -3.81 0)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RC0603N_YAG"
-				(at 0 0 0)
+			(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2280,7 +4262,7 @@
 				)
 			)
 			(property "Datasheet" "RC0603JR-070RL"
-				(at 0 0 0)
+				(at -1.524 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2409,7 +4391,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -2427,7 +4409,208 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0603JR-070RL_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R37"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
+				(at -1.524 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "RC0603JR-070RL"
+				(at -8.89 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RC0603JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RC0603N_YAG RC0603N_YAG-M RC0603N_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603JR-070RL_1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -3485,7 +5668,7 @@
 			)
 		)
 		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
-			(at 137.16 101.6 0)
+			(at 136.906 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW060351R0JNEA"
-			(at 137.16 101.6 0)
+			(at 136.906 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,6 +5856,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_2")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 77.47 184.15 0)
 		(unit 1)
@@ -3699,7 +5883,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 77.47 184.15 0)
+			(at 77.216 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 77.47 184.15 0)
+			(at 77.216 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,6 +5997,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_4")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 115.57 157.48 0)
 		(unit 1)
@@ -3839,7 +6024,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 115.57 157.48 0)
+			(at 114.3 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 115.57 157.48 0)
+			(at 114.3 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,6 +6140,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_5")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 43.18 161.29 0)
 		(unit 1)
@@ -3981,7 +6167,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 43.18 161.29 0)
+			(at 43.18 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +6177,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 43.18 161.29 0)
+			(at 43.18 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,6 +6211,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_7")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 115.57 176.53 0)
 		(mirror x)
@@ -4051,7 +6238,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 115.57 176.53 0)
+			(at 114.808 169.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +6248,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 115.57 176.53 0)
+			(at 114.808 169.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +6310,7 @@
 			)
 		)
 		(property "Footprint" "PESD1CAN,215:SOT23_PESD1_NEX-L"
-			(at 130.81 106.68 0)
+			(at 143.764 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +6320,7 @@
 			)
 		)
 		(property "Datasheet" "PESD1CAN_215"
-			(at 130.81 106.68 0)
+			(at 140.97 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,6 +6483,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_8")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 43.18 49.53 0)
 		(unit 1)
@@ -4322,7 +6510,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 43.18 49.53 0)
+			(at 39.624 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +6520,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 43.18 49.53 0)
+			(at 39.624 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,6 +6624,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_6")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 77.47 148.59 0)
 		(unit 1)
@@ -4462,7 +6651,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 77.47 148.59 0)
+			(at 77.216 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +6661,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 77.47 148.59 0)
+			(at 77.216 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,6 +6695,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW060351R0JNEA_1")
 		(lib_id "CRCW060351R0JNEA:CRCW060351R0JNEA")
 		(at 137.16 72.39 0)
 		(unit 1)
@@ -4532,7 +6722,7 @@
 			)
 		)
 		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
-			(at 137.16 72.39 0)
+			(at 133.858 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW060351R0JNEA"
-			(at 137.16 72.39 0)
+			(at 133.858 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,6 +6766,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CL10B221JB8NNNC_1")
 		(lib_id "CL10B221JB8NNNC:CL10B221JB8NNNC")
 		(at 176.53 118.11 90)
 		(unit 1)
@@ -4604,7 +6795,7 @@
 			)
 		)
 		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
-			(at 176.53 118.11 0)
+			(at 172.974 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +6805,7 @@
 			)
 		)
 		(property "Datasheet" "CL10B221JB8NNNC"
-			(at 176.53 118.11 0)
+			(at 172.974 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,6 +6839,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603JR-070RL_1")
 		(lib_id "RC0603JR-070RL:RC0603JR-070RL")
 		(at 107.95 101.6 0)
 		(unit 1)
@@ -4674,7 +6866,7 @@
 			)
 		)
 		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
-			(at 107.95 101.6 0)
+			(at 106.426 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +6876,7 @@
 			)
 		)
 		(property "Datasheet" "RC0603JR-070RL"
-			(at 107.95 101.6 0)
+			(at 99.06 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,6 +6910,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_3")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 44.45 172.72 0)
 		(mirror x)
@@ -4744,7 +6937,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 44.45 172.72 0)
+			(at 45.974 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +6947,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 44.45 172.72 0)
+			(at 44.45 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +7007,7 @@
 			)
 		)
 		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
-			(at 109.22 72.39 0)
+			(at 109.22 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +7017,7 @@
 			)
 		)
 		(property "Datasheet" "RC0603JR-070RL"
-			(at 109.22 72.39 0)
+			(at 107.696 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +7151,7 @@
 			)
 		)
 		(property "Footprint" "ERJ-3EKF1001V:RC0603N_PAN-L"
-			(at 193.04 80.01 0)
+			(at 186.182 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +7161,7 @@
 			)
 		)
 		(property "Datasheet" "ERJ-3EKF1001V"
-			(at 193.04 80.01 0)
+			(at 188.468 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,6 +7266,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CRCW08050000Z0EAHP_1")
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
 		(at 68.58 49.53 0)
 		(unit 1)
@@ -5099,7 +7293,7 @@
 			)
 		)
 		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
-			(at 68.58 49.53 0)
+			(at 67.056 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +7303,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 68.58 49.53 0)
+			(at 67.056 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +7433,7 @@
 			)
 		)
 		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
-			(at 166.37 118.11 0)
+			(at 172.212 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +7443,7 @@
 			)
 		)
 		(property "Datasheet" "CL10B221JB8NNNC"
-			(at 166.37 118.11 0)
+			(at 153.924 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
