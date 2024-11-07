@@ -658,24 +658,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
+			(property "Reference" "C39"
+				(at 2.5399 3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "GCM31MR72A224KA37L"
-				(at 3.81 -3.81 0)
+			(property "Value" "0.22µF"
+				(at 5.0799 3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "G-31_MUR"
-				(at 0 0 0)
+			(property "Footprint" "GCM31MR72A224KA3L:G-31_MUR-L"
+				(at 0.254 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -685,7 +687,7 @@
 				)
 			)
 			(property "Datasheet" "GCM31MR72A224KA37L"
-				(at 0 0 0)
+				(at 0.254 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -778,7 +780,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -796,7 +798,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
@@ -1434,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" "GCM31MR72A224KA3L:G-31_MUR-L"
-			(at 133.35 106.68 0)
+			(at 137.414 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" "GCM31MR72A224KA37L"
-			(at 133.35 106.68 0)
+			(at 137.414 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
