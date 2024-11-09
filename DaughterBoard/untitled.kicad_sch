@@ -20684,7 +20684,7 @@
 			)
 		)
 	)
-	(global_label "GND_AVSS"
+	(global_label "AVSS"
 		(shape input)
 		(at 210.82 370.84 0)
 		(fields_autoplaced yes)
@@ -20696,7 +20696,7 @@
 		)
 		(uuid "3723d2c2-64bf-45a3-ae41-255c9042c7ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.2395 370.84 0)
+			(at 218.4014 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21410,7 +21410,7 @@
 			)
 		)
 	)
-	(global_label "GND_AVSS"
+	(global_label "AVSS"
 		(shape input)
 		(at 170.18 386.08 0)
 		(fields_autoplaced yes)
@@ -21422,7 +21422,7 @@
 		)
 		(uuid "e2f169c5-da71-41e2-8c12-77a9e70a65cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5995 386.08 0)
+			(at 177.7614 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
