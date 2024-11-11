@@ -13048,14 +13048,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "GCM188R71C474KA55D"
 				(at 0 0 0)
 				(effects
@@ -24992,7 +24984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5011 (1):TP_5011"
+		(property "Footprint" "5011:TP_5011"
 			(at 142.24 349.25 0)
 			(effects
 				(font
