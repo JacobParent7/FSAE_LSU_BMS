@@ -958,6 +958,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -966,16 +1111,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
+			(property "Reference" "FB201"
+				(at -7.62 0.0508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
+			(property "Value" "100R"
+				(at -5.08 0.0508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1066,7 +1211,7 @@
 				)
 			)
 			(symbol "FerriteBead_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 3.81 270)
 					(length 2.54)
 					(name "~"
@@ -1084,7 +1229,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -3.81 90)
 					(length 2.54)
 					(name "~"
@@ -1111,16 +1256,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "L201"
+				(at 5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "10n"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1223,7 +1368,7 @@
 				)
 			)
 			(symbol "L_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 3.81 270)
 					(length 1.27)
 					(name "1"
@@ -1241,7 +1386,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
@@ -1415,163 +1560,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N630xCA"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N630xCA"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?DO?201AE*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N630xCA_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N630xCA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3092,6 +3080,178 @@
 				)
 			)
 		)
+		(symbol "R_US_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R214"
+				(at 2.54 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1M"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_1_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3VP"
 			(power)
 			(pin_numbers hide)
@@ -3706,12 +3866,6 @@
 		(uuid "6f156ae8-7efe-42d0-b1a9-c458551137cb")
 	)
 	(junction
-		(at 236.22 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77154639-4477-48e7-a388-d1f837c2919f")
-	)
-	(junction
 		(at 242.57 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3824,6 +3978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf1b854-94c9-4c53-8f6b-d377d414c078")
+	)
+	(junction
+		(at 236.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb48df96-d6ba-4d2b-9b6c-9f49527caea9")
 	)
 	(junction
 		(at 212.09 64.77)
@@ -4404,16 +4564,6 @@
 			(type default)
 		)
 		(uuid "28cca8a8-101f-4f8a-9a0c-0659a94f4b84")
-	)
-	(wire
-		(pts
-			(xy 245.11 81.28) (xy 236.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28d56a39-92f4-4bcc-b002-eb824b092da8")
 	)
 	(wire
 		(pts
@@ -5587,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 81.28) (xy 236.22 82.55)
+			(xy 236.22 81.28) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6137,6 +6287,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 81.28) (xy 245.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f452513f-be36-4172-898d-3d97b3b6da54")
+	)
+	(wire
+		(pts
 			(xy 137.16 88.9) (xy 137.16 87.63)
 		)
 		(stroke
@@ -6281,6 +6441,36 @@
 			)
 		)
 		(uuid "4c645d6a-9044-4851-8ef3-b7121537d5c9")
+	)
+	(text "100mA Max\n"
+		(exclude_from_sim no)
+		(at 234.95 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5472bfaf-6e1d-4168-a006-9fef1d59d41a")
+	)
+	(text "120mA Max\n~40mA Typ\n"
+		(exclude_from_sim no)
+		(at 94.488 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dea30f7-1274-40c9-b436-406443994961")
+	)
+	(text ">2 Ohm ESR\n"
+		(exclude_from_sim no)
+		(at 75.946 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecdcf1ad-d7c9-4ef4-8dad-fe73682b4c10")
 	)
 	(text "CL=10pf ESR=80R"
 		(exclude_from_sim no)
@@ -7041,76 +7231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
-		(at 218.44 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "016dc294-c26b-4853-9ea3-53689f31d195")
-		(property "Reference" "D210"
-			(at 215.646 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N630xCA"
-			(at 220.98 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-			(at 218.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-			(at 218.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c45cd98-ddff-4898-9317-74cb3e75d785")
-		)
-		(pin "2"
-			(uuid "71af14fd-bc52-450e-8b7e-e664db97651b")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 67.31 0)
 		(unit 1)
@@ -7177,7 +7297,75 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
+		(at 199.39 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03c93c22-182c-4c67-91f0-61aa0118ae95")
+		(property "Reference" "D207"
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81338ae1-fbe1-4d01-8431-e7b57bbea4c2")
+		)
+		(pin "2"
+			(uuid "057e245a-a4c3-4079-9f7d-5d3d202aa141")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
+					(reference "D207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
 		(at 78.74 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7186,8 +7374,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040431b2-aa62-4926-a2e0-fb840a4b2f6a")
-		(property "Reference" "D201"
-			(at 81.28 44.4499 90)
+		(property "Reference" "D202"
+			(at 81.28 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7383,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
+		(property "Value" "D_TVS"
 			(at 81.28 45.7199 90)
 			(effects
 				(font
@@ -7205,16 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 83.82 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 78.74 44.45 0)
 			(effects
 				(font
@@ -7223,7 +7402,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 78.74 44.45 0)
 			(effects
 				(font
@@ -7241,7 +7429,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D201")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05ab04dd-dab2-4d37-819f-e7a11407d004")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0206"
 			(at 63.5 53.34 0)
 			(effects
 				(font
@@ -7306,7 +7494,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0202")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 82.55 0)
+		(at 236.22 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7322,8 +7510,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07464afc-24d0-40b4-b3ea-f92eef922171")
-		(property "Reference" "#PWR0214"
-			(at 236.22 88.9 0)
+		(property "Reference" "#PWR0220"
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 87.63 0)
+			(at 236.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 82.55 0)
+			(at 236.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 82.55 0)
+			(at 236.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 82.55 0)
+			(at 236.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7560,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0214")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0965096b-bd47-4360-9bf5-a5315c7cad16")
-		(property "Reference" "R204"
+		(property "Reference" "R205"
 			(at 126.492 35.56 90)
 			(effects
 				(font
@@ -7403,7 +7591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 35.814 90)
 			(effects
 				(font
@@ -7439,14 +7627,14 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R204")
+					(reference "R205")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 45.72 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7455,8 +7643,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7dc9da-035e-41e5-8131-61364e3b18de")
-		(property "Reference" "D205"
-			(at 48.26 35.5599 90)
+		(property "Reference" "D201"
+			(at 48.26 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,26 +7652,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
+		(property "Value" "D_TVS"
 			(at 48.26 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -7492,7 +7670,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -7510,7 +7697,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D205")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -7525,7 +7712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b4c2e68-c713-4dec-8618-96bd5420d9b9")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0211"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -7575,7 +7762,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0212")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 219.456 29.464 90)
 			(effects
 				(font
@@ -7881,76 +8068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
-		(at 205.74 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "256b6585-0fab-4d2c-9e4c-eb98d358079b")
-		(property "Reference" "D208"
-			(at 202.946 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N630xCA"
-			(at 208.28 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 210.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-			(at 205.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-			(at 205.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49071ca0-c5a4-43eb-a9d3-3362c377e1f0")
-		)
-		(pin "2"
-			(uuid "315956d0-bb46-4983-93ad-ec7a30896f38")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32F2:STM32F205RBTx")
 		(at 105.41 137.16 0)
 		(unit 1)
@@ -7960,7 +8077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "270b1a63-3091-49e5-9055-e5663a7481e6")
-		(property "Reference" "U1"
+		(property "Reference" "U201"
 			(at 110.1441 182.88 0)
 			(effects
 				(font
@@ -8201,7 +8318,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "U1")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28779f31-df18-4108-b53b-156d3ae3e78e")
-		(property "Reference" "R201"
+		(property "Reference" "R202"
 			(at 60.706 105.41 90)
 			(effects
 				(font
@@ -8232,7 +8349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.294 105.664 90)
 			(effects
 				(font
@@ -8268,7 +8385,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R201")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -8354,7 +8471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f206a90-9e2c-42be-9ba2-ee992acb04ac")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0202"
 			(at 25.4 96.52 0)
 			(effects
 				(font
@@ -8404,7 +8521,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0203")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -8490,7 +8607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a0e45a-35ca-4569-843e-cb35d51ed451")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0207"
 			(at 72.39 180.34 0)
 			(effects
 				(font
@@ -8540,7 +8657,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0210")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -8617,76 +8734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
-		(at 199.39 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a7d1f2c-4288-4de3-b567-81c362abdd70")
-		(property "Reference" "D207"
-			(at 196.596 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N630xCA"
-			(at 201.93 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 204.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f9bc44c-3cdc-487e-a8cd-2a11b33394a5")
-		)
-		(pin "2"
-			(uuid "8f9349a3-5980-4e74-98dc-6801b30a356a")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 45.72 22.86 0)
 		(unit 1)
@@ -8696,7 +8743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f183cb1-b51d-4f30-83b6-05514909b16a")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0204"
 			(at 45.72 26.67 0)
 			(effects
 				(font
@@ -8746,7 +8793,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0211")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -8761,7 +8808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "426b9982-05b0-449d-a76d-4aca0e31f2fb")
-		(property "Reference" "R203"
+		(property "Reference" "R204"
 			(at 126.492 33.02 90)
 			(effects
 				(font
@@ -8777,7 +8824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 33.274 90)
 			(effects
 				(font
@@ -8813,7 +8860,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R203")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -8829,7 +8876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467a162c-baab-4049-a8aa-483cd8ef4707")
-		(property "Reference" "C202"
+		(property "Reference" "C205"
 			(at 57.15 120.6499 0)
 			(effects
 				(font
@@ -8883,7 +8930,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C202")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -8916,7 +8963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 206.756 29.464 90)
 			(effects
 				(font
@@ -8968,7 +9015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4badb508-2084-43d4-ab40-12b09ebee61e")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0208"
 			(at 78.74 58.42 0)
 			(effects
 				(font
@@ -9018,13 +9065,14 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0201")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_US_1")
 		(lib_id "Device:R_US")
 		(at 236.22 74.93 0)
 		(unit 1)
@@ -9052,7 +9100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.236 75.184 90)
 			(effects
 				(font
@@ -9203,7 +9251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.406 29.464 90)
 			(effects
 				(font
@@ -9255,7 +9303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c9db007-f7f8-4e34-824b-ead5dcb2096a")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0213"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -9305,7 +9353,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0205")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.796 99.314 90)
 			(effects
 				(font
@@ -9390,7 +9438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73be8b67-3013-4eb7-a0c0-3ed866434a6a")
-		(property "Reference" "C201"
+		(property "Reference" "C202"
 			(at 17.526 120.396 0)
 			(effects
 				(font
@@ -9444,7 +9492,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C201")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -9475,7 +9523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.774 44.704 90)
 			(effects
 				(font
@@ -9544,7 +9592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.106 29.464 90)
 			(effects
 				(font
@@ -9596,7 +9644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e9b185-6f58-48a9-900b-78848459b4f6")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0210"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -9646,14 +9694,14 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0206")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 245.11 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9662,26 +9710,15 @@
 		(dnp no)
 		(uuid "7935f682-0c80-482b-8c6f-271f9ffcb99f")
 		(property "Reference" "D212"
-			(at 246.888 74.93 90)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
-			(at 247.65 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 250.19 74.93 0)
+		(property "Value" "D_TVS"
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 245.11 74.93 0)
 			(effects
 				(font
@@ -9698,7 +9735,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 245.11 74.93 0)
 			(effects
 				(font
@@ -9789,76 +9835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
-		(at 212.09 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83ec3bb3-6e58-48b4-b147-c58756a00a5c")
-		(property "Reference" "D209"
-			(at 209.296 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N630xCA"
-			(at 214.63 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 217.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3066ace2-cf20-480d-84d3-e254cb787bdd")
-		)
-		(pin "2"
-			(uuid "f5e9a492-bedc-478b-9a65-0095bb8c31c4")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 193.04 29.21 0)
 		(unit 1)
@@ -9885,7 +9861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.056 29.464 90)
 			(effects
 				(font
@@ -9936,7 +9912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c36dd74-56f3-4db4-8e7e-9a1363d7ec7f")
-		(property "Reference" "R206"
+		(property "Reference" "R201"
 			(at 57.404 97.282 90)
 			(effects
 				(font
@@ -9952,7 +9928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.786 100.076 90)
 			(effects
 				(font
@@ -9988,7 +9964,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R206")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -10004,7 +9980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c65985b-1569-4658-99f6-f38204396900")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0219"
 			(at 238.76 34.29 0)
 			(effects
 				(font
@@ -10054,7 +10030,75 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0220")
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 212.09 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8df0947e-80d4-47cf-916b-247f538340ed")
+		(property "Reference" "D209"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b3d28ee-b739-4e61-b0b9-a77587505b22")
+		)
+		(pin "2"
+			(uuid "df884a76-1340-4013-ae43-e896c1125861")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
+					(reference "D209")
 					(unit 1)
 				)
 			)
@@ -10136,7 +10180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9686c530-34ec-4fe5-83f2-ccf65b075c03")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0203"
 			(at 40.64 137.16 0)
 			(effects
 				(font
@@ -10186,7 +10230,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0209")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -10202,7 +10246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97804da3-2c71-456d-97fb-f6d331617bc0")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0209"
 			(at 105.41 193.04 0)
 			(effects
 				(font
@@ -10252,14 +10296,14 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR01")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 116.84 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10267,27 +10311,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a36d3bf-c5ff-45bc-b851-3a6b1e8b0185")
-		(property "Reference" "D204"
-			(at 119.38 44.4499 90)
+		(property "Reference" "D205"
+			(at 114.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
-			(at 119.38 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 121.92 44.45 0)
+		(property "Value" "D_TVS"
+			(at 119.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -10304,7 +10337,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -10322,7 +10364,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D204")
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -10338,7 +10380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d6a60e1-fe7d-492f-8cc6-f7aa0171b561")
-		(property "Reference" "C214"
+		(property "Reference" "C213"
 			(at 147.32 43.1799 0)
 			(effects
 				(font
@@ -10392,42 +10434,31 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C214")
+					(reference "C213")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 228.6 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a364eafc-8ea1-4844-ac0d-705c3a9ec5e9")
+		(uuid "9e052860-551d-40a7-b05c-ad8e13660db1")
 		(property "Reference" "D211"
-			(at 225.806 57.404 0)
+			(at 226.06 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
-			(at 231.14 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 233.68 59.69 0)
+		(property "Value" "D_TVS"
+			(at 231.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 228.6 59.69 0)
 			(effects
 				(font
@@ -10444,7 +10475,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 228.6 59.69 0)
 			(effects
 				(font
@@ -10454,10 +10494,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5b942ce-03ca-4369-8aa8-d2962a6feea9")
+			(uuid "05b92db2-453b-4952-bf2b-e5ef9ae67ded")
 		)
 		(pin "2"
-			(uuid "31caff53-cefc-4b15-b3a7-9ab2f8ecf668")
+			(uuid "190e3930-5024-4449-9f34-f8666cc63fe8")
 		)
 		(instances
 			(project "FSAE_BMS"
@@ -10478,7 +10518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3eb1a31-65d9-4e0f-9b98-69ef2313eb5b")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0212"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -10528,7 +10568,75 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0207")
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 205.74 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7ed3d61-6f09-4033-b200-3d2048fd9888")
+		(property "Reference" "D208"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dbb9fb-a581-4d12-b3bc-bf7fc0039b15")
+		)
+		(pin "2"
+			(uuid "f70195d9-d86c-4d16-9e51-a691d636bd21")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
+					(reference "D208")
 					(unit 1)
 				)
 			)
@@ -10544,7 +10652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91e68d4-d280-48a7-8786-6db722aef765")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0201"
 			(at 25.4 80.01 0)
 			(effects
 				(font
@@ -10594,7 +10702,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0204")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -10610,7 +10718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5b0b983-cb06-4eb0-bfda-4b805711f02c")
-		(property "Reference" "C213"
+		(property "Reference" "C214"
 			(at 163.83 82.5499 0)
 			(effects
 				(font
@@ -10664,7 +10772,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C213")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -10679,7 +10787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b98d818b-7f91-4db4-8452-7d3adde84766")
-		(property "Reference" "C208"
+		(property "Reference" "C201"
 			(at 29.21 82.5499 0)
 			(effects
 				(font
@@ -10733,7 +10841,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C208")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -10748,7 +10856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be47b6ae-d8ce-4732-a520-33a645c779ec")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0205"
 			(at 55.88 106.68 0)
 			(effects
 				(font
@@ -10798,7 +10906,75 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0208")
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 218.44 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bed2322a-df65-4584-9ad9-08a65c53875d")
+		(property "Reference" "D210"
+			(at 215.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 218.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 218.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b759a7-71e2-44b6-8c53-04410adb7feb")
+		)
+		(pin "2"
+			(uuid "b23cfc2d-31d8-4142-ba0a-3166e59baf92")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
+					(reference "D210")
 					(unit 1)
 				)
 			)
@@ -10878,7 +11054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 255.27 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10887,26 +11063,15 @@
 		(dnp no)
 		(uuid "c02b6bb7-0d1b-4dbd-bd15-cb9076472fae")
 		(property "Reference" "D213"
-			(at 257.048 106.68 90)
+			(at 252.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
-			(at 257.81 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 260.35 106.68 0)
+		(property "Value" "D_TVS"
+			(at 257.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -10923,7 +11088,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -10957,7 +11131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c185910b-5093-4a6c-a33e-26dde52ea0df")
-		(property "Reference" "C204"
+		(property "Reference" "C208"
 			(at 80.01 82.5499 0)
 			(effects
 				(font
@@ -11011,7 +11185,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C204")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -11027,7 +11201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2cd568c-0924-4513-a92e-ea4bf3ff0325")
-		(property "Reference" "C207"
+		(property "Reference" "C203"
 			(at 41.91 82.5499 0)
 			(effects
 				(font
@@ -11081,14 +11255,14 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C207")
+					(reference "C203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 193.04 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11097,26 +11271,15 @@
 		(dnp no)
 		(uuid "d028ef0f-13fc-492d-b511-d22bd0234a66")
 		(property "Reference" "D206"
-			(at 190.246 57.404 0)
+			(at 190.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
-			(at 195.58 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 198.12 59.69 0)
+		(property "Value" "D_TVS"
+			(at 195.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,7 +11287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -11133,7 +11296,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -11166,7 +11338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5d52e0e-e9f3-4627-ae03-1a5b7855e4bc")
-		(property "Reference" "R205"
+		(property "Reference" "R206"
 			(at 126.492 38.354 90)
 			(effects
 				(font
@@ -11182,7 +11354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 38.354 90)
 			(effects
 				(font
@@ -11218,7 +11390,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R205")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -11234,7 +11406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d645db16-0e69-4410-9843-708f4730a369")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0221"
 			(at 259.08 99.06 0)
 			(effects
 				(font
@@ -11284,7 +11456,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0219")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 104.14 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11368,8 +11540,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9511696-9a2a-4d20-a2bd-2fb0cd69b29a")
-		(property "Reference" "D203"
-			(at 106.68 44.4499 90)
+		(property "Reference" "D204"
+			(at 106.68 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,7 +11549,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
+		(property "Value" "D_TVS"
 			(at 106.68 45.7199 90)
 			(effects
 				(font
@@ -11387,16 +11559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 109.22 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -11405,7 +11568,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -11423,7 +11595,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D203")
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -11505,7 +11677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e555253a-ec35-45be-893a-f6a9b670c178")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0214"
 			(at 205.74 26.67 0)
 			(effects
 				(font
@@ -11555,14 +11727,14 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "#PWR0213")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
+		(lib_id "Device:D_TVS")
 		(at 91.44 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11571,8 +11743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f33c7a-930d-4803-9a47-e559ac554ccf")
-		(property "Reference" "D202"
-			(at 93.98 44.4499 90)
+		(property "Reference" "D203"
+			(at 93.98 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11752,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N630xCA"
+		(property "Value" "D_TVS"
 			(at 93.98 45.7199 90)
 			(effects
 				(font
@@ -11590,16 +11762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 91.44 44.45 0)
 			(effects
 				(font
@@ -11608,7 +11771,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
+		(property "Datasheet" "~"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 91.44 44.45 0)
 			(effects
 				(font
@@ -11626,7 +11798,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "D202")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -11642,7 +11814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea00876e-f54c-48af-adf6-55c849bb8b56")
-		(property "Reference" "C203"
+		(property "Reference" "C210"
 			(at 92.71 82.5499 0)
 			(effects
 				(font
@@ -11696,7 +11868,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C203")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c8df99-a044-4b90-865e-c306973d427c")
-		(property "Reference" "C210"
+		(property "Reference" "C207"
 			(at 69.85 165.0999 0)
 			(effects
 				(font
@@ -11836,7 +12008,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C210")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -11852,7 +12024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f72cfb82-8566-4a7b-b16d-ba2001a6a054")
-		(property "Reference" "C205"
+		(property "Reference" "C206"
 			(at 67.31 82.5499 0)
 			(effects
 				(font
@@ -11906,7 +12078,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C205")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -11922,7 +12094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7929e41-d547-4649-95b8-db3a5023f290")
-		(property "Reference" "C206"
+		(property "Reference" "C204"
 			(at 54.61 82.5499 0)
 			(effects
 				(font
@@ -11976,7 +12148,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "C206")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -12061,7 +12233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff2746bf-a433-4aac-88e7-fdaffd5a2236")
-		(property "Reference" "R202"
+		(property "Reference" "R203"
 			(at 126.238 27.94 90)
 			(effects
 				(font
@@ -12077,7 +12249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 28.194 90)
 			(effects
 				(font
@@ -12113,7 +12285,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/592735c9-cbc0-4c76-b37a-83bb0c07029e"
-					(reference "R202")
+					(reference "R203")
 					(unit 1)
 				)
 			)

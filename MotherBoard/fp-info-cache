@@ -1,4 +1,4 @@
-23590921979096883
+23571754626721095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8316,13 +8316,6 @@ Combo Connector microSD and microSIM
 25
 18
 Connector_Card
-SD_Card_Device_16mm_SlotDepth
-SD card device PCB layout, contacts and mechanicalm, 16mm slot depth. Manufacture with PCB thickness of 1.4mm, http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf
-SD Card
-0
-9
-9
-Connector_Card
 SD_Hirose_DM1AA_SF_PEJ82
 SD, SMD, top-mount, push-push (https://www.hirose.com/product/document?clcode=CL0609-0004-8-82&productname=DM1AA-SF-PEJ(82)&series=DM1&documenttype=2DDrawing&lang=en&documentid=0000915301)
 SD card connector
@@ -8597,13 +8590,6 @@ SMA THT Female Jack Horizontal
 2
 Connector_Coaxial
 SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount
-Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
-SMA Straight Samtec Edge Mount
-0
-5
-2
-Connector_Coaxial
-SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
 Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
 SMA Straight Samtec Edge Mount
 0
@@ -49378,13 +49364,6 @@ usb usb-c 2.0 pd
 20
 17
 Connector_USB
-USB_C_Receptacle_HRO_TYPE-C-31-M-17
-USB Type-C receptacle for USB 2.0, 6 pin, https://omo-oss-file.thefastfile.com/portal-saas/new2023011311465142457/cms/file/134891b2-9b01-4104-89d3-96207243f692.pdf
-usb usb-c 2.0 pd
-0
-10
-7
-Connector_USB
 USB_C_Receptacle_JAE_DX07S016JA1R1500
 USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
 USB C Type-C Receptacle SMD USB 2.0
@@ -64350,34 +64329,13 @@ Yellow 5381 Series LED
 0
 2
 2
-MixedSignalBoardParts
-BNC
-031-5640-1010-1
-Connector
+LM13700
+LM13700_SOIC
+D (R-PDSO-G16)
+Integrated Circuit
 0
-4
-4
-MixedSignalBoardParts
-SOIC-10
-
-
-0
-10
-10
-MixedSignalBoardParts
-SOIC-10-DAC
-
-
-0
-10
-10
-MixedSignalBoardParts
-choke
-ACM2012
-Inductor
-0
-4
-4
+16
+16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70861,18 +70819,11 @@ DFN 0.45
 11
 9
 Package_DFN_QFN
-DFN-8-1EP_2x3mm_P0.5mm_EP0.56x2.15mm
-DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/2451fg.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
-DFN NoLead
+DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm
+DFN, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/05081702_c_ddb8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead Linear-DDB
 0
 11
-9
-Package_DFN_QFN
-DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm
-DDB Package; 8-Lead Plastic DFN (3mm x 2mm) (see Linear Technology DFN_8_05-08-1702.pdf)
-DFN 0.5
-0
-12
 9
 Package_DFN_QFN
 DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm
@@ -73516,7 +73467,7 @@ TDFN NoLead
 Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm
 TQFN, 16 Pin (https://www.diodes.com/assets/Datasheets/PI6C5946002.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py
-TQFN NoLead
+TQFN NoLead Pericom-TQFN-16-ZH Analog-CP-16-22
 0
 21
 17
@@ -74101,13 +74052,6 @@ ti vqfn-hr rnn0018a
 0
 26
 18
-Package_DFN_QFN
-Texas_RPU0010A_VQFN-HR-10_2x2mm_P0.5mm
-VQFN-HR, 10 Pin (https://www.ti.com/lit/ds/symlink/tps62912.pdf#page=39)
-VQFN-HR NO LEAD
-0
-10
-10
 Package_DFN_QFN
 Texas_RSA_VQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm
 Texas RSA VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/msp430g2001.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -74859,14 +74803,14 @@ VQFN NoLead
 49
 Package_DFN_QFN
 VQFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm
-VQFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN, 64 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 74
 65
 Package_DFN_QFN
 VQFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm_ThermalVias
-VQFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN, 64 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 100
@@ -75077,14 +75021,14 @@ WQFN-20 4.5mm 2.5mm 0.5mm
 Package_DFN_QFN
 WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm
 WQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/ts3ds10224.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
-WQFN NoLead
+WQFN NoLead Texas_RUK0020B
 0
 25
 21
 Package_DFN_QFN
 WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_ThermalVias
 WQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/ts3ds10224.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
-WQFN NoLead
+WQFN NoLead Texas_RUK0020B
 0
 30
 21
@@ -77581,13 +77525,6 @@ Rohm LGA NoLead
 10
 10
 Package_LGA
-Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder_3x2y
-Rohm  LGA, 10 Pin (https://fscdn.rohm.com/en/techdata_basic/ic/package/Jisso_MLGA010V020A-1-2_Rev005s_E2(MSL3).pdf)
-Rohm LGA NoLead
-0
-10
-10
-Package_LGA
 ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y
 ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
 ST HLGA NoLead
@@ -79598,8 +79535,8 @@ SOIC 1.27 16 12 Wide
 12
 Package_SO
 SOIC-16W_5.3x10.2mm_P1.27mm
-16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)
-SOIC 1.27
+SOIC, 16 Pin (http://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
@@ -79969,8 +79906,8 @@ SSOP 0.635
 20
 Package_SO
 SSOP-20_4.4x6.5mm_P0.65mm
-SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
-SSOP 0.65
+SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20
 0
 20
 20
@@ -80907,22 +80844,8 @@ SSOP 0.75
 56
 Package_SO
 VSSOP-8_2.3x2mm_P0.5mm
-VSSOP-8 2.3x2mm Pitch 0.5mm
-VSSOP-8 2.3x2mm Pitch 0.5mm
-0
-8
-8
-Package_SO
-VSSOP-8_2.4x2.1mm_P0.5mm
-http://www.ti.com/lit/ml/mpds050d/mpds050d.pdf
-VSSOP DCU R-PDSO-G8 Pitch0.5mm
-0
-8
-8
-Package_SO
-VSSOP-8_3.0x3.0mm_P0.65mm
-VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
-VSSOP-8 3.0 x 3.0
+VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
+VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
 0
 8
 8
@@ -86640,14 +86563,7 @@ AXICOM IM-Series Relay SPDT
 8
 Relay_THT
 Relay_DPDT_Finder_40.52
-Relay DPDT Finder 40.52, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.52 Pitch 5mm
-0
-8
-8
-Relay_THT
-Relay_DPDT_Finder_40.62
-DPDT relay, Finder 40.62, 10A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+DPDT relay, Finder 40.52, 8A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
 2-Form-C
 0
 8
@@ -86829,39 +86745,32 @@ spdt relay
 5
 Relay_THT
 Relay_SPDT_Finder_40.11
-Relay SPDT Finder 40.11, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay SPDT Finder 40.11 
+Relay SPDT Finder 40.11, 10/16A, 250V, body size 28.5x26.3mm, height 12.7mm, https://web.archive.org/web/20170816081018if_/https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.31
-Relay DPDT Finder 40.31, Pitch 3.5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.31 Pitch 3.5mm
+DPDT relay, Finder 40.52, 10/12A, 250V, body size 29x12.4mm, height 25mm, pitch 3.5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.41
-Relay DPDT Finder 40.41, Pitch 3.5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.41 Pitch 3.5mm
+Relay SPDT Finder 40.11, 10A, 250V, body size 28.5x12.3mm, height 26.3mm, https://web.archive.org/web/20170816081018if_/https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.51
-Relay DPDT Finder 40.51, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.51 Pitch 5mm
+SPDT relay, Finder 40.52, 10/12A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+1-Form-C
 0
 5
 5
-Relay_THT
-Relay_SPDT_Finder_40.61
-SPDT relay, Finder 40.61, 16A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
-2-Form-C
-0
-8
-8
 Relay_THT
 Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical
 Relay, SPDT Form C, vertical mount, 6A, 5-60V, https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf
@@ -88654,6 +88563,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SW_Inductor
+IND_IHLP-6767DZ_VIS
+
+IHLP6767DZER220M11 
+0
+2
+2
+SW_Inductor
+IND_IHLP-6767DZ_VIS-L
+
+IHLP6767DZER220M11 
+0
+2
+2
+SW_Inductor
+IND_IHLP-6767DZ_VIS-M
+
+IHLP6767DZER220M11 
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -89053,13 +88983,6 @@ hall current
 0
 6
 6
-Sensor_Current
-LEM_LA25-NP
-LEM LA 25-NP Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la%2025-np.pdf)
-Current sensor LEM
-0
-13
-13
 Sensor_Current
 LEM_LA25-P
 LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)
