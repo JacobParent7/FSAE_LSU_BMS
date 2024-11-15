@@ -755,7 +755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a93aa1-fc29-4634-ab1e-ae40795b9b35")
-		(property "Reference" "J401"
+		(property "Reference" "J301"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -934,6 +934,13 @@
 		(pin "23"
 			(uuid "95164558-ec9a-4b31-93dc-5e3f88aac104")
 		)
-		(instances)
+		(instances
+			(project ""
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

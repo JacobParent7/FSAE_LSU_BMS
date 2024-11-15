@@ -420,9 +420,9 @@
 		(remove_unused_layers no)
 		(uuid "19eeb328-b9a3-429b-a083-2c4a83654843")
 	)
-	(model "1376357-3.stp"
+	(model "${PROJECT_PATH}/Downloads/IO_Connector/1376357-3.stp"
 		(offset
-			(xyz 28.58999972 -16.62000059 9.180000167)
+			(xyz 28.5 -16.5 9)
 		)
 		(scale
 			(xyz 1 1 1)
