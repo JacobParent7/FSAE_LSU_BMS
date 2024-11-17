@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "bceaedb4-ee05-49d3-94fb-45ff8d7140db")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "1206J2K00222KXR:1206J2K00222KXR"
 			(pin_names
@@ -3747,12 +3747,6 @@
 		(uuid "e5b21fb2-cdc5-466c-8eee-499d9b36dc7f")
 	)
 	(junction
-		(at 130.81 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2bc1a52-0d55-4319-8c6e-47aa5db27bb5")
-	)
-	(junction
 		(at 88.9 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3800,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 270.51 149.86)
+			(xy 256.54 148.59) (xy 248.92 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 161.29) (xy 222.25 161.29)
+			(xy 184.15 160.02) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3860,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 154.94) (xy 242.57 149.86)
+			(xy 256.54 154.94) (xy 256.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3930,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 152.4) (xy 228.6 152.4)
+			(xy 184.15 157.48) (xy 256.54 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4040,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 152.4) (xy 228.6 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c36c489-9ebf-4904-92e1-4301ac3e44bb")
-	)
-	(wire
-		(pts
 			(xy 128.27 157.48) (xy 135.89 157.48)
 		)
 		(stroke
@@ -4060,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 130.81 101.6)
+			(xy 130.81 72.39) (xy 130.81 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4190,23 +4174,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 149.86) (xy 270.51 161.29)
+			(xy 248.92 148.59) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9dac4480-b102-4364-999d-2027cdeaad1a")
-	)
-	(wire
-		(pts
-			(xy 222.25 161.29) (xy 222.25 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3bc6dba-9c7f-496b-8961-625b20fd70e2")
 	)
 	(wire
 		(pts
@@ -4260,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 137.16 101.6)
+			(xy 125.73 101.6) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4277,16 +4251,6 @@
 			(type default)
 		)
 		(uuid "b721336c-7f77-4dd3-bb32-cfd5542f82dd")
-	)
-	(wire
-		(pts
-			(xy 228.6 157.48) (xy 242.57 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1937e99-0578-4d53-998b-b5b7e7fe01b3")
 	)
 	(wire
 		(pts
@@ -4310,16 +4274,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 130.81 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61ad5da-6710-4479-a9f3-5a78c88554ee")
-	)
-	(wire
-		(pts
 			(xy 128.27 129.54) (xy 166.37 129.54)
 		)
 		(stroke
@@ -4337,16 +4291,6 @@
 			(type default)
 		)
 		(uuid "cc326dcb-c099-4a8a-b998-723e4e6e8c92")
-	)
-	(wire
-		(pts
-			(xy 130.81 72.39) (xy 130.81 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1531cd-ad58-40ae-aa7d-05afb0f7bc55")
 	)
 	(wire
 		(pts
@@ -4481,7 +4425,7 @@
 		(uuid "064befbc-af0b-44c2-b987-d7ccb960d82b")
 	)
 	(label "ISO_COMML_N"
-		(at 228.6 152.4 0)
+		(at 203.2 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4514,7 +4458,7 @@
 		(uuid "37f7b852-fbf3-44d6-99cf-10f7b021d955")
 	)
 	(label "ISO_COMML_P"
-		(at 222.25 161.29 0)
+		(at 203.2 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5153,7 +5097,7 @@
 	(symbol
 		(lib_name "PEC02SAAN_1")
 		(lib_id "PEC02SAAN:PEC02SAAN")
-		(at 242.57 154.94 0)
+		(at 256.54 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5162,7 +5106,7 @@
 		(fields_autoplaced yes)
 		(uuid "434e4acd-42ec-4681-9ecb-19e7ea726837")
 		(property "Reference" "J3"
-			(at 256.54 154.9399 0)
+			(at 270.51 154.9399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5171,7 +5115,7 @@
 			)
 		)
 		(property "Value" "PEC02SAAN"
-			(at 256.54 157.4799 0)
+			(at 270.51 157.4799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5180,7 +5124,7 @@
 			)
 		)
 		(property "Footprint" "CONN_PxC02S_SUL"
-			(at 242.57 162.306 0)
+			(at 256.54 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" "PEC02SAAN"
-			(at 243.078 152.654 0)
+			(at 257.048 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 154.94 0)
+			(at 256.54 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6079,7 @@
 	)
 	(symbol
 		(lib_id "PEC02SAAN:PEC02SAAN")
-		(at 222.25 152.4 0)
+		(at 184.15 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6144,7 +6088,7 @@
 		(dnp no)
 		(uuid "b1a47fd4-1cdb-480e-9fdd-ac895dffdabf")
 		(property "Reference" "J4"
-			(at 208.28 152.3999 0)
+			(at 170.18 157.4799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6153,7 +6097,7 @@
 			)
 		)
 		(property "Value" "PEC02SAAN"
-			(at 208.28 154.9399 0)
+			(at 170.18 160.0199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6162,7 +6106,7 @@
 			)
 		)
 		(property "Footprint" "CONN_PxC02S_SUL"
-			(at 223.266 148.59 0)
+			(at 185.166 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6116,7 @@
 			)
 		)
 		(property "Datasheet" "PEC02SAAN"
-			(at 222.25 152.4 0)
+			(at 184.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6126,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 152.4 0)
+			(at 184.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
