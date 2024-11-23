@@ -4639,6 +4639,17 @@
 		)
 		(uuid "ff831245-7d3c-40da-b9ad-a1719f4c01f2")
 	)
+	(label "Cell 14S PIN"
+		(at 77.47 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac7a9b72-ebb2-4784-b473-37071f30ce13")
+	)
 	(global_label "NEG5V"
 		(shape input)
 		(at 219.71 102.87 0)
