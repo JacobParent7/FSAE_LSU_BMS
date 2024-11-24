@@ -8,6 +8,370 @@
 		(title "Wire to Board Inputs (14Cells)")
 	)
 	(lib_symbols
+		(symbol "0438_250WRA:0438.250WRA"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0438.250WRA"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FUSC1608X61N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.61"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0438.250WRA"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-0438.250WRA"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "0438.250WRA"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0438.250WRA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "0686F1000-01:0686F1000-01"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0686F1000-01"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "0686F1000-01:FUSC1608X60N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "Jan2019"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "BELFUSE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "0686F1000-01_0_0"
+				(arc
+					(start 0 0)
+					(mid -1.905 1.8967)
+					(end -3.81 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.905 -1.8967)
+					(end 3.81 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "2024-10-08_02-22-32:GCM188R71C474KA55D"
 			(pin_names
 				(offset 0.254)
@@ -18059,19 +18423,13 @@
 		(uuid "0029256b-a0c9-41a8-b659-38b480b117c8")
 	)
 	(junction
-		(at 143.51 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0209107d-3a80-49cd-b763-0173c5bc7f6c")
-	)
-	(junction
 		(at 163.83 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "021bb18a-056d-4bad-801c-07b2b6f3cdb9")
 	)
 	(junction
-		(at 297.18 270.51)
+		(at 421.64 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03efeb18-706e-46cb-81f5-998f16a57271")
@@ -18083,13 +18441,7 @@
 		(uuid "052b67e4-d2a0-4f43-967b-1dc1b5c63a28")
 	)
 	(junction
-		(at 143.51 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05b034ae-e9ee-4910-82cf-8f469b59dd7e")
-	)
-	(junction
-		(at 297.18 339.09)
+		(at 421.64 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a52a2f-1cfa-40fd-bfdb-1931e2ae5969")
@@ -18119,16 +18471,10 @@
 		(uuid "0cc09c0b-0cd4-4c23-bc33-6a3bc789dbbd")
 	)
 	(junction
-		(at 290.83 311.15)
+		(at 415.29 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f72921b-1982-40b6-823d-798e679efd13")
-	)
-	(junction
-		(at 143.51 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f8b19d2-dd44-4e47-8fb1-cba9c7709bb3")
 	)
 	(junction
 		(at 157.48 254)
@@ -18161,7 +18507,7 @@
 		(uuid "182d0574-b583-4238-8609-10157ed5b2d5")
 	)
 	(junction
-		(at 297.18 367.03)
+		(at 421.64 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a5eb7b7-0acc-4e50-857b-36c523503337")
@@ -18173,10 +18519,10 @@
 		(uuid "1a6c498f-4fd2-4658-9266-a0128f12c7ce")
 	)
 	(junction
-		(at 143.51 73.66)
+		(at 143.51 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1f233d9b-66b2-4c12-a921-3bd9f17a2649")
+		(uuid "1d583a82-ef3e-46f5-abd5-fc4509b35f79")
 	)
 	(junction
 		(at 163.83 86.36)
@@ -18185,13 +18531,7 @@
 		(uuid "21cfca91-8cbe-49f4-acc5-99baa8fecbc0")
 	)
 	(junction
-		(at 143.51 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2588844f-6270-4690-85d8-bd2e0612ced2")
-	)
-	(junction
-		(at 297.18 354.33)
+		(at 421.64 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f05ad5-7a8e-42f3-b60c-5613fbe4df74")
@@ -18209,40 +18549,40 @@
 		(uuid "2e6f210b-fc16-4eae-91ae-5d0c0f0c544d")
 	)
 	(junction
+		(at 143.51 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "326e4ddc-1447-45ed-8d19-632ce5dcd729")
+	)
+	(junction
 		(at 163.83 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "364247f1-eb7e-4a20-b6ad-599463d1447f")
 	)
 	(junction
-		(at 290.83 367.03)
+		(at 415.29 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f4e941c-43d8-40a9-8d16-79d44137b647")
+	)
+	(junction
+		(at 143.51 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40cdefc4-e7c4-4abc-8769-efc964efe4a2")
+	)
+	(junction
+		(at 401.32 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45dbb43d-4096-497f-9634-5bbf3f43ab9a")
 	)
 	(junction
 		(at 204.47 370.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "475345f0-78aa-4fba-9ff4-dd7234e2db19")
-	)
-	(junction
-		(at 143.51 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b283894-95c3-4739-8d1c-c8c35feb3250")
-	)
-	(junction
-		(at 143.51 269.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c32d947-c873-449d-917b-1d16bace3e84")
-	)
-	(junction
-		(at 276.86 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e321b9d-5f33-41bb-b1da-309627a3b2da")
 	)
 	(junction
 		(at 157.48 114.3)
@@ -18269,22 +18609,16 @@
 		(uuid "5317d5ee-c757-4ad1-a835-185b53746065")
 	)
 	(junction
-		(at 143.51 241.3)
+		(at 143.51 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56e9f77c-f0f8-43dc-a8e6-a335b57b48ce")
+		(uuid "53832956-78c3-4bca-92e9-9998d0591cb1")
 	)
 	(junction
-		(at 334.01 354.33)
+		(at 458.47 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57cb1651-0055-4690-bea3-f7d7158bf9b6")
-	)
-	(junction
-		(at 143.51 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59402af0-5b1f-4bf8-a878-a38380501968")
 	)
 	(junction
 		(at 163.83 226.06)
@@ -18299,19 +18633,13 @@
 		(uuid "677724de-914d-41be-b443-17928c4c4402")
 	)
 	(junction
-		(at 142.24 354.33)
+		(at 401.32 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e11b209-de20-49c8-af61-09ca4b235648")
+		(uuid "732f9dfe-5812-4904-ab88-d13da738841c")
 	)
 	(junction
-		(at 276.86 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74322bc6-6b7e-4e84-9299-9036ac37421d")
-	)
-	(junction
-		(at 297.18 298.45)
+		(at 421.64 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77559b09-d2ce-4d87-8b5e-6a33399b97a4")
@@ -18341,16 +18669,34 @@
 		(uuid "86dc17bd-1ad2-4030-87f9-56016e41b6c8")
 	)
 	(junction
-		(at 334.01 326.39)
+		(at 143.51 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871731cb-84c9-452e-9539-9b4077f91c36")
+	)
+	(junction
+		(at 458.47 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "888a15d8-0692-4b59-8955-2b87e49414af")
+	)
+	(junction
+		(at 401.32 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898349f0-c852-4072-af20-bd0c86eaee40")
 	)
 	(junction
 		(at 204.47 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c8356b6-9e87-4b55-9742-5c217200ade8")
+	)
+	(junction
+		(at 143.51 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dfb8e1d-2b51-43e9-b48a-efa92d87b696")
 	)
 	(junction
 		(at 163.83 325.12)
@@ -18383,7 +18729,13 @@
 		(uuid "96cb6fbe-951a-47e5-8a78-d232e592962a")
 	)
 	(junction
-		(at 334.01 270.51)
+		(at 143.51 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a31e0621-d11b-4652-8152-88ca343ffab7")
+	)
+	(junction
+		(at 458.47 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a608c24c-1fec-4bac-bd36-e2bff9f25e11")
@@ -18413,16 +18765,16 @@
 		(uuid "b6283c83-48db-49b6-8aee-8a65da07843b")
 	)
 	(junction
+		(at 143.51 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9358422-0957-4a87-80c3-24fde0eecb31")
+	)
+	(junction
 		(at 200.66 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c68a6f-94e6-4007-b029-c209ec66e65d")
-	)
-	(junction
-		(at 143.51 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9e3a5fe-16c8-4128-a059-015773b38953")
 	)
 	(junction
 		(at 157.48 226.06)
@@ -18431,13 +18783,25 @@
 		(uuid "cb31fe94-89da-4543-a455-3a997153916d")
 	)
 	(junction
+		(at 142.24 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1bd08a0-48dc-4cba-ad77-dbedc0a40412")
+	)
+	(junction
+		(at 143.51 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d277c246-cd7a-48f0-85ab-3dd1889b67a3")
+	)
+	(junction
 		(at 157.48 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d475d567-6c40-4ccc-a761-7327a9a74850")
 	)
 	(junction
-		(at 297.18 283.21)
+		(at 421.64 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6d25af7-f027-454a-833b-03ccd36071a5")
@@ -18449,16 +18813,16 @@
 		(uuid "da57dc47-e21b-4afa-b9d4-15d8727ab7b1")
 	)
 	(junction
-		(at 334.01 298.45)
+		(at 458.47 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbfb5cf4-f495-4e3d-8f14-64fc5d67f1d2")
 	)
 	(junction
-		(at 276.86 298.45)
+		(at 143.51 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dee57f64-8f6c-46e2-a81f-a17bf6589c2b")
+		(uuid "dfa1b3e5-3215-48b0-a9d6-51f0ad40c96b")
 	)
 	(junction
 		(at 163.83 241.3)
@@ -18473,16 +18837,16 @@
 		(uuid "e31ae3f2-9a0f-4075-ac1a-136c60a69d0b")
 	)
 	(junction
-		(at 297.18 326.39)
+		(at 421.64 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f01b585b-5c8c-43c6-9f2a-a6a56b9662a9")
 	)
 	(junction
-		(at 276.86 270.51)
+		(at 401.32 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f49f19b9-81dc-4b1f-bf5b-e05089615875")
+		(uuid "f0b75585-4db7-4742-b3fa-c76218a83e50")
 	)
 	(junction
 		(at 200.66 297.18)
@@ -18497,13 +18861,13 @@
 		(uuid "f6c2f4c8-809b-41aa-bc78-3626e588bb49")
 	)
 	(junction
-		(at 297.18 311.15)
+		(at 421.64 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc93965e-6bb0-44cd-9730-d56d4c86d568")
 	)
 	(junction
-		(at 290.83 339.09)
+		(at 415.29 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcd97ed6-5e44-4f57-8846-06c98ea8c739")
@@ -18520,17 +18884,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 143.51 129.54)
+			(xy 365.76 182.88) (xy 372.11 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "051a5e14-3931-4bea-bd15-84c0c30ee13c")
+		(uuid "04eea1b0-3d6f-4ba3-8a5c-1b98baca64bc")
 	)
 	(wire
 		(pts
-			(xy 334.01 368.3) (xy 334.01 354.33)
+			(xy 110.49 354.33) (xy 116.84 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053fffe7-ac4c-42b4-af84-58c9aaa7833f")
+	)
+	(wire
+		(pts
+			(xy 458.47 280.67) (xy 458.47 266.7)
 		)
 		(stroke
 			(width 0)
@@ -18540,7 +18914,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 381) (xy 290.83 381)
+			(xy 421.64 293.37) (xy 415.29 293.37)
 		)
 		(stroke
 			(width 0)
@@ -18550,7 +18924,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 340.36) (xy 334.01 326.39)
+			(xy 458.47 252.73) (xy 458.47 238.76)
 		)
 		(stroke
 			(width 0)
@@ -18560,23 +18934,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 269.24) (xy 143.51 269.24)
+			(xy 110.49 269.24) (xy 116.84 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a700f77-a9ec-44d8-8ae7-f6c647adc7bb")
+		(uuid "0795d11b-e2e0-49e5-b4f6-5cf50091a341")
 	)
 	(wire
 		(pts
-			(xy 290.83 325.12) (xy 290.83 339.09)
+			(xy 415.29 237.49) (xy 415.29 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b241edd-20a0-4279-a5b8-8f7d7ff7a759")
+	)
+	(wire
+		(pts
+			(xy 388.62 266.7) (xy 401.32 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc6f4b3-e160-4904-9517-6d045e1e1a1e")
 	)
 	(wire
 		(pts
@@ -18600,16 +18984,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 270.51) (xy 276.86 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db1b61b-e0eb-4787-b23d-04b5d9bbb3e2")
-	)
-	(wire
-		(pts
 			(xy 200.66 318.77) (xy 200.66 325.12)
 		)
 		(stroke
@@ -18630,7 +19004,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 367.03) (xy 297.18 367.03)
+			(xy 415.29 279.4) (xy 421.64 279.4)
 		)
 		(stroke
 			(width 0)
@@ -18647,6 +19021,26 @@
 			(type default)
 		)
 		(uuid "11bdefc1-7cf5-4b84-a66c-989cf29d112d")
+	)
+	(wire
+		(pts
+			(xy 81.28 354.33) (xy 92.71 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12636362-2486-49ab-ac90-e6b25c56bdb3")
+	)
+	(wire
+		(pts
+			(xy 78.74 241.3) (xy 92.71 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c5cbd5-d8f4-4f71-9e3d-f3368b6e8e31")
 	)
 	(wire
 		(pts
@@ -18680,7 +19074,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 270.51) (xy 334.01 270.51)
+			(xy 450.85 182.88) (xy 458.47 182.88)
 		)
 		(stroke
 			(width 0)
@@ -18697,16 +19091,6 @@
 			(type default)
 		)
 		(uuid "1711653b-8e5b-44b9-bef1-df98cf699c79")
-	)
-	(wire
-		(pts
-			(xy 260.35 354.33) (xy 276.86 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18318335-6589-4f85-aa02-b01a946ecf9c")
 	)
 	(wire
 		(pts
@@ -18740,7 +19124,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 354.33) (xy 127 364.49)
+			(xy 81.28 354.33) (xy 81.28 358.14)
 		)
 		(stroke
 			(width 0)
@@ -18760,13 +19144,33 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 326.39) (xy 276.86 326.39)
+			(xy 367.03 210.82) (xy 372.11 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c503944-a2f8-437b-bc70-bc229902c31a")
+		(uuid "1eb2020b-d038-493f-8ce4-5ee1ac420cec")
+	)
+	(wire
+		(pts
+			(xy 110.49 325.12) (xy 115.57 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207fcf76-885c-467e-a5de-40939ee52f47")
+	)
+	(wire
+		(pts
+			(xy 143.51 185.42) (xy 163.83 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2287a6f7-9919-4f16-80a6-9e30ff6701ee")
 	)
 	(wire
 		(pts
@@ -18800,13 +19204,23 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 292.1) (xy 334.01 298.45)
+			(xy 458.47 204.47) (xy 458.47 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2580fcbf-5c22-4204-9f0b-32e45f3428ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 115.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a2023e-7c17-4cb8-9601-f64bd66680d4")
 	)
 	(wire
 		(pts
@@ -18840,7 +19254,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 383.54) (xy 334.01 383.54)
+			(xy 464.82 295.91) (xy 458.47 295.91)
 		)
 		(stroke
 			(width 0)
@@ -18870,7 +19284,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 378.46) (xy 297.18 381)
+			(xy 421.64 290.83) (xy 421.64 293.37)
 		)
 		(stroke
 			(width 0)
@@ -18887,6 +19301,16 @@
 			(type default)
 		)
 		(uuid "2c046b7c-ac0f-44d5-b5f5-2b565d678a15")
+	)
+	(wire
+		(pts
+			(xy 110.49 157.48) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daa101f-30c6-4a53-a984-05dca9ec0b6a")
 	)
 	(wire
 		(pts
@@ -18920,6 +19344,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 241.3) (xy 116.84 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32220775-1046-4208-b7d7-5fbc48274ae9")
+	)
+	(wire
+		(pts
 			(xy 157.48 100.33) (xy 157.48 114.3)
 		)
 		(stroke
@@ -18950,17 +19384,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 297.18) (xy 143.51 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c0914b-d52f-44e2-a4c4-9e8d81b7f6e7")
-	)
-	(wire
-		(pts
-			(xy 326.39 326.39) (xy 334.01 326.39)
+			(xy 450.85 238.76) (xy 458.47 238.76)
 		)
 		(stroke
 			(width 0)
@@ -19000,7 +19424,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 311.15) (xy 297.18 311.15)
+			(xy 415.29 223.52) (xy 421.64 223.52)
 		)
 		(stroke
 			(width 0)
@@ -19010,7 +19434,17 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 298.45) (xy 349.25 298.45)
+			(xy 367.03 266.7) (xy 373.38 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8ae7ea-cc49-4b38-81f1-7a88d8c0e39e")
+	)
+	(wire
+		(pts
+			(xy 458.47 210.82) (xy 473.71 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19020,7 +19454,17 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 270.51) (xy 313.69 270.51)
+			(xy 130.81 157.48) (xy 143.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3b71b7-d360-4678-9d57-3ef227ac50b3")
+	)
+	(wire
+		(pts
+			(xy 421.64 182.88) (xy 438.15 182.88)
 		)
 		(stroke
 			(width 0)
@@ -19040,7 +19484,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 298.45) (xy 313.69 298.45)
+			(xy 421.64 210.82) (xy 438.15 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19080,6 +19524,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43084932-0fa2-43e9-ade5-133b0a735f25")
+	)
+	(wire
+		(pts
 			(xy 200.66 213.36) (xy 215.9 213.36)
 		)
 		(stroke
@@ -19100,13 +19554,23 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 297.18) (xy 290.83 297.18)
+			(xy 421.64 209.55) (xy 415.29 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46f520c3-acdd-4e68-ac2c-d83dfad79aeb")
+	)
+	(wire
+		(pts
+			(xy 387.35 210.82) (xy 401.32 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4767cea5-94c0-417f-8703-4ab29edada26")
 	)
 	(wire
 		(pts
@@ -19117,6 +19581,16 @@
 			(type default)
 		)
 		(uuid "4911b378-de2a-41d4-a854-4b131935af75")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cdaf79-f845-4e50-8d9c-2003265c07ea")
 	)
 	(wire
 		(pts
@@ -19180,6 +19654,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 185.42) (xy 92.71 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edca60e-4b90-4b55-b852-9a265406ca75")
+	)
+	(wire
+		(pts
 			(xy 151.13 254) (xy 157.48 254)
 		)
 		(stroke
@@ -19200,6 +19684,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 269.24) (xy 92.71 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f241a4-15ea-4be0-b558-d8cd8d5943fa")
+	)
+	(wire
+		(pts
+			(xy 132.08 354.33) (xy 142.24 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b154e-10bb-4c2d-bea5-4e53fc20f807")
+	)
+	(wire
+		(pts
 			(xy 200.66 143.51) (xy 200.66 129.54)
 		)
 		(stroke
@@ -19207,6 +19711,16 @@
 			(type default)
 		)
 		(uuid "53de48a1-1760-4cf0-8451-fb6df4f1117f")
+	)
+	(wire
+		(pts
+			(xy 341.63 210.82) (xy 349.25 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541b0686-5670-4df5-a673-89b52861f008")
 	)
 	(wire
 		(pts
@@ -19220,6 +19734,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55742109-8bf1-43cf-9d23-081f462aea09")
+	)
+	(wire
+		(pts
+			(xy 387.35 238.76) (xy 401.32 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fa4f39-12fb-48a7-8100-ec2ed99fe7d8")
+	)
+	(wire
+		(pts
 			(xy 163.83 101.6) (xy 180.34 101.6)
 		)
 		(stroke
@@ -19230,7 +19764,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 298.45) (xy 334.01 298.45)
+			(xy 450.85 210.82) (xy 458.47 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19250,7 +19784,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 353.06) (xy 290.83 353.06)
+			(xy 421.64 265.43) (xy 415.29 265.43)
 		)
 		(stroke
 			(width 0)
@@ -19260,7 +19794,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 320.04) (xy 334.01 326.39)
+			(xy 458.47 232.41) (xy 458.47 238.76)
 		)
 		(stroke
 			(width 0)
@@ -19300,6 +19834,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 266.7) (xy 349.25 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eabcd07-419d-4567-bbbf-fd8dafe29a92")
+	)
+	(wire
+		(pts
 			(xy 163.83 185.42) (xy 180.34 185.42)
 		)
 		(stroke
@@ -19310,7 +19854,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 185.42) (xy 163.83 185.42)
+			(xy 130.81 185.42) (xy 143.51 185.42)
 		)
 		(stroke
 			(width 0)
@@ -19320,7 +19864,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 270.51) (xy 349.25 270.51)
+			(xy 458.47 182.88) (xy 473.71 182.88)
 		)
 		(stroke
 			(width 0)
@@ -19337,16 +19881,6 @@
 			(type default)
 		)
 		(uuid "629a3418-6201-4aaf-b917-1c8c59db5b61")
-	)
-	(wire
-		(pts
-			(xy 127 185.42) (xy 143.51 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6351e304-3cd0-4b10-86eb-03c795d72b1d")
 	)
 	(wire
 		(pts
@@ -19450,7 +19984,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 383.54) (xy 334.01 375.92)
+			(xy 458.47 295.91) (xy 458.47 288.29)
 		)
 		(stroke
 			(width 0)
@@ -19490,7 +20024,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 283.21) (xy 297.18 283.21)
+			(xy 408.94 195.58) (xy 421.64 195.58)
 		)
 		(stroke
 			(width 0)
@@ -19510,7 +20044,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 354.33) (xy 313.69 354.33)
+			(xy 421.64 266.7) (xy 438.15 266.7)
 		)
 		(stroke
 			(width 0)
@@ -19580,7 +20114,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 339.09) (xy 297.18 342.9)
+			(xy 421.64 251.46) (xy 421.64 255.27)
 		)
 		(stroke
 			(width 0)
@@ -19600,7 +20134,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 326.39) (xy 313.69 326.39)
+			(xy 421.64 238.76) (xy 438.15 238.76)
 		)
 		(stroke
 			(width 0)
@@ -19610,7 +20144,17 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 354.33) (xy 349.25 354.33)
+			(xy 130.81 325.12) (xy 143.51 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb18212-25ef-4a92-87c7-ffe0fa895762")
+	)
+	(wire
+		(pts
+			(xy 458.47 266.7) (xy 473.71 266.7)
 		)
 		(stroke
 			(width 0)
@@ -19660,23 +20204,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 354.33) (xy 334.01 354.33)
+			(xy 450.85 266.7) (xy 458.47 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "846d957e-8dcf-4d71-852b-948cdf665f62")
-	)
-	(wire
-		(pts
-			(xy 127 325.12) (xy 143.51 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8629e0ed-402f-4606-831b-83082937d36d")
 	)
 	(wire
 		(pts
@@ -19690,13 +20224,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 143.51 157.48)
+			(xy 78.74 213.36) (xy 92.71 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88a3f735-71e9-4f5e-ae95-c251c68679f3")
+		(uuid "88d82d8d-921d-478e-8c20-f6f83187c847")
 	)
 	(wire
 		(pts
@@ -19710,7 +20244,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 298.45) (xy 297.18 298.45)
+			(xy 401.32 210.82) (xy 421.64 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19720,7 +20254,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 322.58) (xy 297.18 325.12)
+			(xy 421.64 234.95) (xy 421.64 237.49)
 		)
 		(stroke
 			(width 0)
@@ -19750,23 +20284,13 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 311.15) (xy 297.18 314.96)
+			(xy 421.64 223.52) (xy 421.64 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9034816f-29a6-4354-b04b-a590c1058507")
-	)
-	(wire
-		(pts
-			(xy 127 354.33) (xy 142.24 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c08e59-c47d-416d-9fff-6b57604c6d1a")
 	)
 	(wire
 		(pts
@@ -19780,7 +20304,17 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 294.64) (xy 297.18 297.18)
+			(xy 109.22 73.66) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93285df3-f3e7-4a89-9400-d5a9771e31e5")
+	)
+	(wire
+		(pts
+			(xy 421.64 207.01) (xy 421.64 209.55)
 		)
 		(stroke
 			(width 0)
@@ -19807,6 +20341,26 @@
 			(type default)
 		)
 		(uuid "95193229-fa5a-459f-b3ce-75c09a10fdae")
+	)
+	(wire
+		(pts
+			(xy 132.08 297.18) (xy 143.51 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d7bfcb-d6b5-4eb8-a0e0-4344b13fec86")
+	)
+	(wire
+		(pts
+			(xy 387.35 182.88) (xy 401.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c4dbb6-735e-4cd1-a763-8a3b6791a4ae")
 	)
 	(wire
 		(pts
@@ -19840,6 +20394,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 238.76) (xy 372.11 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2f23e1-a350-4226-9a24-7b879da29983")
+	)
+	(wire
+		(pts
 			(xy 157.48 351.79) (xy 157.48 367.03)
 		)
 		(stroke
@@ -19850,6 +20414,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc94504-07a8-4162-bd20-d0dd27fd1350")
+	)
+	(wire
+		(pts
 			(xy 163.83 184.15) (xy 157.48 184.15)
 		)
 		(stroke
@@ -19857,16 +20431,6 @@
 			(type default)
 		)
 		(uuid "9bfb375e-be77-4627-9458-d2657047c1ae")
-	)
-	(wire
-		(pts
-			(xy 127 241.3) (xy 143.51 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c032845-f0c8-4760-8e16-902b92375879")
 	)
 	(wire
 		(pts
@@ -19900,7 +20464,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 326.39) (xy 349.25 326.39)
+			(xy 458.47 238.76) (xy 473.71 238.76)
 		)
 		(stroke
 			(width 0)
@@ -19960,23 +20524,43 @@
 	)
 	(wire
 		(pts
-			(xy 127 213.36) (xy 143.51 213.36)
+			(xy 78.74 297.18) (xy 92.71 297.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab8791ea-68a8-4ec9-aa77-a9626580b4c6")
+		(uuid "acfc0717-165d-4e67-aeb1-eac3bc8c925f")
 	)
 	(wire
 		(pts
-			(xy 297.18 350.52) (xy 297.18 353.06)
+			(xy 421.64 262.89) (xy 421.64 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad8456f9-1adf-40d6-bd88-13e15f544396")
+	)
+	(wire
+		(pts
+			(xy 110.49 213.36) (xy 116.84 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae631bf3-af3f-4bf8-b069-48f6fe9a871f")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 143.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1620707-988b-4462-92f0-3e0f609cb4df")
 	)
 	(wire
 		(pts
@@ -20000,13 +20584,23 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 311.15) (xy 290.83 311.15)
+			(xy 408.94 223.52) (xy 415.29 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5fe9f01-f937-4f7b-8ee7-9b68bfbdaca4")
+	)
+	(wire
+		(pts
+			(xy 78.74 325.12) (xy 92.71 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7dae01d-ea6a-4ddc-a6cf-f0fa2a4beb02")
 	)
 	(wire
 		(pts
@@ -20030,7 +20624,17 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 381) (xy 290.83 394.97)
+			(xy 132.08 241.3) (xy 143.51 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa20ce1-f3c6-4113-aaba-84381262b52f")
+	)
+	(wire
+		(pts
+			(xy 415.29 293.37) (xy 415.29 307.34)
 		)
 		(stroke
 			(width 0)
@@ -20090,7 +20694,17 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 367.03) (xy 297.18 370.84)
+			(xy 132.08 269.24) (xy 143.51 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d5c495-3763-4638-8ed3-dbe4ea9e7136")
+	)
+	(wire
+		(pts
+			(xy 421.64 279.4) (xy 421.64 283.21)
 		)
 		(stroke
 			(width 0)
@@ -20100,7 +20714,17 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 339.09) (xy 297.18 339.09)
+			(xy 341.63 238.76) (xy 349.25 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51494fd-42f2-4ec8-a7e1-8f3193ecfd91")
+	)
+	(wire
+		(pts
+			(xy 415.29 251.46) (xy 421.64 251.46)
 		)
 		(stroke
 			(width 0)
@@ -20120,7 +20744,17 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 297.18) (xy 290.83 311.15)
+			(xy 132.08 213.36) (xy 143.51 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c553b243-7b5f-4b89-a935-322b73a60680")
+	)
+	(wire
+		(pts
+			(xy 415.29 209.55) (xy 415.29 223.52)
 		)
 		(stroke
 			(width 0)
@@ -20130,7 +20764,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 283.21) (xy 297.18 287.02)
+			(xy 421.64 195.58) (xy 421.64 199.39)
 		)
 		(stroke
 			(width 0)
@@ -20150,7 +20784,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 353.06) (xy 290.83 367.03)
+			(xy 415.29 265.43) (xy 415.29 279.4)
 		)
 		(stroke
 			(width 0)
@@ -20167,6 +20801,16 @@
 			(type default)
 		)
 		(uuid "d1b99075-3c04-467f-bb4e-d452c836a0ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 297.18) (xy 116.84 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d352ef2c-65dc-49d7-b077-4095fb910e5c")
 	)
 	(wire
 		(pts
@@ -20190,7 +20834,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 354.33) (xy 297.18 354.33)
+			(xy 401.32 266.7) (xy 421.64 266.7)
 		)
 		(stroke
 			(width 0)
@@ -20260,6 +20904,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95b4537-5977-4678-9fbe-f8817ba1d2a7")
+	)
+	(wire
+		(pts
 			(xy 204.47 370.84) (xy 210.82 370.84)
 		)
 		(stroke
@@ -20270,7 +20924,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 325.12) (xy 290.83 325.12)
+			(xy 421.64 237.49) (xy 415.29 237.49)
 		)
 		(stroke
 			(width 0)
@@ -20280,7 +20934,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 367.03) (xy 290.83 367.03)
+			(xy 408.94 279.4) (xy 415.29 279.4)
 		)
 		(stroke
 			(width 0)
@@ -20290,17 +20944,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 143.51 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5b6352-48ef-4ba0-8d76-936d7349653d")
-	)
-	(wire
-		(pts
-			(xy 276.86 326.39) (xy 297.18 326.39)
+			(xy 401.32 238.76) (xy 421.64 238.76)
 		)
 		(stroke
 			(width 0)
@@ -20310,7 +20954,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 347.98) (xy 334.01 354.33)
+			(xy 458.47 260.35) (xy 458.47 266.7)
 		)
 		(stroke
 			(width 0)
@@ -20370,7 +21014,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 284.48) (xy 334.01 270.51)
+			(xy 458.47 196.85) (xy 458.47 182.88)
 		)
 		(stroke
 			(width 0)
@@ -20400,13 +21044,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 143.51 101.6)
+			(xy 81.28 73.66) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f36ab14f-e369-4c4f-9b81-5181b2762727")
+		(uuid "f31e4b67-067c-4a63-8c69-15b34c883611")
 	)
 	(wire
 		(pts
@@ -20420,23 +21064,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 339.09) (xy 290.83 339.09)
+			(xy 408.94 251.46) (xy 415.29 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f56ccac7-06aa-4122-bd05-c355f6f54af0")
-	)
-	(wire
-		(pts
-			(xy 260.35 298.45) (xy 276.86 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ad92b8-f030-47ac-94b2-8aeed9b9765f")
 	)
 	(wire
 		(pts
@@ -20450,7 +21084,17 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 312.42) (xy 334.01 298.45)
+			(xy 80.01 129.54) (xy 92.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cdad53-b2ac-4640-8554-7885755e496f")
+	)
+	(wire
+		(pts
+			(xy 458.47 224.79) (xy 458.47 210.82)
 		)
 		(stroke
 			(width 0)
@@ -20460,13 +21104,33 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 270.51) (xy 297.18 270.51)
+			(xy 401.32 182.88) (xy 421.64 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc54ced4-7171-4509-98c6-610752ce1923")
+	)
+	(wire
+		(pts
+			(xy 110.49 185.42) (xy 115.57 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd15c25a-debd-4d7f-8267-46873779074b")
+	)
+	(wire
+		(pts
+			(xy 342.9 182.88) (xy 347.98 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd276418-21a0-40ad-83b4-8360a589bd76")
 	)
 	(wire
 		(pts
@@ -20480,7 +21144,7 @@
 	)
 	(global_label "Cell 0S"
 		(shape input)
-		(at 127 354.33 180)
+		(at 81.28 354.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20490,7 +21154,7 @@
 		)
 		(uuid "0aa0d328-66f3-4919-a0c3-a721762b6082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9392 354.33 0)
+			(at 71.2192 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20546,7 +21210,7 @@
 	)
 	(global_label "Cell 4"
 		(shape input)
-		(at 127 241.3 180)
+		(at 78.74 241.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20556,7 +21220,7 @@
 		)
 		(uuid "1ed63ab5-9720-4f9a-8dd0-73f24f0e775d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 241.3 0)
+			(at 69.8887 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20568,7 +21232,7 @@
 	)
 	(global_label "VC11"
 		(shape input)
-		(at 349.25 354.33 0)
+		(at 473.71 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20578,7 +21242,7 @@
 		)
 		(uuid "2058b7e8-1015-4794-a5ec-9120b8b98009")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.0128 354.33 0)
+			(at 481.4728 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20612,7 +21276,7 @@
 	)
 	(global_label "VC12"
 		(shape input)
-		(at 349.25 326.39 0)
+		(at 473.71 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20622,7 +21286,7 @@
 		)
 		(uuid "269b63f7-8c21-4435-b197-851f78fb4301")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.0128 326.39 0)
+			(at 481.4728 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20634,7 +21298,7 @@
 	)
 	(global_label "CB11"
 		(shape input)
-		(at 284.48 367.03 180)
+		(at 408.94 279.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20644,7 +21308,7 @@
 		)
 		(uuid "2e4ec010-9c4c-497e-9b0f-e522e336e6df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5358 367.03 0)
+			(at 400.9958 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +21320,7 @@
 	)
 	(global_label "Cell 1"
 		(shape input)
-		(at 127 325.12 180)
+		(at 78.74 325.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20666,7 +21330,7 @@
 		)
 		(uuid "30db6e99-6324-46e0-85f5-59d56dcab2e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 325.12 0)
+			(at 69.8887 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20832,7 +21496,7 @@
 	)
 	(global_label "Cell 5"
 		(shape input)
-		(at 127 213.36 180)
+		(at 78.74 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20842,7 +21506,7 @@
 		)
 		(uuid "618f4366-c1fa-4cd9-b61c-b9a98108b131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 213.36 0)
+			(at 69.8887 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20854,7 +21518,7 @@
 	)
 	(global_label "CB10"
 		(shape input)
-		(at 290.83 394.97 180)
+		(at 415.29 307.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20864,7 +21528,7 @@
 		)
 		(uuid "65aef8b0-c11e-424f-8c3e-b92c04b0af3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.8858 394.97 0)
+			(at 407.3458 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20876,7 +21540,7 @@
 	)
 	(global_label "CB13"
 		(shape input)
-		(at 284.48 311.15 180)
+		(at 408.94 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20886,7 +21550,7 @@
 		)
 		(uuid "68541906-15de-4829-854b-30b8c75c9249")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5358 311.15 0)
+			(at 400.9958 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20898,7 +21562,7 @@
 	)
 	(global_label "VC10"
 		(shape input)
-		(at 340.36 383.54 0)
+		(at 464.82 295.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20908,7 +21572,7 @@
 		)
 		(uuid "82ab4653-8749-4f75-bedf-70d530a91422")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.1228 383.54 0)
+			(at 472.5828 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20920,7 +21584,7 @@
 	)
 	(global_label "Cell 9"
 		(shape input)
-		(at 127 101.6 180)
+		(at 80.01 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20930,7 +21594,7 @@
 		)
 		(uuid "8630a4cb-64c1-428e-a23f-55dcebbd0c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 101.6 0)
+			(at 71.1587 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20942,7 +21606,7 @@
 	)
 	(global_label "VC13"
 		(shape input)
-		(at 349.25 298.45 0)
+		(at 473.71 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20952,7 +21616,7 @@
 		)
 		(uuid "86f5bc78-3f97-4f24-95b4-65329f1a3b92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.0128 298.45 0)
+			(at 481.4728 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20964,7 +21628,7 @@
 	)
 	(global_label "Cell 14S"
 		(shape input)
-		(at 260.35 270.51 180)
+		(at 342.9 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20974,7 +21638,7 @@
 		)
 		(uuid "879c0b3d-cc15-4928-abbf-656a54826e7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.0797 270.51 0)
+			(at 331.6297 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20986,7 +21650,7 @@
 	)
 	(global_label "CB14"
 		(shape input)
-		(at 284.48 283.21 180)
+		(at 408.94 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20996,7 +21660,7 @@
 		)
 		(uuid "87ee4793-6d04-4fce-a935-280cd4b294df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5358 283.21 0)
+			(at 400.9958 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21052,7 +21716,7 @@
 	)
 	(global_label "Cell 8"
 		(shape input)
-		(at 127 129.54 180)
+		(at 80.01 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21062,7 +21726,7 @@
 		)
 		(uuid "98575574-a477-44dd-94d1-55f08d08b1ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 129.54 0)
+			(at 71.1587 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21074,7 +21738,7 @@
 	)
 	(global_label "Cell 10"
 		(shape input)
-		(at 127 73.66 180)
+		(at 81.28 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21084,7 +21748,7 @@
 		)
 		(uuid "9ad498fc-122e-4341-ab58-c155b4c49040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9392 73.66 0)
+			(at 71.2192 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +21804,7 @@
 	)
 	(global_label "Cell 11"
 		(shape input)
-		(at 260.35 354.33 180)
+		(at 340.36 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21150,7 +21814,7 @@
 		)
 		(uuid "a5c52103-4e52-443c-82e2-b2bbbd2f124f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.2892 354.33 0)
+			(at 330.2992 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21228,7 +21892,7 @@
 	)
 	(global_label "Cell 7"
 		(shape input)
-		(at 127 157.48 180)
+		(at 78.74 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21238,7 +21902,7 @@
 		)
 		(uuid "c89dc07c-34dc-43f2-bbd4-38edfb7e2c5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 157.48 0)
+			(at 69.8887 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21250,7 +21914,7 @@
 	)
 	(global_label "Cell 3"
 		(shape input)
-		(at 127 269.24 180)
+		(at 78.74 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21260,7 +21924,7 @@
 		)
 		(uuid "d35bfe8c-8604-4f28-8e8f-7ce83217f0ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 269.24 0)
+			(at 69.8887 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21272,7 +21936,7 @@
 	)
 	(global_label "Cell 13"
 		(shape input)
-		(at 260.35 298.45 180)
+		(at 341.63 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21282,7 +21946,7 @@
 		)
 		(uuid "d8af7cf5-15cc-4b2d-8821-13dc8433d9ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.2892 298.45 0)
+			(at 331.5692 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21294,7 +21958,7 @@
 	)
 	(global_label "Cell 0"
 		(shape input)
-		(at 127 364.49 0)
+		(at 81.28 358.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21304,7 +21968,7 @@
 		)
 		(uuid "d9b0b8d1-7c6a-4b45-af91-ca39f4171c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.8513 364.49 0)
+			(at 90.1313 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,7 +22002,7 @@
 	)
 	(global_label "Cell 2"
 		(shape input)
-		(at 127 297.18 180)
+		(at 78.74 297.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21348,7 +22012,7 @@
 		)
 		(uuid "dc501e8f-4ba5-4cbe-89af-590c28dce4de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 297.18 0)
+			(at 69.8887 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21360,7 +22024,7 @@
 	)
 	(global_label "CB12"
 		(shape input)
-		(at 284.48 339.09 180)
+		(at 408.94 251.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21370,7 +22034,7 @@
 		)
 		(uuid "dfbd0b4a-35a6-484a-bb66-7186eb0e0a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.5358 339.09 0)
+			(at 400.9958 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21426,7 +22090,7 @@
 	)
 	(global_label "Cell 6"
 		(shape input)
-		(at 127 185.42 180)
+		(at 78.74 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21436,7 +22100,7 @@
 		)
 		(uuid "e48fa930-39ff-4c02-b9ca-8f856c4e9751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1487 185.42 0)
+			(at 69.8887 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21514,7 +22178,7 @@
 	)
 	(global_label "VC14"
 		(shape input)
-		(at 349.25 270.51 0)
+		(at 473.71 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21524,7 +22188,7 @@
 		)
 		(uuid "fc693003-0e00-4ed7-95d9-a8ae16f92ffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.0128 270.51 0)
+			(at 481.4728 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21536,7 +22200,7 @@
 	)
 	(global_label "Cell 12"
 		(shape input)
-		(at 260.35 326.39 180)
+		(at 341.63 238.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21546,7 +22210,7 @@
 		)
 		(uuid "fce7c0e7-eda3-4752-9ebb-8403b6f96748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.2892 326.39 0)
+			(at 331.5692 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,7 +22325,7 @@
 	(symbol
 		(lib_name "ERA-3AEB101V_14")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
-		(at 313.69 326.39 0)
+		(at 438.15 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21670,7 +22334,7 @@
 		(fields_autoplaced yes)
 		(uuid "03f26b4a-68dd-46cb-b68d-9d21e55c73ff")
 		(property "Reference" "R30"
-			(at 320.04 320.04 0)
+			(at 444.5 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21678,7 +22342,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 320.04 322.58 0)
+			(at 444.5 234.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21686,7 +22350,7 @@
 			)
 		)
 		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
-			(at 314.452 331.47 0)
+			(at 438.912 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,7 +22360,7 @@
 			)
 		)
 		(property "Datasheet" "ERA-3AEB101V"
-			(at 314.198 329.692 0)
+			(at 438.658 242.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21706,7 +22370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 326.39 0)
+			(at 438.15 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21715,7 +22379,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3AEB101V"
-			(at 314.706 333.502 0)
+			(at 439.166 245.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21803,6 +22467,255 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 381 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f77a6f-0186-47d7-936a-b80efc7613b7")
+		(property "Reference" "F12"
+			(at 381 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 381 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7faba753-7f2c-48e8-9831-ce865b2aeaf2")
+		)
+		(pin "1"
+			(uuid "7690d6ac-c36a-469e-baa7-64aab8c50750")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 349.25 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06fbcf89-ee8f-43ff-a2b7-87b82604ab88")
+		(property "Reference" "F28"
+			(at 358.14 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 358.14 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 363.22 334.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 363.22 434.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 349.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 363.22 634.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 363.22 734.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 363.22 834.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 363.22 934.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 363.22 1034.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 363.22 1134.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 363.22 1234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad463a80-e8b5-4368-936f-de0435ed3cfe")
+		)
+		(pin "2"
+			(uuid "b92eab8e-c294-4f60-905c-ccf7d95d278c")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F28")
 					(unit 1)
 				)
 			)
@@ -22009,6 +22922,115 @@
 		)
 	)
 	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 124.46 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d8aaeb-b8b4-4dfa-8e15-5249ea35e377")
+		(property "Reference" "F6"
+			(at 124.46 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 124.46 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56dff619-c28c-44ab-a522-ea170100ebef")
+		)
+		(pin "1"
+			(uuid "36fdd0bf-3cb9-448d-b19e-ea31c9b9f27c")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CRCW12067R50FKEAHP_8")
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
 		(at 163.83 281.94 90)
@@ -22081,7 +23103,7 @@
 	(symbol
 		(lib_name "CRCW12067R50FKEAHP_13")
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
-		(at 297.18 311.15 90)
+		(at 421.64 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22089,7 +23111,7 @@
 		(dnp no)
 		(uuid "0cf7f59a-66ac-4fd7-8e02-7ba7c475c8d7")
 		(property "Reference" "R26"
-			(at 290.83 304.8 0)
+			(at 415.29 217.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22097,7 +23119,7 @@
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 293.37 304.8 0)
+			(at 417.83 217.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22105,7 +23127,7 @@
 			)
 		)
 		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
-			(at 303.276 312.166 0)
+			(at 427.736 224.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22115,7 +23137,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW12067R50FKEAHP"
-			(at 303.276 312.166 0)
+			(at 427.736 224.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22125,7 +23147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 311.15 0)
+			(at 421.64 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22151,7 +23173,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_19")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 334.01 375.92 90)
+		(at 458.47 288.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22160,7 +23182,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d0efa24-21e1-4c0a-a756-757d1343ae27")
 		(property "Reference" "C38"
-			(at 337.82 370.8399 90)
+			(at 462.28 283.2099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22169,7 +23191,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 337.82 373.3799 90)
+			(at 462.28 285.7499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22178,7 +23200,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 329.946 376.936 0)
+			(at 454.406 289.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22188,7 +23210,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 329.946 376.936 0)
+			(at 454.406 289.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22198,7 +23220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 375.92 0)
+			(at 458.47 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22207,7 +23229,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 329.946 376.936 0)
+			(at 454.406 289.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22233,7 +23255,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_6")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 297.18 378.46 90)
+		(at 421.64 290.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22242,7 +23264,7 @@
 		(fields_autoplaced yes)
 		(uuid "10cc5c02-1757-466f-83b0-9bcfa193c50e")
 		(property "Reference" "C34"
-			(at 300.99 373.3799 90)
+			(at 425.45 285.7499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22251,7 +23273,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 300.99 375.9199 90)
+			(at 425.45 288.2899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22260,7 +23282,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 293.37 378.206 0)
+			(at 417.83 290.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22270,7 +23292,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 293.37 378.206 0)
+			(at 417.83 290.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22280,7 +23302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 378.46 0)
+			(at 421.64 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22289,7 +23311,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 293.37 378.206 0)
+			(at 417.83 290.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22307,6 +23329,224 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11621272-2815-4e1f-af84-d760a3c62090")
+		(property "Reference" "F10"
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8223e7a8-7de1-4892-b568-fba9e361d8ee")
+		)
+		(pin "1"
+			(uuid "a47d4690-4d00-4b9e-951f-845af2664dbb")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 124.46 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1510624f-6a44-4016-96ba-259037100c04")
+		(property "Reference" "F3"
+			(at 124.46 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 124.46 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dcb7b20-0676-4128-9963-424311f6794b")
+		)
+		(pin "1"
+			(uuid "27e1090b-0be7-4c99-810a-d5ed19adf993")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -22475,9 +23715,149 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a36c1f-1a8e-4788-ba6a-3ec4faa074a1")
+		(property "Reference" "F16"
+			(at 101.6 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 450.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 550.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 750.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 850.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 950.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 1050.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1150.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1250.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414f637c-51db-4beb-82f9-3ca1e234b1cd")
+		)
+		(pin "2"
+			(uuid "6e363bb9-cad8-4a3e-8f3d-218436844bef")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GCM188R71C474KA55D_9")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 334.01 292.1 90)
+		(at 458.47 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22486,7 +23866,7 @@
 		(fields_autoplaced yes)
 		(uuid "23b6e51e-2b47-4d5b-a746-eb4f088f5b82")
 		(property "Reference" "C35"
-			(at 337.82 287.0199 90)
+			(at 462.28 199.3899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22495,7 +23875,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 337.82 289.5599 90)
+			(at 462.28 201.9299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22504,7 +23884,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 329.946 291.592 0)
+			(at 454.406 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22514,7 +23894,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 329.946 291.592 0)
+			(at 454.406 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22524,7 +23904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 292.1 0)
+			(at 458.47 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22533,7 +23913,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 329.946 291.592 0)
+			(at 454.406 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22759,7 +24139,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_14")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 334.01 320.04 90)
+		(at 458.47 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22768,7 +24148,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f081a15-c5dd-4a10-9c70-96b36b20a977")
 		(property "Reference" "C36"
-			(at 337.82 314.9599 90)
+			(at 462.28 227.3299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22777,7 +24157,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 337.82 317.4999 90)
+			(at 462.28 229.8699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22786,7 +24166,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 330.2 321.056 0)
+			(at 454.66 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22796,7 +24176,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 346.964 317.5 0)
+			(at 471.424 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22806,7 +24186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 320.04 0)
+			(at 458.47 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22815,7 +24195,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 330.2 321.056 0)
+			(at 454.66 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,6 +24441,286 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 349.25 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39000441-c2e6-4de8-ac06-88905b9a0feb")
+		(property "Reference" "F29"
+			(at 358.14 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 358.14 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 363.22 307.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 363.22 407.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 349.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 363.22 607.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 363.22 707.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 363.22 807.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 363.22 907.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 363.22 1007.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 363.22 1107.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 363.22 1207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78eb381-70df-4db1-bc6b-9bb18c131093")
+		)
+		(pin "2"
+			(uuid "03a2e902-4f32-45d7-b7d8-18e888e518b3")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1683c6-f31f-4c8c-ade1-03e33a0d9d61")
+		(property "Reference" "F17"
+			(at 101.6 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 421.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 521.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 721.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 821.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 921.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 1021.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1121.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1221.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cdc0282-0481-4660-8c05-4b7f5a389026")
+		)
+		(pin "2"
+			(uuid "b7a2809e-d5b3-4d13-9048-7e4d4f7f91d6")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CRCW12067R50FKEAHP_5")
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
 		(at 163.83 198.12 90)
@@ -23125,6 +24785,115 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 379.73 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b5f0d5-db01-41d9-aa13-1d7b95dba0b6")
+		(property "Reference" "F14"
+			(at 379.73 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 379.73 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ca233a6-71cc-48d7-a81e-aa963cfbb34e")
+		)
+		(pin "1"
+			(uuid "f220c55b-ac59-4675-b419-339b71eeb989")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F14")
 					(unit 1)
 				)
 			)
@@ -23296,7 +25065,7 @@
 	)
 	(symbol
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
-		(at 313.69 354.33 0)
+		(at 438.15 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23305,7 +25074,7 @@
 		(fields_autoplaced yes)
 		(uuid "46d438ab-0ee4-42ea-a45b-8bd146c93bad")
 		(property "Reference" "R31"
-			(at 320.04 347.98 0)
+			(at 444.5 260.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23313,7 +25082,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 320.04 350.52 0)
+			(at 444.5 262.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23321,7 +25090,7 @@
 			)
 		)
 		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
-			(at 313.69 359.156 0)
+			(at 438.15 271.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +25100,7 @@
 			)
 		)
 		(property "Datasheet" "ERA-3AEB101V"
-			(at 313.944 356.87 0)
+			(at 438.404 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23341,7 +25110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 354.33 0)
+			(at 438.15 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23350,7 +25119,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3AEB101V"
-			(at 313.69 361.188 0)
+			(at 438.15 273.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23368,6 +25137,146 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47360c3a-a0df-476e-8cb6-31e4334b8fac")
+		(property "Reference" "F22"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 281.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 381.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 581.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 681.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 781.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 881.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 981.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1081.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea5185a5-735f-4e4f-a830-b53c8873f8c6")
+		)
+		(pin "2"
+			(uuid "ff8288a5-bd37-40e6-bf8b-42bb534db3cb")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F22")
 					(unit 1)
 				)
 			)
@@ -23450,6 +25359,115 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee0349c-dc67-44be-8871-9f13cc1ec057")
+		(property "Reference" "F7"
+			(at 123.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eea68b9-fa1c-4987-a6ee-78429c037069")
+		)
+		(pin "1"
+			(uuid "e940c885-5d26-4a10-8ce6-ca362ac407aa")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -23574,6 +25592,146 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 349.25 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "532e7267-12bb-4e66-baff-635d18b7af95")
+		(property "Reference" "F27"
+			(at 358.14 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 358.14 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 363.22 362.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 363.22 462.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 349.25 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 363.22 662.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 363.22 762.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 363.22 862.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 363.22 962.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 363.22 1062.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 363.22 1162.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 363.22 1262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b8b94e6-f378-4ed4-a10c-c90120c8d8e6")
+		)
+		(pin "2"
+			(uuid "469dd78b-4502-406f-95fd-b2edecb21d47")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GCM188R71C474KA55D_5")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 200.66 290.83 90)
@@ -23650,6 +25808,146 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b0b1d8-be04-4963-9f3a-f145c0f0c82f")
+		(property "Reference" "F23"
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 253.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 353.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 553.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 653.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 753.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 853.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 953.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1053.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d10e5f70-2ab7-4022-8bc4-4b73e6b8a6c1")
+		)
+		(pin "2"
+			(uuid "cda7492c-e4db-48b2-91dc-5517d75dc83b")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F23")
 					(unit 1)
 				)
 			)
@@ -23966,8 +26264,117 @@
 		)
 	)
 	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63fe66a5-9b43-48ff-aed8-98315f275108")
+		(property "Reference" "F11"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86fab882-2202-476a-8b3f-38ea945b10c4")
+		)
+		(pin "1"
+			(uuid "547aab4f-d9fd-48e2-81bd-57a43f6fba09")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
-		(at 297.18 367.03 90)
+		(at 421.64 279.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23975,7 +26382,7 @@
 		(dnp no)
 		(uuid "656f97b6-15ff-4612-84ce-09351ad569f7")
 		(property "Reference" "R24"
-			(at 290.83 360.68 0)
+			(at 415.29 273.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23983,7 +26390,7 @@
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 293.37 360.68 0)
+			(at 417.83 273.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23991,7 +26398,7 @@
 			)
 		)
 		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
-			(at 302.768 367.03 0)
+			(at 427.228 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24001,7 +26408,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW12067R50FKEAHP"
-			(at 302.768 367.03 0)
+			(at 427.228 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24011,7 +26418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 367.03 0)
+			(at 421.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24036,7 +26443,7 @@
 	)
 	(symbol
 		(lib_id "5012:5012")
-		(at 276.86 293.37 90)
+		(at 401.32 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24045,7 +26452,7 @@
 		(fields_autoplaced yes)
 		(uuid "667d9530-4d6a-401b-b1ba-69d2cb74211c")
 		(property "Reference" "TP30"
-			(at 279.4 292.0999 90)
+			(at 403.86 204.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24054,7 +26461,7 @@
 			)
 		)
 		(property "Value" "5012"
-			(at 279.4 294.6399 90)
+			(at 403.86 207.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24063,7 +26470,7 @@
 			)
 		)
 		(property "Footprint" "TP5012:TP_5012"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24073,7 +26480,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24082,7 +26489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24091,7 +26498,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24101,7 +26508,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5010"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24111,7 +26518,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24121,7 +26528,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24131,7 +26538,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 293.37 0)
+			(at 401.32 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24295,7 +26702,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_7")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 297.18 350.52 90)
+		(at 421.64 262.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24304,7 +26711,7 @@
 		(fields_autoplaced yes)
 		(uuid "69c31c41-49b9-4e11-9003-444d4de00b89")
 		(property "Reference" "C33"
-			(at 300.99 345.4399 90)
+			(at 425.45 257.8099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24313,7 +26720,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 300.99 347.9799 90)
+			(at 425.45 260.3499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24322,7 +26729,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 293.878 350.012 0)
+			(at 418.338 262.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24332,7 +26739,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 293.878 350.012 0)
+			(at 418.338 262.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24342,7 +26749,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 350.52 0)
+			(at 421.64 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24351,7 +26758,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 293.878 350.012 0)
+			(at 418.338 262.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24369,6 +26776,224 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 124.46 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6abf3194-e4be-443d-8071-e209c2282407")
+		(property "Reference" "F5"
+			(at 124.46 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 124.46 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4960dbbf-0033-4c5e-a956-2af99b9006a1")
+		)
+		(pin "1"
+			(uuid "d1e4f003-53f9-4873-be01-706f593bb6ea")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 379.73 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c37c328-2cf9-4403-a2be-c81b8e8e8605")
+		(property "Reference" "F15"
+			(at 379.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 379.73 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f52213f-1a80-4e40-9779-df0a93d87e6e")
+		)
+		(pin "1"
+			(uuid "d61999b1-b285-4df4-afb3-eb4b814f9fa4")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F15")
 					(unit 1)
 				)
 			)
@@ -24439,6 +27064,146 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 347.98 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7313b05a-bf67-4cea-bed2-bc615c2adc06")
+		(property "Reference" "F30"
+			(at 356.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 356.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 361.95 279.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 361.95 379.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 347.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 361.95 579.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 361.95 679.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 361.95 779.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 361.95 879.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 361.95 979.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 361.95 1079.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 361.95 1179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee740f0-a190-4c9e-ba75-2ee65711ac64")
+		)
+		(pin "2"
+			(uuid "9d5d6e87-ab12-4ba7-82ad-6a3954628abe")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F30")
 					(unit 1)
 				)
 			)
@@ -24807,7 +27572,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_13")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 297.18 294.64 90)
+		(at 421.64 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24816,7 +27581,7 @@
 		(fields_autoplaced yes)
 		(uuid "77e054d2-3dbf-41a9-a55b-df9d78e757f6")
 		(property "Reference" "C31"
-			(at 300.99 289.5599 90)
+			(at 425.45 201.9299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24825,7 +27590,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 300.99 292.0999 90)
+			(at 425.45 204.4699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24834,7 +27599,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 293.37 293.878 0)
+			(at 417.83 206.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24844,7 +27609,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 293.37 293.878 0)
+			(at 417.83 206.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24854,7 +27619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 294.64 0)
+			(at 421.64 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24863,7 +27628,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 293.37 293.878 0)
+			(at 417.83 206.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24889,7 +27654,7 @@
 	(symbol
 		(lib_name "CRCW12067R50FKEAHP_14")
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
-		(at 297.18 339.09 90)
+		(at 421.64 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24897,7 +27662,7 @@
 		(dnp no)
 		(uuid "83209122-05f0-4e14-bcf0-3579e3175713")
 		(property "Reference" "R25"
-			(at 290.83 332.74 0)
+			(at 415.29 245.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24905,7 +27670,7 @@
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 293.37 332.74 0)
+			(at 417.83 245.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24913,7 +27678,7 @@
 			)
 		)
 		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
-			(at 301.752 339.09 0)
+			(at 426.212 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24923,7 +27688,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW12067R50FKEAHP"
-			(at 301.752 339.09 0)
+			(at 426.212 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24933,7 +27698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 339.09 0)
+			(at 421.64 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25145,8 +27910,117 @@
 		)
 	)
 	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 124.46 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c7036a1-ea63-411a-a5fa-ff945d05effb")
+		(property "Reference" "F4"
+			(at 124.46 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 124.46 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bde40d28-09d6-464a-a6f0-83d9194235cd")
+		)
+		(pin "1"
+			(uuid "026d37cb-79bf-41dc-bf5c-5c07ef442836")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5012:5012")
-		(at 276.86 349.25 90)
+		(at 401.32 261.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25155,7 +28029,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e45e358-6ed6-4a95-ae2a-29765543752a")
 		(property "Reference" "TP28"
-			(at 279.4 347.9799 90)
+			(at 403.86 260.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25164,7 +28038,7 @@
 			)
 		)
 		(property "Value" "5012"
-			(at 279.4 350.5199 90)
+			(at 403.86 262.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25173,7 +28047,7 @@
 			)
 		)
 		(property "Footprint" "TP5012:TP_5012"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25183,7 +28057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25192,7 +28066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25201,7 +28075,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25211,7 +28085,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5010"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25221,7 +28095,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25231,7 +28105,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25241,7 +28115,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 349.25 0)
+			(at 401.32 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25418,6 +28292,115 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 379.73 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a4a54df-8277-4f27-8e3c-2724fc7fa6d9")
+		(property "Reference" "F13"
+			(at 379.73 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 379.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5626aa01-4ce8-4346-be64-7bd0a81d1041")
+		)
+		(pin "1"
+			(uuid "162aa75d-dd07-4a88-a9d5-d03265d5a892")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F13")
 					(unit 1)
 				)
 			)
@@ -25622,9 +28605,149 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a668862f-ea7f-42a4-a956-af4303d5bb78")
+		(property "Reference" "F24"
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 225.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 325.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 525.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 625.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 725.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 825.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 925.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1025.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d84263a6-be60-47cd-8b15-b371d85b9051")
+		)
+		(pin "2"
+			(uuid "3320ebea-fbc3-4c51-851b-10db772578e5")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CRCW12067R50FKEAHP_12")
 		(lib_id "2024-10-28_23-49-19:CRCW12067R50FKEAHP")
-		(at 297.18 283.21 90)
+		(at 421.64 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25632,7 +28755,7 @@
 		(dnp no)
 		(uuid "a7523ea7-422f-4fa0-bfab-609b66d8f3d9")
 		(property "Reference" "R27"
-			(at 290.83 276.86 0)
+			(at 415.29 189.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25640,7 +28763,7 @@
 			)
 		)
 		(property "Value" "7.5 Ohm"
-			(at 293.37 276.86 0)
+			(at 417.83 189.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25648,7 +28771,7 @@
 			)
 		)
 		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
-			(at 302.768 283.21 0)
+			(at 427.228 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25658,7 +28781,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW12067R50FKEAHP"
-			(at 302.768 283.21 0)
+			(at 427.228 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25668,7 +28791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 283.21 0)
+			(at 421.64 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25764,7 +28887,7 @@
 	(symbol
 		(lib_name "GCM188R71C474KA55D_16")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 334.01 347.98 90)
+		(at 458.47 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25773,7 +28896,7 @@
 		(fields_autoplaced yes)
 		(uuid "b32081d0-a721-4ad1-9183-41a05c5ab101")
 		(property "Reference" "C37"
-			(at 337.82 342.8999 90)
+			(at 462.28 255.2699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25782,7 +28905,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 337.82 345.4399 90)
+			(at 462.28 257.8099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25791,7 +28914,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 329.946 347.98 0)
+			(at 454.406 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25801,7 +28924,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 329.946 347.98 0)
+			(at 454.406 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25811,7 +28934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 347.98 0)
+			(at 458.47 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25820,7 +28943,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 329.946 347.98 0)
+			(at 454.406 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26042,6 +29165,146 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb620e54-be74-466e-ae35-27103344c78b")
+		(property "Reference" "F20"
+			(at 101.6 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 337.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 437.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 637.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 737.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 837.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 937.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1037.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1137.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8f5a427-7b61-45c6-b111-f7027eb61159")
+		)
+		(pin "2"
+			(uuid "3829c339-b3e7-44e0-931c-550d428f0d7f")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.83 387.35 0)
 		(unit 1)
@@ -26102,6 +29365,146 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb83d927-b31b-47e5-a5b7-a9ead6b2d31d")
+		(property "Reference" "F19"
+			(at 101.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 365.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 465.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 665.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 765.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 865.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 965.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1065.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1165.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a89cdde-dace-422b-bb34-bb447887e8b3")
+		)
+		(pin "2"
+			(uuid "1e57d133-ffea-4a9c-b33d-2a77ac938a11")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F19")
 					(unit 1)
 				)
 			)
@@ -26272,8 +29675,117 @@
 		)
 	)
 	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c55c3b-cb2c-4958-9dcd-3b0fa45d1e28")
+		(property "Reference" "F2"
+			(at 123.19 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f10585a4-de6e-468e-b3b1-a5dda9f2e89e")
+		)
+		(pin "1"
+			(uuid "ae4cea04-b943-4dab-8cbb-d9a2e361c29c")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5012:5012")
-		(at 276.86 265.43 90)
+		(at 401.32 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26282,7 +29794,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0e9ccb9-3ef9-427e-9c4a-9823529dac5f")
 		(property "Reference" "TP31"
-			(at 279.4 264.1599 90)
+			(at 403.86 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26291,7 +29803,7 @@
 			)
 		)
 		(property "Value" "5012"
-			(at 279.4 266.6999 90)
+			(at 403.86 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26300,7 +29812,7 @@
 			)
 		)
 		(property "Footprint" "TP5012:TP_5012"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26310,7 +29822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26319,7 +29831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26328,7 +29840,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26338,7 +29850,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5010"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26348,7 +29860,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26358,7 +29870,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26368,7 +29880,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 265.43 0)
+			(at 401.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26392,7 +29904,7 @@
 	(symbol
 		(lib_name "ERA-3AEB101V_13")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
-		(at 313.69 298.45 0)
+		(at 438.15 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26401,7 +29913,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3bc46c8-ee2a-4808-8fdb-c6d2121a69f8")
 		(property "Reference" "R29"
-			(at 320.04 292.1 0)
+			(at 444.5 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26409,7 +29921,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 320.04 294.64 0)
+			(at 444.5 207.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26417,7 +29929,7 @@
 			)
 		)
 		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
-			(at 314.96 304.038 0)
+			(at 439.42 216.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26427,7 +29939,7 @@
 			)
 		)
 		(property "Datasheet" "ERA-3AEB101V"
-			(at 314.198 302.006 0)
+			(at 438.658 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26437,7 +29949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 298.45 0)
+			(at 438.15 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26446,7 +29958,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3AEB101V"
-			(at 313.944 306.07 0)
+			(at 438.404 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26472,7 +29984,7 @@
 	(symbol
 		(lib_name "ERA-3AEB101V_12")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
-		(at 313.69 270.51 0)
+		(at 438.15 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26481,7 +29993,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78d982b-e91f-4125-ac83-d93b385d332f")
 		(property "Reference" "R28"
-			(at 320.04 264.16 0)
+			(at 444.5 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26489,7 +30001,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 320.04 266.7 0)
+			(at 444.5 179.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26497,7 +30009,7 @@
 			)
 		)
 		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
-			(at 313.182 276.352 0)
+			(at 437.642 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26507,7 +30019,7 @@
 			)
 		)
 		(property "Datasheet" "ERA-3AEB101V"
-			(at 313.69 274.574 0)
+			(at 438.15 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26517,7 +30029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 270.51 0)
+			(at 438.15 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26526,7 +30038,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3AEB101V"
-			(at 313.436 278.384 0)
+			(at 437.896 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26833,7 +30345,7 @@
 	)
 	(symbol
 		(lib_id "5012:5012")
-		(at 276.86 321.31 90)
+		(at 401.32 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26842,7 +30354,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf10615f-03d5-42fb-b0ef-4a000332779e")
 		(property "Reference" "TP29"
-			(at 279.4 320.0399 90)
+			(at 403.86 232.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26851,7 +30363,7 @@
 			)
 		)
 		(property "Value" "5012"
-			(at 279.4 322.5799 90)
+			(at 403.86 234.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26860,7 +30372,7 @@
 			)
 		)
 		(property "Footprint" "TP5012:TP_5012"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26870,7 +30382,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26879,7 +30391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26888,7 +30400,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26898,7 +30410,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5010"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26908,7 +30420,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26918,7 +30430,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26928,7 +30440,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 321.31 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26944,6 +30456,146 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 91.44 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08785ba-b952-4c61-bb8a-fbd12b3437ab")
+		(property "Reference" "F26"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 105.41 169.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 105.41 269.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 105.41 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 105.41 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 105.41 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 105.41 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 105.41 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 105.41 969.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 105.41 1069.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "480233a7-7d31-41ff-aa21-deb04487011c")
+		)
+		(pin "2"
+			(uuid "a1840bee-42d4-4a02-8113-89bb5ec5593b")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F26")
 					(unit 1)
 				)
 			)
@@ -27182,6 +30834,146 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d789e4c6-1f69-4c9d-975f-7b96f80df58a")
+		(property "Reference" "F18"
+			(at 101.6 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 393.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 493.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 693.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 793.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 893.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 993.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1093.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1193.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3706674-6e19-4b8d-a6ac-f2d057bd9bed")
+		)
+		(pin "2"
+			(uuid "195d575c-0f68-4f41-a9a9-c339c06a855e")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ERA-3AEB101V_3")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 129.54 0)
@@ -27342,6 +31134,286 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 91.44 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da59ed56-4ee2-4c29-b341-8f9c846c900f")
+		(property "Reference" "F25"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 105.41 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 105.41 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 105.41 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 105.41 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 105.41 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 105.41 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 105.41 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 105.41 997.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 105.41 1097.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f09e24-6a7e-4846-82d0-e104d806beee")
+		)
+		(pin "2"
+			(uuid "11f0e613-e2a4-4fc5-a1cc-d42816451ab1")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc4bad8b-b8e0-4e6b-be20-b9f3e7f201b6")
+		(property "Reference" "F21"
+			(at 101.6 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 106.68 309.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 106.68 409.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 609.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 709.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 809.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 909.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1009.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1109.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b1d411-aacf-4b97-a7b3-0c5e9fea1881")
+		)
+		(pin "2"
+			(uuid "ad29e588-fce1-4760-b92c-9c5caefc5c51")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GCM188R71C474KA55D_12")
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
 		(at 200.66 318.77 90)
@@ -27425,7 +31497,7 @@
 	)
 	(symbol
 		(lib_id "2024-10-08_02-22-32:GCM188R71C474KA55D")
-		(at 297.18 322.58 90)
+		(at 421.64 234.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27434,7 +31506,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfcf9e94-5451-4ad3-9baf-ea1e9da425f8")
 		(property "Reference" "C32"
-			(at 300.99 317.4999 90)
+			(at 425.45 229.8699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27443,7 +31515,7 @@
 			)
 		)
 		(property "Value" "0.47uF"
-			(at 300.99 320.0399 90)
+			(at 425.45 232.4099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27452,7 +31524,7 @@
 			)
 		)
 		(property "Footprint" "GCM188R71C474KA55D:G-188_MUR-L"
-			(at 293.624 322.326 0)
+			(at 418.084 234.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27462,7 +31534,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71C474KA55D"
-			(at 293.624 322.326 0)
+			(at 418.084 234.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27472,7 +31544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 322.58 0)
+			(at 421.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27481,7 +31553,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
-			(at 293.624 322.326 0)
+			(at 418.084 234.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27617,6 +31689,333 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ed9111-70ae-4b2b-902d-aad1e3e049df")
+		(property "Reference" "F8"
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "771cc20f-4510-44de-8330-6fb184f9db6b")
+		)
+		(pin "1"
+			(uuid "582493bd-a768-4ad1-a4f0-7cf0ffa4379a")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 123.19 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a33194-0be0-4313-898f-7dc098d3f0a6")
+		(property "Reference" "F9"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddbd03be-c4fa-4e6a-91c3-a64bb8daca2a")
+		)
+		(pin "1"
+			(uuid "c2e45888-5c0a-4a5e-8437-ff9e4073a1f9")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0686F1000-01:0686F1000-01")
+		(at 124.46 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24289a6-265d-494e-bdb7-d240a6e1c00c")
+		(property "Reference" "F1"
+			(at 124.46 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 124.46 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0887e67c-1b29-4db1-81bc-e17879e84ed9")
+		)
+		(pin "1"
+			(uuid "7517d4f0-c241-4bf2-a675-36371e7031bd")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F1")
 					(unit 1)
 				)
 			)
