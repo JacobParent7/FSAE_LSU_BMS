@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=0438.250WRA
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=2.1
+Released=2022-10-08 05:17:42
+Downloaded=2024-11-24 16:32:51
+3D=Y

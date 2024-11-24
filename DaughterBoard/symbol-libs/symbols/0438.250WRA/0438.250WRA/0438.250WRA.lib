@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 0438.250WRA
+#/1169870/1357322/2.50/2/2/Fuse
+DEF 0438.250WRA F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0438.250WRA" 550 150 50 H V L CNN
+F2 "FUSC1608X61N" 550 50 50 H I L CNN
+F3 "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb" 550 -50 50 H I L CNN
+F4 "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603" 550 -150 50 H I L CNN "Description"
+F5 "0.61" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0438.250WRA" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-0438.250WRA" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0438.250WRA" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

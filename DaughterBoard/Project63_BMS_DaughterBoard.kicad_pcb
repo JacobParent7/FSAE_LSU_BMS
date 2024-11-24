@@ -111,7 +111,7 @@
 	(net 29 "COMHN")
 	(net 30 "unconnected-(U1-Pad4)")
 	(net 31 "VC1")
-	(net 32 "Net-(C1-Pad2)")
+	(net 32 "/BQ79614_Bootstrapping/Cell 14S PIN")
 	(net 33 "CB12")
 	(net 34 "unconnected-(U1-Pad2)")
 	(net 35 "unconnected-(U1-Pad53)")
@@ -194,6 +194,327 @@
 	(net 112 "Net-(C46-Pad2)")
 	(net 113 "Net-(C47-Pad2)")
 	(net 114 "unconnected-(U1-PadEPAD)")
+	(net 115 "Net-(F1-Pad2)")
+	(net 116 "Net-(F2-Pad2)")
+	(net 117 "Net-(F3-Pad2)")
+	(net 118 "Net-(F4-Pad2)")
+	(net 119 "Net-(F5-Pad2)")
+	(net 120 "Net-(F6-Pad2)")
+	(net 121 "Net-(F7-Pad2)")
+	(net 122 "Net-(F8-Pad2)")
+	(net 123 "Net-(F9-Pad2)")
+	(net 124 "Net-(F10-Pad2)")
+	(net 125 "Net-(F11-Pad2)")
+	(net 126 "Net-(F12-Pad2)")
+	(net 127 "Net-(F13-Pad2)")
+	(net 128 "Net-(F14-Pad2)")
+	(net 129 "Net-(F15-Pad2)")
+	(net 130 "Net-(F1-Pad1)")
+	(net 131 "Net-(F17-Pad2)")
+	(net 132 "Net-(F18-Pad2)")
+	(net 133 "Net-(F19-Pad2)")
+	(net 134 "Net-(F20-Pad2)")
+	(net 135 "Net-(F21-Pad2)")
+	(net 136 "Net-(F22-Pad2)")
+	(net 137 "Net-(F23-Pad2)")
+	(net 138 "Net-(F24-Pad2)")
+	(net 139 "Net-(F10-Pad1)")
+	(net 140 "Net-(F11-Pad1)")
+	(net 141 "Net-(F12-Pad1)")
+	(net 142 "Net-(F13-Pad1)")
+	(net 143 "Net-(F14-Pad1)")
+	(net 144 "Net-(F15-Pad1)")
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "01a5c7ee-dccf-4646-ae76-b1fc364faf90")
+		(at 183.8 -9.86)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F19"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "bb6a51bf-a4ba-48b2-853a-7984a04abbaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7443e498-126f-43b7-95bd-bae78289cdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e46c3706-65b6-4a36-be86-02483f4a63d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4417713-cd75-4f6d-a97d-50ceaf44a7a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1bbfd64-455a-4235-95a1-04460afc9790")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a2d5af5-e720-41a9-8247-a0bc3023cf08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff0de247-1fbb-4e18-a991-f6946125b365")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0fd47eb-e4c0-4bdf-b1bf-245014b8da6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eae08c96-ccb7-445d-823b-d496bb3fe911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24da3657-81da-428e-8bc2-af7ce6de3834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "161dfb1b-5368-43f9-9ab9-30047cb4000b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b6bcbcc-0bb4-4893-bd34-1743cec5b872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/bb83d927-b31b-47e5-a5b7-a9ead6b2d31d")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4909c11d-bb15-4a77-87ee-412c3b20e685")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd416831-cd50-41c6-b77e-1074375a4395")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16230c8b-f5eb-4347-b93d-730f3a4faea0")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afbcb437-334b-4894-b4a6-50391bdbeec2")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b166d986-732f-49ee-869d-4a3056f5199c")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9fab5c13-beb6-44e1-8014-9e9b83ff5a1b")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24819205-643c-47c2-bdc2-8ac1bb784126")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f71d65e-7e84-4459-bbc5-9ea1ea92e823")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b4ce7d42-53e1-41bd-b452-144fb8b402a6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b0ffbc8b-0976-4b55-8a2c-c4e78fdd4676")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "Cell 3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e52de5bc-c09e-4558-b8f2-a57a235f1fc0")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 133 "Net-(F19-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "507e35e7-31c5-4582-843c-1b83eff54111")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
 		(uuid "01f68c72-76dc-436f-9b02-3727ebc0649f")
@@ -4315,7 +4636,7 @@
 			(at -5.6769 -3.750945 90)
 			(size 0.2286 1.143)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 32 "Net-(C1-Pad2)")
+			(net 32 "/BQ79614_Bootstrapping/Cell 14S PIN")
 			(pinfunction "1")
 			(pintype "power_in")
 			(uuid "a273b40b-964f-4e29-8a77-71fddfc167ee")
@@ -5078,7 +5399,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Cell 6")
+			(net 121 "Net-(F7-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b4c79646-a70c-4248-94ea-6772f576af43")
@@ -5987,7 +6308,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 14 "Cell 2")
+			(net 117 "Net-(F3-Pad2)")
 			(pintype "passive")
 			(uuid "16ecca9c-69db-4dd7-b54c-91da476bd702")
 		)
@@ -6909,7 +7230,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Cell 6")
+			(net 121 "Net-(F7-Pad2)")
 			(pintype "passive")
 			(uuid "942587ab-0358-4f99-a28e-eec0d5bba137")
 		)
@@ -7112,7 +7433,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Cell 13")
+			(net 128 "Net-(F14-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b8ca63d8-4c0e-456a-a33f-04d4392da4e6")
@@ -8078,7 +8399,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 14 "Cell 2")
+			(net 117 "Net-(F3-Pad2)")
 			(pintype "passive")
 			(uuid "1b0fa7e1-1b9b-484c-b22e-576f27b1b3eb")
 		)
@@ -8385,7 +8706,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "Cell 6")
+			(net 121 "Net-(F7-Pad2)")
 			(pintype "passive")
 			(uuid "5c0556b4-439e-4c15-a757-c1129eb630dc")
 		)
@@ -9044,6 +9365,297 @@
 				(pts
 					(xy 85.063 -53.0324) (xy 85.5456 -53.0324) (xy 85.5456 -52.3212) (xy 85.063 -52.3212)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "1c9fb6a6-3471-44e8-9352-7c9355d163b7")
+		(at 187.79 -4.72)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F26"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "84c771ed-3b09-4441-b3aa-d9b41f268ca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6c20ddd-7965-4eb7-9bbd-47757b6b1804")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63af5855-0c2c-4718-a0bc-213b588bf6a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2679af1-9685-4313-a251-1427d9670326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1c4d636-3fdf-4fdf-b379-595327905bea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "691825b3-3293-4164-af6c-fa626af413bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02c38d9c-2ca7-4d37-adb4-ece94033e56d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4038512-0f47-4574-b1ad-2651a3849a64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d01ac47-f0c9-4a07-8e04-2820a3395843")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d591ce59-baf4-45f1-98d1-8d0f733768c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "272d1dfd-eadd-4c74-9255-629b21d8ab92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c56751-fd08-4515-9dbb-faabbb52f319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/d08785ba-b952-4c61-bb8a-fbd12b3437ab")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dfa34909-eb77-47ff-b8cc-6f9433d872eb")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11815fe5-9301-4c40-a587-de0803275822")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "128ae581-e8ef-4306-bf8c-45bb980bc156")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d581b30-0125-4ce7-87a7-32a005e75cfd")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6596431-28f6-4ea9-bb35-ade3ac7131fc")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bfc86b7d-515d-43db-a818-9addf7a4a00f")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4ac9c97d-4a98-4370-aca8-63e77edb9a09")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd64777e-6883-41d9-84e2-73a26c2dec52")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1474d81-4f32-45ab-a51a-4c85c8be13b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "44654c82-f436-40f3-b80f-eeed09a6f6fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "Cell 10")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "0749635d-3dee-42a3-addb-cb77a0545f13")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 140 "Net-(F11-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "1c9e2d78-c4cb-4cec-8d9a-40474a682ce7")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -10409,6 +11021,254 @@
 			)
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "21392215-2e97-4084-a6b1-1a7f518009bb")
+		(at 241.165 -39.81)
+		(property "Reference" "F3"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "c466e96a-3b31-485b-a3d6-d2de1fc4374f")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "c6be5331-9c2e-4ca7-9f16-1750ea60f2fe")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb783442-50ce-4a3e-b254-18913617acb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "609d2404-089e-4bd0-8acf-78379abbb009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0188c1b5-0bd6-4b9f-8a51-98903eabfa73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d9d1b79-479a-42cb-826a-ae5c81b7920a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "003f960f-1968-4a58-986c-989b7a170cb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e49242c8-cbb8-4328-bd68-7e29a5ecaed0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "744d3df3-61fe-4c14-8854-a667907995cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/1510624f-6a44-4016-96ba-259037100c04")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7bdd5f68-4343-4123-8983-4e8121d00614")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6168db35-9f13-417e-9c8a-e5b8ebc385da")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d26dbd6-0b6a-4825-85ce-7db425d00665")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9caaa076-b472-4f1a-9798-12f432aef04b")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee9d78b1-a9b3-4831-9e7a-1b907daf3e70")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2107399-f6d3-4805-bb3a-4015d184391a")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2cbfb9de-a258-4fa8-bf20-d9bd1118bdcb")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d1b8c288-927f-43d9-a2db-fc5d701cbece")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a26cc4c4-b744-4840-97a0-d89ebf7e999f")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f05d3e6-8e2b-4aee-b545-e6f6594bb857")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 132 "Net-(F18-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "582760ab-ad56-4c9f-a5b9-e16d65a23a53")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 117 "Net-(F3-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b24b5b9c-c1d5-49f4-a24a-4592e558b9fc")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
 		(uuid "220c1c0a-f345-4eec-83b0-aed24d76047e")
@@ -10579,7 +11439,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "Cell 8")
+			(net 123 "Net-(F9-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "d5e8eb17-a2d3-4e74-b226-852224d6f100")
@@ -11028,7 +11888,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "Cell 0")
+			(net 115 "Net-(F1-Pad2)")
 			(pintype "passive")
 			(uuid "c5acfad1-4f7b-49e7-a477-42e0259561fa")
 		)
@@ -11516,7 +12376,7 @@
 			(at -0.777799 0)
 			(size 0.755599 0.799998)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 32 "Net-(C1-Pad2)")
+			(net 32 "/BQ79614_Bootstrapping/Cell 14S PIN")
 			(pintype "passive")
 			(uuid "336b542a-1edc-45cd-b391-92b6e7f61f80")
 		)
@@ -13141,6 +14001,297 @@
 			(uuid "ac88ecf2-c03a-42b1-ae0d-5fb47555a8fb")
 		)
 	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "2f4faf47-1012-4546-ad50-4be478dde415")
+		(at 183.8 -15)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F17"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "ae2c7290-1804-4da2-9f45-6bc22ecc02cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32744831-08a4-489c-b80d-7d8bceac5bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1270f04-a181-4abb-bec3-4fec4f370047")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fef9e46-612c-4e72-a332-9e2c4ffcfbd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8decf7c2-b78d-406e-8eca-57013fde6b23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afaaa6fc-9588-449d-8543-238cb546c2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "210c095c-80e3-4de9-adc1-5175452ae8d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc517a0e-afed-4104-9ce8-0640677e611f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2fa6700-ff53-42d2-89cb-ccca9e8d7564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9539fda-a390-4d91-84fe-26e8181ef016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c659201b-ca46-4846-890e-f9fde3c61f08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4e9584e-4f0f-4f01-ae08-577714cef5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/3d1683c6-f31f-4c8c-ade1-03e33a0d9d61")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "de7a221f-3b02-4193-8063-b41ce757ad83")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c705efcf-4f3d-4cc4-b4e7-3054caf168ef")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11f84978-6c54-47f8-8d4d-9abd3d1a3ed8")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2225c00a-6165-4a5f-884e-be6051214cae")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d4cace3c-2b1a-47e9-81ec-a80abf39d6ee")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "51e92d53-5ee8-4a70-a498-cd1cf4c7dfa8")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "60c27f3f-7ae6-4d48-bf31-7ed5a367de3f")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c299f14e-3cb8-438f-aeb6-88cb3dc2a33a")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73d418ba-5075-47e6-8cdb-a4f348209d0d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f7f8e405-d9c7-4e5d-a41b-918f3c6262d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "Cell 1")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "557d96c9-e391-44a8-bd01-f61d5d109097")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 131 "Net-(F17-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "b95fcd64-34ee-49db-b3ba-185af30d93d0")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "C0603C105K8RACAUTO:CAPC18095_95N_KEM-L"
 		(layer "F.Cu")
 		(uuid "2fb1e78f-74d9-4a1b-b98c-385091a32d66")
@@ -14685,7 +15836,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 10 "Cell 3")
+			(net 118 "Net-(F4-Pad2)")
 			(pintype "passive")
 			(uuid "d1c63c45-dfb3-4545-afbb-d77b07bb254a")
 		)
@@ -14715,6 +15866,254 @@
 				(pts
 					(xy 24.95381 -74.034805) (xy 25.652208 -74.034805) (xy 25.652208 -73.336407) (xy 24.95381 -73.336407)
 				)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "39815313-98ff-40a9-8285-8b2e2df36db8")
+		(at 241.165 -42.5)
+		(property "Reference" "F2"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "4fe3793b-4712-4852-ab25-684ce5740d29")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "42f003df-5071-4f0e-9a67-5206756691d4")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d81ec9f-ee87-4851-a059-2fa3db5688a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94c22e1f-07b7-461f-9b3b-360d1f07821a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84134aae-3a06-4413-913a-c131173c1f44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02bd40b8-4438-44e8-a3b8-c2bc758838b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37b8e65b-9238-4469-8c29-22e3767d6db0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0929f118-6068-4025-8073-4e29cb9016a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec8baa7c-7dd6-46cd-9fb2-5173f0fd2916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/c0c55c3b-cb2c-4958-9dcd-3b0fa45d1e28")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8ed9cff-9177-4614-8612-dbfdfd693975")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "850955e2-21b6-4e6f-abf7-1e153c94ebe0")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9f219b4-8ace-4c9b-9df5-99855dd7bcf3")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48ec03b0-57a1-4691-8d66-54a1235058b0")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f5d53e8-a5cf-4a81-9705-30622f8d9f5b")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e81401f1-5786-4d4d-9e9a-d11473c5fbfc")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9413f3a9-ec72-4adf-a7bc-963314f7ba62")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db2d9053-26d0-4265-a28d-2c27fb54635c")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8a25b25e-ceca-4e6c-b4bc-51759c2da300")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4331006-a1fb-40f7-a353-8d50df191fbb")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 131 "Net-(F17-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "81da4bbb-3645-4568-bd89-3f8c04563a5d")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 116 "Net-(F2-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "83e783c3-f520-4d6a-a405-61dae8791c64")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -14985,7 +16384,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "Cell 8")
+			(net 123 "Net-(F9-Pad2)")
 			(pintype "passive")
 			(uuid "ad7d2ed2-17ce-4250-a576-c89f6fd4c5d5")
 		)
@@ -16758,7 +18157,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 13 "Cell 13")
+			(net 128 "Net-(F14-Pad2)")
 			(pintype "passive")
 			(uuid "ca87d2dc-98b7-4d48-bd3e-4eed5672d027")
 		)
@@ -17285,7 +18684,7 @@
 			(at 0.77 0)
 			(size 0.89 0.93)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 32 "Net-(C1-Pad2)")
+			(net 32 "/BQ79614_Bootstrapping/Cell 14S PIN")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "e2df9973-ba8a-46de-9606-75f4f36b3287")
@@ -19138,7 +20537,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Cell 11")
+			(net 126 "Net-(F12-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "8132fff7-989a-4bda-b2b0-336fe1d8ab72")
@@ -19314,10 +20713,506 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Cell 9")
+			(net 124 "Net-(F10-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "8480544a-3d85-427a-ab3b-d9cad9278015")
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "54901c87-3b4f-4288-b4b5-02ace4e60d87")
+		(at 249.225 -34.43)
+		(property "Reference" "F15"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "b72b0d07-724f-49f5-8019-722d919d4792")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "d1b327da-e5c7-4a70-bb01-05abd5a81dc1")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4471236b-3595-4ef7-bf4b-e472435a27eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39985d85-9103-4ba3-b269-fc592bb125c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71f43de9-25e7-4615-a4be-b3a4f57f95d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e8176e-38ac-4695-bacf-e487622f1f9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcb5a8b8-be8d-486c-bd95-64cb5434d78d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25812e11-f3c9-4f3f-b049-e19785b9ec1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05345e8e-0ff9-46b0-9efc-f06046bde6d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/6c37c328-2cf9-4403-a2be-c81b8e8e8605")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "05160fa9-8110-4183-95c5-727183aeef78")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c18c3405-a180-45eb-956e-39bf08b720fb")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "830a2882-068a-496a-a2c2-8fa4679f5e87")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b71fa55-eea3-4b4d-a884-58a55bf671ab")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7afb0ef5-1fe0-4dcc-8d53-7d2b840779af")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0aed342-1ab3-46f2-902c-54cb1a0cf8a2")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bdac03c-fc14-4f35-89a0-0ed7feee55ab")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fffbe169-ab1a-4647-b544-072406049c72")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0c216444-6a91-4632-91da-ab20b818e2e4")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0c07e7a-704c-4d21-b142-6ba143278b8b")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 144 "Net-(F15-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "a15821c1-aa64-4e39-a0c3-a01c35c3e6f0")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 129 "Net-(F15-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "e50dcfbf-a690-4088-aeb0-ec8ca709adb6")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "54acff8f-8a8f-4979-9ebc-2de394008578")
+		(at 241.165 -34.43)
+		(property "Reference" "F5"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "1b7aecfe-600c-4654-8a1b-3c8781c7e9be")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "c8c3cc5b-81ba-40e4-9989-4c527cd43a9a")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9ac479-7cb7-4086-8018-c6291bb2e639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a8f94d9-0053-457b-bda6-846ec3f86d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e8a5575-4501-4d0e-bab6-197444f53b13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29a41a40-221f-42af-a7fd-044904d6bd95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f9238ca-2766-4bab-9a67-e24e0d320d3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b381db7-99e5-47c4-af59-9c4bf39966fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed64a8ad-7761-4ed5-87ed-c3a4903df229")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/6abf3194-e4be-443d-8071-e209c2282407")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c90c3af3-903e-4f3c-859e-6eeb1eda56f5")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5dda46db-3498-4efa-b560-5dd1d67780f2")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2864f03-c3c8-4bbd-ae1d-5fe79adf5050")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a84a6ea-772d-4744-91ac-0ba78b16e638")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7aa0bc7a-b754-4797-a7db-71fa8e79f5ea")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c41e8cd-cc0e-40ae-ae98-06c38c2250c8")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de94c5e3-5317-446b-a4f7-f25ea2ad0040")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ac98d51-e7f1-4520-9914-cc4d0718b22c")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d1f5d12c-53ff-4700-ac0a-5400752169d3")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "49951c47-7697-4046-8de1-ec60dca6cbd8")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 134 "Net-(F20-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "815f36c2-fb75-4926-919e-410eafa369a9")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 119 "Net-(F5-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "132e02f9-622f-4a20-a6d4-c0a959f6236b")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
 		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
@@ -19587,7 +21482,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 3 "Cell 9")
+			(net 124 "Net-(F10-Pad2)")
 			(pintype "passive")
 			(uuid "6bfdd81e-abe8-49bf-82ed-263b493ee7d2")
 		)
@@ -20250,7 +22145,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 16 "Cell 12")
+			(net 127 "Net-(F13-Pad2)")
 			(pintype "passive")
 			(uuid "bb9c3518-cd2d-4135-9244-c57105f0e53b")
 		)
@@ -20602,6 +22497,254 @@
 				(pts
 					(xy 89.1364 -67.8556) (xy 89.619 -67.8556) (xy 89.619 -67.1444) (xy 89.1364 -67.1444)
 				)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "5f3d3589-8b84-44b3-bf92-fc22760c4cf7")
+		(at 249.225 -37.12)
+		(property "Reference" "F14"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "37f0ada5-8d40-4218-b790-0cb59dad0486")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "6048190e-71e6-4f9a-a4de-6b98924fdf82")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16078748-fe3b-48ca-b2c4-26528ab9096f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "514fa542-e9e2-44ea-be8d-eb40deea394e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "976e3191-9c02-4760-a1e7-7e0ed538ffa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ad68b76-048e-4718-b107-604b0f9d41f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a36aff2-babc-4826-a164-443d4b36d04d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "819a664f-1bfb-45b8-87fb-295084ef674a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3eef3bd-8420-41fd-9acb-9871da687ae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/43b5f0d5-db01-41d9-aa13-1d7b95dba0b6")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80c87636-da0d-4f5b-b21a-e394017334ef")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cfde69c9-0507-48c8-a550-09a620949460")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56062f01-d64c-49b5-a78f-055a6278b3b0")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "39d0f812-d439-4755-bd57-e8d060c30139")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97d49d37-1da6-4750-a251-d6e14a65533f")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "482f4493-22ce-42c9-984a-2fb3943012f8")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "413eb3ec-bf65-4688-b56f-d04d078a0a87")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "808f29bd-e6aa-45dd-a3e5-0c4d3b75e58a")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "30aa8126-cf80-4b08-9f9d-ef418ea885b5")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f69085c-bf9d-458a-a579-15e232bd74ae")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 143 "Net-(F14-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5abb66ea-8183-4fc2-b270-d2c0d3d590c5")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 128 "Net-(F14-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "60b5da17-d1bd-4e58-9932-b546830720a6")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -21419,7 +23562,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "Cell 4")
+			(net 119 "Net-(F5-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "f37fda86-eb07-4110-9111-859b6a79db20")
@@ -22055,7 +24198,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 5 "Cell 1")
+			(net 116 "Net-(F2-Pad2)")
 			(pintype "passive")
 			(uuid "e97ad1c6-c179-430d-9c81-57519a63fb19")
 		)
@@ -23074,6 +25217,297 @@
 			(uuid "f1596588-4a46-4157-a0c0-4b9cdb67213e")
 		)
 	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "6b00320f-f8b0-486c-b79a-f66aa5bde591")
+		(at 191.78 -12.43)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F28"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "2d3258fa-894f-42b7-9388-50fa69fa972f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "203ccfcf-477d-4fcb-8b98-4a5eee75ce9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97c3ba6f-6341-4c7a-846f-07da882ce1d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a86002f3-2927-4612-9e20-43ea717c349f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a064e08-081b-4ebb-9cab-b5af74b6ef92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bdc7a9e-9f02-4aca-b4b8-4b96bff24346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c18bb546-a4c7-4c27-af7d-04e946bfca7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e70a985-25ac-4580-b4a9-e527c17d79e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "445fef5d-a0d9-4312-8416-aebf9190c918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2998fc8d-e8da-4b23-b89d-501523b69e6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1e2638-303f-4454-b42c-bcaa5f50cd0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1155e9-ea8e-4394-af2a-e29fd75badd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/06fbcf89-ee8f-43ff-a2b7-87b82604ab88")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c1ba7c9a-65ae-408d-8cb1-4d58dddf1d93")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3b82bf31-2b60-47ab-b7f8-ba80241cb0e3")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "19996944-9bbd-4dd1-bf64-0b2891534233")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "acae13e1-4389-4c12-b458-cd31f6673383")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "095a7899-9859-42cf-b347-b52bd50c14a4")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43eaae15-cd96-46e8-888c-97d8e85aa530")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0196131d-2652-4f24-9e26-4aa94737317f")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c49d54c3-0612-4e54-894a-c14c828b6689")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b8d1cf5-fff4-48aa-af15-e0c2d5a60963")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2eed1714-2d96-40ef-89d6-a5c62ed72c9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 16 "Cell 12")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "d81a0680-3191-4963-a2c7-693fa8e01885")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 142 "Net-(F13-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "20d46c87-9843-4d15-a8cf-1083277a5734")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "1206J2K00222KXR (1):CAPC3216X160N"
 		(layer "F.Cu")
 		(uuid "6df56d13-2d85-4aa8-9b1f-18f6fef4954f")
@@ -23533,7 +25967,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "Cell 14S")
+			(net 129 "Net-(F15-Pad2)")
 			(pintype "passive")
 			(uuid "c4c0f19e-44fb-4468-82ee-30e05e8850ef")
 		)
@@ -23736,7 +26170,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "Cell 14S")
+			(net 129 "Net-(F15-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "c9776c0c-f332-4d6c-a80f-dd7a2a438c29")
@@ -24016,7 +26450,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 8 "Cell 10")
+			(net 125 "Net-(F11-Pad2)")
 			(pintype "passive")
 			(uuid "e060d7a8-3def-4d28-b064-fb701ceb54e9")
 		)
@@ -24630,7 +27064,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "Cell 4")
+			(net 119 "Net-(F5-Pad2)")
 			(pintype "passive")
 			(uuid "3952c6a6-9529-4db9-b569-680abee3e90e")
 		)
@@ -27137,7 +29571,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 9 "Cell 11")
+			(net 126 "Net-(F12-Pad2)")
 			(pintype "passive")
 			(uuid "f2f2584e-8b64-4612-b3c9-383ef5763a50")
 		)
@@ -27984,7 +30418,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Cell 10")
+			(net 125 "Net-(F11-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b8f257a0-4e4f-46e8-8e24-9c74cd23eba0")
@@ -28919,7 +31353,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "Cell 7")
+			(net 122 "Net-(F8-Pad2)")
 			(pintype "passive")
 			(uuid "0ca258c2-1397-496c-8941-e2ef0b0eb24d")
 		)
@@ -30086,7 +32520,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 4 "Cell 5")
+			(net 120 "Net-(F6-Pad2)")
 			(pintype "passive")
 			(uuid "b5810878-77e1-4adb-b559-819231f7aa18")
 		)
@@ -30459,6 +32893,297 @@
 			)
 		)
 	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "8a19e5bc-1fd6-407a-b21b-4cf46f7a3b91")
+		(at 183.8 -12.43)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F18"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "59e965ff-632e-478a-88a7-b03ca3caea0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fc0e3fbc-0099-48dc-b9a5-50ee4d07bca4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "378e4001-f3e1-433c-b745-fa276f765521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f0f60a9-6499-4173-9886-692475422c90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c1df334-720d-4366-a8a8-e294873f1c83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7336154-ccdb-43a0-964f-66a2c5f01108")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e77a797-800f-4f55-83c7-8866e7a246c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e6cc611-9fda-45a4-8136-346f19cb05b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5dba25f-3166-4b89-9bfa-cb617f68f2e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f57ed2b-d060-4ac3-b158-1ac980daad63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a595ec4-1daf-40a3-ad68-4b0c23eda17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80af7b46-3407-46c5-843f-cbf17c0c13d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/d789e4c6-1f69-4c9d-975f-7b96f80df58a")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ae52e30-6a92-455d-8ffc-880c60c6423f")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a48d38ee-4344-408e-b55d-3f83064f5782")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07cbfb51-b2f4-48b5-8027-ceadf8a9ff5e")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "332b2961-9d12-48f7-b681-3b86581cb9e9")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "02d22838-f712-4218-82c7-8e435bfb7018")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "206e8572-0e3f-4151-adef-afa20e97d52f")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c7bd8061-02c9-491e-b8a8-90c7a509dcf8")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c6896b4-efe5-4936-a7e4-13b604e2e961")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f653b4c7-e64c-4ff6-83a6-e757c9bf1fc2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "78a378de-4fea-4740-a3bb-41a9f3fa7c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 14 "Cell 2")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a4f85870-827f-446d-ae6f-af06d23c30ee")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 132 "Net-(F18-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "49ccabfc-ba0d-4803-a115-35f0be429698")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "8ad7f0fd-e75c-40e7-8665-23113682ada5")
@@ -30631,6 +33356,254 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "8f012455-a885-4d8d-83f7-67b2668a8a40")
+		(at 241.165 -37.12)
+		(property "Reference" "F4"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "0aeb6e75-02de-40be-a916-905ec0210b18")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "b0e850de-4f46-43ff-9eea-697d73214d6f")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94a00203-0580-489b-b6aa-15e040da8576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29b07395-0e86-4de6-b708-6b0aa4b45837")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "563561c2-68ec-4311-8a39-2dc4d26d0f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a36f004-c824-4d8b-a62d-a83b5b4ad745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d09f8f84-2d98-4bbd-b1b0-6369a28f0c89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5a247e5-5902-4c0e-8ed0-cdfb7c0f505b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f2d1e41-2180-4da0-b015-80017bfc2927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/8c7036a1-ea63-411a-a5fa-ff945d05effb")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4871b3c-9fd9-47fb-8ab5-4cba222dd188")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3b90ed79-53dc-4c1e-bf45-22346c766dbb")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c603c854-9bb2-42a4-bccc-d48b8789ab44")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce9ce137-6423-4236-bea1-0e4ff24ab849")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b54cdda5-4bd4-4d01-a36c-b3d3f49d4a02")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81135e87-1c59-4293-b346-aa85cffd964e")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5cbef23b-f304-42b0-96e5-221826c68003")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cdb1d57f-4f79-4ec5-a4e7-4ff7686d2624")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "05abda45-92c5-4514-82e6-d5df01e67cb9")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0797a338-606e-49c7-b8f1-7ff1ffeecc88")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 133 "Net-(F19-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "869ec755-a381-4a81-bf82-dfd1bd081fed")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 118 "Net-(F4-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3b5eb005-7a91-4b7f-99f3-0a407bd08bf1")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -31146,7 +34119,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Cell 12")
+			(net 127 "Net-(F13-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ad1b92d9-f959-45e7-8eba-f9d2422cbc1a")
@@ -31419,7 +34392,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "Cell 14S")
+			(net 129 "Net-(F15-Pad2)")
 			(pintype "passive")
 			(uuid "4c557c6f-1827-477c-b981-300460ced58e")
 		)
@@ -31622,7 +34595,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Cell 2")
+			(net 117 "Net-(F3-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "79d4215e-1373-4a0c-8187-7c2abb5d6c15")
@@ -32539,7 +35512,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 8 "Cell 10")
+			(net 125 "Net-(F11-Pad2)")
 			(pintype "passive")
 			(uuid "e123c0c8-5a05-45de-9328-f49962b26c9c")
 		)
@@ -32569,6 +35542,297 @@
 				(pts
 					(xy 28.214206 -71.930007) (xy 28.912604 -71.930007) (xy 28.912604 -71.231609) (xy 28.214206 -71.231609)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "9b181e21-a7dc-403b-8fa8-14f0d476df8b")
+		(at 191.78 -15)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F27"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "a5cec650-7e24-495f-ab93-30b747404b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90ebd999-d7b3-4f68-8fff-e4e216045eaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6610f2f-b352-464d-9237-16d58fdddf0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1855d383-78cd-4f68-b5f2-30f64e04dc87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "668b85b5-b45a-4acb-a477-42c6d8e3a04d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c204623-6cae-4d26-87bd-b48938ad7c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88f1b7d2-e71a-40ab-92d4-ea225839f918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a0beaeb-7aae-45f4-a7fc-e1cc1e825ed8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1e7aeb0-96fb-46dc-8000-b9da4fe2a8b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e69f9ed7-180b-461d-8d33-b0222c756a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4544bce1-1031-4770-9838-857e16db466e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "254e3a5a-3a46-41fe-94b6-b409457c0944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/532e7267-12bb-4e66-baff-635d18b7af95")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e2e4c2c2-6385-461a-bcbf-c4af669e4b91")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db63e61c-b00f-4c7a-b5af-6736faa090b6")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "89f333f4-4262-49b8-94bd-f724106c57ab")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f03a264b-8dd1-4b20-b625-cf41a089a4c3")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a6ab41a-a7a0-4832-a871-71f765a45696")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2c5c9ac-6139-4190-b41f-b764db15b90d")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bc2038d-b3ea-4c58-8767-c1a826b72a8b")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e27397bb-c65e-4f71-9332-c397d51e19c8")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aeea2017-0f11-4aaf-8313-2d49ff354a6e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8af8eef6-a4dc-43c4-9e4f-2e4525369715")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 9 "Cell 11")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "8f5687f5-0a2b-4f5a-b476-c157f45243c2")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 141 "Net-(F12-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "a4c7955c-d062-47f9-ac1c-dc71aba81732")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -33343,7 +36607,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 10 "Cell 3")
+			(net 118 "Net-(F4-Pad2)")
 			(pintype "passive")
 			(uuid "794836dc-1a1d-4774-85df-f95f6eea52b7")
 		)
@@ -33546,7 +36810,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Cell 1")
+			(net 116 "Net-(F2-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b932fa28-08c4-4860-9f70-bd5a3e064885")
@@ -33726,6 +36990,297 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "2c075356-4f8e-4b0f-be0b-840154a9bbec")
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "a1836449-2794-4c88-af03-f76dfaefd5a8")
+		(at 187.79 -7.29)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F25"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e181e711-bb56-455b-8134-c5d95b49cc29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e35d2556-e737-419e-8eb0-6d9371d0461d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aefa6e13-4e3c-4b24-8083-5502df88c97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29d70e9a-1a23-4f3b-9573-03614b849c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94cdfca4-708b-4684-8421-5a990ef55591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5883ee93-fd26-40ff-99a0-0c5a16a5e78f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "934b4058-08cf-42b7-84f3-2d6dfc0f4ccc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4938afc7-b802-458d-8f08-166b93258a53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22ffe488-8c3e-47bb-b2ee-877c4bfe05ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35d8fa59-372c-4031-94a4-8c95f4417e9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8108ea71-18ec-4bbf-a697-f0ed2529fbb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "207ee5c9-3de7-4538-a121-f2a77dc8b5b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/da59ed56-4ee2-4c29-b341-8f9c846c900f")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9762ef66-4869-4a31-8ede-c0cc7c9fa91e")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "adb6b3c8-7264-4e01-ba14-c602a1a5ed0e")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0191758c-4785-4f34-97e6-51dbc9f8f71a")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b9f4a0c-6da0-48b7-a632-a12adec9a7b3")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cde6bf6a-fc01-4f00-b697-ae8b4f61463a")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe7c796d-5dd9-4770-adcd-5a72d8c35f2e")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2e10954-2eec-4da0-a16b-1245209534a5")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da7e0b4f-6d7f-42eb-bdbe-62dc2371d98f")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24a4c3d3-afc0-4073-a2b8-857df2b48399")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "23dd2478-def5-46d7-a461-47a320075528")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "Cell 9")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1b838392-af9c-44fc-bd90-a4089949e23b")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 139 "Net-(F10-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "d9ae55da-7270-4bbc-9cef-a7a8d5f76abf")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS"
@@ -35081,6 +38636,254 @@
 			)
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "a8c25f80-8ca0-4527-ab73-f0abe5af38de")
+		(at 249.225 -39.81)
+		(property "Reference" "F13"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "ee4e6d10-8b1e-4545-ac46-5c133e3c6b19")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "2b5ba183-63d0-48e0-bb04-7c7e86e01ddf")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e30bd9cc-9107-45ca-be0d-4736e7992998")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b778128-affc-4f51-a9d8-5f543306d392")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49894c57-3dbe-4641-85ea-53af5a93c372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8038c5be-9b3b-49ac-a868-ba43e949094f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f41b1f9-2ab2-4401-a5ab-321308077896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c503735-ec14-4bb3-ae7e-139f555aa399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bacd852-c790-46d2-8a8a-678fb9bfc5b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/9a4a54df-8277-4f27-8e3c-2724fc7fa6d9")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cca1562c-20d4-4ff2-8c5f-09d73bfb2832")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed686b62-818f-4f2a-a9a4-18fa9fc74a08")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "945f245d-39b5-4272-9e0f-8bf1dbe5aa7c")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3c4f3dbb-339b-45f5-881a-910be05705d6")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c593dd94-a7e3-4c43-bc32-4703eb9b23fe")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a9a90d5-b4cd-42b2-955b-d7ee4496daf0")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "44e08c4b-e5bf-4ebc-85e4-bcac61148087")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67e501fe-3aee-436d-88d7-0b320b2fe8f4")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1341bcf0-5f11-4675-b0f9-7f86abae4691")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "202bcfe4-3375-4183-8d58-7bdbebb6f9a9")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 142 "Net-(F13-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "39d9d9b8-ad09-4b89-a8c0-b03da16f4c0a")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 127 "Net-(F13-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b08e7ff2-8378-4735-af96-bd3967d18766")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
 		(layer "F.Cu")
 		(uuid "ad551002-999d-4502-b94c-c6ca4289378b")
@@ -35355,7 +39158,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 5 "Cell 1")
+			(net 116 "Net-(F2-Pad2)")
 			(pintype "passive")
 			(uuid "adfa4a70-ed52-41a7-ba92-98a735342798")
 		)
@@ -36102,6 +39905,254 @@
 			)
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "b502ad68-a7fe-4f81-ac1a-5acf2e9ebc20")
+		(at 245.195 -34.43)
+		(property "Reference" "F10"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "e907c789-6d0c-41ee-89ca-38fb70f7b372")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "f7632b4e-01fd-4c2d-81eb-3007c94e6fe6")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff663853-4aaa-4d61-9a9a-f36c376e3edb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8de49351-126e-4a06-b24f-2c9d0655a559")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f294e1ed-2637-4abe-b0d5-84eee2bb1652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6786e109-282f-4bd3-9760-ca6acd83fbbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "befb160b-d2c5-4ce3-a3b2-262a7672b7fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d45d1605-b368-44f0-af50-87b18a6db24b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1e4e489-53bc-40a0-9e1e-66119e165b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/11621272-2815-4e1f-af84-d760a3c62090")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27525a11-993c-4f06-970b-091c47c1f5c8")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04cb86ec-0c83-45c7-a1bc-726cd96ac389")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb1ce1be-18cc-4247-89d1-439b6fbc0cc1")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db1d2691-0bb6-481f-9521-83d1ec7facd7")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ce9a7f3-ecbd-41a0-a94f-a969a4e68e2c")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "805c27ab-b5a7-4f29-9de3-f371643cfd69")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c93cb0b-3e7a-4ffa-9af9-7433f40ed9b8")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53d67fb0-a610-4765-ae63-7f24942e0562")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5994fe1-8e24-4692-9a2b-0c090020c881")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fbc75a80-4d73-48b2-af4d-2adfc47068ff")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 139 "Net-(F10-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "a53be4e9-0134-425f-a55e-e4873f92cb1b")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 124 "Net-(F10-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "565b193e-8310-4c56-9ae1-8954df1369ac")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 		(layer "F.Cu")
 		(uuid "b51e7222-2513-4ae3-bfa2-ab2be27b7474")
@@ -36718,7 +40769,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 13 "Cell 13")
+			(net 128 "Net-(F14-Pad2)")
 			(pintype "passive")
 			(uuid "962c34a2-ade7-4ce7-b3dc-aca4c9d797b0")
 		)
@@ -37008,6 +41059,254 @@
 			(uuid "34b2c3e9-e185-49d8-bb31-c8ad1ed7536e")
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "b6e5cdde-d5a1-4652-8037-49a98b3109c9")
+		(at 245.195 -39.81)
+		(property "Reference" "F8"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "98acf2bd-4ffc-4ab2-b7b6-d2a5caaf2862")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "0c30cc0c-dc55-499e-b0c1-2963df5f92d9")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70df1481-d6cc-4ccc-bd80-ef0a157e1f21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1ad9a3d-8498-4160-9b62-6c0215c3c89e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dff9ef0d-dc76-40f1-af95-6c215a22c273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12db87ad-c17c-4d1e-bf52-eb04f36d9c81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db4e0d77-3e9b-4c8a-81ae-6bb8d1566815")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4f691a-58df-4cf9-901b-2205045a0c38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4ad861-963e-4794-9885-4e070535be65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/e3ed9111-70ae-4b2b-902d-aad1e3e049df")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6dc64e3-68f7-4c55-8ebf-a36b7a859083")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b2eba27-aed1-4a62-b548-855427bf1e83")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e80447e5-ce08-4eff-91ac-823cbc8e0d96")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "26571095-a45d-4d8c-acc3-abc1655b734a")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2fb76c7d-6e67-4f25-8331-29d2f19bb245")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a71030c-b132-4ac8-90cb-029538882e90")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74f1af63-1e92-40db-8c6f-780237f3a45e")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1952ba3b-6f6a-4ab8-822f-19bdb61958d5")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03c1d980-5950-4804-9261-51b1f14ab57a")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bea67b74-688f-4540-bafb-85694cc4bbd6")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 137 "Net-(F23-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5de335eb-b174-4f07-9bd2-067f5ae40c91")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 122 "Net-(F8-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6baab336-0ca0-4390-a027-2f9feebc5053")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
 		(uuid "b704a62d-6c23-4284-b019-1dfac572903e")
@@ -37275,7 +41574,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "Cell 4")
+			(net 119 "Net-(F5-Pad2)")
 			(pintype "passive")
 			(uuid "2743e93a-a435-47e1-8059-d5efa144cc4b")
 		)
@@ -37660,6 +41959,297 @@
 			(uuid "b7af85ee-7c9a-4042-9cad-c58279e411de")
 		)
 	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "bc66888b-4ced-489e-a345-206bd7a6fc4d")
+		(at 183.8 -4.72)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F21"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "8a0fa02a-4b91-40d5-815a-24f60e7cc40e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89cbe9ab-cc8c-42b2-908c-bec4efb218ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df3d03b7-f138-4a02-9f07-4710de154b27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33382f50-aba4-439c-9023-3b0d218ef6fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "debc0680-f194-4b0b-9217-30a23b0efdd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bba3227-ca9a-416b-9830-53b6247b2098")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13bbfc20-2b41-4092-877f-18a7ac63665b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a909b24f-a99d-40cd-98a7-e81845f9c3b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9d9bec3-a21d-4597-974b-23ed106a8db2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22153ffa-11a6-4439-8379-04a7cc17cbaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70770f3b-fc0d-4e36-a7c3-2563af51e888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5962f42d-afc4-4f60-beae-b87fb95416c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/dc4bad8b-b8e0-4e6b-be20-b9f3e7f201b6")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb0373e0-b9fb-4779-9dc9-27bfc90fe141")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d236b8f4-2cc1-47ca-b2e0-fb46c806dba9")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "566345df-27d1-4386-9c32-2e405e84852b")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a97f8ea-8dad-4453-9806-0c96c73101e6")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff51f205-71dd-46c3-a440-01bf29910004")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3985aad-271d-47de-90bd-39aec74d11c4")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86f63972-af20-4c27-b412-622504a1b204")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b7ec13d-6fc9-46e7-b61f-19c5415ebcbf")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef93ab52-7eb0-4e59-b313-da45b792672b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a213f1be-3419-437e-97b1-bdf59b2e80a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 4 "Cell 5")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "8e99b319-5bce-4ca2-91b7-eb069ae2a927")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 135 "Net-(F21-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "fc96800b-731e-43bd-8cbe-9d8f64778357")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
 		(layer "F.Cu")
 		(uuid "be0eb4ca-314d-4e48-a8ec-3f0b20d240a9")
@@ -37934,7 +42524,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 16 "Cell 12")
+			(net 127 "Net-(F13-Pad2)")
 			(pintype "passive")
 			(uuid "7f61ed6b-1d11-4daa-95b1-7e87afad611a")
 		)
@@ -38652,6 +43242,254 @@
 			)
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "bf669218-2bb4-4175-a3d7-0df93363e4f9")
+		(at 241.165 -31.74)
+		(property "Reference" "F6"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "ad1f8062-ffbb-45a5-b70e-388576553a6c")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "1fe014d4-b077-48fd-952a-d3e316a9ffbe")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10e37bb6-203c-48ef-9072-3b90673fbad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fa1c019-e4c9-4fa9-b576-73531d0bbf48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f17bb942-0924-48d9-852f-7e51e1c90ce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06e0f72-f9f9-4a81-83a5-07904dbc1bf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0aa9594-1d6a-4a70-94a0-5c9d0ffd1bb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c6c7e2-8b4d-425e-8abe-972b305a8a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a612cd-c2e2-447c-ba28-28fe1a4b092f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/07d8aaeb-b8b4-4dfa-8e15-5249ea35e377")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d9bd8ae-e280-4181-8f10-91b5ccb79c5d")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7ee7bbf-1532-4b28-9307-f437250a03bb")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e82e682b-75f6-4c41-970e-f2b78ddfea3e")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d32a959-868b-4e7c-8ef8-b0bddbe6fff4")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cbd80492-93b8-4eee-977e-c967e7e664ee")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a8b0ce31-9ad6-469b-b973-2d9f27594e08")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d392fd59-1bfd-4593-9126-868372fb5698")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66cdc4dc-17eb-4a29-a877-9e642841bdce")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db1de9e3-fd35-4089-a738-79652882e6e9")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c31f778c-aea3-4cd3-88b5-ff04e562dcec")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 135 "Net-(F21-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "09ee0718-31c2-4b9d-bdfa-701c07c3cced")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 120 "Net-(F6-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "07788f41-14a5-43c3-adb1-71bda3a4f94b")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "bfb7e956-9ba2-4709-9c5b-b569a6736f8b")
@@ -38997,7 +43835,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Cell 3")
+			(net 118 "Net-(F4-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "bade641c-83ec-462e-bc74-4966e855e68e")
@@ -39763,7 +44601,7 @@
 			(at 0.676199 0)
 			(size 0.552399 0.749198)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 4 "Cell 5")
+			(net 120 "Net-(F6-Pad2)")
 			(pintype "passive")
 			(uuid "693b899c-750e-49a6-9087-a7563bd5912c")
 		)
@@ -40070,7 +44908,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 3 "Cell 9")
+			(net 124 "Net-(F10-Pad2)")
 			(pintype "passive")
 			(uuid "fb0b3b46-7aa4-4b81-a216-d429324224d9")
 		)
@@ -40100,6 +44938,297 @@
 				(pts
 					(xy 102.457404 -65.6678) (xy 104.355804 -65.6678) (xy 104.355804 -64.0194) (xy 102.457404 -64.0194)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "c39a73aa-375a-41c2-86cb-e260146b5728")
+		(at 191.78 -7.29)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F30"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "8159091c-861c-4773-b457-5baa2645ae16")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f6ed343a-820d-4951-86b3-6cd6701f4a6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8381d8f-7071-4fd6-85ca-20028116d4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7b814d-f40b-49e1-b1e8-d85ee8ad0bd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac1558e0-bf42-42b6-b7ad-42bbb2891906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef5b670-84b7-4128-a71d-9142a966fd29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98f49e3c-f9cc-4342-9e73-9eca8b79ed9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cdcfa36-46bd-4aea-a9ac-2d1dfcc210f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd3eba2f-cb0b-4be5-9df8-bf8078ec6aed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf23676f-b1a4-4690-bfe6-b0af8d48f5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5096595-710d-4ea8-9d36-5f0a03344c36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a8f3cd2-ebec-480f-a458-6fd79ecf8499")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/7313b05a-bf67-4cea-bed2-bc615c2adc06")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8309b3f9-b180-4484-82b8-50b18ad0a394")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81ed764a-c247-4185-ad73-1182a8c61980")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0167f7ee-9a17-4d98-aba6-458896f0babd")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "44e19fdb-338d-4e06-bf98-de9d5bc0c490")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bf010331-5ff9-4398-8ba9-1c256359a27d")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50d6626c-7259-481e-b391-225e981843de")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a49d9663-aba5-4520-90f4-a5b1543a7437")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d93beda6-dc7b-4217-8cf0-068cd172674f")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8326d483-854c-4d21-a85a-51dbccbab2fb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4c8c143d-872a-4785-bda0-70788d28913a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "Cell 14S")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "dc14b0ef-34c2-4349-8803-99417b2c75a5")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 144 "Net-(F15-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "71dd490e-1c6b-4113-b8b7-75e7bf1bd47c")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -40411,6 +45540,254 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "c524e7ad-4351-4daf-9655-393648bc2ce5")
+		(at 249.225 -42.5)
+		(property "Reference" "F12"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "d774b4c1-a8ae-47f9-8888-7ed08762ea11")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "3f87a668-8c2e-403e-8db7-d2ee4563f615")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d00e2ffe-d507-47f2-a93f-23926d9e5d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c109d98-0f28-4bfc-b845-9c589893cc22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f64b90e-48c5-4783-a69a-38bc6a3b268f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f0e2a0a-4d63-4e51-a471-5a49b565cef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b47c4a06-cd1e-4d50-9a85-f717bc60d0e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be5c7fe4-9504-4d01-a086-4806ca19a3d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48470723-b707-45c2-88b6-1a561954144d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/06f77a6f-0186-47d7-936a-b80efc7613b7")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a27aa249-ef9a-4304-9de3-25ce428d95e6")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "43d4eddb-0f43-426b-97b2-e21f6af97d91")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "37ed41b9-9ab2-4e7b-b788-985a84553aad")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c74abec0-d42a-46d4-b254-82be04a3ad7a")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a692ef2a-cd38-467a-b5e9-ddd52e280a18")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fdbf3490-c960-43ca-8436-9bf76818530e")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f18bb4c8-e3e8-42a3-b8a9-e08adca30652")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "880c93b0-0b28-4bea-ab57-efdebd135edb")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c62e99ef-bb3b-417d-8cae-53cac277cdf2")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5994b2b8-4c22-417b-89ea-7b7b0f1d09f4")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 141 "Net-(F12-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "46385060-6392-43c2-9611-55210602fce4")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 126 "Net-(F12-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "98cca317-efe3-4a5f-b936-35c22717060d")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -41010,7 +46387,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "Cell 0")
+			(net 115 "Net-(F1-Pad2)")
 			(pintype "passive")
 			(uuid "a8709e2a-000c-4de0-806d-90d85b085762")
 		)
@@ -41403,6 +46780,297 @@
 				(pts
 					(xy 276.2856 -139.0508) (xy 277.3778 -139.0508) (xy 277.3778 -137.5522) (xy 276.2856 -137.5522)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "ccb8be4c-8401-4a86-97e2-23cae84ecd9e")
+		(at 191.78 -9.86)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F29"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "3cea2c36-cadd-4bad-bbc6-21a62a2f77d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "946a54fe-b722-4939-83e6-b9147fe3a088")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b2f71d-5b45-4c86-9e05-56379b28f87a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b558b4b-5067-419f-990e-16425a19bfbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73334a54-2914-49c9-8ee3-c634e6c3c679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "046842d4-d87d-48f0-9a50-f5ff5f3c967f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11f015a1-5d80-46d7-964a-f013815265d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d484830a-b3cc-4016-9549-dbd8acad2be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a328fad-4bfd-45f9-8f9f-3e4c8df74e90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b546460c-e1c5-4775-bd6c-aacaa072ea9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f75b79b-2f58-4184-89d4-733afae4a2b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10f74299-2d0e-4476-838e-1bfd1cf29487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/39000441-c2e6-4de8-ac06-88905b9a0feb")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a376d5e8-ffe3-4c55-b500-bba582bf0d53")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d60f010-cddc-4e32-8dfd-2e1756bff0fa")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b16931e-45d6-4655-aa5a-2f7de072f4af")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48ec56ac-ed97-4e60-92ba-3e6297c9b089")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65be1584-da21-4b77-ac89-1797070a6be8")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db36d743-79dc-4ca9-9037-5b403b9f984c")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8298bf2b-6ba3-4e13-83a9-5c979c8ad94e")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ce3a137-ebca-4ea9-83cf-1612da97e707")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "502acd3a-2ba4-4727-b980-cb5b6308d781")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2abbbb29-75c3-4c7a-af3f-7bb27ce8a6ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 13 "Cell 13")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "cdd64f6c-8562-47db-9b09-9307b2a294ff")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 143 "Net-(F14-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "273c8fcf-9213-492c-8095-2eba8321a981")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -42028,6 +47696,297 @@
 				(pts
 					(xy 61.2488 -105.83) (xy 62.9252 -105.83) (xy 62.9252 -104.3314) (xy 61.2488 -104.3314)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "cffebb02-45e9-47c1-a500-989c42f0c134")
+		(at 187.79 -9.86)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F24"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "b90ca3fb-2b54-4df8-8e7e-e5ca8a18954b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "433adfd3-3437-48ec-ba98-132126724ca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93c87276-95c2-4a19-a85a-b633587146d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "928cee4b-4eb3-4133-8955-75f98430734a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1cef557-a61b-4b97-82e0-cba8b336cbb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc95d0df-6011-4533-9d4c-571be22bcaaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "565aebf4-91b4-44eb-b4d3-753386ef40ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9312c107-9624-423a-848a-45a211eeddba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92835b76-fadb-405c-ae23-a021f6bbf055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46488502-6acc-459d-90af-47b226079dc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63629c15-cda3-4d02-93c9-cdb84985de6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f1b98dd-54fb-4914-927c-7d335c176a72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/a668862f-ea7f-42a4-a956-af4303d5bb78")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae69e21c-e566-4d6d-8593-d1ab5466c4b9")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "364a4f38-4bb3-4e66-af1a-4455722a1b0f")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a12c8621-d983-4977-8288-6bc1cbd83b1e")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "41f44625-9420-43f3-8fc1-b21d65af05f0")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3992bca3-b1b8-4d9f-bf9d-2537ffe61fea")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e365b808-326c-4c33-9276-c39a5254f010")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a98c827e-4a33-47d1-8fdb-c256e090722c")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6dff4dda-2a1d-4fb7-8bb1-35b209afe5ca")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41af8a2a-fc8c-4e38-8900-7edbc3b98d6b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64865554-524a-4801-aa98-ad6a998d3f38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "Cell 8")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4304675d-2790-43c7-a113-fcbcb56047c9")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 138 "Net-(F24-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "5ce6e487-1e19-4453-af96-e7cffa6af168")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -43037,6 +48996,297 @@
 			(uuid "5026faf9-64f1-44e7-a33d-74e0a839e45f")
 		)
 	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "d2bccbe4-790f-42ab-a8d4-dcec4e8df286")
+		(at 183.8 -7.29)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F20"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "1efacfb6-d4de-4a8b-b4aa-5f9758aad100")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76a7b9a4-6a88-434a-9168-a426de535841")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3d5baf8-984d-4dd8-9f43-7434a4d385c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caaf57c9-4270-48fb-9281-8033f0f8207d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f41f88-41df-4e72-a8aa-dad94719aa30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47c9f0cf-903d-4576-99bf-aa7b501dfc7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "755abcd6-46de-471a-ae78-35c5b95964c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "383ac5db-a3ab-4c0f-ba40-d9704ac24da5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a08867a-a4e8-4a77-841d-5f4d16ac3108")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1911a955-6ca2-469d-9e59-3cddeabb1ebe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1041233-54d3-4c8c-a021-efd98749f29b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ddb8a8b-41a3-436c-9e42-e19acd1082ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/bb620e54-be74-466e-ae35-27103344c78b")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cec9bb66-c120-44dc-9376-22ced9898cbe")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cdd9cd0c-2a55-4ae0-b4fe-c7c1c879e4b5")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "558cf589-5dc5-4c32-8ccc-04035774f064")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb769206-12f9-4571-af1b-afaa5945265c")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b8a3b752-c49a-45d1-80a4-b46388e54c3b")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3c7aca9-b3c7-439c-bdf6-7741a073755d")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7ab8538-38b6-4b8d-8ff1-61d49c9d49b7")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "081901a3-ff33-4577-8dd5-de12309aa233")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0a826608-6ea6-4c89-afc4-4c02e6cf771d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "520b2a17-ee6e-4a1b-b18f-b6a2fbda4b93")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 15 "Cell 4")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a1aa0ca6-621e-491a-91da-3a28d95b6bf0")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 134 "Net-(F20-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "d65b8da4-6453-4ede-b4da-65bb5af11575")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
 		(uuid "d469944b-70c2-4855-a710-2c05c3aeb998")
@@ -43207,7 +49457,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Cell 7")
+			(net 122 "Net-(F8-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4d9ac35c-f7b5-4712-98ff-2f36d46eca9b")
@@ -44027,10 +50277,506 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Cell 5")
+			(net 120 "Net-(F6-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "70f18ce0-c354-499e-a5a7-37ec4b860ed2")
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "d74840c7-cee0-425b-b8d2-ee92934c2a12")
+		(at 245.195 -31.74)
+		(property "Reference" "F11"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "db38bba4-e1a7-4523-bd1a-02cfde408ea9")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "3e197fd5-88b9-4ac0-a7ca-69888b0b18d0")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a5f7a3-c8fa-42a8-81dc-0b2e9bf741b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d608bc-a639-4db3-b686-ac0fd0a85487")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff3ee7c6-151f-45d2-a888-fc5266afba37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8498ecb3-3742-45b0-b462-3c31855dcb94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "538aa58d-4fef-4d78-a47a-4b849fd3301a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9f471c1-e41d-4c59-9954-4b9466ea27a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63964206-d6a7-4482-882b-a3f857c8624c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/63fe66a5-9b43-48ff-aed8-98315f275108")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a60f546-3833-4c39-be85-9d1c9cf3e469")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5113e348-1d35-434f-9b53-15b079d40921")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc212df7-a595-43f6-b225-1ba05ea1c96e")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b310f7ee-e18a-43c9-9a15-bf57605e32ce")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1c2d2d2b-5aac-496e-8dfe-0ce4876d18e9")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36198d57-c16b-43c7-91d7-b28fa63e9eaf")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8eb61c36-38ca-43f8-a016-349a81e1136b")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d38d431-bb4f-4232-849b-32a796f67b02")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d682dc31-5d4e-4b72-8fc1-5c5624348b6a")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8f81aad-70e5-4786-998a-7d6ef0c08f99")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 140 "Net-(F11-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2dac6a96-cd2d-47a9-9200-bd72cff6c19e")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 125 "Net-(F11-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ed339e5f-38ff-4019-9901-544dd5871ea5")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "d7ae509f-883e-4467-b1ee-db7c1924b709")
+		(at 245.195 -37.12)
+		(property "Reference" "F9"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "3f42a16f-1b8d-42a2-9672-6b31ed21b242")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "4d865a97-cb75-4a47-a647-b8e22d88ae8b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56f31f88-6626-43a5-b481-7642c4eda712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "113dda0c-857f-48c5-8aa5-bc5ee8c9a82b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c70cd8f4-95b3-4925-97d5-b7665b396a82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04fe9a27-c7df-43f4-a7f2-873007610b2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6964a422-417d-4d23-99f3-769f9e37ffd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "095fd5de-f787-4d0b-b237-38d7f0f65cf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7901088-c03f-4257-af74-eeee0229614f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/e8a33194-0be0-4313-898f-7dc098d3f0a6")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8685240e-73bb-4ec5-98fc-d5a5605317ac")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90f9a8ae-1452-4668-a1b2-aaeffe213332")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7642aa1e-6f12-4499-b86c-8d42a3e31d4a")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01ec2822-c5fb-4c05-9b83-b719f799f23e")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "44cea1b5-42fa-415f-8ae8-9c88a75714f0")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "358cada8-d94c-4890-bc51-c239fc217153")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b999e937-b0d3-47dc-a5c8-95e8622fc099")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8eea8d99-40b8-4e78-b0ba-2241eae1e60e")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3646c4c8-e7e0-4615-b864-550bb295b420")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4542787e-32f9-4196-805a-2d652c709691")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 138 "Net-(F24-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7b0d1a9c-835c-4173-bb7e-308ad0ae694f")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 123 "Net-(F9-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8c2e5492-7edd-4fd5-8ef9-8fe1b19e71bd")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -44352,6 +51098,297 @@
 				(pts
 					(xy 85.063 -65.738) (xy 85.5456 -65.738) (xy 85.5456 -65.0268) (xy 85.063 -65.0268)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "dc75bbc6-0230-4e48-8122-fc3cdaab41d6")
+		(at 187.79 -15)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F22"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "99becd9d-3eed-409b-bdb3-cb8ca5549091")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "60a245e3-aee1-4284-a1b9-2af61a35c583")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb78c79d-beb2-4beb-b59f-5624061e6f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c76500-b96e-4a4b-89dc-2b057f087b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "155a092b-a94a-4914-be02-7e1005ebecfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32d85b5e-175d-48cd-b7db-a04835849820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be0d730f-6241-4e56-af20-1dc12b287532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e43ef64a-91d2-460d-9b52-28d8d1e00038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893ab781-ca4a-4b09-9fc8-f6104b9c44d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3c53257-143c-4c46-b1e6-dd78ddaaafb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88a16794-28d4-48d1-869f-275d04dd3c74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "277ea95b-9cba-4d45-91ba-c58d33a86f4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/47360c3a-a0df-476e-8cb6-31e4334b8fac")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae3fb7d1-42f6-4a73-9b74-acdf11fa0539")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb3e5116-f127-44bc-9f26-71883bd9934e")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "147e9bdf-bc65-4518-817e-9e383b77c18c")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a64a3667-d95c-42a7-985e-67e7fa02a5ed")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0633c5d7-32c8-477f-84b5-d68b53255cb6")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32d4e901-f03d-42e3-bb85-af3c8fb9689c")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "af669398-a42d-4e02-bc6a-38efa35bd50f")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "700a2f8f-d527-4e8e-b2c6-aa541d755d57")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0a8cef64-831a-4c2e-853c-aa68b5161223")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a8d24109-1efa-43b7-ae56-fbd740c25a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 11 "Cell 6")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b7fe6103-276e-44e4-b755-a23f090536c7")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 136 "Net-(F22-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "bb974edf-f91c-477b-bed3-862d49a3b4cd")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -45988,7 +53025,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "Cell 7")
+			(net 122 "Net-(F8-Pad2)")
 			(pintype "passive")
 			(uuid "8d49c8e8-1ff4-4f83-913c-ca7941c7e289")
 		)
@@ -46517,6 +53554,297 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "51c69460-923f-4ca7-ba1b-e88942c81aae")
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "e6422970-5b6d-4499-ba99-f9188f009a20")
+		(at 199.28 -20)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F16"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "27503d69-03aa-4f53-a31a-1807877e7863")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "adb31e78-ba9f-4452-ac8b-a95b40b0b315")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54d55e49-7aa1-4b09-afc0-cb8084f1f31c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3d8357-3828-4dbc-a28f-479bd4fa373c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7cfb0bf-9d8d-4781-87cf-29ef9a902f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b9be38-829f-485d-a4f6-5dfc20d39738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab9f46c-e000-4bee-af86-edb65f0e807d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26f2abfa-49ba-493d-a0d3-7b14eb1fd17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "954345cd-4c86-459d-8fc9-843c6cb68e46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f171dbad-3985-41dc-aec9-4810ced2c6d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c68b99f8-47be-459d-adcd-977aefeca349")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2afce932-d7da-4449-ae75-75ccd96b9a92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/21a36c1f-1a8e-4788-ba6a-3ec4faa074a1")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e31337e-f44a-4072-91bf-cc692108691b")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a9806836-546a-4caf-8ae6-6b022819dd18")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "89891313-68dd-4350-b3f0-35b82f0f142a")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3cef0701-3583-437e-92dd-6364a37441bc")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13deb88d-2c1d-4172-8b8a-0d72a45106f3")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e8e36451-8f9c-4ed1-8168-359f9a0d1764")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "503826b7-1d0f-4a0d-b96e-30c89f1875cf")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5626c4b-3174-4349-b763-363abc06eceb")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6696dbd0-67a8-427d-ba22-c07d46e1d154")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2d1b2b7f-07c0-4dab-8677-9fd0c54c553c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "Cell 0")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c6bb4a9a-52dd-4e17-ac80-b78819608a83")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 130 "Net-(F1-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "97557041-6ab8-4f55-9087-ee25744da7c3")
+		)
+		(model "0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -47466,7 +54794,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "Cell 8")
+			(net 123 "Net-(F9-Pad2)")
 			(pintype "passive")
 			(uuid "a84a33ae-0863-4f83-a695-91983e404fc2")
 		)
@@ -47783,6 +55111,254 @@
 				(pts
 					(xy 289.465999 -132.095002) (xy 290.164397 -132.095002) (xy 290.164397 -131.396604) (xy 289.465999 -131.396604)
 				)
+			)
+		)
+	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "f127293e-9e0d-4916-9836-7311e9724a52")
+		(at 245.195 -42.5)
+		(property "Reference" "F7"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "8c8a44db-ce27-4663-b113-91fae5089bb6")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "2a12a6d7-7aab-46aa-a05a-ff9d42601e10")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c1b1f53-7e45-4eb2-9b58-647b58d204d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "235cd011-0a6e-4ca7-8d9f-f25ddc3d2853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43b6d9cd-734a-4ff1-8368-651b7d46a696")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872b283e-5346-4fd8-9e57-98859ac9973d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c787a36-1be8-4e37-89aa-4c55beaa12cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "820c8751-8723-45bf-ab90-0199f9cca5d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83cd61eb-60ed-4c61-8f7b-fcad3d2892ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/4ee0349c-dc67-44be-8871-9f13cc1ec057")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2675617c-3904-47ce-b7f6-c2455bd7e519")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3abf6d5a-c454-48df-b8b4-d9d7085b43c1")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18365ff3-e53c-4302-81eb-d947b152a54c")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c286f665-7575-47a8-bded-defbd52b2825")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3505d528-db18-4a34-8b35-25d42a7adf3b")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "849633ea-0151-4128-8082-56eb1e711d9f")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f487a96e-1326-4832-86d1-f696e8bf08e1")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3710dd7-a486-4b03-b8c7-c038c2101573")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b1bceb8-0eef-4d27-92f7-3375cc64a7f3")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14532ab8-d19f-468b-a4a8-e910db41d88a")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 136 "Net-(F22-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "bc13f0e3-53ec-4786-955b-6cd69b54dbdb")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 121 "Net-(F7-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "530797f3-b21b-42fd-b369-f23ece96997a")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -48236,7 +55812,7 @@
 			(at 1.3758 0)
 			(size 0.7516 1.6992)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 9 "Cell 11")
+			(net 126 "Net-(F12-Pad2)")
 			(pintype "passive")
 			(uuid "35d0ece6-644a-401a-8d60-87575d38d35b")
 		)
@@ -48848,6 +56424,254 @@
 			(uuid "fac3f5c2-0aa2-4501-95f4-6a31aae42f2a")
 		)
 	)
+	(footprint "0686F1000-01:FUSC1608X60N"
+		(layer "F.Cu")
+		(uuid "f7de6c6c-1352-483e-9c3f-244a33702b24")
+		(at 235.775 -42.5)
+		(property "Reference" "F1"
+			(at 0.232 -1.4064 0)
+			(layer "F.SilkS")
+			(uuid "8bac48f0-b9a7-4c9f-a91f-38e71b2ddff7")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0686F1000-01"
+			(at 3.0768 1.2936 0)
+			(layer "F.Fab")
+			(uuid "1a165dd3-b942-4473-b7c0-05ac8bb1265b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0686F1000-01:FUSC1608X60N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4d9147e-9d46-4717-9831-ffb1d10784ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1c78b55-ed5a-4c16-9b09-5ade4e7349f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5349689a-47be-4925-921d-66eaa248d5f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Jan2019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73eebe33-a700-4e80-9e1f-a09d4fa62127")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "BELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ec53bd0-6033-4f08-8e85-13d19996187d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf698248-3188-4558-a22f-88afb6904469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18712443-d294-43c0-bafc-b35d073bfd1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/f24289a6-265d-494e-bdb7-d240a6e1c00c")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.06 -0.41)
+			(end 0.06 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d5a8241-bd41-4ede-b06f-24ca776279eb")
+		)
+		(fp_line
+			(start 0.06 0.41)
+			(end -0.06 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b8a1157d-dc52-4e46-ae0e-b219341bb226")
+		)
+		(fp_line
+			(start -1.49 -0.82)
+			(end 1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "70e0e528-628f-4105-9e01-81a171b2af7a")
+		)
+		(fp_line
+			(start -1.49 0.82)
+			(end -1.49 -0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "862e5c59-827c-48a7-88cc-81b6e1df77f9")
+		)
+		(fp_line
+			(start 1.49 -0.82)
+			(end 1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3df67be-8d10-4a41-9c63-af91d6607813")
+		)
+		(fp_line
+			(start 1.49 0.82)
+			(end -1.49 0.82)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be7ba333-6341-4bb9-b388-2deeb18daa2e")
+		)
+		(fp_line
+			(start -0.8 -0.41)
+			(end 0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc8fe92c-0d1a-4cdc-9f25-4d892d8ca5ab")
+		)
+		(fp_line
+			(start -0.8 0.41)
+			(end -0.8 -0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6fdc5338-328e-41e6-bf69-3a922f4ef11e")
+		)
+		(fp_line
+			(start 0.8 -0.41)
+			(end 0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0524de70-444e-42c5-bc3d-45a287f3866a")
+		)
+		(fp_line
+			(start 0.8 0.41)
+			(end -0.8 0.41)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1bb5319-8778-4426-91e5-94215a169b32")
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 130 "Net-(F1-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5758f698-53d5-4765-8dad-1f82871e93b0")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 0.92 0.99)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 115 "Net-(F1-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "352da018-c18f-4c88-b7cd-3bd9e876a823")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0686F1000-01.STEP"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
+		)
+	)
 	(footprint "CRCW060351R0JNEA:RC0603N_VIS"
 		(layer "F.Cu")
 		(uuid "f909e1a1-0e0c-4ac9-a0c7-d39dc0e0fa33")
@@ -49439,6 +57263,297 @@
 				(pts
 					(xy 60.5376 -113.77) (xy 63.9666 -113.77) (xy 63.9666 -111.23) (xy 60.5376 -111.23)
 				)
+			)
+		)
+	)
+	(footprint "0438.250WRA:FUSC1608X61N"
+		(layer "F.Cu")
+		(uuid "fdf759d6-c11a-4446-8160-738147ec50c9")
+		(at 187.79 -12.43)
+		(descr "1.575mm x 0.85mm x 0.508mm")
+		(tags "Fuse")
+		(property "Reference" "F23"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "4ca1e032-c21b-4eed-9b09-496bf2d9bf11")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfe48d85-9c23-495c-9972-95ee5b576d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "FUSC1608X61N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65faa0f5-b25e-4af0-b19a-18fada8c6bdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46e3fd61-aee9-47d5-a803-3bf847b4f6d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d0de600-9ed4-4fab-945a-3942114e13b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.61"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd7eb667-83a2-4408-93de-6a6d92287ec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aab4280d-cfea-4bd1-86fe-dc43dac81542")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcc9350e-f1c3-460a-834b-2541595ad435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3da635a-27ba-4765-a847-d06aeabfd621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10d0054a-22cb-4fb4-aa1a-d82a925d1d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13cd868-1fb4-4d64-ae31-74edd82c629a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6d403d5-6ba1-46af-b6a7-708fd13f8015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2fc75a92-430f-42ad-9ad5-d910a7d34c12/55b0b1d8-be04-4963-9f3a-f145c0f0c82f")
+		(sheetname "CB_VB Generation")
+		(sheetfile "untitled.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.325)
+			(end 0 0.325)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2280447a-b492-4e46-b0bc-51f2fee58049")
+		)
+		(fp_line
+			(start -1.47 -0.76)
+			(end 1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb417334-4e7e-4a9f-a822-6de7bbc522e5")
+		)
+		(fp_line
+			(start -1.47 0.76)
+			(end -1.47 -0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58f0841c-445a-4198-89eb-f55fb40b7b8b")
+		)
+		(fp_line
+			(start 1.47 -0.76)
+			(end 1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "17df776a-9673-4610-a692-0f3d233da4af")
+		)
+		(fp_line
+			(start 1.47 0.76)
+			(end -1.47 0.76)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ee9918a-eb1f-4ab2-b833-10d5d208a0e7")
+		)
+		(fp_line
+			(start -0.788 -0.425)
+			(end 0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f4aba3e1-14e9-4b45-bbba-579d6de67a8b")
+		)
+		(fp_line
+			(start -0.788 0.425)
+			(end -0.788 -0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25c75d32-eecc-4b40-a203-7070e837835a")
+		)
+		(fp_line
+			(start 0.788 -0.425)
+			(end 0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ea2a101-0284-496f-bcde-c16703cbc91b")
+		)
+		(fp_line
+			(start 0.788 0.425)
+			(end -0.788 0.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf097687-2a4f-46d4-8fce-64a3dfdb2a79")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73f2ace3-09fb-41be-8a9b-44226dd3182b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "Cell 7")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "bc815ff1-bca4-40a9-a1f1-ba91887fed14")
+		)
+		(pad "2" smd rect
+			(at 0.72 0)
+			(size 1 1.02)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 137 "Net-(F23-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "0e4d656b-42a0-4204-a1cb-3a8ada4ffafc")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/0438.250WRASTEP/0438.250WRA.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
