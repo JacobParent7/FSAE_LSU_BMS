@@ -3635,19 +3635,19 @@
 		(uuid "e5b21fb2-cdc5-466c-8eee-499d9b36dc7f")
 	)
 	(no_connect
-		(at 154.94 231.14)
+		(at 138.43 227.33)
 		(uuid "1c69e646-a7b3-438f-900e-b5b81810fba9")
 	)
 	(no_connect
-		(at 237.49 228.6)
+		(at 270.51 218.44)
 		(uuid "b1892f60-8353-4d28-ab1b-a3b6945f27c7")
 	)
 	(no_connect
-		(at 237.49 231.14)
+		(at 270.51 220.98)
 		(uuid "cb5dfa2b-a766-4054-97e4-c279c7aec971")
 	)
 	(no_connect
-		(at 154.94 228.6)
+		(at 138.43 224.79)
 		(uuid "d56e71a6-7c4d-4f82-84f9-5cff59bcd66b")
 	)
 	(wire
@@ -3662,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 226.06) (xy 154.94 226.06)
+			(xy 124.46 222.25) (xy 138.43 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 223.52) (xy 154.94 223.52)
+			(xy 124.46 219.71) (xy 138.43 219.71)
 		)
 		(stroke
 			(width 0)
@@ -4122,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 226.06) (xy 237.49 226.06)
+			(xy 284.48 215.9) (xy 270.51 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4232,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 223.52) (xy 237.49 223.52)
+			(xy 284.48 213.36) (xy 270.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4676,7 +4676,7 @@
 	)
 	(global_label "ISO_COMMH_N"
 		(shape input)
-		(at 251.46 223.52 0)
+		(at 284.48 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4686,7 +4686,7 @@
 		)
 		(uuid "03cbdfca-59da-4067-a7c9-39c73285e5c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.6895 223.52 0)
+			(at 300.7095 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4698,7 @@
 	)
 	(global_label "ISO_COMML_N"
 		(shape input)
-		(at 140.97 223.52 180)
+		(at 124.46 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4708,7 +4708,7 @@
 		)
 		(uuid "15ca957d-dccb-492e-b7c6-a507a555a46b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.0429 223.52 0)
+			(at 108.5329 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4764,7 @@
 	)
 	(global_label "ISO_COMML_P"
 		(shape input)
-		(at 140.97 226.06 180)
+		(at 124.46 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4774,7 +4774,7 @@
 		)
 		(uuid "3c5fe6a5-9213-41b9-bc4a-67b7daafc665")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.1034 226.06 0)
+			(at 108.5934 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4940,7 @@
 	)
 	(global_label "ISO_COMMH_P"
 		(shape input)
-		(at 251.46 226.06 0)
+		(at 284.48 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4950,7 +4950,7 @@
 		)
 		(uuid "8d987e44-3b02-4945-9ab2-d7a8311611c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.629 226.06 0)
+			(at 300.649 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "0705510038:705510038")
-		(at 237.49 223.52 0)
+		(at 270.51 213.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5485,7 +5485,7 @@
 		(fields_autoplaced yes)
 		(uuid "1aca8a5f-d4df-43d8-b2ca-d08451ba3bb1")
 		(property "Reference" "J3"
-			(at 223.52 226.0599 0)
+			(at 256.54 215.8999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "Value" "705510038"
-			(at 223.52 228.5999 0)
+			(at 256.54 218.4399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5503,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" "CONN_70551-xxxx_04_MOL"
-			(at 237.49 223.52 0)
+			(at 270.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5513,7 @@
 			)
 		)
 		(property "Datasheet" "705510038"
-			(at 237.49 223.52 0)
+			(at 270.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 223.52 0)
+			(at 270.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5696,7 @@
 	)
 	(symbol
 		(lib_id "0705510038:705510038")
-		(at 154.94 223.52 0)
+		(at 138.43 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5705,7 +5705,7 @@
 		(fields_autoplaced yes)
 		(uuid "3327b5c4-1e32-4a32-bdac-732092e105b8")
 		(property "Reference" "J2"
-			(at 168.91 226.0599 0)
+			(at 152.4 222.2499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5714,7 +5714,7 @@
 			)
 		)
 		(property "Value" "705510038"
-			(at 168.91 228.5999 0)
+			(at 152.4 224.7899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5723,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "CONN_70551-xxxx_04_MOL"
-			(at 154.94 223.52 0)
+			(at 138.43 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" "705510038"
-			(at 154.94 223.52 0)
+			(at 138.43 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 223.52 0)
+			(at 138.43 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
