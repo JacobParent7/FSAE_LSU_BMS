@@ -1445,7 +1445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM31MR72A224KA37L"
+		(property "Datasheet" ""
 			(at 137.414 106.934 0)
 			(effects
 				(font
@@ -1456,6 +1456,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GCM31MR72A224KA37L"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -1581,7 +1590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW2010200RFKEF"
+		(property "Datasheet" ""
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -1592,6 +1601,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW2010200RFKEF"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -1722,6 +1740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "ZXTN4004KTC"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4fb93a8-f5ab-480e-a7a6-456ff023c34f")
 		)
@@ -1776,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW2010100RFKEF"
+		(property "Datasheet" ""
 			(at 150.622 100.584 0)
 			(effects
 				(font
@@ -1787,6 +1814,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW2010100RFKEF"
 			(at 149.86 106.68 0)
 			(effects
 				(font

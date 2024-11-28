@@ -22739,7 +22739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.848 188.722 0)
 			(effects
 				(font
@@ -22819,7 +22819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 438.658 242.062 0)
 			(effects
 				(font
@@ -22898,7 +22898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.592 337.566 0)
 			(effects
 				(font
@@ -22909,6 +22909,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 332.74 0)
 			(effects
 				(font
@@ -23023,6 +23032,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23166,6 +23184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad463a80-e8b5-4368-936f-de0435ed3cfe")
 		)
@@ -23287,6 +23314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "376a107e-db83-4136-b6a6-bfa8db13f059")
 		)
@@ -23338,7 +23374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 160.02 209.804 0)
 			(effects
 				(font
@@ -23475,6 +23511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56dff619-c28c-44ab-a522-ea170100ebef")
 		)
@@ -23526,7 +23571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 163.576 282.956 0)
 			(effects
 				(font
@@ -23537,6 +23582,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 276.86 0)
 			(effects
 				(font
@@ -23596,7 +23650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 420.624 224.536 0)
 			(effects
 				(font
@@ -23607,6 +23661,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 421.64 218.44 0)
 			(effects
 				(font
@@ -23669,7 +23732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 454.406 289.306 0)
 			(effects
 				(font
@@ -23751,7 +23814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 417.83 290.576 0)
 			(effects
 				(font
@@ -23888,6 +23951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8223e7a8-7de1-4892-b568-fba9e361d8ee")
 		)
@@ -23997,6 +24069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6dcb7b20-0676-4128-9963-424311f6794b")
 		)
@@ -24049,7 +24130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.594 330.454 0)
 			(effects
 				(font
@@ -24131,7 +24212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 213.36 345.948 0)
 			(effects
 				(font
@@ -24299,6 +24380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414f637c-51db-4beb-82f9-3ca1e234b1cd")
 		)
@@ -24353,7 +24443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 454.406 203.962 0)
 			(effects
 				(font
@@ -24435,7 +24525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.358 152.146 0)
 			(effects
 				(font
@@ -24584,6 +24674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "95b982e6-824e-42cf-9b65-d0779d9c2be3")
 		)
@@ -24635,7 +24734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 471.424 229.87 0)
 			(effects
 				(font
@@ -24717,7 +24816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 159.258 320.294 0)
 			(effects
 				(font
@@ -24796,7 +24895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.338 308.356 0)
 			(effects
 				(font
@@ -24807,6 +24906,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 304.8 0)
 			(effects
 				(font
@@ -24866,7 +24974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.084 85.598 0)
 			(effects
 				(font
@@ -24877,6 +24985,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -25025,6 +25142,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b78eb381-70df-4db1-bc6b-9bb18c131093")
 		)
@@ -25165,6 +25291,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cdc0282-0481-4660-8c05-4b7f5a389026")
 		)
@@ -25216,7 +25351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 163.83 196.342 0)
 			(effects
 				(font
@@ -25227,6 +25362,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 194.31 0)
 			(effects
 				(font
@@ -25344,6 +25488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ca233a6-71cc-48d7-a81e-aa963cfbb34e")
 		)
@@ -25398,7 +25551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 213.614 260.858 0)
 			(effects
 				(font
@@ -25480,7 +25633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 158.496 153.67 0)
 			(effects
 				(font
@@ -25559,7 +25712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 438.404 269.24 0)
 			(effects
 				(font
@@ -25727,6 +25880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea5185a5-735f-4e4f-a830-b53c8873f8c6")
 		)
@@ -25781,7 +25943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 160.02 348.742 0)
 			(effects
 				(font
@@ -25918,6 +26080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9eea68b9-fa1c-4987-a6ee-78429c037069")
 		)
@@ -26036,6 +26207,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26176,6 +26356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b8b94e6-f378-4ed4-a10c-c90120c8d8e6")
 		)
@@ -26230,7 +26419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.104 290.576 0)
 			(effects
 				(font
@@ -26398,6 +26587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d10e5f70-2ab7-4022-8bc4-4b73e6b8a6c1")
 		)
@@ -26518,7 +26716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 158.75 265.938 0)
 			(effects
 				(font
@@ -26600,7 +26798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 160.528 237.49 0)
 			(effects
 				(font
@@ -26680,7 +26878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.848 79.248 0)
 			(effects
 				(font
@@ -26817,6 +27015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86fab882-2202-476a-8b3f-38ea945b10c4")
 		)
@@ -26867,7 +27074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 424.18 282.448 0)
 			(effects
 				(font
@@ -26878,6 +27085,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 424.18 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 424.18 276.86 0)
 			(effects
 				(font
@@ -27007,6 +27223,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "dfa8a0cd-602f-41c1-a9ca-2adb5e53d4d5")
 		)
@@ -27055,7 +27280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.592 255.27 0)
 			(effects
 				(font
@@ -27066,6 +27291,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 248.92 0)
 			(effects
 				(font
@@ -27125,7 +27359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.084 142.494 0)
 			(effects
 				(font
@@ -27136,6 +27370,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 137.16 0)
 			(effects
 				(font
@@ -27198,7 +27441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 418.338 262.382 0)
 			(effects
 				(font
@@ -27335,6 +27578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4960dbbf-0033-4c5e-a956-2af99b9006a1")
 		)
@@ -27444,6 +27696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f52213f-1a80-4e40-9779-df0a93d87e6e")
 		)
@@ -27495,7 +27756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 164.846 229.87 0)
 			(effects
 				(font
@@ -27506,6 +27767,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 222.25 0)
 			(effects
 				(font
@@ -27654,6 +27924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 347.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ee740f0-a190-4c9e-ba75-2ee65711ac64")
 		)
@@ -27706,7 +27985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.594 278.384 0)
 			(effects
 				(font
@@ -27788,7 +28067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 158.242 378.46 0)
 			(effects
 				(font
@@ -27937,6 +28216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "af3b2b98-7767-4eff-9dbf-9e673c32e514")
 		)
@@ -27986,7 +28274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.34 105.918 0)
 			(effects
 				(font
@@ -28068,7 +28356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 417.83 206.248 0)
 			(effects
 				(font
@@ -28147,7 +28435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 424.18 252.222 0)
 			(effects
 				(font
@@ -28158,6 +28446,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 424.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 424.18 247.65 0)
 			(effects
 				(font
@@ -28287,6 +28584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5011"
+			(at 142.24 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "b51b6f81-74e3-4329-9168-7b06ed302b46")
 		)
@@ -28335,7 +28641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 163.576 377.698 0)
 			(effects
 				(font
@@ -28346,6 +28652,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 367.03 0)
 			(effects
 				(font
@@ -28460,6 +28775,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28584,6 +28908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "fc0a881d-dcc9-4458-9efd-cb3ab7518bbe")
 		)
@@ -28632,7 +28965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 176.53 308.102 0)
 			(effects
 				(font
@@ -28714,7 +29047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 196.342 179.578 0)
 			(effects
 				(font
@@ -28851,6 +29184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5626aa01-4ce8-4346-be64-7bd0a81d1041")
 		)
@@ -28972,6 +29314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "5a1e287c-8cf3-4b9f-8d07-c7e5421c9e50")
 		)
@@ -29021,7 +29372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.086 165.608 0)
 			(effects
 				(font
@@ -29189,6 +29540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d84263a6-be60-47cd-8b15-b371d85b9051")
 		)
@@ -29240,7 +29600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 421.64 197.358 0)
 			(effects
 				(font
@@ -29251,6 +29611,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 421.64 191.77 0)
 			(effects
 				(font
@@ -29310,7 +29679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 163.322 170.434 0)
 			(effects
 				(font
@@ -29321,6 +29690,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -29383,7 +29761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 454.406 260.35 0)
 			(effects
 				(font
@@ -29532,6 +29910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "55338b14-f204-43cf-b56e-0480ec062970")
 		)
@@ -29581,7 +29968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.086 249.936 0)
 			(effects
 				(font
@@ -29746,6 +30133,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29955,6 +30351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a89cdde-dace-422b-bb34-bb447887e8b3")
 		)
@@ -30009,7 +30414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.104 207.01 0)
 			(effects
 				(font
@@ -30091,7 +30496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 195.326 94.488 0)
 			(effects
 				(font
@@ -30228,6 +30633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f10585a4-de6e-468e-b3b1-a5dda9f2e89e")
 		)
@@ -30349,6 +30763,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "957df882-bd55-42a3-958a-608fbcfd3583")
 		)
@@ -30398,7 +30821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 438.658 214.376 0)
 			(effects
 				(font
@@ -30478,7 +30901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 450.85 178.816 0)
 			(effects
 				(font
@@ -30560,7 +30983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.104 123.19 0)
 			(effects
 				(font
@@ -30642,7 +31065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 159.258 125.73 0)
 			(effects
 				(font
@@ -30791,6 +31214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "7b37a43b-7c5e-4bf9-8a11-798de2f4535c")
 		)
@@ -30906,6 +31338,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31046,6 +31487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "480233a7-7d31-41ff-aa21-deb04487011c")
 		)
@@ -31097,7 +31547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW12067R50FKEAHP"
+		(property "Datasheet" ""
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -31108,6 +31558,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -31168,7 +31627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 179.832 357.378 0)
 			(effects
 				(font
@@ -31250,7 +31709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.104 362.458 0)
 			(effects
 				(font
@@ -31418,6 +31877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3706674-6e19-4b8d-a6ac-f2d057bd9bed")
 		)
@@ -31470,7 +31938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 180.086 132.588 0)
 			(effects
 				(font
@@ -31550,7 +32018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERA-3AEB101V"
+		(property "Datasheet" ""
 			(at 181.102 220.98 0)
 			(effects
 				(font
@@ -31718,6 +32186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f09e24-6a7e-4846-82d0-e104d806beee")
 		)
@@ -31858,6 +32335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76b1d411-aacf-4b97-a7b3-0c5e9fea1881")
 		)
@@ -31912,7 +32398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 196.088 318.77 0)
 			(effects
 				(font
@@ -31993,7 +32479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 418.084 234.696 0)
 			(effects
 				(font
@@ -32142,6 +32628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "db614e73-bc3a-4942-be96-b14a4736b87e")
 		)
@@ -32245,6 +32740,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32357,6 +32861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddbd03be-c4fa-4e6a-91c3-a64bb8daca2a")
 		)
@@ -32466,6 +32979,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0887e67c-1b29-4db1-81bc-e17879e84ed9")
 		)
@@ -32520,7 +33042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 158.242 181.102 0)
 			(effects
 				(font
@@ -32669,6 +33191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "a70163a4-5b08-4c16-ad0d-614bcb2e5057")
 		)
@@ -32787,6 +33318,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "767b5aa4-8a9b-45a5-9026-dcfeaec2a1d5")
 		)
@@ -32838,7 +33378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 197.358 234.442 0)
 			(effects
 				(font
@@ -32920,7 +33460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 159.512 293.624 0)
 			(effects
 				(font
@@ -33002,7 +33542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM188R71C474KA55D"
+		(property "Datasheet" ""
 			(at 160.528 97.536 0)
 			(effects
 				(font

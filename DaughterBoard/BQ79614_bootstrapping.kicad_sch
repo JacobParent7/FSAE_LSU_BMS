@@ -5921,7 +5921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105K8RACAUTO"
+		(property "Datasheet" ""
 			(at 226.822 92.202 0)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM155R71A104KA55D"
+		(property "Datasheet" ""
 			(at 211.582 110.49 0)
 			(effects
 				(font
@@ -6147,7 +6147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BQ79614PAPRQ1"
+		(property "Datasheet" ""
 			(at 87.376 42.418 0)
 			(effects
 				(font
@@ -6166,7 +6166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BQ79614PAPRQ1"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105K8RACAUTO"
+		(property "Datasheet" ""
 			(at 237.49 125.984 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERJ-3EKF30R0V"
+		(property "Datasheet" ""
 			(at 50.292 56.134 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GCM155R71A104KA55D"
+		(property "Datasheet" ""
 			(at 258.318 108.712 0)
 			(effects
 				(font
@@ -7005,7 +7005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105K8RACAUTO"
+		(property "Datasheet" ""
 			(at 258.826 87.884 0)
 			(effects
 				(font
@@ -7218,7 +7218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105K8RACAUTO"
+		(property "Datasheet" ""
 			(at 214.63 146.812 0)
 			(effects
 				(font
@@ -7299,7 +7299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2012X7R1A475M125AC"
+		(property "Datasheet" ""
 			(at 244.602 143.764 0)
 			(effects
 				(font
@@ -7310,6 +7310,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C2012X7R1A475M125AC"
 			(at 248.92 143.51 0)
 			(effects
 				(font

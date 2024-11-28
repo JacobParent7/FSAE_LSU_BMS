@@ -287,6 +287,14 @@
 	(net 142 "Net-(F13-Pad1)")
 	(net 143 "Net-(F14-Pad1)")
 	(net 144 "Net-(F15-Pad1)")
+	(net 145 "ISO_COMML_P")
+	(net 146 "ISO_COMML_N")
+	(net 147 "ISO_COMMH_P")
+	(net 148 "ISO_COMMH_N")
+	(net 149 "COMML_N_OPT")
+	(net 150 "COMML_P_OPT")
+	(net 151 "COMMH_N_OPT")
+	(net 152 "COMMH_P_OPT")
 	(footprint "0438.250WRA:FUSC1608X61N"
 		(layer "F.Cu")
 		(uuid "01a5c7ee-dccf-4646-ae76-b1fc364faf90")
@@ -928,7 +936,7 @@
 			(pintype "passive")
 			(uuid "5655f3be-e97a-4443-9ee6-c9f6c5539fef")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -936,7 +944,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -1300,6 +1308,17 @@
 				(pts
 					(xy 283.4318 -105.9967) (xy 284.524 -105.9967) (xy 284.524 -104.4981) (xy 283.4318 -104.4981)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6089,7 +6108,7 @@
 			(at -0.777799 0)
 			(size 0.755599 0.799998)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 41 "COMLN")
+			(net 29 "COMHN")
 			(pintype "passive")
 			(uuid "55f3a73d-4148-411d-8b88-073bfd66ddca")
 		)
@@ -6097,7 +6116,7 @@
 			(at 0.777799 0)
 			(size 0.755599 0.799998)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "COMLP")
+			(net 27 "COMHP")
 			(pintype "passive")
 			(uuid "61271fa7-da06-43f9-8f74-f99a8e2b7571")
 		)
@@ -6127,6 +6146,17 @@
 				(pts
 					(xy 239.504599 -54.201904) (xy 240.202997 -54.201904) (xy 240.202997 -53.503506) (xy 239.504599 -53.503506)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6735,6 +6765,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "744242471:744242471"
 		(layer "F.Cu")
@@ -7059,15 +7100,15 @@
 			(pintype "passive")
 			(uuid "1f2249c0-b7f8-4121-81e8-463d80eedb30")
 		)
-		(model "744242471.stp"
+		(model "C:/Users/modhy/Downloads/LIB_744242471/744242471/3D/744242471.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 -180 90)
 			)
 		)
 	)
@@ -7368,6 +7409,17 @@
 				(pts
 					(xy 28.214206 -80.349199) (xy 28.912604 -80.349199) (xy 28.912604 -79.650801) (xy 28.214206 -79.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -7908,7 +7960,7 @@
 			(pintype "passive")
 			(uuid "9052978b-704b-495e-ac0b-e67f681dbba9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7916,7 +7968,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -8261,6 +8313,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -8280,7 +8343,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 0 0 0)
+			(at -1.803009 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "32222e3e-2154-4262-a7d2-4b354a670716")
@@ -8559,6 +8622,17 @@
 				(pts
 					(xy 24.95381 -76.139603) (xy 25.652208 -76.139603) (xy 25.652208 -75.441205) (xy 24.95381 -75.441205)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9147,7 +9221,7 @@
 			(at -0.7747 0)
 			(size 0.762 0.8128)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 91 "/COMML/COMML_P_OPT")
+			(net 152 "COMMH_P_OPT")
 			(pintype "passive")
 			(uuid "c2311526-8115-44a7-b10c-89ffd5ff5cfc")
 		)
@@ -9185,6 +9259,17 @@
 				(pts
 					(xy 252.981 -56.6495) (xy 253.6668 -56.6495) (xy 253.6668 -55.9383) (xy 252.981 -55.9383)
 				)
+			)
+		)
+		(model "C:/Users/modhy/Downloads/RC0603JR_070RL/RC0603N_YAG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -10153,6 +10238,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS"
 		(layer "F.Cu")
@@ -10516,6 +10612,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
@@ -10680,7 +10787,7 @@
 			(pintype "passive")
 			(uuid "720d1f9a-e2e9-4fbe-8701-d9c192afe998")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10688,7 +10795,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -10855,7 +10962,7 @@
 			(pintype "passive")
 			(uuid "945939ea-ae65-4e4c-881e-62a717f0dbac")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10863,7 +10970,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11609,6 +11716,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "d5e8eb17-a2d3-4e74-b226-852224d6f100")
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
@@ -12096,7 +12214,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/symbol-libs/symbols/ERA-3AEB101V/ERA-3AEB101V.pretty/RC0603N_PAN-L.kicad_mod"
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13236,7 +13354,7 @@
 			(at -0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pintype "passive")
 			(uuid "f53d9734-d148-4533-90f6-15e6941adb38")
 		)
@@ -13276,11 +13394,22 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_CL10_SAM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "PEC03SAAN:CONN_PEC03SAAN_SUL"
 		(layer "F.Cu")
 		(uuid "284498e2-0ae5-43a3-9512-a33d89de25ce")
-		(at 287.9314 -96.1013)
+		(at 288.5 -96)
 		(tags "PEC03SAAN ")
 		(property "Reference" "J2"
 			(at 2.54 0 0)
@@ -13532,6 +13661,17 @@
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "e80d267a-89ad-4fe4-9c52-d8ee1e2ec51f")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CONN_PEC03SAAN_SUL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -14182,7 +14322,7 @@
 			(drill 1.1684)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 101 "/COMML/ISO_COMML_N")
+			(net 146 "ISO_COMML_N")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "ab2107d7-35c6-486d-9aaa-ecf0877b65b1")
@@ -14193,7 +14333,7 @@
 			(drill 1.1684)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 102 "/COMML/ISO_COMML_P")
+			(net 145 "ISO_COMML_P")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "78cca29e-b955-4a5d-a07c-d60163c29fa3")
@@ -14219,6 +14359,17 @@
 			(pinfunction "4")
 			(pintype "unspecified+no_connect")
 			(uuid "ac88ecf2-c03a-42b1-ae0d-5fb47555a8fb")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/705510038.stp"
+			(offset
+				(xyz -3.79 -7 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
 		)
 	)
 	(footprint "0438.250WRA:FUSC1608X61N"
@@ -16121,6 +16272,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "0686F1000-01:FUSC1608X60N"
 		(layer "F.Cu")
@@ -16668,6 +16830,17 @@
 				(pts
 					(xy 28.214206 -76.139603) (xy 28.912604 -76.139603) (xy 28.912604 -75.441205) (xy 28.214206 -75.441205)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -17603,7 +17776,7 @@
 			(at 0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 102 "/COMML/ISO_COMML_P")
+			(net 147 "ISO_COMMH_P")
 			(pintype "passive")
 			(uuid "8dcd2e94-7f01-4512-944c-159c1a76dc69")
 		)
@@ -17693,7 +17866,7 @@
 		)
 		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
 			(offset
-				(xyz 1 -0.555 0)
+				(xyz 1 -0.6 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -18136,7 +18309,7 @@
 			(at -0.777799 0)
 			(size 0.755599 0.799998)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 41 "COMLN")
+			(net 29 "COMHN")
 			(pintype "passive")
 			(uuid "88f29b26-7f7e-4dfb-98a7-0e38f81d4ed2")
 		)
@@ -18174,6 +18347,17 @@
 				(pts
 					(xy 239.504599 -56.662302) (xy 240.202997 -56.662302) (xy 240.202997 -55.963904) (xy 239.504599 -55.963904)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -18474,6 +18658,17 @@
 				(pts
 					(xy 31.474602 -78.244401) (xy 32.173 -78.244401) (xy 32.173 -77.546003) (xy 31.474602 -77.546003)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19339,7 +19534,7 @@
 		(descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP1"
-			(at 0 -2.75 0)
+			(at -0.45 -2.85 0)
 			(layer "F.SilkS")
 			(uuid "2d126766-72a1-4d05-a2dc-4a4cb4b37031")
 			(effects
@@ -19495,7 +19690,7 @@
 			(pintype "passive")
 			(uuid "151bf091-e7c6-410d-9720-30c52a148d4a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19503,7 +19698,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -19670,7 +19865,7 @@
 			(pintype "passive")
 			(uuid "a546cc50-6d2c-43d5-a371-0de375801321")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19678,7 +19873,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -20178,7 +20373,7 @@
 			(pintype "passive")
 			(uuid "a4be6561-acb4-49d4-8970-ab269816314c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20186,7 +20381,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -20681,10 +20876,21 @@
 			(at 1.14935 0)
 			(size 0.9017 0.4826)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "0f99c935-931c-46b3-bb6b-df83599cfc09")
+		)
+		(model "C:/Users/modhy/Downloads/PESD1CAN_215/SOT23_PESD1_NEX.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "TP5012:TP_5012"
@@ -21048,6 +21254,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "8480544a-3d85-427a-ab3b-d9cad9278015")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "0686F1000-01:FUSC1608X60N"
@@ -21847,6 +22064,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS"
 		(layer "F.Cu")
@@ -22210,6 +22438,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "ERA-3AEB101V:RC0603N_PAN-L"
 		(layer "F.Cu")
@@ -22508,6 +22747,17 @@
 				(pts
 					(xy 31.474602 -80.349199) (xy 32.173 -80.349199) (xy 32.173 -79.650801) (xy 31.474602 -79.650801)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24190,7 +24440,7 @@
 			(at -0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 90 "/COMML/COMML_N_OPT")
+			(net 151 "COMMH_N_OPT")
 			(pintype "passive")
 			(uuid "13916443-ac85-4ea9-8ab2-a2653b393935")
 		)
@@ -24284,6 +24534,17 @@
 				(pts
 					(xy 235.387 -62.0743) (xy 236.4792 -62.0743) (xy 236.4792 -60.5757) (xy 235.387 -60.5757)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24586,6 +24847,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CL10B221JB8NNNC:CAP_CL10_SAM"
 		(layer "F.Cu")
@@ -24864,7 +25136,7 @@
 			(at -0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pintype "passive")
 			(uuid "cdff262c-8fe3-41d3-aef5-f03b5b85eee5")
 		)
@@ -24872,7 +25144,7 @@
 			(at 0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 41 "COMLN")
+			(net 29 "COMHN")
 			(pintype "passive")
 			(uuid "67979738-8af6-4d42-a28d-dc5419514d7a")
 		)
@@ -24902,6 +25174,17 @@
 				(pts
 					(xy 256.8446 -59.1227) (xy 257.743 -59.1227) (xy 257.743 -58.4243) (xy 256.8446 -58.4243)
 				)
+			)
+		)
+		(model "C:/Users/modhy/Downloads/RC0603JR_070RL/RC0603N_YAG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -25090,9 +25373,8 @@
 			(uuid "07e5ffd5-e355-4c2b-9277-1e681ff9b576")
 		)
 		(model "${KIPRJMOD}/symbol-libs/models/1206J2K00222KXR.step"
-			(hide yes)
 			(offset
-				(xyz 1 0 0)
+				(xyz 0 -0.8 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -25368,7 +25650,7 @@
 			(at -0.7747 0)
 			(size 0.762 0.8128)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 90 "/COMML/COMML_N_OPT")
+			(net 149 "COMML_N_OPT")
 			(pintype "passive")
 			(uuid "b2424710-f368-4227-8446-01fa9fa33957")
 		)
@@ -25406,6 +25688,17 @@
 				(pts
 					(xy 283.7586 -100.4183) (xy 284.4444 -100.4183) (xy 284.4444 -99.7071) (xy 283.7586 -99.7071)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_CL10_SAM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -25898,7 +26191,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -25909,7 +26202,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -26070,6 +26363,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "879f0822-1cba-4139-98fd-d6f0009a582d")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/1206J2K00222KXR.step"
+			(offset
+				(xyz 0 -0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
@@ -27163,7 +27467,7 @@
 			(at -0.7747 0)
 			(size 0.762 0.8128)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 91 "/COMML/COMML_P_OPT")
+			(net 150 "COMML_P_OPT")
 			(pintype "passive")
 			(uuid "dfe08ce0-fa07-4b42-9a4f-eaf2f9b5f58e")
 		)
@@ -27201,6 +27505,17 @@
 				(pts
 					(xy 283.7586 -98.3007) (xy 284.4444 -98.3007) (xy 284.4444 -97.5895) (xy 283.7586 -97.5895)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_CL10_SAM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -28330,7 +28645,7 @@
 			(pintype "passive")
 			(uuid "7450eb3f-0b75-4133-8546-f93823b7a897")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28338,14 +28653,14 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "76455490-0268-4454-835e-b4b74a6e439e")
-		(at 179.05 -69.95)
+		(at 179.5 -69)
 		(descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP17"
@@ -28505,7 +28820,7 @@
 			(pintype "passive")
 			(uuid "75bc38a3-db51-448e-ab22-6b9ae359da6b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28513,7 +28828,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -28791,7 +29106,7 @@
 			(at 0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 101 "/COMML/ISO_COMML_N")
+			(net 148 "ISO_COMMH_N")
 			(pintype "passive")
 			(uuid "e4cefa78-8079-41c4-8ee6-575a956949f1")
 		)
@@ -28877,6 +29192,17 @@
 				(pts
 					(xy 235.387 -73.2879) (xy 236.4792 -73.2879) (xy 236.4792 -71.7893) (xy 235.387 -71.7893)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29674,7 +30000,7 @@
 			(at 0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 101 "/COMML/ISO_COMML_N")
+			(net 146 "ISO_COMML_N")
 			(pintype "passive")
 			(uuid "a52c7680-9406-49c3-b6a5-ca9731a53c8c")
 		)
@@ -29760,6 +30086,17 @@
 				(pts
 					(xy 283.4318 -114.2545) (xy 284.524 -114.2545) (xy 284.524 -112.7559) (xy 283.4318 -112.7559)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -30060,6 +30397,17 @@
 				(pts
 					(xy 28.214206 -69.825209) (xy 28.912604 -69.825209) (xy 28.912604 -69.126811) (xy 28.214206 -69.126811)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -31114,7 +31462,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -31125,7 +31473,7 @@
 			(effects
 				(font
 					(size 0.393701 0.393701)
-					(thickness 0.15)
+					(thickness 0.098425)
 				)
 			)
 		)
@@ -31265,6 +31613,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ff4a7ad9-0e2a-4110-807b-5b3e4d7e2b3a")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/GCM1885C1H101JA16J.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 0.9)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -31899,6 +32258,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS"
 		(layer "F.Cu")
@@ -32174,7 +32544,7 @@
 			(at 0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 102 "/COMML/ISO_COMML_P")
+			(net 145 "ISO_COMML_P")
 			(pintype "passive")
 			(uuid "802095aa-a9af-4343-b0bb-ed01028e5a21")
 		)
@@ -32260,6 +32630,17 @@
 				(pts
 					(xy 279.714 -103.2441) (xy 280.8062 -103.2441) (xy 280.8062 -101.7455) (xy 279.714 -101.7455)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -32754,10 +33135,21 @@
 			(at 1.14935 0)
 			(size 0.9017 0.4826)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "de32e6aa-57a4-4354-9321-18f67fb9fb51")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/SOT23_PESD1_NEX.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
@@ -33873,7 +34265,7 @@
 			(pintype "passive")
 			(uuid "7e9d7a7e-a909-4ffe-8756-db2a19e7d4e1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33881,7 +34273,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -34475,6 +34867,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
@@ -34960,6 +35363,17 @@
 				(pts
 					(xy 106.353 -42.830801) (xy 105.654602 -42.830801) (xy 105.654602 -43.529199) (xy 106.353 -43.529199)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -36115,6 +36529,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "0438.250WRA:FUSC1608X61N"
 		(layer "F.Cu")
@@ -36903,7 +37328,7 @@
 			(pintype "passive")
 			(uuid "8d1fdbdb-3343-4be5-abaa-47508df7c69a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36911,7 +37336,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -38165,7 +38590,7 @@
 			(at -0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 91 "/COMML/COMML_P_OPT")
+			(net 150 "COMML_P_OPT")
 			(pintype "passive")
 			(uuid "256539b9-c6c7-4c04-96d3-ce2ad6224e03")
 		)
@@ -38259,6 +38684,17 @@
 				(pts
 					(xy 283.4318 -111.5019) (xy 284.524 -111.5019) (xy 284.524 -110.0033) (xy 283.4318 -110.0033)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -38539,7 +38975,7 @@
 			(at -0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pintype "passive")
 			(uuid "74508f80-f32e-4bef-ba73-fcdc0cf79814")
 		)
@@ -38547,7 +38983,7 @@
 			(at 0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "COMLP")
+			(net 27 "COMHP")
 			(pintype "passive")
 			(uuid "9be26a05-ea65-4cdc-9acb-7e65333c50ae")
 		)
@@ -38577,6 +39013,17 @@
 				(pts
 					(xy 256.8446 -56.6623) (xy 257.743 -56.6623) (xy 257.743 -55.9639) (xy 256.8446 -55.9639)
 				)
+			)
+		)
+		(model "C:/Users/modhy/Downloads/RC0603JR_070RL/RC0603N_YAG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -38743,7 +39190,7 @@
 			(pintype "passive")
 			(uuid "d85b00fd-9285-48de-95c4-31dd05b28c06")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38751,7 +39198,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -38918,7 +39365,7 @@
 			(pintype "passive")
 			(uuid "cfc7e3e5-a783-4005-b479-d8cbdd7e950e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38926,7 +39373,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -41135,6 +41582,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
 		(layer "F.Cu")
@@ -41711,6 +42169,17 @@
 			(pintype "unspecified")
 			(uuid "34b2c3e9-e185-49d8-bb31-c8ad1ed7536e")
 		)
+		(model "C:/Users/modhy/Downloads/PEC02SAAN (1)/PEC02SAAN.STEP"
+			(offset
+				(xyz 1.2999 0.09 0)
+			)
+			(scale
+				(xyz 1 1 0.9)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "0686F1000-01:FUSC1608X60N"
 		(layer "F.Cu")
@@ -42260,6 +42729,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
@@ -42618,7 +43098,7 @@
 			(drill 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "Cell 0")
+			(net 115 "Net-(F1-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b7af85ee-7c9a-4042-9cad-c58279e411de")
@@ -43844,7 +44324,7 @@
 			(at -0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 91 "/COMML/COMML_P_OPT")
+			(net 152 "COMMH_P_OPT")
 			(pintype "passive")
 			(uuid "1ed4ab3e-bae9-4bbb-b2a5-4aa224a9f053")
 		)
@@ -43938,6 +44418,17 @@
 				(pts
 					(xy 235.387 -64.8777) (xy 236.4792 -64.8777) (xy 236.4792 -63.3791) (xy 235.387 -63.3791)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -44353,7 +44844,7 @@
 			(pintype "passive")
 			(uuid "6c0c6596-9c17-450c-97e9-6fa4ae74b1da")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44361,7 +44852,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -44715,7 +45206,7 @@
 			(pintype "passive")
 			(uuid "4f307e79-c96b-4e0b-9919-4393fec2677d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44723,7 +45214,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -45004,7 +45495,7 @@
 			(at -0.8278 0)
 			(size 0.6556 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 89 "/COMML/GND")
+			(net 22 "AVSS")
 			(pintype "passive")
 			(uuid "8278b12c-71b1-4b03-8c2d-3193ed682b40")
 		)
@@ -45042,6 +45533,17 @@
 				(pts
 					(xy 280.395 -100.3675) (xy 281.2934 -100.3675) (xy 281.2934 -99.6691) (xy 280.395 -99.6691)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CAP_CL10_SAM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -45342,6 +45844,17 @@
 				(pts
 					(xy 24.95381 -69.825209) (xy 25.652208 -69.825209) (xy 25.652208 -69.126811) (xy 24.95381 -69.126811)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_PAN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -47433,7 +47946,7 @@
 			(at -0.9779 0 90)
 			(size 1.397 0.762)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 90 "/COMML/COMML_N_OPT")
+			(net 149 "COMML_N_OPT")
 			(pintype "passive")
 			(uuid "329c640d-2db6-4b06-8315-bdfd2cddb886")
 		)
@@ -47527,6 +48040,17 @@
 				(pts
 					(xy 283.4318 -108.7493) (xy 284.524 -108.7493) (xy 284.524 -107.2507) (xy 283.4318 -107.2507)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -48087,7 +48611,7 @@
 			(at -0.7747 0)
 			(size 0.762 0.8128)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 90 "/COMML/COMML_N_OPT")
+			(net 151 "COMMH_N_OPT")
 			(pintype "passive")
 			(uuid "fec76da1-06eb-4c06-b463-f6dc98a84481")
 		)
@@ -48125,6 +48649,17 @@
 				(pts
 					(xy 252.981 -59.1227) (xy 253.6668 -59.1227) (xy 253.6668 -58.4115) (xy 252.981 -58.4115)
 				)
+			)
+		)
+		(model "C:/Users/modhy/Downloads/RC0603JR_070RL/RC0603N_YAG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -48911,7 +49446,7 @@
 			(pintype "passive")
 			(uuid "29bff4c3-9140-4df9-86ce-79f63e726404")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48919,7 +49454,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -49592,7 +50127,7 @@
 	(footprint "TP5012:TP_5012"
 		(layer "F.Cu")
 		(uuid "d27dd2b3-94e5-4453-92bc-43384cff6154")
-		(at 147.28 -70.12)
+		(at 148 -70.12)
 		(property "Reference" "TP10"
 			(at 0.279825 -2.972945 0)
 			(layer "F.SilkS")
@@ -50241,6 +50776,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4d9ac35c-f7b5-4712-98ff-2f36d46eca9b")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "GCM188R71C474KA55D:G-188_MUR-L"
@@ -52541,15 +53087,15 @@
 			(pintype "passive")
 			(uuid "a8b744f3-38b3-4f26-a40f-623154ec7390")
 		)
-		(model "744242471.stp"
+		(model "C:/Users/modhy/Downloads/LIB_744242471/744242471/3D/744242471.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 -180 90)
 			)
 		)
 	)
@@ -52570,7 +53116,7 @@
 				)
 			)
 		)
-		(property "Value" "1.00K"
+		(property "Value" "1k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52857,6 +53403,17 @@
 				(pts
 					(xy 296.612199 -99.688704) (xy 297.310597 -99.688704) (xy 297.310597 -98.990306) (xy 296.612199 -98.990306)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -53222,6 +53779,17 @@
 				)
 			)
 		)
+		(model "${KIPRJMOD}/symbol-libs/models/CRCW08050000Z0EAHP.stp"
+			(offset
+				(xyz 1 -0.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "70551-0038:CONN_70551-xxxx_04_MOL"
 		(layer "F.Cu")
@@ -53538,7 +54106,7 @@
 			(drill 1.1684)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 101 "/COMML/ISO_COMML_N")
+			(net 148 "ISO_COMMH_N")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "8093e885-dcb1-4819-b3f6-8094338808fa")
@@ -53549,7 +54117,7 @@
 			(drill 1.1684)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 102 "/COMML/ISO_COMML_P")
+			(net 147 "ISO_COMMH_P")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "7c8b06d4-5561-4ffe-a96d-1a58ba0dbe36")
@@ -53575,6 +54143,17 @@
 			(pinfunction "4")
 			(pintype "unspecified+no_connect")
 			(uuid "3c8664d0-eb16-4c10-914a-2d368cce17ca")
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/705510038.stp"
+			(offset
+				(xyz -3.79 -7 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
 		)
 	)
 	(footprint "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
@@ -55203,7 +55782,7 @@
 			(pintype "passive")
 			(uuid "2dbc307c-824e-466f-b8bb-d9aa10af06f0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
+		(model "${KIPRJMOD}/symbol-libs/models/TP5012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55211,7 +55790,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -56005,6 +56584,17 @@
 				(pts
 					(xy 296.612199 -101.793502) (xy 297.310597 -101.793502) (xy 297.310597 -101.095104) (xy 296.612199 -101.095104)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -57352,6 +57942,17 @@
 			(pintype "unspecified")
 			(uuid "fac3f5c2-0aa2-4501-95f4-6a31aae42f2a")
 		)
+		(model "C:/Users/modhy/Downloads/PEC02SAAN (1)/PEC02SAAN.STEP"
+			(offset
+				(xyz 1.2999 0.09 0)
+			)
+			(scale
+				(xyz 1 1 0.9)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "0686F1000-01:FUSC1608X60N"
 		(layer "F.Cu")
@@ -57848,7 +58449,7 @@
 			(at -0.777799 0)
 			(size 0.755599 0.799998)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "COMLP")
+			(net 27 "COMHP")
 			(pintype "passive")
 			(uuid "a7cea8aa-0db7-41ac-ba52-20e46dead990")
 		)
@@ -57886,6 +58487,17 @@
 				(pts
 					(xy 239.504599 -59.1227) (xy 240.202997 -59.1227) (xy 240.202997 -58.424302) (xy 239.504599 -58.424302)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/symbol-libs/models/RC0603N_VIS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
