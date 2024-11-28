@@ -18417,12 +18417,6 @@
 		)
 	)
 	(junction
-		(at 200.66 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0029256b-a0c9-41a8-b659-38b480b117c8")
-	)
-	(junction
 		(at 421.64 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18645,6 +18639,12 @@
 		(uuid "68369424-c66b-48f8-85e0-68784d121c6c")
 	)
 	(junction
+		(at 176.53 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0d40fd-5213-4bed-9f4b-ad8da87d009f")
+	)
+	(junction
 		(at 163.83 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18655,12 +18655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "732f9dfe-5812-4904-ab88-d13da738841c")
-	)
-	(junction
-		(at 176.53 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a359d3d-83b4-4c86-8d3c-3317ea006ddb")
 	)
 	(junction
 		(at 157.48 337.82)
@@ -18759,6 +18753,12 @@
 		(uuid "ab09adb1-d6fc-4a51-855a-fc9b24252a2e")
 	)
 	(junction
+		(at 167.64 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acf5e920-d87b-46eb-9155-b679ae354db8")
+	)
+	(junction
 		(at 163.83 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18841,6 +18841,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e31ae3f2-9a0f-4075-ac1a-136c60a69d0b")
+	)
+	(junction
+		(at 200.66 354.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5fc9d92-94e4-47f4-89ad-3fd1e64427a5")
 	)
 	(junction
 		(at 401.32 238.76)
@@ -19044,7 +19050,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 354.33) (xy 176.53 354.33)
+			(xy 142.24 354.33) (xy 167.64 354.33)
 		)
 		(stroke
 			(width 0)
@@ -19664,6 +19670,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 353.06) (xy 167.64 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cd12be-e77f-46a9-b048-e5ac4514ea5d")
+	)
+	(wire
+		(pts
 			(xy 421.64 209.55) (xy 415.29 209.55)
 		)
 		(stroke
@@ -19864,6 +19880,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 354.33) (xy 176.53 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cc2b3c-4e3a-427c-b84e-2ab72db7ed41")
+	)
+	(wire
+		(pts
 			(xy 450.85 210.82) (xy 458.47 210.82)
 		)
 		(stroke
@@ -19871,16 +19897,6 @@
 			(type default)
 		)
 		(uuid "57b6d67a-97c4-4d42-b4e5-0d242c4f4fac")
-	)
-	(wire
-		(pts
-			(xy 193.04 354.33) (xy 200.66 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58611411-3ca5-4eb8-9fc4-e04c3f2f4f89")
 	)
 	(wire
 		(pts
@@ -20574,16 +20590,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 354.33) (xy 180.34 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8dd07a-f653-4dcb-b791-7e48acd5feec")
-	)
-	(wire
-		(pts
 			(xy 143.51 129.54) (xy 163.83 129.54)
 		)
 		(stroke
@@ -20791,6 +20797,16 @@
 			(type default)
 		)
 		(uuid "af0d8007-6eab-4f7f-bc9d-bc7410097b5d")
+	)
+	(wire
+		(pts
+			(xy 176.53 354.33) (xy 180.34 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d49886-9a78-4df2-87f0-02a920493f1a")
 	)
 	(wire
 		(pts
@@ -21381,6 +21397,16 @@
 			(type default)
 		)
 		(uuid "e440b33d-d954-46e0-a15c-041236466a2c")
+	)
+	(wire
+		(pts
+			(xy 193.04 354.33) (xy 200.66 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6073836-0eb2-489f-8dd9-751a5de1a4dd")
 	)
 	(wire
 		(pts
@@ -28506,7 +28532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5011:TP_5011"
+		(property "Footprint" "5011 (1):TP_5011"
 			(at 142.24 342.9 0)
 			(effects
 				(font
@@ -31593,7 +31619,7 @@
 	(symbol
 		(lib_name "ERA-3AEB101V_11")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
-		(at 180.34 354.33 0)
+		(at 193.04 354.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31618,7 +31644,7 @@
 			)
 		)
 		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
-			(at 180.848 360.68 0)
+			(at 192.532 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31628,7 +31654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.832 357.378 0)
+			(at 193.548 351.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31638,7 +31664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 354.33 0)
+			(at 193.04 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31647,7 +31673,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERA-3AEB101V"
-			(at 180.086 362.966 0)
+			(at 193.294 345.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)

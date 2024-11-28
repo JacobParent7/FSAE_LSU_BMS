@@ -1435,7 +1435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "G-31_MUR"
+		(property "Footprint" "GCM31MR72A224KA37L:G-31_MUR-L"
 			(at 137.414 106.934 0)
 			(effects
 				(font
@@ -1793,7 +1793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_2010"
+		(property "Footprint" "CRCW2010100RFKEF:RES_CRCW_2010-L"
 			(at 150.622 100.584 0)
 			(effects
 				(font
