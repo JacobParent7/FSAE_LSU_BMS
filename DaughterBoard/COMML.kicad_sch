@@ -5153,7 +5153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERJ-3EKF1001V"
+		(property "Datasheet" ""
 			(at 264.922 45.974 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW060351R0JNEA"
+		(property "Datasheet" ""
 			(at 103.886 63.246 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PESD1CAN_215"
+		(property "Datasheet" ""
 			(at 312.42 69.85 0)
 			(effects
 				(font
@@ -5557,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "705510038"
+		(property "Datasheet" ""
 			(at 270.51 213.36 0)
 			(effects
 				(font
@@ -5804,7 +5804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "705510038"
+		(property "Datasheet" ""
 			(at 138.43 219.71 0)
 			(effects
 				(font
@@ -5972,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW060351R0JNEA"
+		(property "Datasheet" ""
 			(at 316.484 63.246 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PESD1CAN_215"
+		(property "Datasheet" ""
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW060351R0JNEA"
+		(property "Datasheet" ""
 			(at 100.838 28.956 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CL10B221JB8NNNC"
+		(property "Datasheet" ""
 			(at 139.954 85.598 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW060351R0JNEA"
+		(property "Datasheet" ""
 			(at 319.532 28.956 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CL10B221JB8NNNC"
+		(property "Datasheet" ""
 			(at 280.416 85.598 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ERJ-3EKF1001V"
+		(property "Datasheet" ""
 			(at 155.448 45.974 0)
 			(effects
 				(font
@@ -7755,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CL10B221JB8NNNC"
+		(property "Datasheet" ""
 			(at 299.466 84.328 0)
 			(effects
 				(font
@@ -8217,7 +8217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CL10B221JB8NNNC"
+		(property "Datasheet" ""
 			(at 120.904 84.328 0)
 			(effects
 				(font
