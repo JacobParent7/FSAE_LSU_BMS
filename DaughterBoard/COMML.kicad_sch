@@ -3639,12 +3639,12 @@
 		(uuid "1c69e646-a7b3-438f-900e-b5b81810fba9")
 	)
 	(no_connect
-		(at 270.51 218.44)
-		(uuid "b1892f60-8353-4d28-ab1b-a3b6945f27c7")
+		(at 270.51 213.36)
+		(uuid "47610705-46f8-416b-be29-2b7ee36c0924")
 	)
 	(no_connect
-		(at 270.51 220.98)
-		(uuid "cb5dfa2b-a766-4054-97e4-c279c7aec971")
+		(at 270.51 215.9)
+		(uuid "4d11e601-7eb2-4125-b481-005b51db657d")
 	)
 	(no_connect
 		(at 138.43 224.79)
@@ -3832,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 149.86) (xy 361.95 149.86)
+			(xy 345.44 149.86) (xy 361.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 149.86) (xy 334.01 149.86)
+			(xy 331.47 149.86) (xy 332.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4072,6 +4072,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 220.98) (xy 275.59 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608e2509-82a1-4ce1-8506-23478c508880")
+	)
+	(wire
+		(pts
 			(xy 137.16 167.64) (xy 146.05 167.64)
 		)
 		(stroke
@@ -4119,16 +4129,6 @@
 			(type default)
 		)
 		(uuid "61a419d2-618e-4e72-b078-0b00ab809cca")
-	)
-	(wire
-		(pts
-			(xy 284.48 215.9) (xy 270.51 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678b5f01-cd25-4a7f-9596-22267d6f314a")
 	)
 	(wire
 		(pts
@@ -4232,16 +4232,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 213.36) (xy 270.51 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e289d44-499e-4a0e-bc7f-3870a79e91b0")
-	)
-	(wire
-		(pts
 			(xy 80.01 139.7) (xy 86.36 139.7)
 		)
 		(stroke
@@ -4259,6 +4249,16 @@
 			(type default)
 		)
 		(uuid "9371b67a-9e27-4651-b6a5-631d6b11e3e8")
+	)
+	(wire
+		(pts
+			(xy 270.51 218.44) (xy 275.59 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9461c763-385e-48ee-bc1f-42c52307f3a6")
 	)
 	(wire
 		(pts
@@ -4676,7 +4676,7 @@
 	)
 	(global_label "ISO_COMMH_N"
 		(shape input)
-		(at 284.48 213.36 0)
+		(at 275.59 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4686,7 +4686,7 @@
 		)
 		(uuid "03cbdfca-59da-4067-a7c9-39c73285e5c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.7095 213.36 0)
+			(at 291.8195 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4940,7 @@
 	)
 	(global_label "ISO_COMMH_P"
 		(shape input)
-		(at 284.48 215.9 0)
+		(at 275.59 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4950,7 +4950,7 @@
 		)
 		(uuid "8d987e44-3b02-4945-9ab2-d7a8311611c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.649 215.9 0)
+			(at 291.759 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_VIS"
+		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
 			(at 103.886 63.246 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206J2K00222KXR:CAPC3216X160N"
+		(property "Footprint" "1206J2K00222KXR (1):CAPC3216X160N"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -5547,7 +5547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_70551-xxxx_04_MOL"
+		(property "Footprint" "0705510038:CONN_70551-xxxx_04_MOL"
 			(at 270.51 213.36 0)
 			(effects
 				(font
@@ -5794,7 +5794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_70551-xxxx_04_MOL"
+		(property "Footprint" "0705510038:CONN_70551-xxxx_04_MOL"
 			(at 138.43 219.71 0)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "744242471"
+		(property "Footprint" "KiCad:744242471"
 			(at 101.6 251.13 0)
 			(effects
 				(font
@@ -6542,7 +6542,7 @@
 	)
 	(symbol
 		(lib_id "CRCW08050000Z0EAHP:CRCW08050000Z0EAHP")
-		(at 346.71 149.86 0)
+		(at 345.44 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6552,7 +6552,7 @@
 		(fields_autoplaced yes)
 		(uuid "59824e54-7f8b-424e-80a8-8fe798848308")
 		(property "Reference" "R50"
-			(at 340.36 143.51 0)
+			(at 339.09 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6560,7 +6560,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 340.36 146.05 0)
+			(at 339.09 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6568,7 +6568,7 @@
 			)
 		)
 		(property "Footprint" "RES_CRCW_0805_VIS"
-			(at 346.71 157.226 0)
+			(at 345.44 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" "CRCW08050000Z0EAHP"
-			(at 346.71 157.226 0)
+			(at 345.44 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 149.86 0)
+			(at 345.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
-			(at 346.71 149.86 0)
+			(at 345.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +6727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206J2K00222KXR:CAPC3216X160N"
+		(property "Footprint" "1206J2K00222KXR (1):CAPC3216X160N"
 			(at 287.02 146.05 0)
 			(effects
 				(font
@@ -6885,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_VIS"
+		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
 			(at 100.838 28.956 0)
 			(effects
 				(font
@@ -7044,7 +7044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "744242471"
+		(property "Footprint" "KiCad:744242471"
 			(at 297.18 248.59 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CL10_SAM"
+		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
 			(at 139.954 85.598 0)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0603N_PAN"
+		(property "Footprint" "ERJ-3EKF1001V:RC0603N_PAN-L"
 			(at 153.162 46.228 0)
 			(effects
 				(font
@@ -7823,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206J2K00222KXR:CAPC3216X160N"
+		(property "Footprint" "1206J2K00222KXR (1):CAPC3216X160N"
 			(at 111.76 148.59 0)
 			(effects
 				(font
@@ -7900,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206J2K00222KXR:CAPC3216X160N"
+		(property "Footprint" "1206J2K00222KXR (1):CAPC3216X160N"
 			(at 287.02 165.1 0)
 			(effects
 				(font
@@ -7979,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
 			(at 344.17 41.91 0)
 			(effects
 				(font
@@ -8126,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
 			(at 346.964 57.404 0)
 			(effects
 				(font
@@ -8207,7 +8207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CL10_SAM"
+		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
 			(at 139.192 83.82 0)
 			(effects
 				(font
