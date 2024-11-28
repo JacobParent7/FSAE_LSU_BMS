@@ -22917,6 +22917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+			(at 163.83 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cb5e1cc-7d20-4bc7-9511-1eba505318ac")
 		)
@@ -23023,6 +23032,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23166,6 +23184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad463a80-e8b5-4368-936f-de0435ed3cfe")
 		)
@@ -23284,6 +23311,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23475,6 +23511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56dff619-c28c-44ab-a522-ea170100ebef")
 		)
@@ -23545,6 +23590,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+			(at 163.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb5e4823-4c01-44ed-8f3e-96fb80b2e4eb")
 		)
@@ -23607,6 +23661,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 421.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 421.64 218.44 0)
 			(effects
 				(font
@@ -23888,6 +23951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8223e7a8-7de1-4892-b568-fba9e361d8ee")
 		)
@@ -23994,6 +24066,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -24299,6 +24380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414f637c-51db-4beb-82f9-3ca1e234b1cd")
 		)
@@ -24584,6 +24674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "95b982e6-824e-42cf-9b65-d0779d9c2be3")
 		)
@@ -24815,6 +24914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+			(at 163.83 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a2138ae-0240-477b-a672-247f8a06cfb1")
 		)
@@ -24877,6 +24985,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -25025,6 +25142,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b78eb381-70df-4db1-bc6b-9bb18c131093")
 		)
@@ -25165,6 +25291,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cdc0282-0481-4660-8c05-4b7f5a389026")
 		)
@@ -25227,6 +25362,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 194.31 0)
 			(effects
 				(font
@@ -25341,6 +25485,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25727,6 +25880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea5185a5-735f-4e4f-a830-b53c8873f8c6")
 		)
@@ -25918,6 +26080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9eea68b9-fa1c-4987-a6ee-78429c037069")
 		)
@@ -26036,6 +26207,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26173,6 +26353,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 349.25 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26395,6 +26584,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26817,6 +27015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86fab882-2202-476a-8b3f-38ea945b10c4")
 		)
@@ -26878,6 +27085,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 424.18 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 424.18 276.86 0)
 			(effects
 				(font
@@ -27007,6 +27223,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "dfa8a0cd-602f-41c1-a9ca-2adb5e53d4d5")
 		)
@@ -27066,6 +27291,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 248.92 0)
 			(effects
 				(font
@@ -27136,6 +27370,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 137.16 0)
 			(effects
 				(font
@@ -27335,6 +27578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4960dbbf-0033-4c5e-a956-2af99b9006a1")
 		)
@@ -27444,6 +27696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f52213f-1a80-4e40-9779-df0a93d87e6e")
 		)
@@ -27506,6 +27767,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 222.25 0)
 			(effects
 				(font
@@ -27651,6 +27921,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 347.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27937,6 +28216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "af3b2b98-7767-4eff-9dbf-9e673c32e514")
 		)
@@ -28166,6 +28454,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+			(at 424.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b0f884e-757d-4f6c-bf3c-7bd90d9540fa")
 		)
@@ -28287,6 +28584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5011"
+			(at 142.24 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "b51b6f81-74e3-4329-9168-7b06ed302b46")
 		)
@@ -28346,6 +28652,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 367.03 0)
 			(effects
 				(font
@@ -28460,6 +28775,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28581,6 +28905,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28851,6 +29184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5626aa01-4ce8-4346-be64-7bd0a81d1041")
 		)
@@ -28969,6 +29311,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29189,6 +29540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d84263a6-be60-47cd-8b15-b371d85b9051")
 		)
@@ -29259,6 +29619,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+			(at 421.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62083a61-e73f-4645-a2bd-91780e0954f3")
 		)
@@ -29321,6 +29690,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -29529,6 +29907,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29749,6 +30136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8f5a427-7b61-45c6-b111-f7027eb61159")
 		)
@@ -29952,6 +30348,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -30228,6 +30633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f10585a4-de6e-468e-b3b1-a5dda9f2e89e")
 		)
@@ -30346,6 +30760,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -30791,6 +31214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "7b37a43b-7c5e-4bf9-8a11-798de2f4535c")
 		)
@@ -30906,6 +31338,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 401.32 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31046,6 +31487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "480233a7-7d31-41ff-aa21-deb04487011c")
 		)
@@ -31108,6 +31558,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -31418,6 +31877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3706674-6e19-4b8d-a6ac-f2d057bd9bed")
 		)
@@ -31718,6 +32186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f09e24-6a7e-4846-82d0-e104d806beee")
 		)
@@ -31855,6 +32332,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32142,6 +32628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "db614e73-bc3a-4942-be96-b14a4736b87e")
 		)
@@ -32245,6 +32740,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32357,6 +32861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddbd03be-c4fa-4e6a-91c3-a64bb8daca2a")
 		)
@@ -32463,6 +32976,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X60N"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32669,6 +33191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "a70163a4-5b08-4c16-ad0d-614bcb2e5057")
 		)
@@ -32784,6 +33315,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5012"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

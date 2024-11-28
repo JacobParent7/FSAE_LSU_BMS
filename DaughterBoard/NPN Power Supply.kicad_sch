@@ -1464,6 +1464,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "GCM31MR72A224KA37L"
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5643f48-caf4-489e-a20c-60786ccbd85c")
 		)
@@ -1600,6 +1609,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW2010200RFKEF"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a9307b6-63fa-4ee1-8a49-e38202ed7dd3")
 		)
@@ -1722,6 +1740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "ZXTN4004KTC"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4fb93a8-f5ab-480e-a7a6-456ff023c34f")
 		)
@@ -1787,6 +1814,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW2010100RFKEF"
 			(at 149.86 106.68 0)
 			(effects
 				(font

@@ -6166,7 +6166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BQ79614PAPRQ1"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -7310,6 +7310,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C2012X7R1A475M125AC"
 			(at 248.92 143.51 0)
 			(effects
 				(font
