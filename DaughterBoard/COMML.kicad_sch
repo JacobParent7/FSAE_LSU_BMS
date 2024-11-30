@@ -5134,7 +5134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 257.81 54.6099 90)
 			(effects
 				(font
@@ -5143,7 +5143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0603N_PAN"
+		(property "Footprint" "ERJ-3EKF1001V:RC0603N_PAN-L"
 			(at 267.208 46.228 0)
 			(effects
 				(font
@@ -5153,7 +5153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 264.922 45.974 0)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "51 "
 			(at 110.49 64.77 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 103.886 63.246 0)
 			(effects
 				(font
@@ -5294,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 267.97 168.91 0)
 			(effects
 				(font
@@ -5302,7 +5302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 275.082 158.496 0)
 			(effects
 				(font
@@ -5312,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 275.082 158.496 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf"
 			(at 312.42 69.85 0)
 			(effects
 				(font
@@ -5557,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-70400.pdf"
 			(at 270.51 213.36 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 92.71 171.45 0)
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 86.106 180.086 0)
 			(effects
 				(font
@@ -5643,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 86.106 180.086 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 130.81 144.78 0)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 123.19 154.686 0)
 			(effects
 				(font
@@ -5723,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 123.19 154.686 0)
 			(effects
 				(font
@@ -5804,7 +5804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-70400.pdf"
 			(at 138.43 219.71 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 306.07 168.91 0)
 			(effects
 				(font
@@ -5881,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 312.674 177.546 0)
 			(effects
 				(font
@@ -5891,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 312.674 177.546 0)
 			(effects
 				(font
@@ -5954,7 +5954,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "51 "
 			(at 309.88 64.77 0)
 			(effects
 				(font
@@ -5962,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_VIS"
+		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
 			(at 316.484 63.246 0)
 			(effects
 				(font
@@ -5972,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 316.484 63.246 0)
 			(effects
 				(font
@@ -6033,7 +6033,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 58.42 148.59 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 52.07 159.766 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 52.07 159.766 0)
 			(effects
 				(font
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 130.81 171.45 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 123.698 161.036 0)
 			(effects
 				(font
@@ -6131,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 123.698 161.036 0)
 			(effects
 				(font
@@ -6194,7 +6194,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 306.07 133.35 0)
 			(effects
 				(font
@@ -6202,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 312.674 140.462 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 312.674 140.462 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 339.09 146.05 0)
 			(effects
 				(font
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 345.44 157.226 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 345.44 157.226 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 267.97 142.24 0)
 			(effects
 				(font
@@ -6648,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 275.59 152.146 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 275.59 152.146 0)
 			(effects
 				(font
@@ -6798,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 92.71 135.89 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 86.106 143.002 0)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 86.106 143.002 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "51 "
 			(at 110.49 35.56 0)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 100.838 28.956 0)
 			(effects
 				(font
@@ -6956,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 339.09 165.1 0)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 343.916 153.162 0)
 			(effects
 				(font
@@ -6974,7 +6974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 345.44 157.226 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B221JB8NNNC_Spec.pdf"
 			(at 139.954 85.598 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "51 "
 			(at 309.88 35.56 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_VIS"
+		(property "Footprint" "CRCW060351R0JNEA:RC0603N_VIS-L"
 			(at 319.532 28.956 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 319.532 28.956 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CL10_SAM"
+		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
 			(at 280.416 85.598 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B221JB8NNNC_Spec.pdf"
 			(at 280.416 85.598 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 81.28 64.77 0)
 			(effects
 				(font
@@ -7425,7 +7425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
 			(at 73.406 57.404 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603JR-070RL"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 66.04 64.262 0)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 59.69 167.64 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES_CRCW_0805_VIS"
+		(property "Footprint" "CRCW08050000Z0EAHP:RES_CRCW_0805_VIS-L"
 			(at 54.864 155.702 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CRCW08050000Z0EAHP"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 53.34 159.766 0)
 			(effects
 				(font
@@ -7576,7 +7576,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "RC0603JR-070RL:RC0603N_YAG-L"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603JR-070RL"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 74.676 35.306 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 155.448 45.974 0)
 			(effects
 				(font
@@ -7745,7 +7745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CL10_SAM"
+		(property "Footprint" "CL10B221JB8NNNC:CAP_CL10_SAM-L"
 			(at 281.178 83.82 0)
 			(effects
 				(font
@@ -7755,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B221JB8NNNC_Spec.pdf"
 			(at 299.466 84.328 0)
 			(effects
 				(font
@@ -7971,7 +7971,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 337.82 35.56 0)
 			(effects
 				(font
@@ -7989,7 +7989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603JR-070RL"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 345.694 35.306 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 "
 			(at 339.09 64.77 0)
 			(effects
 				(font
@@ -8136,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603JR-070RL"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 354.33 64.262 0)
 			(effects
 				(font
@@ -8217,7 +8217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B221JB8NNNC_Spec.pdf"
 			(at 120.904 84.328 0)
 			(effects
 				(font

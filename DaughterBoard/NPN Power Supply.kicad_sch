@@ -1445,7 +1445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 137.414 106.934 0)
 			(effects
 				(font
@@ -1572,7 +1572,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "200 "
 			(at 190.5 110.49 0)
 			(effects
 				(font
@@ -1580,7 +1580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC2010N_VIS"
+		(property "Footprint" "CRCW2010200RFKEF:RC2010N_VIS-L"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -1661,7 +1661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ZXTN4004KTC"
+		(property "Footprint" "ZXTN4004KTC:ZXTN4004KTC"
 			(at 90.17 -11.1 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 "
 			(at 156.21 110.49 0)
 			(effects
 				(font
@@ -1803,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 150.622 100.584 0)
 			(effects
 				(font

@@ -22747,7 +22747,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 181.61 0)
 			(effects
 				(font
@@ -22765,7 +22765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.848 188.722 0)
 			(effects
 				(font
@@ -22827,7 +22827,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 444.5 234.95 0)
 			(effects
 				(font
@@ -22845,7 +22845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 438.658 242.062 0)
 			(effects
 				(font
@@ -22906,7 +22906,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 328.93 0)
 			(effects
 				(font
@@ -22924,7 +22924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.592 337.566 0)
 			(effects
 				(font
@@ -23003,7 +23003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 381 266.7 0)
 			(effects
 				(font
@@ -23111,7 +23111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 363.22 334.95 0)
 			(effects
 				(font
@@ -23121,7 +23121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 363.22 434.95 0)
 			(effects
 				(font
@@ -23262,7 +23262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 320.04 0)
 			(effects
 				(font
@@ -23400,7 +23400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 160.02 209.804 0)
 			(effects
 				(font
@@ -23479,7 +23479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 124.46 213.36 0)
 			(effects
 				(font
@@ -23579,7 +23579,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 273.05 0)
 			(effects
 				(font
@@ -23597,7 +23597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 163.576 282.956 0)
 			(effects
 				(font
@@ -23658,7 +23658,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 427.99 214.63 0)
 			(effects
 				(font
@@ -23676,7 +23676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 420.624 224.536 0)
 			(effects
 				(font
@@ -23758,7 +23758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 454.406 289.306 0)
 			(effects
 				(font
@@ -23840,7 +23840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 417.83 290.576 0)
 			(effects
 				(font
@@ -23919,7 +23919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -24037,7 +24037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 124.46 297.18 0)
 			(effects
 				(font
@@ -24138,7 +24138,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 321.31 0)
 			(effects
 				(font
@@ -24156,7 +24156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.594 330.454 0)
 			(effects
 				(font
@@ -24238,7 +24238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 213.36 345.948 0)
 			(effects
 				(font
@@ -24307,7 +24307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 450.52 0)
 			(effects
 				(font
@@ -24317,7 +24317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 550.52 0)
 			(effects
 				(font
@@ -24469,7 +24469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 454.406 203.962 0)
 			(effects
 				(font
@@ -24551,7 +24551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.358 152.146 0)
 			(effects
 				(font
@@ -24622,7 +24622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 208.28 0)
 			(effects
 				(font
@@ -24760,7 +24760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 471.424 229.87 0)
 			(effects
 				(font
@@ -24842,7 +24842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 159.258 320.294 0)
 			(effects
 				(font
@@ -24903,7 +24903,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 ohm"
+		(property "Value" "7.5 "
 			(at 170.18 300.99 0)
 			(effects
 				(font
@@ -24921,7 +24921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.338 308.356 0)
 			(effects
 				(font
@@ -24982,7 +24982,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -25000,7 +25000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.084 85.598 0)
 			(effects
 				(font
@@ -25069,7 +25069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 363.22 307.01 0)
 			(effects
 				(font
@@ -25079,7 +25079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 363.22 407.01 0)
 			(effects
 				(font
@@ -25218,7 +25218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 421.31 0)
 			(effects
 				(font
@@ -25228,7 +25228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 521.31 0)
 			(effects
 				(font
@@ -25359,7 +25359,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 190.5 0)
 			(effects
 				(font
@@ -25377,7 +25377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 163.83 196.342 0)
 			(effects
 				(font
@@ -25456,7 +25456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 379.73 210.82 0)
 			(effects
 				(font
@@ -25577,7 +25577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 213.614 260.858 0)
 			(effects
 				(font
@@ -25659,7 +25659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 158.496 153.67 0)
 			(effects
 				(font
@@ -25720,7 +25720,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 444.5 262.89 0)
 			(effects
 				(font
@@ -25738,7 +25738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 438.404 269.24 0)
 			(effects
 				(font
@@ -25807,7 +25807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 281.61 0)
 			(effects
 				(font
@@ -25817,7 +25817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 381.61 0)
 			(effects
 				(font
@@ -25969,7 +25969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 160.02 348.742 0)
 			(effects
 				(font
@@ -26048,7 +26048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -26158,7 +26158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 236.22 0)
 			(effects
 				(font
@@ -26283,7 +26283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 363.22 362.89 0)
 			(effects
 				(font
@@ -26293,7 +26293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 363.22 462.89 0)
 			(effects
 				(font
@@ -26445,7 +26445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.104 290.576 0)
 			(effects
 				(font
@@ -26514,7 +26514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 253.67 0)
 			(effects
 				(font
@@ -26524,7 +26524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 353.67 0)
 			(effects
 				(font
@@ -26742,7 +26742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 158.75 265.938 0)
 			(effects
 				(font
@@ -26824,7 +26824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 160.528 237.49 0)
 			(effects
 				(font
@@ -26886,7 +26886,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 69.85 0)
 			(effects
 				(font
@@ -26904,7 +26904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.848 79.248 0)
 			(effects
 				(font
@@ -26983,7 +26983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -27082,7 +27082,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 430.53 273.05 0)
 			(effects
 				(font
@@ -27100,7 +27100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 424.18 282.448 0)
 			(effects
 				(font
@@ -27171,7 +27171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 401.32 205.74 0)
 			(effects
 				(font
@@ -27288,7 +27288,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 245.11 0)
 			(effects
 				(font
@@ -27306,7 +27306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.592 255.27 0)
 			(effects
 				(font
@@ -27367,7 +27367,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 ohm"
+		(property "Value" "7.5 "
 			(at 170.18 133.35 0)
 			(effects
 				(font
@@ -27385,7 +27385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.084 142.494 0)
 			(effects
 				(font
@@ -27467,7 +27467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 418.338 262.382 0)
 			(effects
 				(font
@@ -27546,7 +27546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 124.46 241.3 0)
 			(effects
 				(font
@@ -27664,7 +27664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 379.73 182.88 0)
 			(effects
 				(font
@@ -27764,7 +27764,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 218.44 0)
 			(effects
 				(font
@@ -27782,7 +27782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 164.846 229.87 0)
 			(effects
 				(font
@@ -27851,7 +27851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 361.95 279.07 0)
 			(effects
 				(font
@@ -27861,7 +27861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 361.95 379.07 0)
 			(effects
 				(font
@@ -27993,7 +27993,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 265.43 0)
 			(effects
 				(font
@@ -28011,7 +28011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.594 278.384 0)
 			(effects
 				(font
@@ -28093,7 +28093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 158.242 378.46 0)
 			(effects
 				(font
@@ -28164,7 +28164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 292.1 0)
 			(effects
 				(font
@@ -28282,7 +28282,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -28300,7 +28300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.34 105.918 0)
 			(effects
 				(font
@@ -28382,7 +28382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 417.83 206.248 0)
 			(effects
 				(font
@@ -28443,7 +28443,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 430.53 243.84 0)
 			(effects
 				(font
@@ -28461,7 +28461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 424.18 252.222 0)
 			(effects
 				(font
@@ -28649,7 +28649,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 363.22 0)
 			(effects
 				(font
@@ -28667,7 +28667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 163.576 377.698 0)
 			(effects
 				(font
@@ -28746,7 +28746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 124.46 269.24 0)
 			(effects
 				(font
@@ -28856,7 +28856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 401.32 261.62 0)
 			(effects
 				(font
@@ -28973,7 +28973,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 293.37 0)
 			(effects
 				(font
@@ -28991,7 +28991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 176.53 308.102 0)
 			(effects
 				(font
@@ -29073,7 +29073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 196.342 179.578 0)
 			(effects
 				(font
@@ -29152,7 +29152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 379.73 238.76 0)
 			(effects
 				(font
@@ -29262,7 +29262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 180.34 0)
 			(effects
 				(font
@@ -29380,7 +29380,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 153.67 0)
 			(effects
 				(font
@@ -29398,7 +29398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.086 165.608 0)
 			(effects
 				(font
@@ -29467,7 +29467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 225.73 0)
 			(effects
 				(font
@@ -29477,7 +29477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 325.73 0)
 			(effects
 				(font
@@ -29608,7 +29608,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 427.99 187.96 0)
 			(effects
 				(font
@@ -29626,7 +29626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 421.64 197.358 0)
 			(effects
 				(font
@@ -29687,7 +29687,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 ohm"
+		(property "Value" "7.5 "
 			(at 170.18 161.29 0)
 			(effects
 				(font
@@ -29705,7 +29705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 163.322 170.434 0)
 			(effects
 				(font
@@ -29787,7 +29787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 454.406 260.35 0)
 			(effects
 				(font
@@ -29858,7 +29858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -29976,7 +29976,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 237.49 0)
 			(effects
 				(font
@@ -29994,7 +29994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.086 249.936 0)
 			(effects
 				(font
@@ -30063,7 +30063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 337.49 0)
 			(effects
 				(font
@@ -30073,7 +30073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 437.49 0)
 			(effects
 				(font
@@ -30278,7 +30278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 365.43 0)
 			(effects
 				(font
@@ -30288,7 +30288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 465.43 0)
 			(effects
 				(font
@@ -30440,7 +30440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.104 207.01 0)
 			(effects
 				(font
@@ -30522,7 +30522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 195.326 94.488 0)
 			(effects
 				(font
@@ -30601,7 +30601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 325.12 0)
 			(effects
 				(font
@@ -30711,7 +30711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 401.32 177.8 0)
 			(effects
 				(font
@@ -30829,7 +30829,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 444.5 207.01 0)
 			(effects
 				(font
@@ -30847,7 +30847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 438.658 214.376 0)
 			(effects
 				(font
@@ -30909,7 +30909,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 444.5 179.07 0)
 			(effects
 				(font
@@ -30927,7 +30927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 450.85 178.816 0)
 			(effects
 				(font
@@ -31009,7 +31009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.104 123.19 0)
 			(effects
 				(font
@@ -31091,7 +31091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 159.258 125.73 0)
 			(effects
 				(font
@@ -31162,7 +31162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 124.46 0)
 			(effects
 				(font
@@ -31289,7 +31289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 401.32 233.68 0)
 			(effects
 				(font
@@ -31414,7 +31414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 105.41 169.85 0)
 			(effects
 				(font
@@ -31424,7 +31424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 105.41 269.85 0)
 			(effects
 				(font
@@ -31555,7 +31555,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 Ohm"
+		(property "Value" "7.5 "
 			(at 170.18 105.41 0)
 			(effects
 				(font
@@ -31573,7 +31573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -31635,7 +31635,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 350.52 0)
 			(effects
 				(font
@@ -31653,7 +31653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 193.548 351.282 0)
 			(effects
 				(font
@@ -31735,7 +31735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.104 362.458 0)
 			(effects
 				(font
@@ -31804,7 +31804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 393.37 0)
 			(effects
 				(font
@@ -31814,7 +31814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 493.37 0)
 			(effects
 				(font
@@ -31946,7 +31946,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -31964,7 +31964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.086 132.588 0)
 			(effects
 				(font
@@ -32026,7 +32026,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100 "
 			(at 186.69 209.55 0)
 			(effects
 				(font
@@ -32044,7 +32044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 181.102 220.98 0)
 			(effects
 				(font
@@ -32113,7 +32113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 105.41 197.79 0)
 			(effects
 				(font
@@ -32123,7 +32123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 105.41 297.79 0)
 			(effects
 				(font
@@ -32262,7 +32262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC1608X61N"
+		(property "Footprint" "0438.250WRA:FUSC1608X61N"
 			(at 106.68 309.55 0)
 			(effects
 				(font
@@ -32272,7 +32272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127233628?cache=1638229981&response-content-disposition=inline;filename=Littelfuse_Fuse_438A_Datasheet.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpb"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
 			(at 106.68 409.55 0)
 			(effects
 				(font
@@ -32424,7 +32424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 196.088 318.77 0)
 			(effects
 				(font
@@ -32505,7 +32505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 418.084 234.696 0)
 			(effects
 				(font
@@ -32576,7 +32576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 96.52 0)
 			(effects
 				(font
@@ -32711,7 +32711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 157.48 0)
 			(effects
 				(font
@@ -32829,7 +32829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -32947,7 +32947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
 			(at 124.46 354.33 0)
 			(effects
 				(font
@@ -33068,7 +33068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 158.242 181.102 0)
 			(effects
 				(font
@@ -33139,7 +33139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 264.16 0)
 			(effects
 				(font
@@ -33266,7 +33266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 143.51 152.4 0)
 			(effects
 				(font
@@ -33404,7 +33404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 197.358 234.442 0)
 			(effects
 				(font
@@ -33486,7 +33486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 159.512 293.624 0)
 			(effects
 				(font
@@ -33568,7 +33568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
 			(at 160.528 97.536 0)
 			(effects
 				(font
