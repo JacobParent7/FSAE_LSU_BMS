@@ -757,7 +757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -884,7 +884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 231.14 80.01 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 147.32 132.08 0)
 			(effects
 				(font
@@ -1265,7 +1265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 62.23 132.08 0)
 			(effects
 				(font
@@ -1392,7 +1392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 189.23 132.08 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 228.6 132.08 0)
 			(effects
 				(font
@@ -1646,7 +1646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 149.86 29.21 0)
 			(effects
 				(font
@@ -1773,7 +1773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -1900,7 +1900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 64.77 80.01 0)
 			(effects
 				(font
@@ -2154,7 +2154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 231.14 29.21 0)
 			(effects
 				(font
@@ -2408,7 +2408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TP5012:TP_5012"
+		(property "Footprint" "5012:TP_5012"
 			(at 149.86 80.01 0)
 			(effects
 				(font

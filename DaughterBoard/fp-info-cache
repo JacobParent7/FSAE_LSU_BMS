@@ -1,15 +1,8 @@
-23105298183129516
+23107143687906537
 0438.250WRA
 FUSC1608X61N
 1.575mm x 0.85mm x 0.508mm
 Fuse
-0
-2
-2
-0686F1000-01
-FUSC1608X60N
-
-
 0
 2
 2
@@ -27,20 +20,27 @@ TP_5011
 0
 1
 1
-0705510038
+5012
+TP_5012
+
+
+0
+1
+1
+70551-0038
 CONN_70551-xxxx_04_MOL
 
 705510038 
 0
 4
 4
-705550019
-CONN_705550019_MOL
-
-705550019 
+744242471
+744242471
+744242471-2
+Filter
 0
-20
-20
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2575,6 +2575,27 @@ CL10B221JB8NNNC
 0
 2
 2
+CRCW12067R50FKEAHP
+RES_V1206_VIS
+
+CRCW12067R50FKEAHP 
+0
+2
+2
+CRCW12067R50FKEAHP
+RES_V1206_VIS-L
+
+CRCW12067R50FKEAHP 
+0
+2
+2
+CRCW12067R50FKEAHP
+RES_V1206_VIS-M
+
+CRCW12067R50FKEAHP 
+0
+2
+2
 CRCW060351R0JNEA
 RC0603N_VIS
 
@@ -2593,27 +2614,6 @@ CRCW060351R0JNEA
 RC0603N_VIS-M
 
 CRCW060351R0JNEA 
-0
-2
-2
-CRCW060351R0JNEA
-RES_CRCW_2010
-
-CRCW2010100RFKEF 
-0
-2
-2
-CRCW060351R0JNEA
-RES_CRCW_2010-L
-
-CRCW2010100RFKEF 
-0
-2
-2
-CRCW060351R0JNEA
-RES_CRCW_2010-M
-
-CRCW2010100RFKEF 
 0
 2
 2
@@ -11542,55 +11542,6 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
-Connector_HDMI
-HDMI_A_Amphenol_10029449-x01xLF_Horizontal
-HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
-hdmi right angle
-0
-23
-20
-Connector_HDMI
-HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
-HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
-HDMI Contact Technology Type A
-0
-23
-20
-Connector_HDMI
-HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
-HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
-hdmi type a
-0
-23
-20
-Connector_HDMI
-HDMI_A_Molex_208658-1001_Horizontal
-HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
-HDMI Molex Type A
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-0x01
-HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle smd
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-1x01
-HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-2x0x
-HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht smd hybrid 
-0
-23
-20
 Connector_Harting
 Harting_har-flexicon_14110213001xxx_1x02-MP_P2.54mm_Vertical
 Harting har-flexicon series connector, 14110213001xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13001XXX_100228421DRW046C.pdf), generated with kicad-footprint-generator
@@ -55817,6 +55768,48 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ERA-3AEB101V
+RC0603N_PAN
+
+ERA-3AEB101V 
+0
+2
+2
+ERA-3AEB101V
+RC0603N_PAN-L
+
+ERA-3AEB101V 
+0
+2
+2
+ERA-3AEB101V
+RC0603N_PAN-M
+
+ERA-3AEB101V 
+0
+2
+2
+ERJ-3EKF30R0V
+RC0603N_PAN
+
+ERJ-3EKF30R0V 
+0
+2
+2
+ERJ-3EKF30R0V
+RC0603N_PAN-L
+
+ERJ-3EKF30R0V 
+0
+2
+2
+ERJ-3EKF30R0V
+RC0603N_PAN-M
+
+ERJ-3EKF30R0V 
+0
+2
+2
 ERJ-3EKF1001V
 RC0603N_PAN
 
@@ -56874,24 +56867,31 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GCM31MR72A224KA37L
-G-31_MUR
+GCM188R71C474KA55D
+G-188_MUR
 
-GCM31MR72A224KA37L 
+GCM188R71C474KA55D 
 0
 2
 2
-GCM31MR72A224KA37L
-G-31_MUR-L
+GCM188R71C474KA55D
+G-188_MUR-L
 
-GCM31MR72A224KA37L 
+GCM188R71C474KA55D 
 0
 2
 2
-GCM31MR72A224KA37L
-G-31_MUR-M
+GCM188R71C474KA55D
+G-188_MUR-M
 
-GCM31MR72A224KA37L 
+GCM188R71C474KA55D 
+0
+2
+2
+GCM1885C1H101JA16J (1)
+CAPC1608X90N
+
+
 0
 2
 2
@@ -62439,13 +62439,6 @@ solder jumper open
 0
 5
 3
-KiCad
-744242471
-744242471-2
-Filter
-0
-4
-4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -63629,13 +63622,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LIB_ZXTN4004KTC
-ZXTN4004KTC
-ZXTN4004KTC
-Transistor BJT NPN
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -67444,21 +67430,35 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PESD1CAN_215
+PEC02SAAN
+CONN_PxC02S_SUL
+
+PEC02SAAN 
+0
+2
+2
+PEC03SAAN
+CONN_PEC03SAAN_SUL
+
+PEC03SAAN 
+0
+3
+3
+PESD1CAN,215
 SOT23_PESD1_NEX
 
 PESD1CAN_215 
 0
 3
 3
-PESD1CAN_215
+PESD1CAN,215
 SOT23_PESD1_NEX-L
 
 PESD1CAN_215 
 0
 3
 3
-PESD1CAN_215
+PESD1CAN,215
 SOT23_PESD1_NEX-M
 
 PESD1CAN_215 
@@ -94653,3 +94653,10 @@ Varistor VF
 0
 2
 2
+ZXTN4004KTC
+ZXTN4004KTC
+ZXTN4004KTC
+Transistor BJT NPN
+0
+3
+3
