@@ -5030,7 +5030,7 @@
 			)
 		)
 	)
-	(global_label "REFHM"
+	(global_label "REFHP"
 		(shape input)
 		(at 140.97 123.19 0)
 		(fields_autoplaced yes)
@@ -5042,7 +5042,7 @@
 		)
 		(uuid "5276fde3-a478-469b-bfe1-357cd157fc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2447 123.19 0)
+			(at 150.0633 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5580,7 @@
 			)
 		)
 	)
-	(global_label "REFHP"
+	(global_label "REFHF"
 		(shape input)
 		(at 231.14 139.7 0)
 		(fields_autoplaced yes)
@@ -5592,7 +5592,7 @@
 		)
 		(uuid "c9e9121f-dc0f-4110-96e0-8e059f5e0a72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2333 139.7 0)
+			(at 240.0519 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
