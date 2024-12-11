@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "IO")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Symbols/IO.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN1462")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/TCAN1462.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ79600")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Symbols/BQ79600.kicad_sym")(options "")(descr ""))
+  (lib (name "Isolation_Transformer")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Symbols/Isolation_Transformer.kicad_sym")(options "")(descr ""))
 )

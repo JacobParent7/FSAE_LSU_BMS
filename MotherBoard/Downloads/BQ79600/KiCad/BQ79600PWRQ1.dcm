@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ79600PWRQ1
+D Battery Management Automotive SPI/UART communication interface functional-safety compliant with automatic host wakeup
+K
+F https://www.arrow.com/en/products/bq79600pwrq1/texas-instruments
+$ENDCMP
+#
+#End Doc Library

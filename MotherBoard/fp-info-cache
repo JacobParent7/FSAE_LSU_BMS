@@ -1,4 +1,4 @@
-23571754626721095
+23576965169929342
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BQ79600
+BQ79600
+PW
+Integrated Circuit
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -90236,6 +90243,13 @@ Logo WEEE
 0
 0
 0
+TCAN
+TCAN
+
+PTCAN1462DRQ1 
+0
+8
+8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -95427,6 +95441,13 @@ Transformer_THT
 Transformer_Zeming_ZMPT101K
 Qingxian Zeming Langxi Electronic ZMPT101K voltage transformer 1000:1000 2mA:2mA, https://5krorwxhmqqirik.leadongcdn.com/ZMPT101K+specification-aidikBqoKomRilSkopqmikp.pdf
 voltage transformer ZMPT
+0
+4
+4
+Transformer_WURTH
+Isolation_Transformer
+<b>WE-SLM SMT Common Mode Line Filter
+
 0
 4
 4
