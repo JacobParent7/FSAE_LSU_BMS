@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BQ79600PWRQ1
+#/13475105/1466506/2.50/16/3/Integrated Circuit
+DEF BQ79600PWRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1750 300 50 H V L CNN
+F1 "BQ79600PWRQ1" 1750 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1750 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/bq79600pwrq1/texas-instruments" 1750 0 50 H I L CNN
+F4 "Battery Management Automotive SPI/UART communication interface functional-safety compliant with automatic host wakeup" 1750 -100 50 H I L CNN "Description"
+F5 "1.2" 1750 -200 50 H I L CNN "Height"
+F6 "595-BQ79600PWRQ1" 1750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ79600PWRQ1?qs=bAKSY%2FctAC74v4PXQeVHrA%3D%3D" 1750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BQ79600PWRQ1" 1750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DVDD 1 0 0 200 R 50 50 0 0 P
+X NFAULT 2 0 -100 200 R 50 50 0 0 P
+X VIO 3 0 -200 200 R 50 50 0 0 P
+X MOSI/RX 4 0 -300 200 R 50 50 0 0 P
+X MISO/TX 5 0 -400 200 R 50 50 0 0 P
+X SCLK 6 0 -500 200 R 50 50 0 0 P
+X NCS 7 0 -600 200 R 50 50 0 0 P
+X NUART/SPI_(SPI_RDY) 8 0 -700 200 R 50 50 0 0 P
+X INH 16 1900 0 200 L 50 50 0 0 P
+X BAT 15 1900 -100 200 L 50 50 0 0 P
+X CVDD 14 1900 -200 200 L 50 50 0 0 P
+X COMHP 13 1900 -300 200 L 50 50 0 0 P
+X COMHN 12 1900 -400 200 L 50 50 0 0 P
+X COMLN 11 1900 -500 200 L 50 50 0 0 P
+X COMLP 10 1900 -600 200 L 50 50 0 0 P
+X GND 9 1900 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1700 100 1700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -14,6 +14,45 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 38.1 142.24)
+		(size 50.8 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48dfe2f4-f876-45b9-8de9-858747278b7b")
+		(property "Sheetname" "TCAN1462-Q1"
+			(at 38.1 140.2584 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_TRANCEIVER.kicad_sch"
+			(at 38.1 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 38.1)
 		(size 50.8 38.1)
 		(fields_autoplaced yes)
@@ -48,6 +87,45 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 91.44)
+		(size 50.8 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5aee6225-1f74-4a9d-9d18-4dadf3f55ee7")
+		(property "Sheetname" "BQ79600"
+			(at 101.6 89.4584 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BQ79600.kicad_sch"
+			(at 101.6 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca"
+					(page "5")
 				)
 			)
 		)
