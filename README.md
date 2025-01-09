@@ -15,7 +15,7 @@ Develop a decentralized Battery Management System (BMS) for LSU FSAE's electric 
 # FSAE BMS Design Log
 
 ## System Level Description 
-![SLD](https://github.com/user-attachments/assets/c1e21564-1ac7-4aae-a23a-20e109600b74)
+![BMS - MOBO](https://github.com/user-attachments/assets/44d2f27f-2366-4b34-8c94-cddedc74cade)
 
 
 ## Orion BMS Thermistor Expansion Reverse Engineering
