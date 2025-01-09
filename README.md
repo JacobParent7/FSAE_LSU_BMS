@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/81dc8eeb-ae88-4583-8258-288a355696a5)
+
+# Goal
+The goal of this project is to create an easily expandable BMS for use with the LSU FSAE Electric accumulator. The expected date of completion is May 12th, 2025. We will document our progress through this github repository. 
+
 # FSAE BMS Design Log
 
 ## Main SLD
