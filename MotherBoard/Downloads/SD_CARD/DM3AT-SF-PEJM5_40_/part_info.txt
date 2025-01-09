@@ -1,0 +1,9 @@
+Manufacturer=Hirose
+PartNumber=DM3AT-SF-PEJM5(40)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=14
+Version=1.3
+Released=2020-10-21 10:05:45
+Downloaded=2025-01-09 06:35:37
+3D=Y

@@ -4,4 +4,6 @@
   (lib (name "TCAN1462")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/TCAN1462.kicad_sym")(options "")(descr ""))
   (lib (name "BQ79600")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Symbols/BQ79600.kicad_sym")(options "")(descr ""))
   (lib (name "Isolation_Transformer")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Symbols/Isolation_Transformer.kicad_sym")(options "")(descr ""))
+  (lib (name "CommonModeChoke_Wurth")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/CommonModeChoke_Wurth.kicad_sym")(options "")(descr ""))
+  (lib (name "SDIO")(type "KiCad")(uri "${KIPRJMOD}/Downloads/744242471/SDIO.kicad_sym")(options "")(descr ""))
 )

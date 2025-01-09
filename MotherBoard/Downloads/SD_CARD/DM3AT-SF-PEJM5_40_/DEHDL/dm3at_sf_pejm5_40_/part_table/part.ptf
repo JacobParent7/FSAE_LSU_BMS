@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DM3AT_SF_PEJM5_40_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Hirose", "DM3AT-SF-PEJM5(40)" (!) = "", "DM3ATSFPEJM540", "Other", "798-DM3AT-SF-PEJM540", "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM540?qs=0WLLhGLuJYzPvbo0KPPEoQ%3D%3D", "Memory Card Connectors MICRO SD CD CONN STD SMT PUSHPUSH", "https://componentsearchengine.com/Datasheets/2/DM3AT-SF-PEJM5(40).pdf", "1.83 mm"
+END_PART
+
+END.

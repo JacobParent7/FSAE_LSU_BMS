@@ -1,0 +1,217 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DM3AT-SF-PEJM5_40_"
+   (description "Memory Card Connectors MICRO SD CD CONN STD SMT PUSHPUSH")
+   (family "CON")
+   (package "DM3ATSFPEJM540")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/DM3AT-SF-PEJM5(40).pdf")
+   (attribute "Geometry.Height" "1.83mm")
+   (attribute "Mouser Part Number" "798-DM3AT-SF-PEJM540")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM540?qs=0WLLhGLuJYzPvbo0KPPEoQ%3D%3D")
+   (attribute "Manufacturer_Name" "Hirose")
+   (attribute "Manufacturer_Part_Number" "DM3AT-SF-PEJM5(40)")
+   (gate
+    (symbol "DM3AT-SF-PEJM5_40_")
+    (pin "DAT2" 1 PS)
+    (pin "CD/DAT3" 2 PS)
+    (pin "CMD" 3 PS)
+    (pin "VDD" 4 PS)
+    (pin "CLK" 5 PS)
+    (pin "VSS" 6 PS)
+    (pin "DAT0" 7 PS)
+    (pin "DAT1" 8 PS)
+    (pin "CARD_DETECT" CD1 PS)
+    (pin "MP1" MP1 PS)
+    (pin "MP2" MP2 PS)
+    (pin "MP3" MP3 PS)
+    (pin "MP4" MP4 PS)
+    (pin "MP5" MP5 PS)
+   )
+  )
+  (symbol "DM3AT-SF-PEJM5_40_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DM3ATSFPEJM540"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9.7 -15.25)
+      (pt 4.15 -15.25)
+      (pt 4.15 0.7)
+      (pt -9.7 0.7)
+      (pt -9.7 -15.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11.1 3.225)
+      (pt 5.55 3.225)
+      (pt 5.55 -16.45)
+      (pt -11.1 -16.45)
+      (pt -11.1 3.225))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 2.225)
+      (arc (pt 0.000 2.225) (pt -0.050 2.125) (pt 0.050 2.225) (start 180.0) (sweep 90.0))
+      (pt 0 2.125)
+      (arc (pt 0.000 2.125) (pt -0.050 2.125) (pt 0.050 2.225) (start 180.0) (sweep -90.0))
+      (pt 0 2.225)
+      (arc (pt 0.000 2.225) (pt -0.050 2.125) (pt 0.050 2.225) (start 180.0) (sweep 90.0))
+      (pt 0 2.125))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -8.525 -15.25)
+      (pt 2.725 -15.275))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.15 -13.025)
+      (pt 4.15 0.725)
+      (pt 2.475 0.725))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -9.7 -2.525)
+      (pt -9.7 0.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -9.7 -5.025)
+      (pt -9.7 -9.025))))
+   (leg 1 (pt 0.000 0.600) (padstack 0))
+   (leg 2 (pt -1.100 0.600) (padstack 0))
+   (leg 3 (pt -2.200 0.600) (padstack 0))
+   (leg 4 (pt -3.300 0.600) (padstack 0))
+   (leg 5 (pt -4.400 0.600) (padstack 0))
+   (leg 6 (pt -5.500 0.600) (padstack 0))
+   (leg 7 (pt -6.600 0.600) (padstack 0))
+   (leg 8 (pt -7.700 0.600) (padstack 0))
+   (leg CD1 (pt -8.650 0.600) (padstack 0))
+   (leg MP1 (pt 1.550 0.600) (padstack 10))
+   (leg MP2 (pt -9.600 -3.700) (padstack 11))
+   (leg MP3 (pt -9.600 -9.900) (padstack 12))
+   (leg MP4 (pt -9.600 -14.050) (padstack 13))
+   (leg MP5 (pt 3.900 -14.500) (padstack 14))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.200 0 0 90.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.200 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.200 0 0 90.000))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 1.000 0 0 0.000))
+   )
+   (padstack 13
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 2.800 0 0 90.000))
+   )
+   (padstack 14
+    (plated false)
+    (pad (layer TCOP) (rectf 1.300 1.900 0 0 90.000))
+   )
+   (model "DM3AT-SF-PEJM5_40_.stp"
+    (euler 0 0 0)
+    (offset -167.50999450683594 -161.25 -0.03999999910593033)
+   )
+  )
+ )
+)

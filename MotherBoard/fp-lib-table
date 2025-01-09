@@ -4,4 +4,5 @@
   (lib (name "TCAN")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/TCAN.pretty")(options "")(descr ""))
   (lib (name "BQ79600")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/BQ79600.pretty")(options "")(descr ""))
   (lib (name "Transformer_WURTH")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/Transformer_WURTH.pretty")(options "")(descr ""))
+  (lib (name "SDIO")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/SDIO.pretty")(options "")(descr ""))
 )

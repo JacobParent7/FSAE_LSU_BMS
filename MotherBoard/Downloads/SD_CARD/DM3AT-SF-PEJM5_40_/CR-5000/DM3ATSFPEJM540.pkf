@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DM3ATSFPEJM540"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DM3ATSFPEJM540")
+        (spec "default")
+    )
+)
