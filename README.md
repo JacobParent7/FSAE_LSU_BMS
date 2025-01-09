@@ -2,7 +2,7 @@
 
 # Goal
 
-Develop an decentralized Battery Management System (BMS) for LSU FSAE's electric accumulator, targeting completion by May 12th, 2025. Progress will be documented in this open-source repository.
+Develop a decentralized Battery Management System (BMS) for LSU FSAE's electric accumulator, targeting completion by May 12th, 2025. Progress will be documented in this open-source repository.
 
 # Contact Info
 ### Motherboard Design
