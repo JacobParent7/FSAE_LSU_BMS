@@ -7,6 +7,9 @@ We're developing an expandable Battery Management System (BMS) for LSU FSAE's el
 # Contact Info
 ### Motherboard Design
 - Jacob Parent - jparen6@lsu.edu
+### Daughterboard Design
+- Parth Mistry - pmistr2@lsu.edu
+- Modhy Alsahood - malsah1@lsu.edu
 
 
 # FSAE BMS Design Log
