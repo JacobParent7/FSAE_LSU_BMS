@@ -6,4 +6,7 @@
   (lib (name "Isolation_Transformer")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Symbols/Isolation_Transformer.kicad_sym")(options "")(descr ""))
   (lib (name "CommonModeChoke_Wurth")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/CommonModeChoke_Wurth.kicad_sym")(options "")(descr ""))
   (lib (name "SDIO")(type "KiCad")(uri "${KIPRJMOD}/Downloads/744242471/SDIO.kicad_sym")(options "")(descr ""))
+  (lib (name "5012")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Symbols/5012.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_comm")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Symbols/molex_comm.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Symbols/TCAN.kicad_sym")(options "")(descr ""))
 )
