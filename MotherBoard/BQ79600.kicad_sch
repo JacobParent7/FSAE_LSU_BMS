@@ -3682,7 +3682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "1k"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -4966,10 +4966,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca47326b-370a-4da7-be5e-fe0cf67a455f")
 		(property "Reference" "D501"
-			(at 53.34 48.5774 90)
+			(at 52.07 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4977,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 53.34 51.1174 90)
+			(at 53.34 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)

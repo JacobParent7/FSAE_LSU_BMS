@@ -420,7 +420,7 @@
 		(remove_unused_layers no)
 		(uuid "19eeb328-b9a3-429b-a083-2c4a83654843")
 	)
-	(model "${PROJECT_PATH}/Downloads/IO_Connector/1376357-3.stp"
+	(model "${KIPRJMOD}/Downloads/IO_Connector/1376357-3.stp"
 		(offset
 			(xyz 28.5 -16.5 9)
 		)
