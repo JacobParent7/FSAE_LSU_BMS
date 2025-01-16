@@ -2,7 +2,7 @@
 
 # Goal
 
-Develop a distributed Battery Management System (BMS) for LSU FSAE's electric accumulator, targeting completion by May 12th, 2025. All hardware and firmware development will be documented in this repository.
+Develop a distributed Battery Management System (BMS) for LSU FSAE's electric accumulator to be used in 2026 competition, targeting completion by May, 2025. All hardware and firmware development will be documented in this repository.
 
 # Contact Info
 ### Motherboard Design
