@@ -1,11 +1,9 @@
 (fp_lib_table
   (version 7)
   (lib (name "IO")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/IO.pretty")(options "")(descr ""))
-  (lib (name "TCAN")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/TCAN.pretty")(options "")(descr ""))
-  (lib (name "BQ79600")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/BQ79600.pretty")(options "")(descr ""))
-  (lib (name "Transformer_WURTH")(type "KiCad")(uri "${PROJECT_PATH}/Custom_Libraries/Footprints/Transformer_WURTH.pretty")(options "")(descr ""))
   (lib (name "SDIO")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/SDIO.pretty")(options "")(descr ""))
   (lib (name "TestPoint")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/TestPoint.pretty")(options "")(descr ""))
   (lib (name "molex_comm")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/molex_comm.pretty")(options "")(descr ""))
   (lib (name "CAN1462")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/CAN1462.pretty")(options "")(descr ""))
+  (lib (name "WE-SLM")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/WE-SLM.pretty")(options "")(descr ""))
 )
