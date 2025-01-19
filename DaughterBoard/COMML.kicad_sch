@@ -4404,22 +4404,22 @@
 	)
 	(global_label "ISO_COMMH_N"
 		(shape input)
-		(at 270.51 234.95 0)
+		(at 257.81 238.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "03cbdfca-59da-4067-a7c9-39c73285e5c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.7395 234.95 0)
+			(at 241.5805 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4668,22 +4668,22 @@
 	)
 	(global_label "ISO_COMMH_P"
 		(shape input)
-		(at 270.51 237.49 0)
+		(at 257.81 236.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8d987e44-3b02-4945-9ab2-d7a8311611c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.679 237.49 0)
+			(at 241.641 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7659,7 +7659,7 @@
 	)
 	(symbol
 		(lib_id "0430450200:430450200")
-		(at 270.51 237.49 180)
+		(at 257.81 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7668,7 +7668,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee5525d8-930c-49e8-8911-a82397a7fcac")
 		(property "Reference" "J5"
-			(at 261.62 227.33 0)
+			(at 266.7 246.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7676,7 +7676,7 @@
 			)
 		)
 		(property "Value" "430450200"
-			(at 261.62 229.87 0)
+			(at 266.7 243.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7684,7 +7684,7 @@
 			)
 		)
 		(property "Footprint" "0430450200:CON_430450200_MOL"
-			(at 270.51 237.49 0)
+			(at 257.81 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7694,7 @@
 			)
 		)
 		(property "Datasheet" "430450200"
-			(at 270.51 237.49 0)
+			(at 257.81 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 237.49 0)
+			(at 257.81 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
