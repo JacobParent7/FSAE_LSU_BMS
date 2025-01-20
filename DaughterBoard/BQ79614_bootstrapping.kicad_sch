@@ -3714,6 +3714,12 @@
 		(uuid "1b92f82a-8e56-4410-9786-f455c7fb2f48")
 	)
 	(junction
+		(at 45.72 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "401ac0d4-a7f6-4498-9a46-ca99c75535a2")
+	)
+	(junction
 		(at 231.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3914,6 +3920,16 @@
 			(type default)
 		)
 		(uuid "0e52b80a-2fa3-441b-ab8e-92725c64c692")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10433147-c0ba-4679-b2eb-6ff81de43d1a")
 	)
 	(wire
 		(pts
@@ -4217,7 +4233,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 49.53) (xy 50.8 49.53)
+			(xy 44.45 49.53) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4264,6 +4280,16 @@
 			(type default)
 		)
 		(uuid "72c9a620-1805-4ba9-b7f3-2e9285318405")
+	)
+	(wire
+		(pts
+			(xy 45.72 49.53) (xy 50.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b884cf-71c9-4389-8952-575fb82f3246")
 	)
 	(wire
 		(pts
@@ -4444,6 +4470,16 @@
 			(type default)
 		)
 		(uuid "ba68bc48-9c67-4923-8435-c1ab1c6cf167")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63ca029-21f7-471f-93ea-96b03fa6cb9c")
 	)
 	(wire
 		(pts
@@ -5030,7 +5066,7 @@
 			)
 		)
 	)
-	(global_label "REFHP"
+	(global_label "REFHM"
 		(shape input)
 		(at 140.97 123.19 0)
 		(fields_autoplaced yes)
@@ -5042,7 +5078,7 @@
 		)
 		(uuid "5276fde3-a478-469b-bfe1-357cd157fc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.0633 123.19 0)
+			(at 150.2447 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,6 +5326,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 44.45 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a9e6cb-34f4-4b4b-b01e-0d8a9197048d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1386 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5580,7 +5638,7 @@
 			)
 		)
 	)
-	(global_label "REFHF"
+	(global_label "REFHP"
 		(shape input)
 		(at 231.14 139.7 0)
 		(fields_autoplaced yes)
@@ -5592,7 +5650,7 @@
 		)
 		(uuid "c9e9121f-dc0f-4110-96e0-8e059f5e0a72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.0519 139.7 0)
+			(at 240.2333 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
