@@ -2382,7 +2382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 219.4052 48.26 0)
 			(effects
 				(font
@@ -2428,6 +2428,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 218.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A106KBHNNNE"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -2599,6 +2608,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61021cd8-703f-439d-ad56-3de1dd02f1b4")
 		)
@@ -2686,6 +2704,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
 			(at 53.34 152.4 0)
 			(effects
 				(font
@@ -2897,6 +2924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b7f5e41-2a24-40ff-be72-23f7113761a6")
 		)
@@ -3021,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 48.26 0)
 			(effects
 				(font
@@ -3067,6 +3103,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A106KBHNNNE"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -3336,6 +3381,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -3802,6 +3856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1efb89ba-5e5b-49fb-8503-60187a646e88")
 		)
@@ -3963,6 +4026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27fcabc4-7817-4cb1-8657-9231723ab962")
 		)
@@ -4050,6 +4122,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -4287,6 +4368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "321ae22b-c16d-4150-875c-af7fdf56b111")
 		)
@@ -4330,7 +4420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 149.86 0)
 			(effects
 				(font
@@ -4376,6 +4466,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A106KBHNNNE"
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -4854,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 99.06 0)
 			(effects
 				(font
@@ -4900,6 +4999,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A106KBHNNNE"
 			(at 104.14 95.25 0)
 			(effects
 				(font

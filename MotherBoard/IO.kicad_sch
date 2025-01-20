@@ -2537,7 +2537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "420e2f87-dfde-4f7a-b80c-6a6e9cfb79da")
 		(property "Reference" "J302"
 			(at 106.68 31.75 0)
@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 132.334 39.624 90)
 			(effects
 				(font
@@ -2768,6 +2768,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FRC1206J220 TS"
 			(at 132.08 40.64 0)
 			(effects
 				(font
@@ -2997,7 +3006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7a93aa1-fc29-4634-ab1e-ae40795b9b35")
 		(property "Reference" "J301"
@@ -3222,7 +3231,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba9b837a-bb4a-4ad8-8bba-95e74607dc9a")
 		(property "Reference" "J303"
@@ -3670,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 132.334 37.084 90)
 			(effects
 				(font
@@ -3716,6 +3725,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FRC1206J220 TS"
 			(at 132.08 38.1 0)
 			(effects
 				(font

@@ -3191,6 +3191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CC0402KRX7R9BB103"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2dd60d83-e92c-4a07-b223-5ecf756199b5")
 		)
@@ -3225,7 +3234,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "220n"
 			(at 107.95 78.7399 0)
 			(effects
 				(font
@@ -3234,7 +3243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 103.1748 73.66 0)
 			(effects
 				(font
@@ -3280,6 +3289,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B224KA8NNNC"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -3440,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.844 108.204 90)
 			(effects
 				(font
@@ -3486,6 +3504,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -3590,6 +3617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64341246-3000-4155-8c8b-26814d52eeef")
 		)
@@ -3632,7 +3668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.626 114.554 90)
 			(effects
 				(font
@@ -3686,6 +3722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0603WAF4990T5E"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42bdbc51-3502-4fa6-a4db-474b86e7ac66")
 		)
@@ -3727,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.664 108.204 90)
 			(effects
 				(font
@@ -3773,6 +3818,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -3943,6 +3997,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "079e2bb9-9927-400e-a233-9f18cf260cc7")
 		)
@@ -4040,6 +4103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63bd12eb-1d3c-4453-8f15-7564222e5126")
 		)
@@ -4082,7 +4154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.626 124.714 90)
 			(effects
 				(font
@@ -4128,6 +4200,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0603WAF4990T5E"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -4328,6 +4409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402CG101J500NT"
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ebb3ef3d-c52d-4edf-85e7-6c50ea5fa8e3")
 		)
@@ -4369,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.334 132.334 90)
 			(effects
 				(font
@@ -4423,6 +4513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0098f32-b408-48dd-b13d-cc61d27c800b")
 		)
@@ -4464,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 110.1852 0)
 			(effects
 				(font
@@ -4510,6 +4609,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21C222JBFNNNE"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -4680,6 +4788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f2b3d04-ab1f-4061-a352-17ba269514ab")
 		)
@@ -4721,7 +4838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.334 104.394 90)
 			(effects
 				(font
@@ -4767,6 +4884,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -4863,6 +4989,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -4977,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.804 128.524 90)
 			(effects
 				(font
@@ -5031,6 +5166,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C18019"
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e669f6e0-87a2-4c36-b715-9a9d862f0add")
 		)
@@ -5072,7 +5216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.664 128.524 90)
 			(effects
 				(font
@@ -5126,6 +5270,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bc4a39c-aa71-4c10-9b83-15a7a138d9e6")
 		)
@@ -5160,7 +5313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "220n"
 			(at 171.45 66.0399 0)
 			(effects
 				(font
@@ -5169,7 +5322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 68.58 0)
 			(effects
 				(font
@@ -5215,6 +5368,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B224KA8NNNC"
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -5395,7 +5557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 130.5052 0)
 			(effects
 				(font
@@ -5441,6 +5603,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21C222JBFNNNE"
 			(at 115.57 129.54 0)
 			(effects
 				(font
@@ -5546,6 +5717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402CG101J500NT"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfd34997-ae98-4037-b481-2d10928bc8f0")
 		)
@@ -5634,6 +5814,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KT-0603R"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5738,6 +5927,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c0e7c1c-4f1b-4c04-b745-405218e6e337")
 		)
@@ -5778,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.804 108.204 90)
 			(effects
 				(font
@@ -5832,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C18019"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c40ddc7-1cf5-4837-a800-dc6ce3968cc1")
 		)
@@ -5873,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.844 128.524 90)
 			(effects
 				(font
@@ -5919,6 +6126,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 148.59 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
 			(at 148.59 129.54 0)
 			(effects
 				(font
@@ -6016,6 +6232,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
 			(at 81.28 77.47 0)
 			(effects
 				(font
@@ -6321,7 +6546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 44.45 0)
 			(effects
 				(font
@@ -6367,6 +6592,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10B224KA8NNNC"
 			(at 107.95 40.64 0)
 			(effects
 				(font
