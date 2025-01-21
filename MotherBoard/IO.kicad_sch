@@ -2537,7 +2537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "420e2f87-dfde-4f7a-b80c-6a6e9cfb79da")
 		(property "Reference" "J302"
 			(at 106.68 31.75 0)
@@ -3006,7 +3006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7a93aa1-fc29-4634-ab1e-ae40795b9b35")
 		(property "Reference" "J301"
@@ -3231,7 +3231,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9b837a-bb4a-4ad8-8bba-95e74607dc9a")
 		(property "Reference" "J303"
