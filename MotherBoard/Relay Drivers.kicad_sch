@@ -2470,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c59524b-b479-4118-b95d-63300a6ab467")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0707"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -2520,7 +2520,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0701")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -2642,7 +2642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19b6225b-d5b0-4263-8abf-c06482815f25")
-		(property "Reference" "R705"
+		(property "Reference" "R703"
 			(at 53.34 146.05 90)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "R705")
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -2745,7 +2745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bcd0d18-b85d-48d4-b0ef-5d3424bd1aa5")
-		(property "Reference" "Q706"
+		(property "Reference" "Q708"
 			(at 196.85 43.1799 0)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q706")
+					(reference "Q708")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bccc506-99ab-4f27-9a41-8a47c08e492e")
-		(property "Reference" "R701"
+		(property "Reference" "R704"
 			(at 68.58 38.0999 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "R701")
+					(reference "R704")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eaa6903-b966-4b69-b94e-4c70c0b768fc")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0705"
 			(at 66.04 139.7 0)
 			(effects
 				(font
@@ -3473,7 +3473,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0707")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -3594,7 +3594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f94345-203a-42ca-bbd6-d4e6f65bcf77")
-		(property "Reference" "Q704"
+		(property "Reference" "Q706"
 			(at 82.55 144.7799 0)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q704")
+					(reference "Q706")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7360ea3f-a274-44f4-af4e-de4032dc79f8")
-		(property "Reference" "Q708"
+		(property "Reference" "Q701"
 			(at 68.58 49.5299 0)
 			(effects
 				(font
@@ -3768,7 +3768,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q708")
+					(reference "Q701")
 					(unit 1)
 				)
 			)
@@ -3784,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ed05d84-57e8-4111-b713-3eef1e393722")
-		(property "Reference" "R704"
+		(property "Reference" "R705"
 			(at 68.58 88.8999 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "R704")
+					(reference "R705")
 					(unit 1)
 				)
 			)
@@ -3890,7 +3890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803eedcf-09ad-460a-a582-0e8284908dad")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0704"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0705")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80683b30-fdbe-4b77-a1f3-3efd4bf4cd70")
-		(property "Reference" "R702"
+		(property "Reference" "R701"
 			(at 53.34 44.45 90)
 			(effects
 				(font
@@ -4044,7 +4044,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "R702")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d9a3b25-1bb4-4681-a8f9-93aea43676c9")
-		(property "Reference" "R703"
+		(property "Reference" "R702"
 			(at 53.34 95.25 90)
 			(effects
 				(font
@@ -4148,7 +4148,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "R703")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b336fed9-06af-4e47-a0c4-f07de632a959")
-		(property "Reference" "Q709"
+		(property "Reference" "Q704"
 			(at 82.55 43.1799 0)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q709")
+					(reference "Q704")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc06453b-5230-434b-8dbe-d05229a4641a")
-		(property "Reference" "Q705"
+		(property "Reference" "Q707"
 			(at 182.88 49.5299 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q705")
+					(reference "Q707")
 					(unit 1)
 				)
 			)
@@ -4869,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8ac5f1-d638-4844-9912-75ba947638ad")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0703"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0704")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3a994da-e6ad-4332-bc3d-2830bff5896c")
-		(property "Reference" "Q701"
+		(property "Reference" "Q705"
 			(at 82.55 93.9799 0)
 			(effects
 				(font
@@ -5133,7 +5133,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "Q701")
+					(reference "Q705")
 					(unit 1)
 				)
 			)
@@ -5149,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51950cf-d271-4bc2-bf78-586951977b7b")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0701"
 			(at 66.04 38.1 0)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0703")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd56021-6e9f-4dc0-becd-6964b5c2152f")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0706"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0708")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -5347,7 +5347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0e57d98-34cf-4971-b5af-89b673b8e6fa")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0708"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/2f5b3e7e-a53c-4958-9d9b-49ffd0a960f5"
-					(reference "#PWR0706")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
