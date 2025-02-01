@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "67b30b60-9a4b-4906-bf61-fc6b055b76ea")
+	(paper "A4")
+	(title_block
+		(date "2025-01-10")
+		(rev "A")
+		(company "FSAE LSU")
+		(comment 1 "Jacob Parent ")
+		(comment 2 "parent.jacob7@protonmail.com")
+	)
+	(lib_symbols)
+)

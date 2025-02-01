@@ -1688,6 +1688,12 @@
 		(uuid "1a55d503-7afe-48d5-a2d5-e45dd9654cef")
 	)
 	(junction
+		(at 181.61 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "326f0794-890b-43c1-ae7e-72f618c87675")
+	)
+	(junction
 		(at 181.61 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1710,6 +1716,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8301c412-7816-4866-96e4-21258de2df62")
+	)
+	(junction
+		(at 187.96 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892b58f4-17b4-4ac0-803b-51873be9a018")
+	)
+	(junction
+		(at 181.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c43cccf6-2d05-426f-a143-5c93c13eaa8f")
 	)
 	(junction
 		(at 125.73 38.1)
@@ -1827,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 86.36) (xy 181.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce29d87-2da1-4b9e-847f-d46caf158f1e")
+	)
+	(wire
+		(pts
 			(xy 125.73 38.1) (xy 128.27 38.1)
 		)
 		(stroke
@@ -1834,6 +1862,16 @@
 			(type default)
 		)
 		(uuid "10b4d7c8-223c-4cbc-a91d-e76ca94f00be")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cd0912-36ba-4177-9b7b-bc14c7488024")
 	)
 	(wire
 		(pts
@@ -1854,6 +1892,16 @@
 			(type default)
 		)
 		(uuid "1f005152-f956-4e79-8933-d22abb875dfd")
+	)
+	(wire
+		(pts
+			(xy 187.96 74.93) (xy 189.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a59a998-8c0e-4d30-9365-9bb35495d80e")
 	)
 	(wire
 		(pts
@@ -1997,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b74579-0048-4bbd-958a-b8e61c5b2ee7")
+	)
+	(wire
+		(pts
 			(xy 45.72 72.39) (xy 45.72 63.5)
 		)
 		(stroke
@@ -2077,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 78.74) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87589989-a17b-43cf-af05-6075b57b9abf")
+	)
+	(wire
+		(pts
 			(xy 119.38 40.64) (xy 128.27 40.64)
 		)
 		(stroke
@@ -2107,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a567a711-57fb-4b97-8e21-64f532d78373")
+	)
+	(wire
+		(pts
 			(xy 119.38 40.64) (xy 119.38 43.18)
 		)
 		(stroke
@@ -2114,6 +2192,16 @@
 			(type default)
 		)
 		(uuid "a92f7188-0347-4696-a55e-8e81b0749158")
+	)
+	(wire
+		(pts
+			(xy 187.96 78.74) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9368dea-8320-4a03-963f-6e4edc5a9eba")
 	)
 	(wire
 		(pts
@@ -2137,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 74.93) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bf0c98-4e63-4e16-a307-9b2ca2e71961")
+	)
+	(wire
+		(pts
 			(xy 46.99 40.64) (xy 48.26 40.64)
 		)
 		(stroke
@@ -2144,6 +2242,26 @@
 			(type default)
 		)
 		(uuid "bda9bf2b-c9a2-4320-884d-eb23ca584c3d")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 181.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75bad5f-fbd2-437f-a352-773bd273ecd5")
+	)
+	(wire
+		(pts
+			(xy 181.61 88.9) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7613500-18b1-4412-8baf-c38d2fb5c077")
 	)
 	(wire
 		(pts
@@ -2184,7 +2302,26 @@
 		)
 		(uuid "15add9d9-25fe-4f75-b6a0-64008070d3e6")
 	)
-	(text_box "COMM Molex Header\n"
+	(text_box "COML Molex Header\n"
+		(exclude_from_sim no)
+		(at 158.75 64.77 0)
+		(size 58.42 35.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3b5dfb8f-375a-431d-97b1-417f1042e726")
+	)
+	(text_box "COMH Molex Header\n"
 		(exclude_from_sim no)
 		(at 158.75 25.4 0)
 		(size 58.42 35.56)
@@ -2521,6 +2658,50 @@
 		(uuid "bb8000e5-8a4a-4a78-9c6d-60238695b911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.7086 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ISO_COMLN"
+		(shape input)
+		(at 177.8 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfd9a224-8c05-49c9-b146-cf000940d223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.2919 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ISO_COMLP"
+		(shape input)
+		(at 177.8 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efcceb3a-2c2c-4a76-bd9f-353bd582fb19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.3524 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,6 +3086,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89803148-d452-4e95-a395-60495cfd99c1")
+		(property "Reference" "#PWR0304"
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9e1fa4-1dd5-45b9-a685-d89e3b8c5414")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 181.61 43.18 90)
 		(unit 1)
@@ -2913,7 +3160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90ac2e88-1ff3-48ff-8b6d-3c2c70eab76d")
-		(property "Reference" "D304"
+		(property "Reference" "D303"
 			(at 179.07 43.18 0)
 			(effects
 				(font
@@ -2993,7 +3240,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
-					(reference "D304")
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -3324,6 +3571,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 187.96 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c95918c4-36ea-4cd4-bf0b-d3052abe00c1")
+		(property "Reference" "D?"
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e1e2b38-5dd3-48e5-b578-75113e690057")
+		)
+		(pin "2"
+			(uuid "6cc5670e-5904-421e-b56a-b53cfcb068c9")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 50.8 0)
 		(unit 1)
@@ -3384,6 +3726,200 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 181.61 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e3aebd-d7a8-480f-815b-29a343106127")
+		(property "Reference" "D?"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6860016a-e127-4e87-8f9d-914793598f8e")
+		)
+		(pin "2"
+			(uuid "7a681932-7a40-454e-b07d-db9ac029db9d")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "molex_comm:430450200")
+		(at 189.23 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03b9bf1-6089-46b0-b9cd-ca37d7f4b00d")
+		(property "Reference" "J?"
+			(at 203.2 72.3899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "430450200"
+			(at 203.2 74.9299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "molex_comm:CON_430450200_MOL"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "430450200"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70afcff8-fb79-4ac9-9074-ba433164a83a")
+		)
+		(pin "2"
+			(uuid "4f8bcc6d-f228-4c5e-838b-6cdb96fb1880")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3464,7 +4000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f738e666-9179-4d1c-a84f-440fd2d7ef62")
-		(property "Reference" "D303"
+		(property "Reference" "D304"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -3544,7 +4080,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/a79abe16-9d7e-418f-82e9-de5f72e3bb16"
-					(reference "D303")
+					(reference "D304")
 					(unit 1)
 				)
 			)
