@@ -22747,7 +22747,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 181.61 0)
 			(effects
 				(font
@@ -22827,7 +22827,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 444.5 234.95 0)
 			(effects
 				(font
@@ -22906,7 +22906,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 328.93 0)
 			(effects
 				(font
@@ -23579,7 +23579,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 273.05 0)
 			(effects
 				(font
@@ -23658,7 +23658,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 427.99 214.63 0)
 			(effects
 				(font
@@ -24138,7 +24138,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 321.31 0)
 			(effects
 				(font
@@ -24903,7 +24903,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 300.99 0)
 			(effects
 				(font
@@ -24982,7 +24982,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -25359,7 +25359,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 190.5 0)
 			(effects
 				(font
@@ -25720,7 +25720,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 444.5 262.89 0)
 			(effects
 				(font
@@ -26645,7 +26645,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56dcba3e-fc1c-421f-aa8f-513ba68ef02d")
 		(property "Reference" "#PWR07"
 			(at 204.47 378.46 0)
@@ -26656,12 +26655,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 204.47 377.19 0)
+		(property "Value" "GND_AVSS"
+			(at 199.644 379.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26886,7 +26886,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 69.85 0)
 			(effects
 				(font
@@ -27082,7 +27082,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 430.53 273.05 0)
 			(effects
 				(font
@@ -27288,7 +27288,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 245.11 0)
 			(effects
 				(font
@@ -27367,7 +27367,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 133.35 0)
 			(effects
 				(font
@@ -27764,7 +27764,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 218.44 0)
 			(effects
 				(font
@@ -27993,7 +27993,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 265.43 0)
 			(effects
 				(font
@@ -28282,7 +28282,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -28443,7 +28443,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 430.53 243.84 0)
 			(effects
 				(font
@@ -28649,7 +28649,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 363.22 0)
 			(effects
 				(font
@@ -28973,7 +28973,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 293.37 0)
 			(effects
 				(font
@@ -29380,7 +29380,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 153.67 0)
 			(effects
 				(font
@@ -29608,7 +29608,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 427.99 187.96 0)
 			(effects
 				(font
@@ -29687,7 +29687,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 161.29 0)
 			(effects
 				(font
@@ -29976,7 +29976,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 237.49 0)
 			(effects
 				(font
@@ -30194,7 +30194,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb6d5745-00d7-4f19-a950-544d57743527")
 		(property "Reference" "#PWR06"
 			(at 163.83 393.7 0)
@@ -30205,12 +30204,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 392.43 0)
+		(property "Value" "GND_AVSS"
+			(at 158.75 392.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30829,7 +30829,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 444.5 207.01 0)
 			(effects
 				(font
@@ -30909,7 +30909,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 444.5 179.07 0)
 			(effects
 				(font
@@ -31555,7 +31555,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5 "
+		(property "Value" "7.5"
 			(at 170.18 105.41 0)
 			(effects
 				(font
@@ -31635,7 +31635,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 350.52 0)
 			(effects
 				(font
@@ -31946,7 +31946,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -32026,7 +32026,7 @@
 				)
 			)
 		)
-		(property "Value" "100 "
+		(property "Value" "100"
 			(at 186.69 209.55 0)
 			(effects
 				(font
