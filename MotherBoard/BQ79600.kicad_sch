@@ -1691,12 +1691,6 @@
 		(uuid "2e57ea2d-eb6f-48d1-8cfa-ce8296044294")
 	)
 	(junction
-		(at 45.72 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "327a05a8-3fe8-44ef-b60b-39e8f5fbcadf")
-	)
-	(junction
 		(at 85.09 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1757,12 +1751,6 @@
 		(uuid "76925412-2241-4dc2-b34b-8ecb89d728d8")
 	)
 	(junction
-		(at 45.72 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77f01ec0-f0dc-4122-a36d-d301aee08229")
-	)
-	(junction
 		(at 60.96 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1791,6 +1779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9758335f-ed04-4dd2-9373-a7a161dba949")
+	)
+	(junction
+		(at 45.72 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f24140c-cfa0-4b55-a639-40fd54414c60")
 	)
 	(junction
 		(at 49.53 29.21)
@@ -1869,6 +1863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d35851-9a0e-4e3a-a51e-3498eb2b5c66")
+	)
+	(junction
+		(at 45.72 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6dfe51a-e993-44b5-852a-d63148d62da0")
 	)
 	(junction
 		(at 45.72 104.14)
@@ -2116,16 +2116,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 143.51) (xy 45.72 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a27d30-cccd-4e9e-8910-961cd383c890")
-	)
-	(wire
-		(pts
 			(xy 115.57 167.64) (xy 119.38 167.64)
 		)
 		(stroke
@@ -2316,13 +2306,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 163.83) (xy 45.72 163.83)
+			(xy 143.51 163.83) (xy 149.86 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43cef947-4159-45f8-900a-fd18efa6ee14")
+		(uuid "417f16f1-1b42-474a-8b48-c26ae6098a0e")
 	)
 	(wire
 		(pts
@@ -2343,16 +2333,6 @@
 			(type default)
 		)
 		(uuid "4844dd7f-2075-4ebe-8343-adb9843a8b19")
-	)
-	(wire
-		(pts
-			(xy 143.51 163.83) (xy 149.86 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c5c6ec-e8dd-4c33-9c63-4598147c714a")
 	)
 	(wire
 		(pts
@@ -2473,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "5c16de08-80fb-42e6-95c3-0d80b30fe4db")
-	)
-	(wire
-		(pts
-			(xy 143.51 143.51) (xy 149.86 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9759f6-c0cb-4dbd-8e45-85a3b64ae5e0")
 	)
 	(wire
 		(pts
@@ -2653,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "871cde6d-e844-4708-b493-71d8d2750416")
+	)
+	(wire
+		(pts
+			(xy 33.02 163.83) (xy 45.72 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9040c5-f905-4c27-bef0-ea101a5978c2")
 	)
 	(wire
 		(pts
@@ -3036,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 143.51) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b872d89b-5327-4c9f-a47a-9a04986be598")
+	)
+	(wire
+		(pts
 			(xy 152.4 62.23) (xy 144.78 62.23)
 		)
 		(stroke
@@ -3153,6 +3143,16 @@
 			(type default)
 		)
 		(uuid "c68be70d-18d2-4e09-a72a-f610442db1ab")
+	)
+	(wire
+		(pts
+			(xy 33.02 143.51) (xy 45.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e89063-bb5f-4f23-ab71-fd7bcea2d92d")
 	)
 	(wire
 		(pts
@@ -3486,7 +3486,7 @@
 		(uuid "5ad315b1-6bf6-477f-ab5b-6bd1c9603587")
 	)
 	(label "COMLN"
-		(at 33.02 163.83 180)
+		(at 33.02 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3519,7 +3519,7 @@
 		(uuid "a44786c7-4840-48f1-9e76-0d2512f95d9b")
 	)
 	(label "COMLP"
-		(at 33.02 143.51 180)
+		(at 33.02 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3630,7 +3630,7 @@
 	)
 	(global_label "ISO_COMLN"
 		(shape output)
-		(at 149.86 163.83 0)
+		(at 149.86 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3640,7 +3640,7 @@
 		)
 		(uuid "78fa2aec-1731-4865-8f11-abaec7a49650")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3681 163.83 0)
+			(at 163.3681 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3696,7 @@
 	)
 	(global_label "ISO_COMLP"
 		(shape output)
-		(at 149.86 143.51 0)
+		(at 149.86 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3706,7 +3706,7 @@
 		)
 		(uuid "da41f055-2302-4d82-9978-b6636706045e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3076 143.51 0)
+			(at 163.3076 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,110 +3970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 123.19 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e8ba9c0-7b58-468c-a3c5-f7e794d3b477")
-		(property "Reference" "R522"
-			(at 123.19 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 123.19 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.444 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
-			(at 123.19 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9df20803-b6c3-479b-9e32-7bc30112fc60")
-		)
-		(pin "1"
-			(uuid "530cd200-f35b-4599-87cc-1b20766b3c9d")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
-					(reference "R522")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CommonModeChoke_Wurth:WE-SLM")
 		(at 123.19 114.3 180)
 		(unit 1)
@@ -4179,6 +4075,111 @@
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
 					(reference "L501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18f022c2-c126-4dbb-805e-5fb8d944472e")
+		(property "Reference" "R508"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.326 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19f2a4c4-c5d4-4aea-8851-4ab0110ee6df")
+		)
+		(pin "1"
+			(uuid "3b69c61a-53d8-4790-a1fe-ff3e67f159f7")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -4784,111 +4785,6 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
 					(reference "R513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 67.31 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f1bf00f-c975-4e4b-b9b7-a24a06e32181")
-		(property "Reference" "R508"
-			(at 69.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.326 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64341246-3000-4155-8c8b-26814d52eeef")
-		)
-		(pin "1"
-			(uuid "1ee07b1f-6f01-4993-882c-5e9fc1cb27d2")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
-					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -5759,6 +5655,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "59bf5ae2-614f-4e73-b419-bbc38873b296")
+		(property "Reference" "R522"
+			(at 123.19 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.19 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 123.444 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e81710d7-11d7-40c8-a2e3-9976d74f8710")
+		)
+		(pin "1"
+			(uuid "b97e60bf-3305-4ab4-aca0-348116648c9a")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
+					(reference "R522")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 85.09 109.22 90)
 		(unit 1)
@@ -6058,110 +6058,6 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
 					(reference "C503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 123.19 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72189d16-76c6-4fa3-859f-15a2ddc49ab3")
-		(property "Reference" "R521"
-			(at 123.19 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 123.19 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.444 127.254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
-			(at 123.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0098f32-b408-48dd-b13d-cc61d27c800b")
-		)
-		(pin "1"
-			(uuid "867e3e36-ef25-4d5d-a542-f489828d6e63")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
-					(reference "R521")
 					(unit 1)
 				)
 			)
@@ -6664,7 +6560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "85e207e1-219f-4bea-9dbe-7bc17dfd6135")
 		(property "Reference" "R520"
@@ -7902,6 +7798,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c7e355e0-294f-40d9-964b-8aa813ee754f")
+		(property "Reference" "R523"
+			(at 123.19 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.19 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 123.444 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30ba094a-6621-4bcd-8fcc-3f42169d578d")
+		)
+		(pin "1"
+			(uuid "dc62e80f-a073-4e0f-837c-af5843d28cc6")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
+					(reference "R523")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 119.38 180)
 		(unit 1)
@@ -8915,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 39.37 0)
 			(effects
 				(font
@@ -8969,7 +8969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10B224KA8NNNC"
+		(property "Manufacturer_Part_Number" "CL05A224KA5NNNC"
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -8988,6 +8988,110 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
 					(reference "C508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f19c0395-edd7-4385-8cfe-ee73c1cf22c4")
+		(property "Reference" "R521"
+			(at 123.19 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 123.19 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 123.444 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1cf142e-6148-4d3d-92f4-10da31047373")
+		)
+		(pin "1"
+			(uuid "c3b9b0a6-967b-4594-b9cf-d2a87219cd66")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
+					(reference "R521")
 					(unit 1)
 				)
 			)
@@ -9053,110 +9157,6 @@
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
 					(reference "#PWR0505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 123.19 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f40c0170-db51-41da-96c7-d3f05e34e64a")
-		(property "Reference" "R523"
-			(at 123.19 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 123.19 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.444 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e88b045-35ae-4748-8eca-664d2e7bef71")
-		)
-		(pin "1"
-			(uuid "84ceca1b-8e3c-433b-9e07-49e9f6f6b9ba")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/5aee6225-1f74-4a9d-9d18-4dadf3f55ee7"
-					(reference "R523")
 					(unit 1)
 				)
 			)

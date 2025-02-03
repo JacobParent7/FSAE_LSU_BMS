@@ -2492,7 +2492,7 @@
 		(uuid "be7c4b61-ceeb-4264-9c55-a83e0cf1448b")
 	)
 	(junction
-		(at 54.61 152.4)
+		(at 54.61 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58fa5dd-6cf6-4192-9fc9-86e83a28379d")
@@ -2528,7 +2528,7 @@
 		(uuid "e20ecd7e-bd2b-4d93-a863-5914dae7d2e9")
 	)
 	(junction
-		(at 62.23 142.24)
+		(at 62.23 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed61be8d-6370-4d35-9989-8e36c3e1c2d2")
@@ -2609,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 161.29) (xy 54.61 162.56)
+			(xy 54.61 163.83) (xy 54.61 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 45.72 142.24)
+			(xy 27.94 144.78) (xy 62.23 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24) (xy 64.77 142.24)
+			(xy 62.23 144.78) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 152.4) (xy 54.61 153.67)
+			(xy 54.61 154.94) (xy 54.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24) (xy 62.23 153.67)
+			(xy 62.23 144.78) (xy 62.23 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3399,16 +3399,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 54.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc34efb-6419-49d2-a9fd-891007c71806")
-	)
-	(wire
-		(pts
 			(xy 193.04 101.6) (xy 207.01 101.6)
 		)
 		(stroke
@@ -3479,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 152.4) (xy 45.72 152.4)
+			(xy 27.94 154.94) (xy 54.61 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3606,16 +3596,6 @@
 			(type default)
 		)
 		(uuid "813292c2-387e-4efb-8c5c-70e4744be259")
-	)
-	(wire
-		(pts
-			(xy 53.34 142.24) (xy 62.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82eb2989-34ac-4ffb-847c-b70e9fce4b2c")
 	)
 	(wire
 		(pts
@@ -3969,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 161.29) (xy 62.23 162.56)
+			(xy 62.23 163.83) (xy 62.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 152.4) (xy 64.77 152.4)
+			(xy 54.61 154.94) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +4459,7 @@
 	)
 	(text_box "MCU Communication"
 		(exclude_from_sim no)
-		(at 22.86 128.27 0)
+		(at 22.86 130.81 0)
 		(size 71.12 43.18)
 		(stroke
 			(width 0)
@@ -4601,7 +4581,7 @@
 		(uuid "1f1cd82e-b4a8-4615-89b3-baa98f6a2c64")
 	)
 	(label "CHARGE_PWR_LV"
-		(at 27.94 152.4 0)
+		(at 27.94 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4645,7 +4625,7 @@
 		(uuid "6739b27c-8edd-4329-81c0-66a96981cb12")
 	)
 	(label "READY_PWR_LV"
-		(at 27.94 142.24 0)
+		(at 27.94 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4712,7 +4692,7 @@
 	)
 	(global_label "CHARGE_PWR_LV_ISO"
 		(shape output)
-		(at 64.77 152.4 0)
+		(at 64.77 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4722,7 +4702,7 @@
 		)
 		(uuid "5f83497d-32be-4b86-90dd-b1c8be9300e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.289 152.4 0)
+			(at 87.289 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4736,7 @@
 	)
 	(global_label "READY_PWR_LV_ISO"
 		(shape output)
-		(at 64.77 142.24 0)
+		(at 64.77 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4766,7 +4746,7 @@
 		)
 		(uuid "87103122-cc15-4ed9-8420-1a7272eb5bb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.7771 142.24 0)
+			(at 85.7771 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e531f6b-0ea4-411e-88ee-6aa6ad9dd5d5")
-		(property "Reference" "R410"
+		(property "Reference" "R408"
 			(at 260.35 107.9499 0)
 			(effects
 				(font
@@ -5085,7 +5065,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R410")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2de2ac-a45d-4e75-a98b-52b60cf94c02")
-		(property "Reference" "R406"
+		(property "Reference" "R404"
 			(at 87.63 82.5499 0)
 			(effects
 				(font
@@ -5562,7 +5542,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R406")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -6009,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 54.61 157.48 270)
+		(at 54.61 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6017,15 +5997,6 @@
 		(dnp no)
 		(uuid "323c38d2-053a-439c-aa9b-febb0f0bb1e2")
 		(property "Reference" "D401"
-			(at 44.45 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
 			(at 44.45 158.75 90)
 			(effects
 				(font
@@ -6034,8 +6005,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 157.48 0)
+		(property "Value" "D_Zener"
+			(at 44.45 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 157.48 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6033,16 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 54.61 157.48 0)
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM3Z3V3T1G"
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ebb1ada-576a-467c-b45e-ebdc73ab9b18")
-		(property "Reference" "R412"
+		(property "Reference" "R410"
 			(at 312.42 102.8699 0)
 			(effects
 				(font
@@ -6387,7 +6376,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R412")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6489,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 162.56 0)
+		(at 54.61 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6509,7 +6498,7 @@
 		(fields_autoplaced yes)
 		(uuid "4822eb40-7206-49d7-ba40-5a4aef254402")
 		(property "Reference" "#PWR0401"
-			(at 54.61 168.91 0)
+			(at 54.61 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 167.64 0)
+			(at 54.61 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 162.56 0)
+			(at 54.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 162.56 0)
+			(at 54.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 162.56 0)
+			(at 54.61 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 162.56 0)
+		(at 62.23 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7504,7 +7493,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c6d4167-701c-49b5-b69f-f98d7769eb96")
 		(property "Reference" "#PWR0402"
-			(at 62.23 168.91 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 167.64 0)
+			(at 62.23 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 162.56 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 162.56 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 162.56 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d100970-d4c6-4075-9a08-eaf516f9f48c")
-		(property "Reference" "R405"
+		(property "Reference" "R403"
 			(at 76.2 64.7699 0)
 			(effects
 				(font
@@ -7765,7 +7754,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R405")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -8439,7 +8428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a25934-fec5-4f56-ae32-af3de053fd8c")
-		(property "Reference" "R404"
+		(property "Reference" "R402"
 			(at 62.23 64.7699 0)
 			(effects
 				(font
@@ -8529,7 +8518,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R404")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -8746,6 +8735,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 62.23 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc21a47d-0b08-47dc-be76-3d4bcb09ea3b")
+		(property "Reference" "D402"
+			(at 66.04 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 66.04 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM3Z3V3T1G"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217e1c79-5f99-47a8-a506-0732919ae236")
+		)
+		(pin "2"
+			(uuid "dd671e82-eec9-438b-a40f-82f80b09982a")
+		)
+		(instances
+			(project "FSAE_BMS"
+				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
+					(reference "D402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 124.46 54.61 0)
 		(unit 1)
@@ -8908,110 +8975,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 49.53 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6b19d90-10f3-46d9-b81b-19e28f38d9fd")
-		(property "Reference" "R403"
-			(at 49.53 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 49.784 151.384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FRC2512J102 TS"
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "366f3c20-417e-4f66-a37c-300b3a4f5022")
-		)
-		(pin "1"
-			(uuid "859cc016-3a5f-48f3-9081-05051cef3694")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 257.81 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9020,7 +8983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e2a518-74e3-47a0-b381-910b5d529ae8")
-		(property "Reference" "R409"
+		(property "Reference" "R407"
 			(at 260.35 97.7899 0)
 			(effects
 				(font
@@ -9110,7 +9073,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R409")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -9321,180 +9284,6 @@
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
 					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2c5e026-754b-4916-8782-2d9e86452566")
-		(property "Reference" "R402"
-			(at 49.53 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 49.53 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 49.784 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FRC2512J102 TS"
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da3f08aa-060d-48f7-96ea-334217178f8e")
-		)
-		(pin "1"
-			(uuid "4cf5b9ee-1859-406c-bab0-c4cc13cfe3ee")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 62.23 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5c950b6-d460-4864-ab83-9eb36145189a")
-		(property "Reference" "D402"
-			(at 64.77 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 64.77 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 62.23 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8168d08-e5e2-4837-8114-24c70f36bee5")
-		)
-		(pin "2"
-			(uuid "3405677b-70eb-461f-bef8-e1cd0e5f5f2e")
-		)
-		(instances
-			(project "FSAE_BMS"
-				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -10679,7 +10468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a8d13b-043a-44a2-888d-50684d4e3bad")
-		(property "Reference" "R408"
+		(property "Reference" "R406"
 			(at 260.35 72.3899 0)
 			(effects
 				(font
@@ -10769,7 +10558,7 @@
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R408")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -10785,7 +10574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9030a65-2965-4e6f-b50f-0ac136d85493")
-		(property "Reference" "R407"
+		(property "Reference" "R405"
 			(at 260.35 62.2299 0)
 			(effects
 				(font
@@ -10875,7 +10664,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R407")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -11101,7 +10890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd4c8a53-cff2-4159-be06-51ff4ea58863")
-		(property "Reference" "R411"
+		(property "Reference" "R409"
 			(at 312.42 67.3099 0)
 			(effects
 				(font
@@ -11191,7 +10980,7 @@
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca/f9c85247-a583-4593-8eb2-5cacb3a96479"
-					(reference "R411")
+					(reference "R409")
 					(unit 1)
 				)
 			)
