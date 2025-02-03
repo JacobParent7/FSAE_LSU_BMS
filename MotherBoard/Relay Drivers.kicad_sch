@@ -2589,6 +2589,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 218.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf0eef7d-51ff-42b9-8468-7869f71ba661")
 		)
@@ -2827,6 +2836,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61021cd8-703f-439d-ad56-3de1dd02f1b4")
 		)
@@ -2925,6 +2943,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 48.26 57.15 0)
 			(effects
 				(font
@@ -3037,6 +3064,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc1bfab8-36be-41b6-b61c-ce02d039474f")
 		)
@@ -3134,6 +3170,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -3249,6 +3294,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b7f5e41-2a24-40ff-be72-23f7113761a6")
 		)
@@ -3319,6 +3373,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3904"
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 63.5 152.4 0)
 			(effects
 				(font
@@ -3428,6 +3491,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -3674,6 +3746,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18cc4aa7-8acd-484d-a9ff-f477911e93af")
 		)
@@ -3772,6 +3853,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -3952,6 +4042,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02cbf45f-4e99-4132-933b-f8a7d04072c2")
 		)
@@ -4050,6 +4149,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -4163,6 +4271,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "343393f2-3a65-448a-b0a3-3a6d61da33ec")
 		)
@@ -4236,6 +4353,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3904"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -4353,6 +4479,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54b031fb-ac84-495b-86fe-d112e90a571e")
 		)
@@ -4451,6 +4586,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -4695,6 +4839,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27fcabc4-7817-4cb1-8657-9231723ab962")
 		)
@@ -4791,6 +4944,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -4897,6 +5059,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -5209,6 +5380,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "321ae22b-c16d-4150-875c-af7fdf56b111")
 		)
@@ -5307,6 +5487,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31A106KBHNNNE"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -5486,6 +5675,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a328b2bd-df06-44b6-8bac-5e5e8b74b90f")
 		)
@@ -5595,6 +5793,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46b6c81a-f9b1-4d70-9fae-db12b3e613a8")
 		)
@@ -5665,6 +5872,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3904"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -5782,6 +5998,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57e78a8f-e8e2-4aca-a7d4-abcf6413f636")
 		)
@@ -5879,6 +6104,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -6326,6 +6560,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a0a24d4-a5cb-4d60-9e8c-28cbcc1f000e")
 		)
@@ -6396,6 +6639,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3904"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 63.5 101.6 0)
 			(effects
 				(font

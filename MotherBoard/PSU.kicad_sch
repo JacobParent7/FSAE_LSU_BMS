@@ -4844,6 +4844,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 300.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "114539e8-268f-4f7f-ae42-da4135cade6f")
 		)
@@ -4942,6 +4951,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A226MAQNNNE"
+			(at 267.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -5056,6 +5074,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 257.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b024a0c5-b047-4d9b-9b23-8bff500391d1")
 		)
@@ -5160,6 +5187,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83fca764-2354-46a9-8ff4-22b93d7c6bc9")
 		)
@@ -5201,7 +5237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -5247,6 +5283,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 205.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" " C353317"
+			(at 205.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -5353,6 +5407,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EEEFT1V101AP"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -5533,6 +5596,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21ee6b32-3440-4935-81d9-62a2049b1009")
 		)
@@ -5697,6 +5769,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EEEFT1V101AP"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -5877,6 +5958,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1e9058a-1fab-46ca-8bed-af8209e59397")
 		)
@@ -5918,7 +6008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -5964,6 +6054,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" " C353317"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -6042,6 +6150,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM3Z3V3T1G"
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -6147,6 +6264,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 246.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -6261,6 +6387,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b09e4d2b-f4fa-486a-a095-da82e9d48754")
 		)
@@ -6367,6 +6502,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 309.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0876461-b935-4a4a-9cd5-eaf7db4229fd")
 		)
@@ -6464,6 +6608,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -6710,6 +6863,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 280.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b54ade3-97e2-427d-8b98-fd255a1d071a")
 		)
@@ -6808,6 +6970,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -6988,6 +7159,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57ee303d-2234-4059-939d-d79e2ce43bab")
 		)
@@ -7160,6 +7340,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 293.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "713d2251-078e-4b3e-863b-7b35e7ef7984")
 		)
@@ -7266,6 +7455,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81e824b2-bdf0-4ad6-a02d-2610aebb347e")
 		)
@@ -7307,7 +7505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -7353,6 +7551,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" " C353317"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -7459,6 +7675,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 124.46 60.96 0)
 			(effects
 				(font
@@ -7639,6 +7864,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1337d9f2-e16f-4cd3-943a-5872ecae4281")
 		)
@@ -7737,6 +7971,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -7915,6 +8158,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b16bcf0-42a1-4311-b091-7d09214e563c")
 		)
@@ -8021,6 +8273,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06574fc0-5a58-4dcc-9842-8d6fd88cf43f")
 		)
@@ -8117,6 +8378,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -8297,6 +8567,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "969af7be-f929-40cd-b5cf-14006008e23c")
 		)
@@ -8395,6 +8674,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A226MAQNNNE"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 267.97 104.14 0)
 			(effects
 				(font
@@ -8509,6 +8797,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc442fcd-8227-4c97-a3df-49083326ff88")
 		)
@@ -8607,6 +8904,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -8719,6 +9025,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfc2beae-2c1c-4d6b-919a-e70ca7e65bd7")
 		)
@@ -8789,6 +9104,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM3Z3V3T1G"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -8904,7 +9228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -8950,6 +9274,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" " C353317"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -9064,6 +9406,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2236667-4f8b-41dd-b794-46b09fb45d54")
 		)
@@ -9160,6 +9511,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " BMRA000505301R2MA1"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -9274,6 +9634,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ff00c2c-e8bb-4554-b3c3-c693ee461f55")
 		)
@@ -9380,6 +9749,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfc30867-e834-4eef-8128-25b74d9dc983")
 		)
@@ -9478,6 +9856,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -9789,6 +10176,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6dc7ba7-c67d-42af-93e9-f33d29cbdd54")
 		)
@@ -9905,6 +10301,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 300.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ab225fd-284f-4e10-81c1-55bccb3d7fcb")
 		)
@@ -10003,6 +10408,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -10127,6 +10541,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b064e4bb-c510-43c2-88f1-b393b30be961")
 		)
@@ -10223,6 +10646,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -10337,6 +10769,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7d69840-fa27-4dfc-856b-259ad4d3a24e")
 		)
@@ -10435,6 +10876,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A226MAQNNNE"
+			(at 293.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -10549,6 +10999,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bb98f45-68e4-4c65-8b2b-2c05980d9525")
 		)
@@ -10655,6 +11114,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "344460c6-111c-44b1-8279-5fbe501d1d67")
 		)
@@ -10751,6 +11219,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -10865,6 +11342,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 280.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67095def-b029-4aa1-977d-4e853431812e")
 		)
@@ -10963,6 +11449,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 309.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 309.88 68.58 0)
 			(effects
 				(font
@@ -11134,6 +11629,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1206B475K500NT"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 111.76 60.96 0)
 			(effects
 				(font

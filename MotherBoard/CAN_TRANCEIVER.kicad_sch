@@ -3263,6 +3263,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "ed961c8f-8cf7-4128-98c5-9379953d6f40")
 		)
@@ -3386,6 +3395,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 41.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c59ae43d-1457-4b0f-bdf6-5320eb17c8d4")
 		)
@@ -3484,6 +3502,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 45.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 45.72 121.92 0)
 			(effects
 				(font
@@ -3598,6 +3625,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30d66eec-9a52-42ab-b642-c385444323f1")
 		)
@@ -3695,6 +3731,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HP06W2J0000T5E"
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 41.91 160.02 0)
 			(effects
 				(font
@@ -3809,6 +3854,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b14f8d1c-a4a1-4924-9554-fafef9c93d4b")
 		)
@@ -3906,6 +3960,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A105KO5NNNC"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -4019,6 +4082,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "710fb6d0-d184-43ac-ae91-e0fa3887880b")
 		)
@@ -4116,6 +4188,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 214.63 52.07 0)
 			(effects
 				(font
@@ -4287,6 +4368,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402CG200J500NT"
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -4531,6 +4621,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "94b9ff94-6c51-47fa-bf7b-a6cfd6d509da")
 		)
@@ -4720,6 +4819,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 54.61 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f364105a-b3fe-4eee-a07e-841b8ea6e27c")
 		)
@@ -4824,6 +4932,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 67.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85aeb5ae-15c8-4596-9808-a132595a3409")
 		)
@@ -4919,6 +5036,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 88.9 46.99 0)
 			(effects
 				(font
@@ -5033,6 +5159,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06f1640f-8209-4689-a273-e4855ade05ec")
 		)
@@ -5129,6 +5264,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0402JRX7R9BB472"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -5235,6 +5379,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC1210FR-0760R4L"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 54.61 83.82 0)
 			(effects
 				(font
@@ -5414,6 +5567,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ada2fe6c-590e-4e1b-af80-f077f6738d67")
 		)
@@ -5519,6 +5681,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1899ee8c-ecb9-45a3-8e88-36ad51c79314")
 		)
@@ -5616,6 +5787,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HP06W2J0000T5E"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 40.64 78.74 0)
 			(effects
 				(font
@@ -5796,6 +5976,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04d60bf7-116a-47c7-b04f-bdddb49c8ec3")
 		)
@@ -5901,6 +6090,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e1f6a17-920b-4af2-a8e9-aa39230aea05")
 		)
@@ -5996,6 +6194,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -6110,6 +6317,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3dc1a360-3eb5-474e-a277-f394a78296a7")
 		)
@@ -6208,6 +6424,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 36.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 36.83 121.92 0)
 			(effects
 				(font
@@ -6322,6 +6547,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f0aec8f-fc4c-4491-82cc-3ab5796f325d")
 		)
@@ -6419,6 +6653,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 176.53 50.8 0)
 			(effects
 				(font
@@ -6664,6 +6907,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9468f82b-a6de-4f59-8444-d2eea659d6e3")
 		)
@@ -6761,6 +7013,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HP06W2J0000T5E"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -6932,6 +7193,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC1210FR-0760R4L"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 54.61 165.1 0)
 			(effects
 				(font
@@ -7175,6 +7445,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8271aa38-f690-4d55-bc2e-f039b48987b0")
 		)
@@ -7272,6 +7551,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -7440,6 +7728,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 90.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 90.17 135.89 0)
 			(effects
 				(font
@@ -7617,6 +7914,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc1cece4-69bc-4adb-93f6-1b1f42a2b3bb")
 		)
@@ -7714,6 +8020,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -7884,6 +8199,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A105KO5NNNC"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 240.03 80.01 0)
 			(effects
 				(font
@@ -8259,6 +8583,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bc497d1-3b09-4343-a72d-8ead10cf3a85")
 		)
@@ -8365,6 +8698,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5307ba37-779c-40c8-bfc4-df057dc3e2b4")
 		)
@@ -8463,6 +8805,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0402CG200J500NT"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 77.47 142.24 0)
 			(effects
 				(font
@@ -8634,6 +8985,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805W8F0000T5E"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 157.48 55.88 0)
 			(effects
 				(font

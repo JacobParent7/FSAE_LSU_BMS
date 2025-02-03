@@ -3660,6 +3660,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "012d0c4b-5df5-4fd8-b34b-fba8f6e7c16a")
 		)
@@ -3763,6 +3772,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 59.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f770a9b-ab19-426f-b710-884f7414400d")
 		)
@@ -3858,6 +3876,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 31.75 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9ca95cf-bbc3-4f8c-bc51-27a821b70e59")
 		)
@@ -3925,6 +3952,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 160.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -4094,6 +4130,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "PESD3V3L1BA,115"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c48a791-64d2-4fb5-9e27-ed53895adb10")
 		)
@@ -4181,6 +4235,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 33.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -4430,6 +4493,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d13f4404-6975-474d-98ac-1c7a16899572")
 		)
@@ -4526,6 +4598,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PESD3V3L1BA,115"
+			(at 53.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 53.34 173.99 0)
 			(effects
 				(font
@@ -4638,6 +4719,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba2c10e4-5fb5-435f-a3b3-ede451ecc5f8")
 		)
@@ -4709,6 +4799,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMD0805B050TF"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 43.18 160.02 0)
 			(effects
 				(font
@@ -4812,6 +4911,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FRC1206J220 TS"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -5033,6 +5141,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "03832913-29e9-422c-8230-2d7f2f2976fb")
 		)
@@ -5210,6 +5327,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e5c855-31d7-4fc8-baab-5bdf897bae6e")
 		)
@@ -5306,6 +5432,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PESD3V3L1BA,115"
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 46.99 173.99 0)
 			(effects
 				(font
@@ -5459,6 +5594,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "541ace89-42af-4d18-b0f4-c4958373e005")
 		)
@@ -5550,6 +5694,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -5703,6 +5856,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d691d171-1178-40e0-9877-7e83441e8bd8")
 		)
@@ -5807,6 +5969,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" ""
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5222ed4a-eba0-4bd4-a8f3-4f09bd276a98")
 		)
@@ -5902,6 +6073,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FRC1206J220 TS"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
 			(at 60.96 121.92 0)
 			(effects
 				(font
