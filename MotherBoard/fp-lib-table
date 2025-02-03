@@ -6,4 +6,5 @@
   (lib (name "molex_comm")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/molex_comm.pretty")(options "")(descr ""))
   (lib (name "CAN1462")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/CAN1462.pretty")(options "")(descr ""))
   (lib (name "WE-SLM")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Footprints/WE-SLM.pretty")(options "")(descr ""))
+  (lib (name "LSU")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/LSU.pretty")(options "")(descr ""))
 )
