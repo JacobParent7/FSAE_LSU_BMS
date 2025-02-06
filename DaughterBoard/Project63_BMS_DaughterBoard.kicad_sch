@@ -123,7 +123,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 90.17)
+		(at 24.765 90.805)
 		(size 44.45 50.8)
 		(fields_autoplaced yes)
 		(stroke
@@ -135,7 +135,7 @@
 		)
 		(uuid "8d4a348c-1e09-4dff-8656-797547bf484e")
 		(property "Sheetname" "COMML"
-			(at 24.13 89.4584 0)
+			(at 24.765 90.0934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +144,7 @@
 			)
 		)
 		(property "Sheetfile" "COMML.kicad_sch"
-			(at 24.13 141.5546 0)
+			(at 24.765 142.1896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
