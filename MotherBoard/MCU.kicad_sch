@@ -9129,7 +9129,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d9a9f71-b05a-4abc-b480-d35404dddb64")
 		(property "Reference" "J201"
 			(at 60.706 25.4 0)
@@ -12972,7 +12972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "DM3AT-SF-PEJM5"
 			(at 260.35 830.48 0)
 			(effects
 				(font

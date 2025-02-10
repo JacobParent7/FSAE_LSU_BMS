@@ -19090,7 +19090,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 354.33) (xy 92.71 354.33)
+			(xy 82.55 354.33) (xy 92.71 354.33)
 		)
 		(stroke
 			(width 0)
@@ -19167,16 +19167,6 @@
 			(type default)
 		)
 		(uuid "19e56fe0-7c73-43de-80c0-1323513cb9d1")
-	)
-	(wire
-		(pts
-			(xy 81.28 354.33) (xy 81.28 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b17330f-0b54-4d12-82e7-c82ccf42cf1d")
 	)
 	(wire
 		(pts
@@ -21570,6 +21560,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 386.08) (xy 163.83 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9faf2a4-544d-4177-8973-faef379a8750")
+	)
+	(wire
+		(pts
 			(xy 163.83 237.49) (xy 163.83 240.03)
 		)
 		(stroke
@@ -21630,7 +21630,7 @@
 	)
 	(global_label "Cell 0S"
 		(shape input)
-		(at 81.28 354.33 180)
+		(at 82.55 354.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21640,7 +21640,7 @@
 		)
 		(uuid "0aa0d328-66f3-4919-a0c3-a721762b6082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.2192 354.33 0)
+			(at 72.4892 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,22 +22444,22 @@
 	)
 	(global_label "Cell 0"
 		(shape input)
-		(at 81.28 358.14 0)
+		(at 158.75 386.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d9b0b8d1-7c6a-4b45-af91-ca39f4171c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.1313 358.14 0)
+			(at 149.8987 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23111,7 +23111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 363.22 334.95 0)
 			(effects
 				(font
@@ -24120,6 +24120,155 @@
 		)
 	)
 	(symbol
+		(lib_id "0438_250WRA:0438.250WRA")
+		(at 92.71 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16180dd2-6d13-4f5f-9800-9214c61ed305")
+		(property "Reference" "F311"
+			(at 101.6 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0438.250WRA"
+			(at 101.6 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 106.68 450.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
+			(at 106.68 550.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.61"
+			(at 106.68 750.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 106.68 850.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0438.250WRA"
+			(at 106.68 950.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0438.250WRA"
+			(at 106.68 1050.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
+			(at 106.68 1150.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0438.250WRA"
+			(at 106.68 1250.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
+			(at 106.68 1350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FUSC1608X61N"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27ec403-94bf-4175-a0b7-f5b25bbaf8f2")
+		)
+		(pin "2"
+			(uuid "2be5efe7-5cdc-4549-ac8d-2d304a7b1267")
+		)
+		(instances
+			(project "Project63_BMS_DaughterBoard"
+				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
+					(reference "F311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ERA-3AEB101V_10")
 		(lib_id "2024-10-08_02-28-54:ERA-3AEB101V")
 		(at 180.34 325.12 0)
@@ -24276,155 +24425,6 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
 					(reference "C321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0438_250WRA:0438.250WRA")
-		(at 92.71 354.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21a36c1f-1a8e-4788-ba6a-3ec4faa074a1")
-		(property "Reference" "F311"
-			(at 101.6 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0438.250WRA"
-			(at 101.6 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
-			(at 106.68 450.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2292/438A_Series.pdf"
-			(at 106.68 550.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LITTELFUSE - 0438.250WRA - FUSE, AEC-Q200, FAST ACTING, 0.25A, 0603"
-			(at 92.71 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.61"
-			(at 106.68 750.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 106.68 850.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0438.250WRA"
-			(at 106.68 950.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-0438.250WRA"
-			(at 106.68 1050.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0438.250WRA?qs=wd5RIQLrsJh%252Brbas3rVCGg%3D%3D"
-			(at 106.68 1150.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0438.250WRA"
-			(at 106.68 1250.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0438.250wra/littelfuse?region=nac"
-			(at 106.68 1350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
-			(at 92.71 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "414f637c-51db-4beb-82f9-3ca1e234b1cd")
-		)
-		(pin "2"
-			(uuid "6e363bb9-cad8-4a3e-8f3d-218436844bef")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "F311")
 					(unit 1)
 				)
 			)
@@ -25069,7 +25069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 363.22 307.01 0)
 			(effects
 				(font
@@ -25218,7 +25218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 421.31 0)
 			(effects
 				(font
@@ -25807,7 +25807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 281.61 0)
 			(effects
 				(font
@@ -26283,7 +26283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 363.22 362.89 0)
 			(effects
 				(font
@@ -26514,7 +26514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 253.67 0)
 			(effects
 				(font
@@ -27153,7 +27153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667d9530-4d6a-401b-b1ba-69d2cb74211c")
-		(property "Reference" "TP313"
+		(property "Reference" "TP312"
 			(at 403.86 204.4699 90)
 			(effects
 				(font
@@ -27264,7 +27264,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP313")
+					(reference "TP312")
 					(unit 1)
 				)
 			)
@@ -27917,7 +27917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 361.95 279.07 0)
 			(effects
 				(font
@@ -28904,7 +28904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e45e358-6ed6-4a95-ae2a-29765543752a")
-		(property "Reference" "TP315"
+		(property "Reference" "TP314"
 			(at 403.86 260.3499 90)
 			(effects
 				(font
@@ -29015,7 +29015,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP315")
+					(reference "TP314")
 					(unit 1)
 				)
 			)
@@ -29533,7 +29533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 225.73 0)
 			(effects
 				(font
@@ -30129,7 +30129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 337.49 0)
 			(effects
 				(font
@@ -30278,7 +30278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 365.43 0)
 			(effects
 				(font
@@ -30693,7 +30693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e9ccb9-3ef9-427e-9c4a-9823529dac5f")
-		(property "Reference" "TP312"
+		(property "Reference" "BAT_POSITIVE301"
 			(at 403.86 176.5299 90)
 			(effects
 				(font
@@ -30804,7 +30804,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP312")
+					(reference "BAT_POSITIVE301")
 					(unit 1)
 				)
 			)
@@ -31271,7 +31271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf10615f-03d5-42fb-b0ef-4a000332779e")
-		(property "Reference" "TP314"
+		(property "Reference" "TP313"
 			(at 403.86 232.4099 90)
 			(effects
 				(font
@@ -31382,7 +31382,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/2fc75a92-430f-42ad-9ad5-d910a7d34c12"
-					(reference "TP314")
+					(reference "TP313")
 					(unit 1)
 				)
 			)
@@ -31414,7 +31414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 105.41 169.85 0)
 			(effects
 				(font
@@ -31804,7 +31804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 393.37 0)
 			(effects
 				(font
@@ -32113,7 +32113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 105.41 197.79 0)
 			(effects
 				(font
@@ -32262,7 +32262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0438.250WRA:FUSC1608X61N"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 106.68 309.55 0)
 			(effects
 				(font

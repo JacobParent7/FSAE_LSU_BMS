@@ -1385,7 +1385,7 @@
 			)
 		)
 	)
-	(global_label "Cell 14S"
+	(global_label "Cell 14"
 		(shape input)
 		(at 222.25 106.68 0)
 		(fields_autoplaced yes)
@@ -1397,7 +1397,7 @@
 		)
 		(uuid "f53af36a-61f0-4321-b411-05d6c1c50845")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.5203 106.68 0)
+			(at 232.3108 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
