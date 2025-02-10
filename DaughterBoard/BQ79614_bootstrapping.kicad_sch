@@ -4739,7 +4739,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 137.16 137.16)
+			(xy 137.16 97.79) (xy 137.16 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4906,17 +4906,6 @@
 			(type default)
 		)
 		(uuid "ff831245-7d3c-40da-b9ad-a1719f4c01f2")
-	)
-	(label "Cell 14S PIN"
-		(at 77.47 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac7a9b72-ebb2-4784-b473-37071f30ce13")
 	)
 	(global_label "NEG5V"
 		(shape input)
@@ -5842,7 +5831,7 @@
 			)
 		)
 	)
-	(global_label "Cell 14S"
+	(global_label "Cell 14"
 		(shape input)
 		(at 44.45 49.53 180)
 		(fields_autoplaced yes)
@@ -5854,7 +5843,7 @@
 		)
 		(uuid "b6068835-0659-4c9e-935f-6896d4c63ead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1797 49.53 0)
+			(at 34.3892 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 137.16 0)
+		(at 137.16 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7533,7 +7522,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4f4c9e5-9867-45b8-96cd-15b71cbb5bef")
 		(property "Reference" "#PWR0202"
-			(at 137.16 143.51 0)
+			(at 137.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 142.24 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 137.16 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 137.16 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 137.16 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

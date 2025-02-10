@@ -3803,7 +3803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1369d4f2-2e99-4287-9969-c922a3be182e")
 		(property "Reference" "J301"
 			(at 34.29 158.75 0)
@@ -3913,7 +3913,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "203f8865-05f3-42f5-ad26-a1cb25f6fa99")
 		(property "Reference" "J306"
@@ -4170,7 +4170,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "420e2f87-dfde-4f7a-b80c-6a6e9cfb79da")
 		(property "Reference" "J302"
 			(at 35.56 115.57 0)
@@ -5016,7 +5016,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7a93aa1-fc29-4634-ab1e-ae40795b9b35")
 		(property "Reference" "J303"
@@ -5250,7 +5250,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba9b837a-bb4a-4ad8-8bba-95e74607dc9a")
 		(property "Reference" "J304"
@@ -5625,7 +5625,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f03b9bf1-6089-46b0-b9cd-ca37d7f4b00d")
 		(property "Reference" "J305"

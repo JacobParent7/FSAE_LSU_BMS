@@ -203,16 +203,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 102.87) (xy 231.14 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5cc190-43a0-4ff2-af0d-a253a2d0885c")
-	)
-	(wire
-		(pts
 			(xy 91.44 154.94) (xy 105.41 154.94)
 		)
 		(stroke
@@ -310,16 +300,6 @@
 			(type default)
 		)
 		(uuid "dc692ebc-2b32-4033-b636-bed40b5dba7f")
-	)
-	(wire
-		(pts
-			(xy 231.14 85.09) (xy 231.14 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deaf328c-7906-4d9f-a3f2-990594f3b78c")
 	)
 	(wire
 		(pts
@@ -442,28 +422,6 @@
 		(uuid "5ae58dfe-2e6d-4332-b6a2-19911584833e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.8109 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT"
-		(shape input)
-		(at 217.17 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78422e68-488d-4b28-8ff0-7c6cc95bddf8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8586 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,133 +768,6 @@
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
 					(reference "TP502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5012:5012")
-		(at 231.14 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce0b526-91b5-4bbe-a1a1-d1471f687ba2")
-		(property "Reference" "TP510"
-			(at 233.68 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5012"
-			(at 233.68 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "5012:TP_5012"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "5010"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.13 mm"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5012"
-			(at 231.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "c6a27af8-aad8-4c67-a7d1-54e079b27086")
-		)
-		(instances
-			(project "Project63_BMS_DaughterBoard"
-				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP510")
 					(unit 1)
 				)
 			)
