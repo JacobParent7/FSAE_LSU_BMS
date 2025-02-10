@@ -2795,7 +2795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cabeb4a3-2eef-4311-92f5-194e24513e5e")
-		(property "Reference" "J4"
+		(property "Reference" "J401"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -2903,7 +2903,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/5bfb4acc-aeaf-4603-8e20-a08f6ed64fc0"
-					(reference "J4")
+					(reference "J401")
 					(unit 1)
 				)
 			)

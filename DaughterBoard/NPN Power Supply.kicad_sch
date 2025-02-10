@@ -1417,7 +1417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a310be7-0324-4c8e-8201-aacc4eb7bdad")
-		(property "Reference" "C39"
+		(property "Reference" "C601"
 			(at 129.54 109.2199 90)
 			(effects
 				(font
@@ -1482,7 +1482,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/50508abc-94ca-4760-9b7e-3243f83fc341"
-					(reference "C39")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -1498,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16167d33-7015-4ba2-a260-c4a404c0a022")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0601"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -1548,7 +1548,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/50508abc-94ca-4760-9b7e-3243f83fc341"
-					(reference "#PWR01")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -1564,7 +1564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bdd4c0e-2608-4431-b551-5db9e32617c5")
-		(property "Reference" "R33"
+		(property "Reference" "R602"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/50508abc-94ca-4760-9b7e-3243f83fc341"
-					(reference "R33")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -1643,7 +1643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b095f9-d127-48a7-b263-4783d1de288a")
-		(property "Reference" "Q1"
+		(property "Reference" "Q601"
 			(at 90.17 88.8999 0)
 			(effects
 				(font
@@ -1761,7 +1761,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/50508abc-94ca-4760-9b7e-3243f83fc341"
-					(reference "Q1")
+					(reference "Q601")
 					(unit 1)
 				)
 			)
@@ -1777,7 +1777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caea93e1-327a-4878-97e2-7480d9170fb7")
-		(property "Reference" "R32"
+		(property "Reference" "R601"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -1840,7 +1840,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/50508abc-94ca-4760-9b7e-3243f83fc341"
-					(reference "R32")
+					(reference "R601")
 					(unit 1)
 				)
 			)

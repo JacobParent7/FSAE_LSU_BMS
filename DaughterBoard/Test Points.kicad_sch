@@ -571,7 +571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfadf21-a619-4316-972f-ae8b4ce3681a")
-		(property "Reference" "TP6"
+		(property "Reference" "TP507"
 			(at 194.31 78.7399 90)
 			(effects
 				(font
@@ -682,7 +682,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP6")
+					(reference "TP507")
 					(unit 1)
 				)
 			)
@@ -698,7 +698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e1056b5-50c9-498f-b142-f26a9b831dee")
-		(property "Reference" "TP1"
+		(property "Reference" "TP502"
 			(at 110.49 27.9399 90)
 			(effects
 				(font
@@ -809,7 +809,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP1")
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -825,7 +825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce0b526-91b5-4bbe-a1a1-d1471f687ba2")
-		(property "Reference" "TP5"
+		(property "Reference" "TP510"
 			(at 233.68 78.7399 90)
 			(effects
 				(font
@@ -936,7 +936,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP5")
+					(reference "TP510")
 					(unit 1)
 				)
 			)
@@ -952,7 +952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d66b7ec-4b92-41ba-ac0e-7728b1ddc497")
-		(property "Reference" "TP14"
+		(property "Reference" "TP508"
 			(at 231.14 130.8099 90)
 			(effects
 				(font
@@ -1063,7 +1063,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP14")
+					(reference "TP508")
 					(unit 1)
 				)
 			)
@@ -1079,7 +1079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72667433-5c8c-4c25-90d2-702e3b8996d4")
-		(property "Reference" "TP2"
+		(property "Reference" "TP504"
 			(at 152.4 27.9399 90)
 			(effects
 				(font
@@ -1190,7 +1190,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP2")
+					(reference "TP504")
 					(unit 1)
 				)
 			)
@@ -1206,7 +1206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38b7e62-02e6-4891-bdf5-b2e4b824a0ed")
-		(property "Reference" "TP9"
+		(property "Reference" "TP503"
 			(at 110.49 78.7399 90)
 			(effects
 				(font
@@ -1317,7 +1317,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP9")
+					(reference "TP503")
 					(unit 1)
 				)
 			)
@@ -1333,7 +1333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf2be4a1-af21-4b3a-a445-495a8fe8bfa2")
-		(property "Reference" "TP3"
+		(property "Reference" "TP506"
 			(at 194.31 27.9399 90)
 			(effects
 				(font
@@ -1444,7 +1444,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP3")
+					(reference "TP506")
 					(unit 1)
 				)
 			)
@@ -1460,7 +1460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c978a8-6b27-4f08-b6a1-4cfc56baa590")
-		(property "Reference" "TP11"
+		(property "Reference" "TP501"
 			(at 107.95 130.8099 90)
 			(effects
 				(font
@@ -1571,7 +1571,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP11")
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -1587,7 +1587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc95835-927e-4ec9-86f5-ea0dd3a098e3")
-		(property "Reference" "TP4"
+		(property "Reference" "TP509"
 			(at 233.68 27.9399 90)
 			(effects
 				(font
@@ -1698,7 +1698,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP4")
+					(reference "TP509")
 					(unit 1)
 				)
 			)
@@ -1714,7 +1714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e33966f2-d967-4f7f-9739-ad505a2a71ec")
-		(property "Reference" "TP7"
+		(property "Reference" "TP505"
 			(at 152.4 78.7399 90)
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60/f572dc6c-083b-4ebc-8b73-cb14171a47f1"
-					(reference "TP7")
+					(reference "TP505")
 					(unit 1)
 				)
 			)
