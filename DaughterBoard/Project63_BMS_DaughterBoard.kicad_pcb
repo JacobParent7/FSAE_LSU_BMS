@@ -596,7 +596,7 @@
 		(layer "F.Cu")
 		(uuid "01f68c72-76dc-436f-9b02-3727ebc0649f")
 		(at 162.389472 72.626439)
-		(property "Reference" "TP502"
+		(property "Reference" "TSREF"
 			(at 0.404663 -2.490087 0)
 			(layer "F.SilkS")
 			(uuid "5a8f6eb4-2342-4897-8480-ecf8a7eb6b59")
@@ -10283,7 +10283,7 @@
 		(layer "F.Cu")
 		(uuid "227c0563-0e63-4ed2-a91a-932ab99c7063")
 		(at 174.75 65)
-		(property "Reference" "TP501"
+		(property "Reference" "DVDD"
 			(at 0 -2.7 0)
 			(layer "F.SilkS")
 			(uuid "d5227999-0575-4906-8fe2-d3748c05976f")
@@ -10791,8 +10791,8 @@
 		(layer "F.Cu")
 		(uuid "24e345ad-cb5f-4672-aa34-8e4efabb4485")
 		(at 168.789472 67.826439 90)
-		(property "Reference" "TP509"
-			(at -1.423561 4.210528 0)
+		(property "Reference" "NPNB"
+			(at -0.473561 3.610528 0)
 			(layer "F.SilkS")
 			(uuid "dde13906-2825-403b-af6f-704c810e54e4")
 			(effects
@@ -14536,7 +14536,7 @@
 		(layer "F.Cu")
 		(uuid "4088fc55-f62e-4c36-87b6-57531f6d185a")
 		(at 184.389472 78.926439)
-		(property "Reference" "TP506"
+		(property "Reference" "NEG5V"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "46e64c04-a111-44a7-9b58-b8debf861502")
@@ -24981,7 +24981,7 @@
 		(layer "F.Cu")
 		(uuid "776cf502-595d-47f3-b63f-d8bd911ada74")
 		(at 166.389472 72.626439)
-		(property "Reference" "TP508"
+		(property "Reference" "NFAULT"
 			(at 4.110528 -0.876439 0)
 			(layer "F.SilkS")
 			(uuid "05c7ee72-ffb5-448e-a673-2236a50583fd")
@@ -35545,7 +35545,7 @@
 		(layer "F.Cu")
 		(uuid "b72c5fdd-75e8-4fd6-81ab-a2dd0dd9b832")
 		(at 178.989472 78.826439 90)
-		(property "Reference" "TP504"
+		(property "Reference" "LDOIN"
 			(at 2.6 0 0)
 			(layer "F.SilkS")
 			(uuid "a506d039-8eb3-4ddd-9f51-0a3e66d286e1")
@@ -45178,8 +45178,8 @@
 		(layer "F.Cu")
 		(uuid "e3b54d2a-dfbb-44c1-9776-0df2274f8434")
 		(at 174.389472 74.126439)
-		(property "Reference" "TP503"
-			(at 2.360528 -2.5 0)
+		(property "Reference" "CVDD"
+			(at 3.660528 -1.776439 0)
 			(layer "F.SilkS")
 			(uuid "e83f0d45-cf4e-4568-aa08-dc67c882f2c5")
 			(effects
