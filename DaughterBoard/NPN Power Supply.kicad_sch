@@ -1473,6 +1473,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161277"
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5643f48-caf4-489e-a20c-60786ccbd85c")
 		)
@@ -1580,7 +1589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW2010200RFKEF:RC2010N_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -1609,7 +1618,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW2010200RFKEF"
+		(property "Manufacturer Part Number" "RC2512JK-07200RL"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C2935248"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -1749,6 +1767,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C157603"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4fb93a8-f5ab-480e-a7a6-456ff023c34f")
 		)
@@ -1822,7 +1849,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW2010100RFKEF"
+		(property "Manufacturer Part Number" "WF20P1000FTL"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C305269"
 			(at 149.86 106.68 0)
 			(effects
 				(font

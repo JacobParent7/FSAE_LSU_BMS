@@ -526,7 +526,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2cfadf21-a619-4316-972f-ae8b4ce3681a")
 		(property "Reference" "TP507"
@@ -634,6 +634,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "81cb68da-6f19-4940-b097-4f2dfb004b52")
 		)
@@ -653,7 +662,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e1056b5-50c9-498f-b142-f26a9b831dee")
 		(property "Reference" "TP502"
@@ -761,6 +770,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "c7ddf0f5-b990-4fed-ac50-355a0daa75af")
 		)
@@ -780,7 +798,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d66b7ec-4b92-41ba-ac0e-7728b1ddc497")
 		(property "Reference" "TP508"
@@ -888,6 +906,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 228.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "ef85d7b0-c40d-4db8-892f-9685a23afc18")
 		)
@@ -907,7 +934,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72667433-5c8c-4c25-90d2-702e3b8996d4")
 		(property "Reference" "TP504"
@@ -1015,6 +1042,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "8ef281a6-147b-4196-b09a-d74484515ab9")
 		)
@@ -1034,7 +1070,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a38b7e62-02e6-4891-bdf5-b2e4b824a0ed")
 		(property "Reference" "TP503"
@@ -1142,6 +1178,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "980462f9-73f1-4e69-84d6-5ee36f2dc1ec")
 		)
@@ -1161,7 +1206,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bf2be4a1-af21-4b3a-a445-495a8fe8bfa2")
 		(property "Reference" "TP506"
@@ -1269,6 +1314,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "07914d26-7fe0-46a2-a057-82c02df4c2f0")
 		)
@@ -1288,7 +1342,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d3c978a8-6b27-4f08-b6a1-4cfc56baa590")
 		(property "Reference" "TP501"
@@ -1396,6 +1450,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 105.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "d0848584-0476-47f9-bcb9-fcb6e280b9db")
 		)
@@ -1415,7 +1478,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dcc95835-927e-4ec9-86f5-ea0dd3a098e3")
 		(property "Reference" "TP509"
@@ -1523,6 +1586,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 231.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "81469b37-b99d-4d5b-9ffe-e5937adabdb1")
 		)
@@ -1542,7 +1614,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e33966f2-d967-4f7f-9739-ad505a2a71ec")
 		(property "Reference" "TP505"
@@ -1642,6 +1714,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5012"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 149.86 80.01 0)
 			(effects
 				(font

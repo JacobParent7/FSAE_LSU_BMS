@@ -6241,8 +6241,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C105K8RACAUTO"
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
 			(at 226.822 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C29936"
+			(at 231.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,6 +6340,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161163"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c6c2614-32a0-4768-a0eb-1df6c801a1e5")
 		)
@@ -6401,7 +6419,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "BQ79614PAPRQ1"
+		(property "Manufacturer Part Number" "BQ79616PAPRQ1"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C3682338"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -6936,8 +6963,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C105K8RACAUTO"
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
 			(at 234.696 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C29936"
+			(at 223.52 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,6 +7127,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C2167085"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1eec952e-13d6-4f60-94c4-0d7a453ec1f5")
 		)
@@ -7163,6 +7208,15 @@
 		)
 		(property "Manufacturer Part Number" "ERJ-3EKF30R0V"
 			(at 50.546 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C403150"
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,6 +7306,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161163"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36386200-59f3-4c35-b550-a48065e8976c")
 		)
@@ -7325,8 +7388,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C105K8RACAUTO"
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
 			(at 258.826 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C29936"
+			(at 261.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,8 +7478,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C105K8RACAUTO"
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
 			(at 214.63 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C29936"
+			(at 218.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7568,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C2012X7R1A475M125AC"
+		(property "Manufacturer Part Number" "CC0805KKX7R7BB475"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C277499"
 			(at 248.92 143.51 0)
 			(effects
 				(font
