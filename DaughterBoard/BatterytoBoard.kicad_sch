@@ -2792,7 +2792,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cabeb4a3-2eef-4311-92f5-194e24513e5e")
 		(property "Reference" "J401"
@@ -2832,6 +2832,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 54.61 90.17 0)
 			(effects
 				(font

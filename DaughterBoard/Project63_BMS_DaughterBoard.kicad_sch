@@ -98,7 +98,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "19df4ea5-bbf5-4c92-9e9a-9680555490e2")
 		(property "Reference" "H103"
@@ -146,6 +146,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
@@ -162,7 +171,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67538e01-0368-4b1f-a14d-b6b167adb4ff")
 		(property "Reference" "H101"
@@ -210,6 +219,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
@@ -226,7 +244,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "88bcc5f6-15da-4122-9e40-35d285337299")
 		(property "Reference" "H104"
@@ -274,6 +292,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Project63_BMS_DaughterBoard"
 				(path "/325b096d-8e4c-4cdc-b4c5-634ea5e73c60"
@@ -290,7 +317,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d409dfba-eb8d-433a-8843-1d7469202066")
 		(property "Reference" "H102"
@@ -330,6 +357,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 25.4 177.8 0)
 			(effects
 				(font

@@ -4844,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C511604"
 			(at 300.99 93.98 0)
 			(effects
 				(font
@@ -4959,7 +4959,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -5074,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C43473"
 			(at 257.81 109.22 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C5296375"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -5291,7 +5291,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" " C353317"
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -5300,7 +5300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMF12CA"
+		(property "JLCPCB Part #" "C353317"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C128464"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25779"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C128464"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -5958,7 +5958,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 181.61 96.52 0)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" " C353317"
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -6071,7 +6071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMF12CA"
+		(property "JLCPCB Part #" "C353317"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -6158,7 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C46279"
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -6272,7 +6272,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -6502,7 +6502,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C11702"
 			(at 309.88 104.14 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -6863,7 +6863,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -6978,7 +6978,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -7159,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 293.37 68.58 0)
 			(effects
 				(font
@@ -7455,7 +7455,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 170.18 96.52 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" " C353317"
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -7568,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMF12CA"
+		(property "JLCPCB Part #" "C353317"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -7683,7 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 124.46 60.96 0)
 			(effects
 				(font
@@ -7864,7 +7864,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C60133"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -7979,7 +7979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -8158,7 +8158,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C22452"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -8273,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C132141"
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -8567,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -8682,7 +8682,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 267.97 104.14 0)
 			(effects
 				(font
@@ -8797,7 +8797,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -8912,7 +8912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C1525"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -9025,7 +9025,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C22452"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C46279"
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -9282,7 +9282,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" " C353317"
+		(property "Manufacturer_Part_Number" "SMF12CA"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -9291,7 +9291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMF12CA"
+		(property "JLCPCB Part #" "C353317"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2998128"
 			(at 257.81 99.06 0)
 			(effects
 				(font
@@ -9519,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C5296375"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -9634,7 +9634,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25779"
 			(at 49.53 83.82 0)
 			(effects
 				(font
@@ -9749,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C60133"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -9864,7 +9864,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C28323"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -10176,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C5210749"
 			(at 222.25 93.98 0)
 			(effects
 				(font
@@ -10301,7 +10301,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C511604"
 			(at 300.99 58.42 0)
 			(effects
 				(font
@@ -10416,7 +10416,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C5210749"
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C182445"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -10654,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C182445"
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -10769,7 +10769,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C29823"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -10884,7 +10884,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -10999,7 +10999,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C43473"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -11114,7 +11114,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 257.81 63.5 0)
 			(effects
 				(font
@@ -11227,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C132141"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -11342,7 +11342,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C45783"
 			(at 280.67 68.58 0)
 			(effects
 				(font
@@ -11457,7 +11457,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C11702"
 			(at 309.88 68.58 0)
 			(effects
 				(font
@@ -11637,7 +11637,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C29823"
 			(at 111.76 60.96 0)
 			(effects
 				(font

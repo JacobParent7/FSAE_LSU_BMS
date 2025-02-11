@@ -197,15 +197,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 21.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/335e81e9-b957-4266-8116-dde74329bfca"
@@ -289,15 +280,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 21.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
 			(at 21.59 177.8 0)
 			(effects
 				(font
@@ -397,15 +379,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 21.59 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "FSAE_BMS"
 				(path "/335e81e9-b957-4266-8116-dde74329bfca"
@@ -489,15 +462,6 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 21.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
 			(at 21.59 190.5 0)
 			(effects
 				(font

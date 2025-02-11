@@ -2774,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C13585"
 			(at 223.52 44.45 0)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -3098,6 +3098,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMD1812P050TF/30"
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12559"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -3203,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 48.26 57.15 0)
 			(effects
 				(font
@@ -3212,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 48.26 57.15 0)
 			(effects
 				(font
@@ -3289,6 +3298,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMD1812P050TF/30"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12559"
 			(at 110.49 133.35 0)
 			(effects
 				(font
@@ -3392,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 53.34 152.4 0)
 			(effects
 				(font
@@ -3401,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 53.34 152.4 0)
 			(effects
 				(font
@@ -3515,7 +3533,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2613"
 			(at 195.58 44.45 0)
 			(effects
 				(font
@@ -3622,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 172.72 50.8 0)
 			(effects
 				(font
@@ -3631,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 172.72 50.8 0)
 			(effects
 				(font
@@ -3718,7 +3736,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C7420353"
 			(at 63.5 152.4 0)
 			(effects
 				(font
@@ -3827,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -3836,7 +3854,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -4083,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C13585"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -4198,7 +4216,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C19077418"
 			(at 209.55 44.45 0)
 			(effects
 				(font
@@ -4275,6 +4293,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMD1812P050TF/30"
+			(at 113.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12559"
 			(at 113.03 31.75 0)
 			(effects
 				(font
@@ -4455,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -4570,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C19077418"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -4684,7 +4711,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2613"
 			(at 76.2 146.05 0)
 			(effects
 				(font
@@ -4774,7 +4801,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C7420353"
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -4883,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -4892,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -5007,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -5243,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -5252,7 +5279,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -5356,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -5365,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -5471,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+		(property "Manufacturer_Part_Number" "FRC0603J103TS"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -5480,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2930027"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -5557,6 +5584,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMD1812P050TF/30"
+			(at 232.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12559"
 			(at 232.41 31.75 0)
 			(effects
 				(font
@@ -5869,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -5984,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C13585"
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -6164,7 +6200,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2613"
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -6282,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C19077418"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -6369,7 +6405,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C7420353"
 			(at 182.88 50.8 0)
 			(effects
 				(font
@@ -6487,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C13585"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -6601,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C2613"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -7049,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C19077418"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -7136,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLCPCB Part #" "C7420353"
 			(at 63.5 101.6 0)
 			(effects
 				(font

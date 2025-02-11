@@ -22755,7 +22755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.848 191.008 0)
 			(effects
 				(font
@@ -22784,8 +22784,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.086 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22835,7 +22844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 438.912 243.84 0)
 			(effects
 				(font
@@ -22864,8 +22873,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 439.166 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 438.15 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22914,7 +22932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.592 337.566 0)
 			(effects
 				(font
@@ -22943,7 +22961,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 332.74 0)
 			(effects
 				(font
@@ -23061,7 +23088,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 381 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 381 266.7 0)
 			(effects
 				(font
@@ -23210,7 +23246,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 349.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 349.25 238.76 0)
 			(effects
 				(font
@@ -23241,7 +23286,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0706021e-ffe4-4814-9afd-f6a2440931fe")
 		(property "Reference" "TP311"
@@ -23349,6 +23394,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "376a107e-db83-4136-b6a6-bfa8db13f059")
 		)
@@ -23421,6 +23475,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 160.02 209.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23537,7 +23600,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 124.46 213.36 0)
 			(effects
 				(font
@@ -23587,7 +23659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 165.1 285.496 0)
 			(effects
 				(font
@@ -23616,7 +23688,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 276.86 0)
 			(effects
 				(font
@@ -23666,7 +23747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 420.624 224.536 0)
 			(effects
 				(font
@@ -23695,7 +23776,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 421.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 421.64 218.44 0)
 			(effects
 				(font
@@ -23786,6 +23876,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 458.47 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63a41525-300b-47e9-b9f2-96ce9d2d3a73")
 		)
@@ -23861,6 +23960,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 417.83 290.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 421.64 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23977,7 +24085,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -24095,7 +24212,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 124.46 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 124.46 297.18 0)
 			(effects
 				(font
@@ -24244,7 +24370,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 354.33 0)
 			(effects
 				(font
@@ -24295,7 +24430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.848 332.486 0)
 			(effects
 				(font
@@ -24324,8 +24459,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.086 328.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24415,6 +24559,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2587d96-405c-46ef-a142-4508e8df492f")
 		)
@@ -24490,6 +24643,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 454.406 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 458.47 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24579,6 +24741,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52656365-6749-45d7-bb76-db597aec6bbf")
 		)
@@ -24601,7 +24772,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29de40d8-8f7f-440a-8255-92ea5503c6b3")
 		(property "Reference" "TP307"
@@ -24709,6 +24880,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "95b982e6-824e-42cf-9b65-d0779d9c2be3")
 		)
@@ -24781,6 +24961,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 454.66 233.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 458.47 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24870,6 +25059,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d330cb92-d989-41be-9b3a-3ca5e4f60272")
 		)
@@ -24911,7 +25109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.338 311.404 0)
 			(effects
 				(font
@@ -24940,7 +25138,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 304.8 0)
 			(effects
 				(font
@@ -24990,7 +25197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.846 90.17 0)
 			(effects
 				(font
@@ -25019,7 +25226,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -25168,7 +25384,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 349.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 349.25 210.82 0)
 			(effects
 				(font
@@ -25317,7 +25542,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 325.12 0)
 			(effects
 				(font
@@ -25367,7 +25601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 163.322 199.644 0)
 			(effects
 				(font
@@ -25396,7 +25630,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 194.31 0)
 			(effects
 				(font
@@ -25514,7 +25757,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 379.73 210.82 0)
 			(effects
 				(font
@@ -25605,6 +25857,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97bbab73-4e05-4514-b716-d1ca695a389d")
 		)
@@ -25687,6 +25948,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dda0910-4f58-4924-a73d-096de3896131")
 		)
@@ -25728,7 +25998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 438.15 271.526 0)
 			(effects
 				(font
@@ -25757,8 +26027,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 438.15 273.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 438.15 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25906,7 +26185,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 185.42 0)
 			(effects
 				(font
@@ -25990,6 +26278,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 160.02 348.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26106,7 +26403,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -26137,7 +26443,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4f989b0b-d7cf-47de-a97d-51be72b27520")
 		(property "Reference" "TP308"
@@ -26237,6 +26543,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5012"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 143.51 236.22 0)
 			(effects
 				(font
@@ -26382,7 +26697,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 349.25 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 349.25 266.7 0)
 			(effects
 				(font
@@ -26466,6 +26790,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 197.104 290.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26613,7 +26946,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -26770,6 +27112,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c81309cd-60be-48fa-9c86-eff2e05bd392")
 		)
@@ -26852,6 +27203,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d098d2c4-fb6e-4616-acff-a371827fb4e1")
 		)
@@ -26894,7 +27254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.864 81.026 0)
 			(effects
 				(font
@@ -26923,8 +27283,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.594 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27041,7 +27410,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -27090,7 +27468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 424.18 282.448 0)
 			(effects
 				(font
@@ -27119,7 +27497,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 424.18 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 424.18 276.86 0)
 			(effects
 				(font
@@ -27150,7 +27537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "667d9530-4d6a-401b-b1ba-69d2cb74211c")
 		(property "Reference" "TP312"
@@ -27258,6 +27645,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 401.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "dfa8a0cd-602f-41c1-a9ca-2adb5e53d4d5")
 		)
@@ -27296,7 +27692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.592 255.27 0)
 			(effects
 				(font
@@ -27325,7 +27721,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 248.92 0)
 			(effects
 				(font
@@ -27441,7 +27846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.084 142.494 0)
 			(effects
 				(font
@@ -27470,7 +27875,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 137.16 0)
 			(effects
 				(font
@@ -27554,6 +27968,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 418.338 262.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 421.64 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27670,7 +28093,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 124.46 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 124.46 241.3 0)
 			(effects
 				(font
@@ -27788,7 +28220,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 379.73 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 379.73 182.88 0)
 			(effects
 				(font
@@ -27838,7 +28279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 164.846 229.87 0)
 			(effects
 				(font
@@ -27867,7 +28308,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 222.25 0)
 			(effects
 				(font
@@ -28016,7 +28466,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 347.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 347.98 182.88 0)
 			(effects
 				(font
@@ -28067,7 +28526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.356 280.162 0)
 			(effects
 				(font
@@ -28096,8 +28555,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.34 276.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28187,6 +28655,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dc943ea-aa7b-46d2-b836-35c3b3bc2fbf")
 		)
@@ -28209,7 +28686,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75f1e5f6-e9a4-48d4-878a-898a9a923c1c")
 		(property "Reference" "TP310"
@@ -28317,6 +28794,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "af3b2b98-7767-4eff-9dbf-9e673c32e514")
 		)
@@ -28356,7 +28842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.848 109.474 0)
 			(effects
 				(font
@@ -28385,8 +28871,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28476,6 +28971,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 421.64 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92dbae02-4549-4d67-ab02-3b1da86b6d49")
 		)
@@ -28517,7 +29021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 424.18 252.222 0)
 			(effects
 				(font
@@ -28546,7 +29050,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 424.18 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 424.18 247.65 0)
 			(effects
 				(font
@@ -28577,7 +29090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84071301-42f8-4de3-8673-809c85e0c35d")
 		(property "Reference" "TP301"
@@ -28685,6 +29198,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 142.24 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "b51b6f81-74e3-4329-9168-7b06ed302b46")
 		)
@@ -28723,7 +29245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 163.576 377.698 0)
 			(effects
 				(font
@@ -28752,7 +29274,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 367.03 0)
 			(effects
 				(font
@@ -28870,7 +29401,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 124.46 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 124.46 269.24 0)
 			(effects
 				(font
@@ -28901,7 +29441,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e45e358-6ed6-4a95-ae2a-29765543752a")
 		(property "Reference" "TP314"
@@ -29009,6 +29549,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 401.32 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "fc0a881d-dcc9-4458-9efd-cb3ab7518bbe")
 		)
@@ -29047,7 +29596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.356 306.324 0)
 			(effects
 				(font
@@ -29076,8 +29625,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.848 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29160,6 +29718,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 196.342 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29276,7 +29843,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 379.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 379.73 238.76 0)
 			(effects
 				(font
@@ -29307,7 +29883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9c665d7c-413d-4406-a5a8-677d517cc587")
 		(property "Reference" "TP306"
@@ -29415,6 +29991,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "5a1e287c-8cf3-4b9f-8d07-c7e5421c9e50")
 		)
@@ -29454,7 +30039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.102 162.814 0)
 			(effects
 				(font
@@ -29483,8 +30068,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.34 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29632,7 +30226,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -29682,7 +30285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 421.64 197.358 0)
 			(effects
 				(font
@@ -29711,7 +30314,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 421.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 421.64 191.77 0)
 			(effects
 				(font
@@ -29761,7 +30373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 163.068 173.99 0)
 			(effects
 				(font
@@ -29790,7 +30402,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -29881,6 +30502,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 458.47 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bafc8298-2ae0-435e-8486-37bdf4708d08")
 		)
@@ -29903,7 +30533,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5c22084-bfee-4d33-b6c3-3bfc7e65b41c")
 		(property "Reference" "TP302"
@@ -30011,6 +30641,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "55338b14-f204-43cf-b56e-0480ec062970")
 		)
@@ -30050,7 +30689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.102 247.904 0)
 			(effects
 				(font
@@ -30079,8 +30718,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.594 245.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30228,7 +30876,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 241.3 0)
 			(effects
 				(font
@@ -30377,7 +31034,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 269.24 0)
 			(effects
 				(font
@@ -30468,6 +31134,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3777500-1b30-41b7-b45f-11087dfc9f4b")
 		)
@@ -30543,6 +31218,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 195.326 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30659,7 +31343,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 325.12 0)
 			(effects
 				(font
@@ -30690,7 +31383,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c0e9ccb9-3ef9-427e-9c4a-9823529dac5f")
 		(property "Reference" "BAT_POSITIVE301"
@@ -30798,6 +31491,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 401.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "957df882-bd55-42a3-958a-608fbcfd3583")
 		)
@@ -30837,7 +31539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 439.42 216.408 0)
 			(effects
 				(font
@@ -30866,8 +31568,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 438.404 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 438.15 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30917,7 +31628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 451.358 177.038 0)
 			(effects
 				(font
@@ -30946,8 +31657,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 451.104 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 450.85 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31037,6 +31757,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a538f006-ad44-4a3d-bfa8-5847b3542645")
 		)
@@ -31119,6 +31848,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d47406e3-7b79-44db-8ce0-e517b1fa3e17")
 		)
@@ -31141,7 +31879,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce72f1c1-adf7-4dff-b1d5-eef6bba00ce0")
 		(property "Reference" "TP304"
@@ -31249,6 +31987,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "7b37a43b-7c5e-4bf9-8a11-798de2f4535c")
 		)
@@ -31268,7 +32015,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cf10615f-03d5-42fb-b0ef-4a000332779e")
 		(property "Reference" "TP313"
@@ -31368,6 +32115,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5012"
+			(at 401.32 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 401.32 233.68 0)
 			(effects
 				(font
@@ -31513,7 +32269,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -31563,7 +32328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW12067R50FKEAHP:RES_V1206_VIS-L"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -31592,7 +32357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW12067R50FKEAHP"
+		(property "Manufacturer Part Number" "FRC1812J7R5 TS"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5204035"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -31643,7 +32417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 347.98 0)
 			(effects
 				(font
@@ -31672,8 +32446,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 193.294 345.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 193.04 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31756,6 +32539,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 197.104 362.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 204.47 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31903,7 +32695,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 297.18 0)
 			(effects
 				(font
@@ -31954,7 +32755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.594 135.128 0)
 			(effects
 				(font
@@ -31983,8 +32784,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.086 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32034,7 +32844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA-3AEB101V:RC0603N_PAN-L"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.848 219.456 0)
 			(effects
 				(font
@@ -32063,8 +32873,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERA-3AEB101V"
+		(property "Manufacturer Part Number" "HoAR0603-1/10W-100R-0.1%-TCR25"
 			(at 180.848 217.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C5123580"
+			(at 180.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32212,7 +33031,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -32361,7 +33189,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X61N"
+		(property "Manufacturer Part Number" "0467.250NRHF"
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C151137"
 			(at 92.71 213.36 0)
 			(effects
 				(font
@@ -32452,6 +33289,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78bd5e0d-823e-4d0d-aec6-223658b0c7b2")
 		)
@@ -32533,6 +33379,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 421.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6800584-0396-44f8-82e8-227e8de8c3b9")
 		)
@@ -32555,7 +33410,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e0d0c7f1-ccf3-4d70-9a2a-7cf0d5a23a61")
 		(property "Reference" "TP303"
@@ -32655,6 +33510,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5012"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 143.51 96.52 0)
 			(effects
 				(font
@@ -32769,7 +33633,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 157.48 0)
 			(effects
 				(font
@@ -32887,7 +33760,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -33005,7 +33887,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FUSC1608X60N"
+		(property "Manufacturer Part Number" "JFC0603-1100FS"
+			(at 124.46 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C136329"
 			(at 124.46 354.33 0)
 			(effects
 				(font
@@ -33096,6 +33987,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "490e120d-5026-4954-b5d3-92104396348b")
 		)
@@ -33118,7 +34018,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4b1c543-ae4b-48c5-9672-b76780dfb49f")
 		(property "Reference" "TP309"
@@ -33226,6 +34126,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "a70163a4-5b08-4c16-ad0d-614bcb2e5057")
 		)
@@ -33245,7 +34154,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f810828b-abcb-4c5f-a3f8-118be1f01158")
 		(property "Reference" "TP305"
@@ -33353,6 +34262,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" ""
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TP"
 			(uuid "767b5aa4-8a9b-45a5-9026-dcfeaec2a1d5")
 		)
@@ -33425,6 +34343,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 197.358 234.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 200.66 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33514,6 +34441,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e9a8c66-58b3-43f8-9a81-27809a43c4e8")
 		)
@@ -33589,6 +34525,15 @@
 		)
 		(property "Manufacturer Part Number" "GCM188R71C474KA55D"
 			(at 160.528 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C161214"
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

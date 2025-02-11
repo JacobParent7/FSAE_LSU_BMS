@@ -586,7 +586,7 @@
           "group_by": true,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -625,17 +625,17 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "JLC",
-          "name": "JLC",
-          "show": false
+          "group_by": true,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "JLCPCB Part #"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -4860,7 +4860,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-3EKF1001V"
+		(property "Manufacturer Part Number" "FRC0603F1001TS"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C2907002"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -4949,6 +4958,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844178"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3638de2-c482-4f98-ba74-44a73370c5c3")
 		)
@@ -5028,6 +5046,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 274.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b9d12d1-bf76-4f6e-bd45-e8f8bb9ae571")
 		)
@@ -5097,7 +5124,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "1206J2K00222"
+		(property "Manufacturer Part Number" "CC1206KKX7RCBB222"
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107194"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -5186,6 +5222,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69b04e47-ca7e-4b89-bc37-d45e90a9b190")
 		)
@@ -5258,6 +5303,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 124.46 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C844811"
 			(at 124.46 148.59 0)
 			(effects
 				(font
@@ -5413,6 +5467,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 312.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "050e5f0c-9ffb-4093-94fe-97acd4490cbf")
 		)
@@ -5494,6 +5557,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844178"
+			(at 316.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "165de6e0-8d64-4139-9f69-8526f08b7ed1")
 		)
@@ -5565,6 +5637,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 52.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C844811"
 			(at 52.07 152.4 0)
 			(effects
 				(font
@@ -5653,6 +5734,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 124.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f300f5ae-eded-4489-af6a-dde6fbe68dab")
 		)
@@ -5726,6 +5816,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 312.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C844811"
 			(at 312.42 137.16 0)
 			(effects
 				(font
@@ -5863,6 +5962,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C488250"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b0ba34e0-5591-43fc-8996-759e61bd6d9f")
 		)
@@ -5949,6 +6057,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 345.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8219709d-9149-4400-9dcb-aabe5ac1df99")
 		)
@@ -5971,7 +6088,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5a2eaa51-6a59-4f74-8058-1bad9d47f22d")
 		(property "Reference" "J701"
@@ -6013,6 +6130,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 138.43 234.95 0)
 			(effects
 				(font
@@ -6102,6 +6228,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 274.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e990fb29-2f20-4d17-b06e-6cef0a5529c2")
 		)
@@ -6171,7 +6306,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "1206J2K00222"
+		(property "Manufacturer Part Number" "CC1206KKX7RCBB222"
+			(at 287.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107194"
 			(at 287.02 146.05 0)
 			(effects
 				(font
@@ -6253,7 +6397,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "PESD1CAN_215"
+		(property "Manufacturer Part Number" "PESD24VL2BTN"
+			(at 322.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C314266"
 			(at 322.58 73.66 0)
 			(effects
 				(font
@@ -6345,6 +6498,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 86.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0bcc1b3-506d-47d3-8c5b-0a9d7fb152cb")
 		)
@@ -6418,7 +6580,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "PESD1CAN_215"
+		(property "Manufacturer Part Number" "PESD24VL2BTN"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C314266"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -6509,6 +6680,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844178"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa1940ec-e3fd-4ac5-b7e4-13fee6398494")
 		)
@@ -6580,6 +6760,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRCW08050000Z0EAHP"
+			(at 345.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C844811"
 			(at 345.44 161.29 0)
 			(effects
 				(font
@@ -6718,6 +6907,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C488250"
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "99bc6084-f8dd-485a-995a-b8788ae99cea")
 		)
@@ -6797,7 +6995,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B221JB8NNNC"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB221"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107081"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -6886,6 +7093,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844178"
+			(at 316.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd62c477-8728-4ed7-b15f-6d6f6a4755b8")
 		)
@@ -6960,7 +7176,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B221JB8NNNC"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB221"
+			(at 276.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107081"
 			(at 276.86 85.09 0)
 			(effects
 				(font
@@ -7041,6 +7266,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603JR-070RL"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C95177"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -7195,6 +7429,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C844811"
+			(at 53.34 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4a6765a-4a56-4c2c-8155-62bfe25911d5")
 		)
@@ -7266,6 +7509,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603JR-070RL"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C95177"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -7346,7 +7598,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ERJ-3EKF1001V"
+		(property "Manufacturer Part Number" "FRC0603F1001TS"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C2907002"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -7426,7 +7687,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B221JB8NNNC"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB221"
+			(at 287.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107081"
 			(at 287.02 85.09 0)
 			(effects
 				(font
@@ -7503,7 +7773,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "1206J2K00222"
+		(property "Manufacturer Part Number" "CC1206KKX7RCBB222"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107194"
 			(at 111.76 148.59 0)
 			(effects
 				(font
@@ -7580,7 +7859,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "1206J2K00222"
+		(property "Manufacturer Part Number" "CC1206KKX7RCBB222"
+			(at 287.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107194"
 			(at 287.02 165.1 0)
 			(effects
 				(font
@@ -7669,6 +7957,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C95177"
+			(at 344.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "685254a3-dcdc-4e26-a1dd-fdcaf6562d88")
 		)
@@ -7691,7 +7988,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee5525d8-930c-49e8-8911-a82397a7fcac")
 		(property "Reference" "J702"
@@ -7731,6 +8028,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 270.51 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" ""
 			(at 270.51 237.49 0)
 			(effects
 				(font
@@ -7820,6 +8126,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCB Part #" "C95177"
+			(at 345.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "130152d3-c483-4638-bfb7-acbcdd7d5444")
 		)
@@ -7892,7 +8207,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B221JB8NNNC"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB221"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCB Part #" "C107081"
 			(at 133.35 85.09 0)
 			(effects
 				(font

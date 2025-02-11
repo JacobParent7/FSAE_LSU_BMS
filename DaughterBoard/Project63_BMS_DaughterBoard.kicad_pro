@@ -131,7 +131,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.2,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -497,7 +497,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "ASSEMBLY\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -510,7 +510,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -528,7 +528,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -540,13 +540,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -564,7 +564,7 @@
           "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -637,6 +637,12 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "JLC PCB Part #",
+          "name": "JLC PCB Part #",
+          "show": true
         }
       ],
       "filter_string": "",
