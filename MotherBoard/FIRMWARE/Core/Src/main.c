@@ -106,7 +106,7 @@ int main(void)
   MX_GPIO_Init();
   MX_CAN1_Init();
   MX_CAN2_Init();
-  MX_SDIO_SD_Init();
+  //MX_SDIO_SD_Init();
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   MX_UART4_Init();
@@ -120,8 +120,16 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  int x = getSPI();
+
     /* USER CODE BEGIN 3 */
+	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_SET);
+	    // Delay for 500ms
+	  HAL_Delay(500);
+
+	    // Turn the LED OFF
+	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_RESET);
+	    // Delay for 500ms
+	  HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
@@ -447,13 +455,13 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, TEST_LED_Pin|CHARGE_EN_LV_Pin|DISCHARGE_EN_LV_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2|CHARGE_EN_LV_Pin|DISCHARGE_EN_LV_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, CHARGE_SAFE_LV_Pin|FAN_EN_LV_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : TEST_LED_Pin CHARGE_EN_LV_Pin DISCHARGE_EN_LV_Pin */
-  GPIO_InitStruct.Pin = TEST_LED_Pin|CHARGE_EN_LV_Pin|DISCHARGE_EN_LV_Pin;
+  /*Configure GPIO pins : PC2 CHARGE_EN_LV_Pin DISCHARGE_EN_LV_Pin */
+  GPIO_InitStruct.Pin = GPIO_PIN_2|CHARGE_EN_LV_Pin|DISCHARGE_EN_LV_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

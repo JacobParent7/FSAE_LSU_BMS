@@ -57,8 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define TEST_LED_Pin GPIO_PIN_2
-#define TEST_LED_GPIO_Port GPIOC
 #define CHARGE_EN_LV_Pin GPIO_PIN_4
 #define CHARGE_EN_LV_GPIO_Port GPIOC
 #define DISCHARGE_EN_LV_Pin GPIO_PIN_5

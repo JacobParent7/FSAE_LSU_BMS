@@ -1,0 +1,4 @@
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c:106:19:HAL_PWREx_EnableBkUpReg	24	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c:130:19:HAL_PWREx_DisableBkUpReg	24	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c:154:6:HAL_PWREx_EnableFlashPowerDown	16	static,ignoring_inline_asm
+../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c:163:6:HAL_PWREx_DisableFlashPowerDown	16	static,ignoring_inline_asm
