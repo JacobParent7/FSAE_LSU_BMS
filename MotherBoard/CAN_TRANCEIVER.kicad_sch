@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9e901c99-6ed9-4bb9-8ff0-2b44980f7771")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +88,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -220,18 +225,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -244,7 +237,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -268,7 +261,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -317,6 +322,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TCAN:PTCAN1462DRQ1"
 			(pin_names
@@ -391,18 +397,6 @@
 			(symbol "PTCAN1462DRQ1_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -415,7 +409,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
+						(xy 7.62 -12.7) (xy 33.02 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -428,6 +422,18 @@
 				(polyline
 					(pts
 						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -12.7) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -509,35 +515,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 40.64 -7.62 180)
+				(pin input line
+					(at 40.64 0 180)
 					(length 7.62)
-					(name "VIO"
+					(name "STB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -563,17 +551,35 @@
 						)
 					)
 				)
-				(pin input line
-					(at 40.64 0 180)
+				(pin bidirectional line
+					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "STB"
+					(name "CANL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -582,12 +588,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -659,7 +670,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -671,7 +682,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -702,12 +713,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -779,7 +795,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -791,7 +807,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -822,12 +838,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -918,7 +939,88 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "https://www.digikey.com/en/products/detail/texas-instruments/TCAN1462VDRQ1/17394978"
+		(exclude_from_sim no)
+		(at 64.77 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "189a7e45-b2c9-4c84-9548-47a18c0f2016")
+	)
+	(text "*MODEL with V (VDRQ) must be used to accomodate 3.3V logic of STM32"
+		(exclude_from_sim no)
+		(at 55.88 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b04a5c5a-f65e-47ba-adbc-78f81e311e97")
+	)
+	(text_box "Channel 2 CAN Tranceiver (no termination)\n"
+		(exclude_from_sim no)
+		(at 19.05 105.41 0)
+		(size 148.59 78.74)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "13d0cc81-fdc0-43a9-bd8f-483821c0fd99")
+	)
+	(text_box "Channel 1 CAN Tranceiver \n"
+		(exclude_from_sim no)
+		(at 19.05 25.4 0)
+		(size 148.59 77.47)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "84011ec4-8710-496f-b874-2c122be1554b")
+	)
+	(text_box "Bypass Capacitors (Place nF as close to pin as possible)\n\n"
+		(exclude_from_sim no)
+		(at 171.45 25.4 0)
+		(size 80.01 77.47)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9dd1c028-e244-4ade-bfc5-5e5a20db49ef")
 	)
 	(junction
 		(at 54.61 78.74)
@@ -2504,86 +2606,8 @@
 		)
 		(uuid "fe75e0a5-cbb4-4d15-a476-d0bb9df4c437")
 	)
-	(text_box "Channel 2 CAN Tranceiver (no termination)\n"
-		(exclude_from_sim no)
-		(at 19.05 105.41 0)
-		(size 148.59 78.74)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "13d0cc81-fdc0-43a9-bd8f-483821c0fd99")
-	)
-	(text_box "Channel 1 CAN Tranceiver \n"
-		(exclude_from_sim no)
-		(at 19.05 25.4 0)
-		(size 148.59 77.47)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "84011ec4-8710-496f-b874-2c122be1554b")
-	)
-	(text_box "Bypass Capacitors (Place nF as close to pin as possible)\n\n"
-		(exclude_from_sim no)
-		(at 171.45 25.4 0)
-		(size 80.01 77.47)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9dd1c028-e244-4ade-bfc5-5e5a20db49ef")
-	)
-	(text "https://www.digikey.com/en/products/detail/texas-instruments/TCAN1462VDRQ1/17394978"
-		(exclude_from_sim no)
-		(at 64.77 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "189a7e45-b2c9-4c84-9548-47a18c0f2016")
-	)
-	(text "*MODEL with V (VDRQ) must be used to accomodate 3.3V logic of STM32"
-		(exclude_from_sim no)
-		(at 55.88 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b04a5c5a-f65e-47ba-adbc-78f81e311e97")
-	)
 	(label "CANH_2"
 		(at 22.86 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +2618,6 @@
 	)
 	(label "CANL_2"
 		(at 152.4 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2628,6 @@
 	)
 	(label "CANL_1"
 		(at 21.59 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2638,6 @@
 	)
 	(label "CANL_1"
 		(at 151.13 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +2648,6 @@
 	)
 	(label "CANH_1"
 		(at 151.13 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2658,6 @@
 	)
 	(label "CANH_1"
 		(at 21.59 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +2668,6 @@
 	)
 	(label "CANL_2"
 		(at 22.86 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2678,6 @@
 	)
 	(label "CANH_2"
 		(at 152.4 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "335e81e9-b957-4266-8116-dde74329bfca")
 	(paper "A4")
 	(title_block
@@ -94,12 +94,14 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(text_box "Monting Holes (M3)"
 		(exclude_from_sim no)
 		(at 17.78 165.1 0)
 		(size 22.86 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type dash)
@@ -482,6 +484,10 @@
 	(sheet
 		(at 95.25 78.74)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -522,6 +528,10 @@
 	(sheet
 		(at 31.75 78.74)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -561,6 +571,10 @@
 	(sheet
 		(at 31.75 25.4)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.2032)
@@ -600,6 +614,10 @@
 	(sheet
 		(at 217.17 25.4)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -639,6 +657,10 @@
 	(sheet
 		(at 95.25 25.4)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -678,6 +700,10 @@
 	(sheet
 		(at 157.48 25.4)
 		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -719,4 +745,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

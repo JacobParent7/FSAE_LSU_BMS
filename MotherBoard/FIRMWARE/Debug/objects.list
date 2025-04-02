@@ -1,3 +1,4 @@
+"./Core/Src/bq79600.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32f2xx_hal_msp.o"
 "./Core/Src/stm32f2xx_it.o"
