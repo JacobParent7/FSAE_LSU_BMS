@@ -2,17 +2,7 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2025 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
+  * @brief          : Main program body with BQ79600 implementation
   ******************************************************************************
   */
 /* USER CODE END Header */
@@ -21,7 +11,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdbool.h>
+#include <string.h>
+#include "stdio.h"
+#include "bq79600.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,7 +24,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -49,6 +41,8 @@ SD_HandleTypeDef hsd;
 
 SPI_HandleTypeDef hspi1;
 
+TIM_HandleTypeDef htim4;
+
 UART_HandleTypeDef huart4;
 UART_HandleTypeDef huart2;
 
@@ -61,25 +55,25 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_CAN1_Init(void);
 static void MX_CAN2_Init(void);
-//static void MX_SDIO_SD_Init(void);
+static void MX_SDIO_SD_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_UART4_Init(void);
 static void MX_ADC1_Init(void);
-/* USER CODE BEGIN PFP */
+static void MX_TIM4_Init(void);
 
+/* USER CODE BEGIN PFP */
+void Delay_us(uint32_t us);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-CAN_TxHeaderTypeDef TxHeader;
-CAN_RxHeaderTypeDef RxHeader;
-
-uint8_t TxData[8];
-uint8_t RxData[8];
-
-uint32_t TxMailbox;
-
+int _write(int file, char *ptr, int len){
+  int i = 0;
+  for(i = 0; i<len; i++)
+    ITM_SendChar((*ptr++));
+  return len;
+}
 
 /* USER CODE END 0 */
 
@@ -89,7 +83,6 @@ uint32_t TxMailbox;
   */
 int main(void)
 {
-
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -114,21 +107,71 @@ int main(void)
   MX_GPIO_Init();
   MX_CAN1_Init();
   MX_CAN2_Init();
-  //MX_SDIO_SD_Init();
+  // MX_SDIO_SD_Init();
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   MX_UART4_Init();
   MX_ADC1_Init();
+  MX_TIM4_Init();
+
   /* USER CODE BEGIN 2 */
   HAL_CAN_Start(&hcan1);
+  HAL_TIM_Base_Start(&htim4);
 
-  //Activate notification for pending data in RX0 FIFO
-  HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+  printf("BQ79600 Battery Monitor System Starting...\r\n");
 
-  TxHeader.DLC = 2;
-  TxHeader.IDE = CAN_ID_STD;
-  TxHeader.RTR = CAN_RTR_DATA;
-  TxHeader.StdId = 0x446;
+  //HAL_Delay(10);
+  // Initialize the BQ79600 with 1 stacked device (BQ79616)
+  //HAL_StatusTypeDef status;
+
+  // Step 2: Wake up and initialize the BQ79600 and BQ79616
+
+  printf("Waking up BQ79600...\r\n");
+  //void SpiWake79600(void);
+  bool wake = false;
+  HAL_StatusTypeDef status;
+  status = BQ79600_WakeUp(2,wake);
+  if(status == HAL_OK){
+	  printf("Wake GOOD\r\n");
+  }
+
+
+  //SpiAutoAddress();
+
+
+  /*
+  status = BQ79600_WakeUp(1, false);
+  if (status != HAL_OK) {
+    printf("BQ79600 wake-up failed with status: %d\r\n", status);
+    // Try to recover with a Comm Clear and retry
+    BQ79600_CommClear();
+    HAL_Delay(10);
+    status = BQ79600_WakeUp(1, false);
+    if (status != HAL_OK) {
+      printf("BQ79600 wake-up retry failed\r\n");
+    }
+  } else {
+    printf("BQ79600 wake-up successful\r\n");
+  }
+
+
+  // Step 3: Perform auto-addressing
+  printf("Performing auto-addressing...\r\n");
+  status = BQ79600_AutoAddressing(1);
+  if (status != HAL_OK) {
+    printf("Auto-addressing failed with status: %d\r\n", status);
+	*/
+
+    /*
+    // Read fault registers to diagnose the issue
+    BQ79600_ReadFaultStatus(&fault_summary, &fault_comm1, &fault_comm2);
+    printf("Fault Summary: 0x%02X\r\n", fault_summary);
+    printf("Fault Comm1: 0x%02X\r\n", fault_comm1);
+    printf("Fault Comm2: 0x%02X\r\n", fault_comm2);
+	*/
+
+
+  printf("Initialization complete, starting main loop...\r\n");
 
   /* USER CODE END 2 */
 
@@ -139,19 +182,32 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  TxData[0] = 100;
-	  TxData[1] = 20;
 
-	  HAL_CAN_AddTxMessage(&hcan1, &TxHeader, TxData, &TxMailbox);
 
-	  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_SET);
-	    // Delay for 500ms
-	  //HAL_Delay(500);
+    // Read cell voltages from BQ79616 (device address 1)
+	/*
+    status = BQ79600_ReadCellVoltages(1, cell_data);
+    if (status != HAL_OK) {
+      printf("Failed to read cell voltages: %d\r\n", status);
 
-	    // Turn the LED OFF
-	  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, GPIO_PIN_RESET);
-	    // Delay for 500ms
-	  //HAL_Delay(500);
+      // Read fault status to diagnose the issue
+      BQ79600_ReadFaultStatus(&fault_summary, &fault_comm1, &fault_comm2);
+      printf("Fault Summary: 0x%02X\r\n", fault_summary);
+      printf("Fault Comm1: 0x%02X\r\n", fault_comm1);
+      printf("Fault Comm2: 0x%02X\r\n", fault_comm2);
+
+      // Reset communication and try to recover
+      BQ79600_CommClear();
+      BQ79600_ResetCommFaults();
+    } else {
+      // Print cell voltages (first few cells)
+      printf("Cell 0: %d mV\r\n", (cell_data[0] << 8 | cell_data[1]) * 190 / 1000);
+      printf("Cell 1: %d mV\r\n", (cell_data[2] << 8 | cell_data[3]) * 190 / 1000);
+      printf("Cell 2: %d mV\r\n", (cell_data[4] << 8 | cell_data[5]) * 190 / 1000);
+    }
+
+    HAL_Delay(1000); // Read every 1 second
+	*/
   }
   /* USER CODE END 3 */
 }
@@ -361,23 +417,14 @@ static void MX_SDIO_SD_Init(void)
   */
 static void MX_SPI1_Init(void)
 {
-
-  /* USER CODE BEGIN SPI1_Init 0 */
-
-  /* USER CODE END SPI1_Init 0 */
-
-  /* USER CODE BEGIN SPI1_Init 1 */
-
-  /* USER CODE END SPI1_Init 1 */
-  /* SPI1 parameter configuration*/
   hspi1.Instance = SPI1;
   hspi1.Init.Mode = SPI_MODE_MASTER;
   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi1.Init.NSS = SPI_NSS_HARD_OUTPUT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.NSS = SPI_NSS_SOFT;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16; // 60MHz/16 = 3.75MHz
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -386,9 +433,50 @@ static void MX_SPI1_Init(void)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN SPI1_Init 2 */
+}
 
-  /* USER CODE END SPI1_Init 2 */
+/**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 60;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 65535;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
 
 }
 
@@ -513,7 +601,17 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+/**
+ * @brief  Microsecond delay function using a timer
+ * @param  us: Number of microseconds to delay
+ * @retval None
+ * @note   This is a placeholder - implement using a timer peripheral
+ */
+void Delay_us(uint32_t us)
+{
+	__HAL_TIM_SET_COUNTER(&htim4,0);  // set the counter value a 0
+	while (__HAL_TIM_GET_COUNTER(&htim4) < us);  // wait for the counter to reach the us input in the parameter
+}
 /* USER CODE END 4 */
 
 /**
