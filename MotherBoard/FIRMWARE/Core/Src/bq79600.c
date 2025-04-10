@@ -14,48 +14,21 @@
 
 // GLOBAL VARIABLES (use these to avoid stack overflows by creating too many function variables)
 // avoid creating variables/arrays in functions, or you will run out of stack space quickly
-uint16_t response_frame2[(MAXBYTES + 6) * TOTALBOARDS]; // response frame to be used by every read
-uint16_t fault_frame[39 * TOTALBOARDS];                 // hold fault frame if faults are printed
-int currentBoard = 0;
-int currentCell = 0;
-BYTE bReturn = 0;
-int bRes = 0;
-int count = 10000;
-BYTE bBuf[8];
-uint8_t pFrame[64];
-static volatile unsigned int delayval = 0; // for delayms and Delay_us functions
-extern int UART_RX_RDY;
-extern int RTI_TIMEOUT;
-int topFoundBoard = 0;
-int baseCommunicating = 0;
-int otpPass = 0;
-BYTE *currCRC;
-int crc_i = 0;
-uint16_t wCRC2 = 0xFFFF;
-int crc16_i = 0;
-uint16_t autoaddr_response_frame[(1 + 6) * TOTALBOARDS]; // response frame for auto-addressing sequence
-int numReads = 0;
-int channel = 0;
+uint16_t crc = 0;
+HAL_StatusTypeDef status;
+uint32_t timeout;
 
 // SpiWriteFrame
-uint16_t spiBuf[8];
-uint16_t spiFrame[64];
-int spiPktLen = 0;
-uint16_t *spiPBuf = spiFrame;
-uint16_t spiWCRC;
+uint8_t tx_data[8];
+uint8_t rx_data[128];
 
-// SpiReadReg
-uint16_t spiReturn = 0;
 int M = 0; // expected total response bytes
 int i = 0; // number of groups of 128 bytes
 int K = 0; // number of bytes remaining in the last group of 128
 
 extern SPI_HandleTypeDef hspi1;
 extern TIM_HandleTypeDef htim4;
-// SPI variables
-uint16_t FFBuffer[128];
 
-extern SPI_HandleTypeDef hspi1;
 extern void Delay_us(uint32_t us);
 
 // CRC16 TABLE
@@ -96,16 +69,18 @@ const uint16_t crc16_table[256] = {0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301,
  * @param  length: Length of data
  * @retval uint16_t: Calculated CRC value
  */
-uint32_t SpiCRC16(uint16_t *pBuf, int nLen)
+uint16_t SpiCRC16(uint8_t* pBuf, int nLen)
 {
-    uint32_t wCRC = 0xFFFF;
+    uint16_t wCRC = 0xFFFF;
     int i;
 
     for (i = 0; i < nLen; i++)
     {
-        wCRC ^= (uint16_t)(*pBuf++) & 0x00FF;
+        wCRC ^= (uint16_t)(pBuf[i] & 0x00FF);
         wCRC = crc16_table[wCRC & 0x00FF] ^ (wCRC >> 8);
     }
+
+    //printf("CRC16 calculated: 0x%04X\n", wCRC);
 
     return wCRC;
 }
@@ -157,7 +132,6 @@ void SPI1_RestoreFromGPIO(void)
   __HAL_SPI_ENABLE(&hspi1);
 }
 
-
 /*
  *
  * @brief  Performs the BQ79600-Q1 wakeup sequence
@@ -165,14 +139,10 @@ void SPI1_RestoreFromGPIO(void)
  * @param  need_double_wake: Set to true if device was previously shut down using SHUTDOWN ping
  * @retval HAL status
 */
-
 HAL_StatusTypeDef BQ79600_WakeUp(uint8_t num_stacked_devices, bool need_double_wake)
 {
-  HAL_StatusTypeDef status;
-  uint8_t tx_data[7];
-  uint32_t timeout;
 
-  // 1. Send WAKE ping - begin by disabling SPI to control NSS and MOSI directly
+  // 1. Send WAKE ping - begin by disabling SPI to control MOSI directly
   SPI1_DisableForGPIO();
 
   // Configure NSS pin (PA4) as GPIO output
@@ -225,41 +195,8 @@ HAL_StatusTypeDef BQ79600_WakeUp(uint8_t num_stacked_devices, bool need_double_w
   tx_data[2] = 0x03;  // MSB register address
   tx_data[3] = 0x09;  // LSB register address
   tx_data[4] = 0x20;  // 00100000 (enable SEND_WAKE)
-  tx_data[5] = 0x13;
-  tx_data[6] = 0x95;
 
-  // 3. Check if SPI_READY is high, with timeout
-  timeout = HAL_GetTick() + 100;  // 100ms timeout
-  while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) != GPIO_PIN_SET) {
-    if (HAL_GetTick() >= timeout) {
-      return HAL_TIMEOUT;
-    }
-    Delay_us(100);
-  }
-
-  Delay_us(0.5);
-
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
-
-  Delay_us(0.5); //t9
-
-  // Send the command
-  status = HAL_SPI_Transmit(&hspi1, tx_data, 7, 100);
-
-  // Pull nCS high
-  Delay_us(0.5); //t10
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
-
-  if (status != HAL_OK) {
-    return status;
-  }
-
-  // 5. Wait for appropriate time for all devices to wake up
-  // WAKE tone (~1.6ms) + time to enter ACTIVE mode (~10ms) * number of stacked devices
-  uint32_t wait_time_us = ((BQ79600_WAKE_TONE_TIME_US + BQ79600_ACTIVE_MODE_TIME_US) * num_stacked_devices);
-
-  // Wait using HAL_Delay
-  Delay_us(wait_time_us);
+  SpiWrite(5);
 
   return HAL_OK;
 }
@@ -269,279 +206,291 @@ HAL_StatusTypeDef BQ79600_WakeUp(uint8_t num_stacked_devices, bool need_double_w
  * @param  None
  * @retval None
  */
-void SpiAutoAddress()
+HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 {
-    // DUMMY WRITE TO SNCHRONIZE ALL DAISY CHAIN DEVICES DLL (IF A DEVICE RESET OCCURED PRIOR TO THIS)
-    SpiWriteReg(0, OTP_ECC_DATAIN1, 0X00, 1, FRMWRT_STK_W);
-    SpiWriteReg(0, OTP_ECC_DATAIN2, 0X00, 1, FRMWRT_STK_W);
-    SpiWriteReg(0, OTP_ECC_DATAIN3, 0X00, 1, FRMWRT_STK_W);
-    SpiWriteReg(0, OTP_ECC_DATAIN4, 0X00, 1, FRMWRT_STK_W); // Don't know what to replace "OTP_ECC_DATAINX" with
-    SpiWriteReg(0, OTP_ECC_DATAIN5, 0X00, 1, FRMWRT_STK_W);
-    SpiWriteReg(0, OTP_ECC_DATAIN6, 0X00, 1, FRMWRT_STK_W);
-    SpiWriteReg(0, OTP_ECC_DATAIN7, 0X00, 1, FRMWRT_STK_W); // Only 6 chips, maybe dont need this line
-    SpiWriteReg(0, OTP_ECC_DATAIN8, 0X00, 1, FRMWRT_STK_W);
+	//SYNC DLL
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x43;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // ENABLE AUTO ADDRESSING MODE
-    SpiWriteReg(0, CONTROL1, 0X01, 1, FRMWRT_ALL_W);
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x44;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // SET ADDRESSES FOR EVERY BOARD
-    for (currentBoard = 0; currentBoard < TOTALBOARDS; currentBoard++)
-    {
-        SpiWriteReg(0, DIR0_ADDR, currentBoard, 1, FRMWRT_ALL_W);
-    }
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x45;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // BROADCAST WRITE TO SET ALL DEVICES AS STACK DEVICE
-    SpiWriteReg(0, COMM_CTRL, 0x02, 1, FRMWRT_ALL_W);
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x46;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // SET THE HIGHEST DEVICE IN THE STACK AS BOTH STACK AND TOP OF STACK
-    SpiWriteReg(TOTALBOARDS - 1, COMM_CTRL, 0x03, 1, FRMWRT_SGL_W);
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x47;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // SYNCRHONIZE THE DLL WITH A THROW-AWAY READ
-    SpiReadReg(0, OTP_ECC_DATAIN1, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN2, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN3, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN4, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN5, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN6, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN7, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
-    SpiReadReg(0, OTP_ECC_DATAIN8, autoaddr_response_frame, 1, 0, FRMWRT_STK_R);
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x48;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // OPTIONAL: read back all device addresses
-    for (currentBoard = 0; currentBoard < TOTALBOARDS; currentBoard++)
-    {
-        SpiReadReg(currentBoard, DIR0_ADDR, autoaddr_response_frame, 1, 0, FRMWRT_SGL_R);
-    }
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x49;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
 
-    // OPTIONAL: read register address 0x2001 and verify that the value is 0x14
-    SpiReadReg(0, 0x2001, autoaddr_response_frame, 1, 0, FRMWRT_SGL_R);
-    printf("Result %d:", autoaddr_response_frame[0]);
-    return;
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x4A;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
+
+	//Enable auto-addressing mode
+	tx_data[0] = 0xD0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x09;
+	tx_data[3] = 0x01;
+	SpiWrite(4);
+
+	//Set device addresses
+	tx_data[0] = 0xD0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x06;
+	tx_data[3] = 0x00;
+	SpiWrite(4);
+
+	tx_data[0] = 0xD0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x06;
+	tx_data[3] = 0x01;
+	SpiWrite(4);
+
+	//set all stacked devices as stack
+	tx_data[0] = 0xD0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x08;
+	tx_data[3] = 0x02;
+	SpiWrite(4);
+
+
+	//set top device to be top of stack
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x08;
+	tx_data[4] = 0x03;
+	SpiWrite(5);
+
+
+	//SYNC DLL
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x43;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x44;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x45;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x46;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x47;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x48;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x49;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x4A;
+	tx_data[3] = 0x00;
+	SpiRead(4,2);
+
+	/*
+	//Read from 0x0306
+	tx_data[0] = 0x80;
+	tx_data[1] = 0x00;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x06;
+	tx_data[4] = 0x01;
+	SpiRead(5,1);
+	printf("BQ79600 ADDRESS: 0x%02X\n", rx_data[0]);
+
+	tx_data[0] = 0x80;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x06;
+	tx_data[4] = 0x01;
+	SpiRead(5,1);
+	printf("BOARD1 ADDRESS: 0x%02X\n", rx_data[0]);
+
+
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x00;
+	tx_data[2] = 0x20;
+	tx_data[3] = 0x01;
+	tx_data[4] = 0x14;
+	SpiWrite(5);
+	*/
+
+	tx_data[0] = 0x80;
+	tx_data[1] = 0x00;
+	tx_data[2] = 0x20;
+	tx_data[3] = 0x01;
+	tx_data[4] = 0x01;
+	SpiRead(5,7);
+
+	printf("DATA1: 0x%02X\n", rx_data[0]);
+	printf("DATA1: 0x%02X\n", rx_data[1]);
+	printf("DATA1: 0x%02X\n", rx_data[2]);
+	printf("DATA1: 0x%02X\n", rx_data[3]);
+	printf("DATA1: 0x%02X\n", rx_data[4]);
+	printf("DATA1: 0x%02X\n", rx_data[5]);
+	printf("DATA1: 0x%02X\n", rx_data[6]);
+	printf("DATA1: 0x%02X\n", rx_data[7]);
+	printf("DATA1: 0x%02X\n", rx_data[8]);
+
+	if (status != HAL_OK) {
+		return status;
+	}
+
+    return HAL_OK;
 }
 
 
-/**
- * @brief  Write a message to the bq79600. Send the device address, register address, data, data length, and write type.
- * @param  bID device addresss
- * @param  wAddr register address
- * @param  dwData data to be written
- * @param  bLen length of data
- * @param  bWriteType write type (single, broadcast, stack)
- * @retval bytes received
- */
-int SpiWriteReg(BYTE bID, uint16_t wAddr, uint64_t dwData, BYTE bLen, BYTE bWriteType)
+HAL_StatusTypeDef SpiWrite(int nLen)
 {
-    // device address, register start address, data bytes, data length, write type (single, broadcast, stack)
-    bRes = 0;
-    memset(spiBuf, 0, sizeof(spiBuf));
-    while (HAL_GPIO_ReadPin(BQ_SPI_RDY_GPIO_Port, BQ_SPI_RDY_Pin) == 0) // FROM SL: IT IS SPI_RDY
-        Delay_us(5);                                  // wait until SPI_RDY is ready
-    switch (bLen)
-    {
-    case 1:
-        spiBuf[0] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 1, bWriteType);
-        break;
-    case 2:
-        spiBuf[0] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[1] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 2, bWriteType);
-        break;
-    case 3:
-        spiBuf[0] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[1] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[2] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 3, bWriteType);
-        break;
-    case 4:
-        spiBuf[0] = (dwData & 0x00000000FF000000) >> 24;
-        spiBuf[1] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[2] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[3] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 4, bWriteType);
-        break;
-    case 5:
-        spiBuf[0] = (dwData & 0x000000FF00000000) >> 32;
-        spiBuf[1] = (dwData & 0x00000000FF000000) >> 24;
-        spiBuf[2] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[3] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[4] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 5, bWriteType);
-        break;
-    case 6:
-        spiBuf[0] = (dwData & 0x0000FF0000000000) >> 40;
-        spiBuf[1] = (dwData & 0x000000FF00000000) >> 32;
-        spiBuf[2] = (dwData & 0x00000000FF000000) >> 24;
-        spiBuf[3] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[4] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[5] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 6, bWriteType);
-        break;
-    case 7:
-        spiBuf[0] = (dwData & 0x00FF000000000000) >> 48;
-        spiBuf[1] = (dwData & 0x0000FF0000000000) >> 40;
-        spiBuf[2] = (dwData & 0x000000FF00000000) >> 32;
-        spiBuf[3] = (dwData & 0x00000000FF000000) >> 24;
-        spiBuf[4] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[5] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[6] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 7, bWriteType);
-        break;
-    case 8:
-        spiBuf[0] = (dwData & 0xFF00000000000000) >> 56;
-        spiBuf[1] = (dwData & 0x00FF000000000000) >> 48;
-        spiBuf[2] = (dwData & 0x0000FF0000000000) >> 40;
-        spiBuf[3] = (dwData & 0x000000FF00000000) >> 32;
-        spiBuf[4] = (dwData & 0x00000000FF000000) >> 24;
-        spiBuf[5] = (dwData & 0x0000000000FF0000) >> 16;
-        spiBuf[6] = (dwData & 0x000000000000FF00) >> 8;
-        spiBuf[7] = dwData & 0x00000000000000FF;
-        bRes = SpiWriteFrame(bID, wAddr, spiBuf, 8, bWriteType);
-        break;
-    default:
-        break;
-    }
-    return bRes;
+	  crc = SpiCRC16(tx_data, nLen);
+	  tx_data[nLen] = crc & 0xFF;
+	  tx_data[nLen + 1] = (crc >> 8) & 0xFF;
+
+	  //Check if SPI_READY is high, with timeout
+	  timeout = HAL_GetTick() + 100;  // 100ms timeout
+	  while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) != GPIO_PIN_SET) {
+	    if (HAL_GetTick() >= timeout) {
+	      return HAL_TIMEOUT;
+	    }
+	    Delay_us(100);
+	  }
+
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+
+	  Delay_us(0.5); //t9
+
+	  // Send the command
+	  status = HAL_SPI_Transmit(&hspi1, tx_data, nLen + 2, 100);
+
+	  // Pull nCS high
+	  Delay_us(0.5); //t10
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+
+	  Delay_us(1);
+
+	  if (status != HAL_OK) {
+	    return status;
+	  }
+
+	  return HAL_OK;
 }
 
-/**
- * @brief  Helper function to write full frame for SpiReadReg. Uses HAL SPI to transmit the frame.
- * @param  bID device addresss
- * @param  wAddr register address
- * @param  pData data to be written
- * @param  bLen length of data
- * @param  bWriteType write type (single, broadcast, stack)
- * @retval bytes received
- */
 
-int SpiWriteFrame(uint16_t bID, uint16_t wAddr, uint16_t *pData, uint16_t bLen, uint8_t bWriteType)
-{
-    spiPktLen = 0;
-    spiPBuf = spiFrame;
-    memset(spiFrame, 0x7F, sizeof(spiFrame));
-    *spiPBuf++ = 0x80 | (bWriteType) | ((bWriteType & 0x10) ? bLen - 0x01 : 0x00); // Only include blen if it is a write; Writes are 0x90, 0xB0, 0xD0
-    if (bWriteType == FRMWRT_SGL_R || bWriteType == FRMWRT_SGL_W)
-    {
-        *spiPBuf++ = (bID & 0x00FF);
+HAL_StatusTypeDef SpiRead(int nLen, int rLen){
+
+	SpiWrite(nLen);
+
+	tx_data[0] = 0xFF;
+	tx_data[1] = 0xFF;
+	tx_data[2] = 0xFF;
+	tx_data[3] = 0xFF;
+	tx_data[4] = 0xFF;
+	tx_data[5] = 0xFF;
+	tx_data[6] = 0xFF;
+
+	timeout = HAL_GetTick() + 1;  // 1ms timeout
+	while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) != GPIO_PIN_SET) {
+		if (HAL_GetTick() >= timeout) {
+			SpiClear();
+			printf("TIMEOUT WAITING FOR DATA TO BE READY\r\n");
+			return HAL_TIMEOUT;
+		}
+		Delay_us(500);
+	}
+
+	//printf("NO TIMEOUT\r\n");
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+
+    Delay_us(0.5); //t9
+
+    HAL_SPI_TransmitReceive(&hspi1, tx_data, rx_data, rLen, HAL_MAX_DELAY);
+    //status = HAL_SPI_Receive(&hspi1, rx_data, rLen, HAL_MAX_DELAY);
+
+    Delay_us(0.5); //t10
+
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+
+    Delay_us(1);
+
+    if (status != HAL_OK) {
+    	return status;
     }
-    *spiPBuf++ = (wAddr & 0xFF00) >> 8;
-    *spiPBuf++ = wAddr & 0x00FF;
 
-    while (bLen--)
-        *spiPBuf++ = *pData++;
-
-    spiPktLen = spiPBuf - spiFrame;
-
-    spiWCRC = SpiCRC16(spiFrame, spiPktLen);
-    *spiPBuf++ = spiWCRC & 0x00FF;
-    *spiPBuf++ = (spiWCRC & 0xFF00) >> 8;
-    spiPktLen += 2;
-
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);  // Pull nCS low
-
-    HAL_SPI_Transmit(&hspi1, spiFrame, spiPktLen * 2, HAL_MAX_DELAY);
-
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);  // Pull nCS high
-
-    return spiPktLen;
+    return HAL_OK;
 }
 
-/**
- * @brief  Write a read message to bq79600 and wait for data. Send device address,
- *         register start address, byte frame pointer to start storing data, data length, read type.
- * @param  bID device addresss
- * @param  wAddr register address
- * @param  pData pointer of where to store data
- * @param  bLen length of data
- * @param  dwTimeOut time to wait for response? (unsure)
- * @param  bWriteType write type (single, broadcast, stack)
- * @retval bytes received
- */
-int SpiReadReg(BYTE bID, uint16_t wAddr, uint16_t *pData, BYTE bLen, uint32_t dwTimeOut, BYTE bWriteType)
-{
-    // device address, register start address, byte frame pointer to store data, data length, read type (single, broadcast, stack)
 
-    bRes = 0; // total bytes received
+HAL_StatusTypeDef SpiClear(){
+	tx_data[0] = 0x00;
 
-    while (HAL_GPIO_ReadPin(BQ_SPI_RDY_GPIO_Port, BQ_SPI_RDY_Pin) == 0)
-        Delay_us(1); // wait until SPI_RDY is ready
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);  // Hold nCS low
+	Delay_us(0.5);
+	status = HAL_SPI_Transmit(&hspi1, tx_data, 1, 100);
+	Delay_us(0.5);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);  // Pull nCS high
 
-    // send the read request to the 600
-    spiReturn = bLen - 1;
-    SpiWriteFrame(bID, wAddr, &spiReturn, 1, bWriteType); // send the read request command frame    // Replace all instances of this with STM HAL ver
-    Delay_us(5 * TOTALBOARDS);                             // wait propagation time for each board
+	if (status != HAL_OK) {
+		    return status;
+		  }
 
-    uint16_t *movingPointer = pData;
-
-    // prepare the correct number of bytes for the device to read
-    if (bWriteType == FRMWRT_SGL_R)
-    {
-        M = bLen + 6;
-    }
-    else if (bWriteType == FRMWRT_STK_R)
-    {
-        M = (bLen + 6) * (TOTALBOARDS - 1);
-    }
-    else if (bWriteType == FRMWRT_ALL_R)
-    {
-        M = (bLen + 6) * TOTALBOARDS;
-    }
-    else
-    {
-        while (1)
-            ; // infinite loop to catch error
-    }
-
-    // prepare the number of loops of 128-byte reads that need to occur
-    i = (int)(M / 128);
-    // prepare the remainder that is left over after the last full 128-byte read
-    K = M - i * 128;
-
-    // loop until we've read all data bytes
-    while (i > (-1))
-    {
-        while (HAL_GPIO_ReadPin(BQ_SPI_RDY_GPIO_Port, BQ_SPI_RDY_Pin) == 0)
-            Delay_us(100); // wait until SPI_RDY is ready
-
-        // if there is more than 128 bytes remaining
-        if (i > 0)
-        {
-            if (bWriteType == FRMWRT_SGL_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, 128, HAL_MAX_DELAY);
-            }
-            else if (bWriteType == FRMWRT_STK_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, 128, HAL_MAX_DELAY);
-            }
-            else if (bWriteType == FRMWRT_ALL_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, 128, HAL_MAX_DELAY);
-            }
-            movingPointer += 128;
-        }
-
-        // else if there is less than 128 bytes remaining
-        else
-        {
-            if (bWriteType == FRMWRT_SGL_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, K, HAL_MAX_DELAY);
-                bRes = bLen + 6;
-            }
-            else if (bWriteType == FRMWRT_STK_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, K, HAL_MAX_DELAY);
-                bRes = (bLen + 6) * (TOTALBOARDS - 1);
-            }
-            else if (bWriteType == FRMWRT_ALL_R)
-            {
-                HAL_SPI_TransmitReceive(&hspi1, FFBuffer, movingPointer, K, HAL_MAX_DELAY);
-                bRes = (bLen + 6) * TOTALBOARDS;
-            }
-        }
-
-        i--; // decrement the number of groups of 128 bytes
-    }
-    numReads++;
-    return bRes;
+	return HAL_OK;
 }
+
+
+

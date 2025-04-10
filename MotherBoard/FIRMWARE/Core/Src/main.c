@@ -47,7 +47,6 @@ UART_HandleTypeDef huart4;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -84,7 +83,7 @@ int _write(int file, char *ptr, int len){
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  HAL_StatusTypeDef status;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -120,55 +119,23 @@ int main(void)
 
   printf("BQ79600 Battery Monitor System Starting...\r\n");
 
-  //HAL_Delay(10);
-  // Initialize the BQ79600 with 1 stacked device (BQ79616)
-  //HAL_StatusTypeDef status;
-
   // Step 2: Wake up and initialize the BQ79600 and BQ79616
 
   printf("Waking up BQ79600...\r\n");
-  //void SpiWake79600(void);
   bool wake = false;
-  HAL_StatusTypeDef status;
   status = BQ79600_WakeUp(2,wake);
   if(status == HAL_OK){
 	  printf("Wake GOOD\r\n");
   }
 
 
-  //SpiAutoAddress();
-
-
-  /*
-  status = BQ79600_WakeUp(1, false);
-  if (status != HAL_OK) {
-    printf("BQ79600 wake-up failed with status: %d\r\n", status);
-    // Try to recover with a Comm Clear and retry
-    BQ79600_CommClear();
-    HAL_Delay(10);
-    status = BQ79600_WakeUp(1, false);
-    if (status != HAL_OK) {
-      printf("BQ79600 wake-up retry failed\r\n");
-    }
-  } else {
-    printf("BQ79600 wake-up successful\r\n");
-  }
-
-
-  // Step 3: Perform auto-addressing
-  printf("Performing auto-addressing...\r\n");
-  status = BQ79600_AutoAddressing(1);
-  if (status != HAL_OK) {
-    printf("Auto-addressing failed with status: %d\r\n", status);
-	*/
-
-    /*
-    // Read fault registers to diagnose the issue
-    BQ79600_ReadFaultStatus(&fault_summary, &fault_comm1, &fault_comm2);
-    printf("Fault Summary: 0x%02X\r\n", fault_summary);
-    printf("Fault Comm1: 0x%02X\r\n", fault_comm1);
-    printf("Fault Comm2: 0x%02X\r\n", fault_comm2);
-	*/
+  printf("Auto-addressing...\r\n");
+  status = SpiAutoAddress(2);
+  if(status == HAL_OK){
+  	  printf("Auto-addressing GOOD\r\n");
+   }
+  else
+	  printf("HAL ERROR %d\r\n", status);
 
 
   printf("Initialization complete, starting main loop...\r\n");
@@ -182,35 +149,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
-
-    // Read cell voltages from BQ79616 (device address 1)
-	/*
-    status = BQ79600_ReadCellVoltages(1, cell_data);
-    if (status != HAL_OK) {
-      printf("Failed to read cell voltages: %d\r\n", status);
-
-      // Read fault status to diagnose the issue
-      BQ79600_ReadFaultStatus(&fault_summary, &fault_comm1, &fault_comm2);
-      printf("Fault Summary: 0x%02X\r\n", fault_summary);
-      printf("Fault Comm1: 0x%02X\r\n", fault_comm1);
-      printf("Fault Comm2: 0x%02X\r\n", fault_comm2);
-
-      // Reset communication and try to recover
-      BQ79600_CommClear();
-      BQ79600_ResetCommFaults();
-    } else {
-      // Print cell voltages (first few cells)
-      printf("Cell 0: %d mV\r\n", (cell_data[0] << 8 | cell_data[1]) * 190 / 1000);
-      printf("Cell 1: %d mV\r\n", (cell_data[2] << 8 | cell_data[3]) * 190 / 1000);
-      printf("Cell 2: %d mV\r\n", (cell_data[4] << 8 | cell_data[5]) * 190 / 1000);
-    }
-
-    HAL_Delay(1000); // Read every 1 second
-	*/
   }
   /* USER CODE END 3 */
 }
+
+
 
 /**
   * @brief System Clock Configuration

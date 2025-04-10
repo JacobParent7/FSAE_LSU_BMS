@@ -1,8 +1,8 @@
-../Core/Src/bq79600.c:99:10:SpiCRC16	2
-../Core/Src/bq79600.c:117:6:SPI1_DisableForGPIO	1
-../Core/Src/bq79600.c:135:6:SPI1_RestoreFromGPIO	1
-../Core/Src/bq79600.c:169:19:BQ79600_WakeUp	5
-../Core/Src/bq79600.c:272:6:SpiAutoAddress	3
-../Core/Src/bq79600.c:331:5:SpiWriteReg	10
-../Core/Src/bq79600.c:416:5:SpiWriteFrame	5
-../Core/Src/bq79600.c:459:5:SpiReadReg	15
+../Core/Src/bq79600.c:72:10:SpiCRC16	2
+../Core/Src/bq79600.c:92:6:SPI1_DisableForGPIO	1
+../Core/Src/bq79600.c:110:6:SPI1_RestoreFromGPIO	1
+../Core/Src/bq79600.c:142:19:BQ79600_WakeUp	2
+../Core/Src/bq79600.c:209:19:SpiAutoAddress	2
+../Core/Src/bq79600.c:398:19:SpiWrite	4
+../Core/Src/bq79600.c:434:19:SpiRead	4
+../Core/Src/bq79600.c:479:19:SpiClear	2

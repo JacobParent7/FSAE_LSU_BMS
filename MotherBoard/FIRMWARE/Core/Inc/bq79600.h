@@ -71,15 +71,17 @@ void SPI1_DisableForGPIO(void);
  */
 void SPI1_RestoreFromGPIO(void);
 
-void SpiAutoAddress();
+HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices);
 
 int SpiWriteReg(BYTE bID, uint16_t wAddr, uint64_t dwData, BYTE bLen, BYTE bWriteType);
 int SpiWriteFrame(uint16_t bID, uint16_t wAddr, uint16_t *pData, uint16_t bLen, uint8_t bWriteType);
 int SpiReadReg(BYTE bID, uint16_t wAddr, uint16_t *pData, BYTE bLen, uint32_t dwTimeOut, BYTE bWriteType);
 
-uint32_t SpiCRC16(uint16_t *pBuf, int nLen);
+uint16_t SpiCRC16(uint8_t *pBuf, int nLen);
 
-
+HAL_StatusTypeDef SpiWrite(int nLen);
+HAL_StatusTypeDef SpiRead(int nLen, int rLen);
+HAL_StatusTypeDef SpiClear();
 /**
  * @brief  Performs the BQ79600-Q1 wakeup sequence
  * @param  num_stacked_devices: Number of stacked BQ79616-Q1 devices
@@ -185,14 +187,6 @@ HAL_StatusTypeDef BQ79600_SoftReset(void);
  * @retval HAL status
  */
 HAL_StatusTypeDef BQ79600_ConfigureDevice(void);
-
-/**
- * @brief Calculate CRC-16-IBM for BQ79600 communication
- * @param data: Buffer containing the data
- * @param length: Length of data
- * @retval uint16_t: Calculated CRC value
- */
-uint16_t Calculate_CRC(uint8_t* data, uint8_t length);
 
 void BQ79600_DebugSPI(void);
 void BQ79600_TestSpiPins(void);
