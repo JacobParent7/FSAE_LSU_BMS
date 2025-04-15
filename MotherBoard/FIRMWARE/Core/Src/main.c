@@ -13,8 +13,8 @@
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
 #include <string.h>
-#include "stdio.h"
-#include "bq79600.h"
+#include <stdio.h>
+#include <bq79600.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -123,14 +123,14 @@ int main(void)
 
   printf("Waking up BQ79600...\r\n");
   bool wake = false;
-  status = BQ79600_WakeUp(2,wake);
+  status = BQ79600_WakeUp(TOTALBOARDS,wake);
   if(status == HAL_OK){
 	  printf("Wake GOOD\r\n");
   }
 
 
   printf("Auto-addressing...\r\n");
-  status = SpiAutoAddress(2);
+  status = SpiAutoAddress(TOTALBOARDS);
   if(status == HAL_OK){
   	  printf("Auto-addressing GOOD\r\n");
    }
@@ -147,7 +147,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	stackVoltageRead();
+	HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

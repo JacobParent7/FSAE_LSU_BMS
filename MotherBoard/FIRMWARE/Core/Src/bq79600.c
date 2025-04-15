@@ -9,8 +9,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
-#include <datatypes.h>
-#include <reg.h>
+
 
 // GLOBAL VARIABLES (use these to avoid stack overflows by creating too many function variables)
 // avoid creating variables/arrays in functions, or you will run out of stack space quickly
@@ -21,6 +20,7 @@ uint32_t timeout;
 // SpiWriteFrame
 uint8_t tx_data[8];
 uint8_t rx_data[128];
+float voltStackRead[ACTIVECHANNELS];
 
 int M = 0; // expected total response bytes
 int i = 0; // number of groups of 128 bytes
@@ -69,12 +69,12 @@ const uint16_t crc16_table[256] = {0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301,
  * @param  length: Length of data
  * @retval uint16_t: Calculated CRC value
  */
-uint16_t SpiCRC16(uint8_t* pBuf, int nLen)
+uint16_t SpiCRC16(uint8_t* pBuf, int sendLen)
 {
     uint16_t wCRC = 0xFFFF;
     int i;
 
-    for (i = 0; i < nLen; i++)
+    for (i = 0; i < sendLen; i++)
     {
         wCRC ^= (uint16_t)(pBuf[i] & 0x00FF);
         wCRC = crc16_table[wCRC & 0x00FF] ^ (wCRC >> 8);
@@ -284,7 +284,6 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 	tx_data[3] = 0x02;
 	SpiWrite(4);
 
-
 	//set top device to be top of stack
 	tx_data[0] = 0x90;
 	tx_data[1] = 0x01;
@@ -292,7 +291,6 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 	tx_data[3] = 0x08;
 	tx_data[4] = 0x03;
 	SpiWrite(5);
-
 
 	//SYNC DLL
 	tx_data[0] = 0xA0;
@@ -375,17 +373,9 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 	tx_data[2] = 0x20;
 	tx_data[3] = 0x01;
 	tx_data[4] = 0x01;
-	SpiRead(5,7);
+	SpiRead(5,1);
 
-	printf("DATA1: 0x%02X\n", rx_data[0]);
-	printf("DATA1: 0x%02X\n", rx_data[1]);
-	printf("DATA1: 0x%02X\n", rx_data[2]);
-	printf("DATA1: 0x%02X\n", rx_data[3]);
-	printf("DATA1: 0x%02X\n", rx_data[4]);
-	printf("DATA1: 0x%02X\n", rx_data[5]);
-	printf("DATA1: 0x%02X\n", rx_data[6]);
-	printf("DATA1: 0x%02X\n", rx_data[7]);
-	printf("DATA1: 0x%02X\n", rx_data[8]);
+	printf("DEV_CONF: 0x%02X\n", rx_data[5]);
 
 	if (status != HAL_OK) {
 		return status;
@@ -394,12 +384,11 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
     return HAL_OK;
 }
 
-
-HAL_StatusTypeDef SpiWrite(int nLen)
+HAL_StatusTypeDef SpiWrite(int sendLen)
 {
-	  crc = SpiCRC16(tx_data, nLen);
-	  tx_data[nLen] = crc & 0xFF;
-	  tx_data[nLen + 1] = (crc >> 8) & 0xFF;
+	  crc = SpiCRC16(tx_data, sendLen);
+	  tx_data[sendLen] = crc & 0xFF;
+	  tx_data[sendLen + 1] = (crc >> 8) & 0xFF;
 
 	  //Check if SPI_READY is high, with timeout
 	  timeout = HAL_GetTick() + 100;  // 100ms timeout
@@ -415,7 +404,7 @@ HAL_StatusTypeDef SpiWrite(int nLen)
 	  Delay_us(0.5); //t9
 
 	  // Send the command
-	  status = HAL_SPI_Transmit(&hspi1, tx_data, nLen + 2, 100);
+	  status = HAL_SPI_Transmit(&hspi1, tx_data, sendLen + 2, 100);
 
 	  // Pull nCS high
 	  Delay_us(0.5); //t10
@@ -430,37 +419,28 @@ HAL_StatusTypeDef SpiWrite(int nLen)
 	  return HAL_OK;
 }
 
+HAL_StatusTypeDef SpiRead(int sendLen, int returnLen){
 
-HAL_StatusTypeDef SpiRead(int nLen, int rLen){
+	SpiWrite(sendLen);
 
-	SpiWrite(nLen);
-
-	tx_data[0] = 0xFF;
-	tx_data[1] = 0xFF;
-	tx_data[2] = 0xFF;
-	tx_data[3] = 0xFF;
-	tx_data[4] = 0xFF;
-	tx_data[5] = 0xFF;
-	tx_data[6] = 0xFF;
+	for(int i = 0; i <= (returnLen - 1) + 7; i++) {
+		tx_data[i] = 0xFF;
+	}
 
 	timeout = HAL_GetTick() + 1;  // 1ms timeout
 	while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) != GPIO_PIN_SET) {
 		if (HAL_GetTick() >= timeout) {
 			SpiClear();
-			printf("TIMEOUT WAITING FOR DATA TO BE READY\r\n");
 			return HAL_TIMEOUT;
 		}
 		Delay_us(500);
 	}
 
-	//printf("NO TIMEOUT\r\n");
-
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
     Delay_us(0.5); //t9
 
-    HAL_SPI_TransmitReceive(&hspi1, tx_data, rx_data, rLen, HAL_MAX_DELAY);
-    //status = HAL_SPI_Receive(&hspi1, rx_data, rLen, HAL_MAX_DELAY);
+    HAL_SPI_TransmitReceive(&hspi1, tx_data, rx_data, returnLen, HAL_MAX_DELAY);
 
     Delay_us(0.5); //t10
 
@@ -475,8 +455,8 @@ HAL_StatusTypeDef SpiRead(int nLen, int rLen){
     return HAL_OK;
 }
 
-
 HAL_StatusTypeDef SpiClear(){
+
 	tx_data[0] = 0x00;
 
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);  // Hold nCS low
@@ -492,5 +472,75 @@ HAL_StatusTypeDef SpiClear(){
 	return HAL_OK;
 }
 
+HAL_StatusTypeDef stackVoltageRead(){
+
+	/*
+	B0 00 03 0A A6 13 //Step 1 (16 active cells)
+	B0 03 0D 06 52 76 //Step 2 (set continuous run and start ADC)
+	delay [192us + (5us x TOTALBOARDS)] //Step 3 (delay)
+	A0 05 68 1F 5C 2D //Step 4 (read ADC measurements)
+	*/
+
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x00;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x0A;
+	status = SpiWrite(4);
+
+	if (status != HAL_OK) {
+		return status;
+	}
+
+	tx_data[0] = 0xB0;
+	tx_data[1] = 0x03;
+	tx_data[2] = 0x0D;
+	tx_data[3] = 0x06;
+	status = SpiWrite(4);
+
+	if (status != HAL_OK) {
+		return status;
+	}
+
+	Delay_us(192 + (5 * TOTALBOARDS));
+
+	tx_data[0] = 0xA0;
+	tx_data[1] = 0x05;
+	tx_data[2] = 0x68;
+	tx_data[3] = 0x0F;
 
 
+	status = SpiRead(4,ACTIVECHANNELS);
+
+	//convert readings to voltages
+	for(int i = 0; i <= ACTIVECHANNELS; i++){
+		voltStackRead[i] = ((float)rx_data[RESPONSE_HEADER_SIZE + i]) * 190.7;
+	}
+
+	printf("---------------");
+	for(int i = 0; i <= ACTIVECHANNELS - 1; i++){
+		printf("Cell %d: %f \r\n", i, voltStackRead[i]);
+	}
+	printf("---------------");
+
+	if (status != HAL_OK) {
+	    	return status;
+	    }
+
+	return HAL_OK;
+
+}
+
+HAL_StatusTypeDef spiWriteReg(uint8_t devAddr, uint16_t regAddr, uint8_t data[], uint8_t dataSize, uint8_t packetType){
+	tx_data[0] = packetType;
+	tx_data[1] = devAddr;
+	tx_data[2] = (regAddr >> 8) & 0xFF;
+	tx_data[3] = regAddr & 0xFF;
+	for(int i = 0; i <= (dataSize - 1); i++){
+		tx_data[i + 4] = data[i];
+	}
+	crc = SpiCRC16(tx_data, dataSize + 4);
+	//tx_data[sendLen] = crc & 0xFF;
+	//tx_data[sendLen + 1] = (crc >> 8) & 0xFF;
+
+	return HAL_OK;
+}

@@ -31,8 +31,7 @@ Core/Src/bq79600.o: ../Core/Src/bq79600.c ../Core/Inc/bq79600.h \
  ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_spi.h \
  ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h \
  ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h \
- ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h \
- ../Core/Inc/datatypes.h ../Core/Inc/datatypes.h ../Core/Inc/reg.h
+ ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h
 ../Core/Inc/bq79600.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h:
@@ -68,6 +67,3 @@ Core/Src/bq79600.o: ../Core/Src/bq79600.c ../Core/Inc/bq79600.h \
 ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h:
 ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h:
 ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h:
-../Core/Inc/datatypes.h:
-../Core/Inc/datatypes.h:
-../Core/Inc/reg.h:
