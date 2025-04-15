@@ -530,7 +530,7 @@ HAL_StatusTypeDef stackVoltageRead(){
 
 }
 
-HAL_StatusTypeDef spiWriteReg(uint8_t devAddr, uint16_t regAddr, uint8_t data[], uint8_t dataSize, uint8_t packetType){
+HAL_StatusTypeDef spiWriteFrame(uint8_t devAddr, uint16_t regAddr, uint8_t* data, uint8_t dataSize, uint8_t packetType){
 	tx_data[0] = packetType;
 	tx_data[1] = devAddr;
 	tx_data[2] = (regAddr >> 8) & 0xFF;
