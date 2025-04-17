@@ -147,7 +147,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	stackVoltageRead();
+	status = stackVoltageRead();
+	if(status == HAL_OK){
+		printf("VOLTAGE READ GOOD\r\n");
+	   }
+	else
+		printf("HAL ERROR %d\r\n", status);
 	HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }

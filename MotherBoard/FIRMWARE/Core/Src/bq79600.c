@@ -341,43 +341,34 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 	tx_data[3] = 0x00;
 	SpiRead(4,2);
 
-	/*
+
 	//Read from 0x0306
 	tx_data[0] = 0x80;
 	tx_data[1] = 0x00;
 	tx_data[2] = 0x03;
 	tx_data[3] = 0x06;
-	tx_data[4] = 0x01;
-	SpiRead(5,1);
-	printf("BQ79600 ADDRESS: 0x%02X\n", rx_data[0]);
+	tx_data[4] = 0x00;
+	SpiRead(5,7);
+	printf("ADDR_0: 0x%02X\n", rx_data[4]);
 
 	tx_data[0] = 0x80;
 	tx_data[1] = 0x01;
 	tx_data[2] = 0x03;
 	tx_data[3] = 0x06;
-	tx_data[4] = 0x01;
-	SpiRead(5,1);
-	printf("BOARD1 ADDRESS: 0x%02X\n", rx_data[0]);
-
-
-	tx_data[0] = 0x90;
-	tx_data[1] = 0x00;
-	tx_data[2] = 0x20;
-	tx_data[3] = 0x01;
-	tx_data[4] = 0x14;
-	SpiWrite(5);
-	*/
+	tx_data[4] = 0x00;
+	SpiRead(5,7);
+	printf("ADDR_1: 0x%02X\n", rx_data[4]);
 
 	tx_data[0] = 0x80;
 	tx_data[1] = 0x00;
 	tx_data[2] = 0x20;
 	tx_data[3] = 0x01;
-	tx_data[4] = 0x01;
-	SpiRead(5,1);
+	tx_data[4] = 0x00;
+	SpiRead(5,7);
+	printf("DEV_CONF: 0x%02X\n", rx_data[4]);
 
-	printf("DEV_CONF: 0x%02X\n", rx_data[5]);
 
-	if (status != HAL_OK) {
+	if(status != HAL_OK) {
 		return status;
 	}
 
@@ -423,7 +414,7 @@ HAL_StatusTypeDef SpiRead(int sendLen, int returnLen){
 
 	SpiWrite(sendLen);
 
-	for(int i = 0; i <= (returnLen - 1) + 7; i++) {
+	for(int i = 0; i <= 7; i++) {
 		tx_data[i] = 0xFF;
 	}
 
@@ -508,8 +499,11 @@ HAL_StatusTypeDef stackVoltageRead(){
 	tx_data[2] = 0x68;
 	tx_data[3] = 0x0F;
 
-
-	status = SpiRead(4,ACTIVECHANNELS);
+	/*
+	status = SpiRead(4,ACTIVECHANNELS * 2);
+	for(int i = 0; i <= (ACTIVECHANNELS * 2) - 1; i++){
+		printf("Cell %d: %d\r\n", i, rx_data[i]);
+	}
 
 	//convert readings to voltages
 	for(int i = 0; i <= ACTIVECHANNELS; i++){
@@ -521,7 +515,7 @@ HAL_StatusTypeDef stackVoltageRead(){
 		printf("Cell %d: %f \r\n", i, voltStackRead[i]);
 	}
 	printf("---------------");
-
+	*/
 	if (status != HAL_OK) {
 	    	return status;
 	    }
@@ -544,3 +538,4 @@ HAL_StatusTypeDef spiWriteFrame(uint8_t devAddr, uint16_t regAddr, uint8_t* data
 
 	return HAL_OK;
 }
+
