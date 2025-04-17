@@ -21,6 +21,7 @@ uint32_t timeout;
 uint8_t tx_data[8];
 uint8_t rx_data[128];
 float voltStackRead[ACTIVECHANNELS];
+uint16_t voltage = 0;
 
 int M = 0; // expected total response bytes
 int i = 0; // number of groups of 128 bytes
@@ -446,6 +447,7 @@ HAL_StatusTypeDef SpiRead(int sendLen, int returnLen){
     return HAL_OK;
 }
 
+
 HAL_StatusTypeDef SpiClear(){
 
 	tx_data[0] = 0x00;
@@ -472,56 +474,59 @@ HAL_StatusTypeDef stackVoltageRead(){
 	A0 05 68 1F 5C 2D //Step 4 (read ADC measurements)
 	*/
 
-	tx_data[0] = 0xB0;
-	tx_data[1] = 0x00;
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x00;
+	tx_data[3] = 0x03;
+	tx_data[4] = 0x0A;
+	status = SpiWrite(5);
+
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
 	tx_data[2] = 0x03;
-	tx_data[3] = 0x0A;
-	status = SpiWrite(4);
+	tx_data[3] = 0x0D;
+	tx_data[4] = 0x06;
+	status = SpiWrite(5);
+
 
 	if (status != HAL_OK) {
+		printf("VREAD WRITE BAD");
 		return status;
 	}
 
-	tx_data[0] = 0xB0;
-	tx_data[1] = 0x03;
-	tx_data[2] = 0x0D;
-	tx_data[3] = 0x06;
-	status = SpiWrite(4);
+	Delay_us(192 + 5);
 
-	if (status != HAL_OK) {
-		return status;
-	}
+	tx_data[0] = 0x80;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x05;
+	tx_data[3] = 0x68;
+	tx_data[4] = 0x01;
 
-	Delay_us(192 + (5 * TOTALBOARDS));
+	status = SpiRead(5,6 + 2);
 
-	tx_data[0] = 0xA0;
-	tx_data[1] = 0x05;
-	tx_data[2] = 0x68;
-	tx_data[3] = 0x0F;
+	// Using fixed-point arithmetic (scaling by 1000 for millivolts)
+	printf("Cell 2: %ld \r\n", convert_adc_to_voltage(rx_data[4], rx_data[5]));
 
-	/*
-	status = SpiRead(4,ACTIVECHANNELS * 2);
-	for(int i = 0; i <= (ACTIVECHANNELS * 2) - 1; i++){
-		printf("Cell %d: %d\r\n", i, rx_data[i]);
-	}
-
-	//convert readings to voltages
-	for(int i = 0; i <= ACTIVECHANNELS; i++){
-		voltStackRead[i] = ((float)rx_data[RESPONSE_HEADER_SIZE + i]) * 190.7;
-	}
-
-	printf("---------------");
-	for(int i = 0; i <= ACTIVECHANNELS - 1; i++){
-		printf("Cell %d: %f \r\n", i, voltStackRead[i]);
-	}
-	printf("---------------");
-	*/
 	if (status != HAL_OK) {
 	    	return status;
 	    }
 
 	return HAL_OK;
 
+}
+
+int32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
+{
+    // 1. Combine high and low bytes into a 16-bit signed value
+    int16_t raw_value = (int16_t)((high_byte << 8) | low_byte);
+
+    // 2. Convert to microvolts (190.73 μV/LSB = 19073/100)
+    int32_t microvolts = (int32_t)raw_value * 19073 / 100;
+
+    // 3. Convert to millivolts for better readability
+    int32_t millivolts = microvolts / 1000;
+
+    return millivolts;
 }
 
 HAL_StatusTypeDef spiWriteFrame(uint8_t devAddr, uint16_t regAddr, uint8_t* data, uint8_t dataSize, uint8_t packetType){

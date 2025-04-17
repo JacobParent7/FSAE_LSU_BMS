@@ -77,6 +77,7 @@ HAL_StatusTypeDef SpiRead(int nLen, int rLen);
 HAL_StatusTypeDef SpiClear();
 HAL_StatusTypeDef stackVoltageRead();
 HAL_StatusTypeDef spiWriteReg(uint8_t devAddr, uint16_t regAddr, uint8_t data[], uint8_t sendLen, uint8_t packetType);
+int32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte);
 /**
  * @brief  Performs the BQ79600-Q1 wakeup sequence
  * @param  num_stacked_devices: Number of stacked BQ79616-Q1 devices
