@@ -128,7 +128,7 @@ int main(void)
 	  printf("Wake GOOD\r\n");
   }
 
-
+  //auto-address the stack
   printf("Auto-addressing...\r\n");
   status = SpiAutoAddress(TOTALBOARDS);
   if(status == HAL_OK){
@@ -146,15 +146,37 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
+
+	HAL_ADC_Start(&hadc1);
+	status = HAL_ADC_PollForConversion(&hadc1, 100);
+	if (status == HAL_OK)
+	{
+	    // Read the ADC value
+		uint16_t adc_value = HAL_ADC_GetValue(&hadc1);
+
+	    // Process the ADC value as needed
+	    // For example, you might want to convert to voltage:
+	    float voltage5 = (adc_value * 3.3f) / 4095.0f;  // Assuming 3.3V reference and 12-bit resolution
+	    printf("ADC READ %f \r\n", voltage5);
+	    if(status == HAL_OK){
+	    	printf("ADC READ GOOD\r\n");
+	    	}
+	    else
+	    	printf("ADC ERROR %d\r\n", status);
+	}
+
+
 	status = stackVoltageRead();
 	if(status == HAL_OK){
 		printf("VOLTAGE READ GOOD\r\n");
 	   }
 	else
 		printf("HAL ERROR %d\r\n", status);
+
 	HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
