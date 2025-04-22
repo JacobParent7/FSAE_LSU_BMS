@@ -207,7 +207,7 @@ HAL_StatusTypeDef BQ79600_WakeUp(uint8_t num_stacked_devices, bool need_double_w
  * @param  None
  * @retval None
  */
-HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
+HAL_StatusTypeDef SpiAutoAddress(uint8_t numStackedDevices)
 {
 	//SYNC DLL
 	tx_data[0] = 0xB0;
@@ -265,18 +265,16 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 	tx_data[3] = 0x01;
 	SpiWrite(4);
 
-	//Set device addresses
-	tx_data[0] = 0xD0;
-	tx_data[1] = 0x03;
-	tx_data[2] = 0x06;
-	tx_data[3] = 0x00;
-	SpiWrite(4);
-
-	tx_data[0] = 0xD0;
-	tx_data[1] = 0x03;
-	tx_data[2] = 0x06;
-	tx_data[3] = 0x01;
-	SpiWrite(4);
+	uint8_t devAddr = 0x00;
+	//give each stack device and address
+	for(int i = 0; i <= numStackedDevices - 1; i++){
+		tx_data[0] = 0xD0;
+		tx_data[1] = 0x03;
+		tx_data[2] = 0x06;
+		tx_data[3] = devAddr;
+		SpiWrite(4);
+		devAddr += 1;
+	}
 
 	//set all stacked devices as stack
 	tx_data[0] = 0xD0;
@@ -287,7 +285,7 @@ HAL_StatusTypeDef SpiAutoAddress(uint8_t num_stacked_devices)
 
 	//set top device to be top of stack
 	tx_data[0] = 0x90;
-	tx_data[1] = 0x01;
+	tx_data[1] = devAddr;
 	tx_data[2] = 0x03;
 	tx_data[3] = 0x08;
 	tx_data[4] = 0x03;
@@ -465,7 +463,7 @@ HAL_StatusTypeDef SpiClear(){
 	return HAL_OK;
 }
 
-HAL_StatusTypeDef stackVoltageRead(){
+HAL_StatusTypeDef stackVoltageRead(int returnLen){
 
 	/*
 	B0 00 03 0A A6 13 //Step 1 (16 active cells)
@@ -473,12 +471,16 @@ HAL_StatusTypeDef stackVoltageRead(){
 	delay [192us + (5us x TOTALBOARDS)] //Step 3 (delay)
 	A0 05 68 1F 5C 2D //Step 4 (read ADC measurements)
 	*/
+	uint8_t activeCells = returnLen - 6;
+	uint32_t max = 0;
+	uint32_t min = 0xFFFFFFFF;
+	uint32_t voltageDelta = 0;
 
 	tx_data[0] = 0x90;
 	tx_data[1] = 0x01;
 	tx_data[2] = 0x00;
 	tx_data[3] = 0x03;
-	tx_data[4] = 0x0A;
+	tx_data[4] = activeCells & 0xFF;;
 	status = SpiWrite(5);
 
 	tx_data[0] = 0x90;
@@ -494,18 +496,52 @@ HAL_StatusTypeDef stackVoltageRead(){
 		return status;
 	}
 
-	Delay_us(192 + 5);
+	uint16_t VCELLHI = 0;
 
-	tx_data[0] = 0x80;
-	tx_data[1] = 0x01;
-	tx_data[2] = 0x05;
-	tx_data[3] = 0x68;
-	tx_data[4] = 0x01;
+	if(returnLen == 16){
+		VCELLHI = 0x0568;
+	}
+	else
+		VCELLHI = 0x056C;
 
-	status = SpiRead(5,6 + 2);
+	//starting address
+	printf("---------\r\n");
 
-	// Using fixed-point arithmetic (scaling by 1000 for millivolts)
-	printf("Cell 2: %ld \r\n", convert_adc_to_voltage(rx_data[4], rx_data[5]));
+	uint32_t singleCell = 0;
+	uint32_t stackTotal = 0;
+
+	for(int i = 0; i <= returnLen - 1; i++){
+
+		Delay_us((192 + 5) * 2);
+
+		tx_data[0] = 0x80;
+		tx_data[1] = 0x01;
+		tx_data[2] = ((VCELLHI >> 8) & 0xFF);
+		tx_data[3] = VCELLHI & 0xFF;
+		tx_data[4] = 0x01;
+
+		status = SpiRead(5,6 + 2);
+
+		singleCell = convert_adc_to_voltage(rx_data[4], rx_data[5]);
+
+		if(singleCell > max){
+			max = singleCell;
+		}
+		else if(singleCell < min){
+			min = singleCell;
+		}
+
+		// Using fixed-point arithmetic (scaling by 1000 for millivolts)
+		printf("Cell %d: %ld \r\n", i + 1, singleCell);
+		stackTotal += singleCell;
+		VCELLHI += 2;
+	}
+
+	voltageDelta = max - min;
+
+	printf("Stack Voltage: %ld \r\n", stackTotal);
+	printf("V-Delta: %ld \r\n", voltageDelta);
+	printf("---------\r\n");
 
 	if (status != HAL_OK) {
 	    	return status;
@@ -515,7 +551,7 @@ HAL_StatusTypeDef stackVoltageRead(){
 
 }
 
-int32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
+uint32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
 {
     // 1. Combine high and low bytes into a 16-bit signed value
     int16_t raw_value = (int16_t)((high_byte << 8) | low_byte);
@@ -524,7 +560,7 @@ int32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
     int32_t microvolts = (int32_t)raw_value * 19073 / 100;
 
     // 3. Convert to millivolts for better readability
-    int32_t millivolts = microvolts / 1000;
+    uint32_t millivolts = microvolts / 1000;
 
     return millivolts;
 }

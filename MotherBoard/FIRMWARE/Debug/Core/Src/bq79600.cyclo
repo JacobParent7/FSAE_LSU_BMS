@@ -2,10 +2,10 @@
 ../Core/Src/bq79600.c:93:6:SPI1_DisableForGPIO	1
 ../Core/Src/bq79600.c:111:6:SPI1_RestoreFromGPIO	1
 ../Core/Src/bq79600.c:143:19:BQ79600_WakeUp	2
-../Core/Src/bq79600.c:210:19:SpiAutoAddress	2
-../Core/Src/bq79600.c:379:19:SpiWrite	4
-../Core/Src/bq79600.c:414:19:SpiRead	5
-../Core/Src/bq79600.c:451:19:SpiClear	2
-../Core/Src/bq79600.c:468:19:stackVoltageRead	3
-../Core/Src/bq79600.c:518:9:convert_adc_to_voltage	1
-../Core/Src/bq79600.c:532:19:spiWriteFrame	2
+../Core/Src/bq79600.c:210:19:SpiAutoAddress	3
+../Core/Src/bq79600.c:377:19:SpiWrite	4
+../Core/Src/bq79600.c:412:19:SpiRead	5
+../Core/Src/bq79600.c:449:19:SpiClear	2
+../Core/Src/bq79600.c:466:19:stackVoltageRead	7
+../Core/Src/bq79600.c:554:10:convert_adc_to_voltage	1
+../Core/Src/bq79600.c:568:19:spiWriteFrame	2

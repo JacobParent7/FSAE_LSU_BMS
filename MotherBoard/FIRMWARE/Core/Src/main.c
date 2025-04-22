@@ -122,6 +122,7 @@ int main(void)
   // Step 2: Wake up and initialize the BQ79600 and BQ79616
 
   printf("Waking up BQ79600...\r\n");
+  // wake is true if device went into shutdown mode
   bool wake = false;
   status = BQ79600_WakeUp(TOTALBOARDS,wake);
   if(status == HAL_OK){
@@ -147,26 +148,29 @@ int main(void)
   while (1)
   {
 
-	HAL_ADC_Start(&hadc1);
-	status = HAL_ADC_PollForConversion(&hadc1, 100);
+	//HAL_ADC_Start(&hadc1);
+	//status = HAL_ADC_PollForConversion(&hadc1, 100);
 	if (status == HAL_OK)
 	{
 	    // Read the ADC value
-		uint16_t adc_value = HAL_ADC_GetValue(&hadc1);
+		//uint16_t adc_value = HAL_ADC_GetValue(&hadc1);
 
 	    // Process the ADC value as needed
 	    // For example, you might want to convert to voltage:
-	    float voltage5 = (adc_value * 3.3f) / 4095.0f;  // Assuming 3.3V reference and 12-bit resolution
+	    //float voltage5 = (adc_value * 3.3f) / 4095.0f;  // Assuming 3.3V reference and 12-bit resolution
+
+		/*
 	    printf("ADC READ %f \r\n", voltage5);
 	    if(status == HAL_OK){
 	    	printf("ADC READ GOOD\r\n");
 	    	}
 	    else
 	    	printf("ADC ERROR %d\r\n", status);
+	    	*/
 	}
 
 
-	status = stackVoltageRead();
+	status = stackVoltageRead(ACTIVECHANNELS);
 	if(status == HAL_OK){
 		printf("VOLTAGE READ GOOD\r\n");
 	   }
