@@ -9,14 +9,14 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
-
+#include <SOC.h>
 
 // GLOBAL VARIABLES (use these to avoid stack overflows by creating too many function variables)
 // avoid creating variables/arrays in functions, or you will run out of stack space quickly
 uint16_t crc = 0;
 HAL_StatusTypeDef status;
 uint32_t timeout;
-
+uint8_t SOC = 0;
 // SpiWriteFrame
 uint8_t tx_data[8];
 uint8_t rx_data[128];
@@ -547,6 +547,10 @@ HAL_StatusTypeDef stackVoltageRead(int returnLen){
 	    	return status;
 	    }
 
+	uint32_t avgCellVoltage = stackTotal / ACTIVECHANNELS;
+	uint8_t stackSOC = getBatterySOC(avgCellVoltage);
+	printf("Average Stack SOC: %d%%\r\n", stackSOC);
+
 	return HAL_OK;
 
 }
@@ -554,10 +558,10 @@ HAL_StatusTypeDef stackVoltageRead(int returnLen){
 uint32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
 {
     // 1. Combine high and low bytes into a 16-bit signed value
-    int16_t raw_value = (int16_t)((high_byte << 8) | low_byte);
+    uint16_t raw_value = (uint16_t)((high_byte << 8) | low_byte);
 
     // 2. Convert to microvolts (190.73 μV/LSB = 19073/100)
-    int32_t microvolts = (int32_t)raw_value * 19073 / 100;
+    uint32_t microvolts = (uint32_t)raw_value * 19073 / 100;
 
     // 3. Convert to millivolts for better readability
     uint32_t millivolts = microvolts / 1000;
@@ -565,18 +569,69 @@ uint32_t convert_adc_to_voltage(uint8_t high_byte, uint8_t low_byte)
     return millivolts;
 }
 
-HAL_StatusTypeDef spiWriteFrame(uint8_t devAddr, uint16_t regAddr, uint8_t* data, uint8_t dataSize, uint8_t packetType){
-	tx_data[0] = packetType;
-	tx_data[1] = devAddr;
-	tx_data[2] = (regAddr >> 8) & 0xFF;
-	tx_data[3] = regAddr & 0xFF;
-	for(int i = 0; i <= (dataSize - 1); i++){
-		tx_data[i + 4] = data[i];
+HAL_StatusTypeDef simpleBalancing(){
+	//Set up active channels
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x00;
+	tx_data[3] = 0x03;
+	tx_data[4] = 0x0A;
+	status = SpiWrite(5);
+
+	if (status != HAL_OK) {
+	    	return status;
+	    }
+
+	//choose channel
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x26;
+	tx_data[4] = 0x02;	//10 seconds balancing
+	status = SpiWrite(5);
+
+	if (status != HAL_OK) {
+	    	return status;
+	    }
+
+	//Set up autobalancing
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x2F;
+	tx_data[4] = 0x01;
+	status = SpiWrite(5);
+
+	if (status != HAL_OK) {
+	    	return status;
+	    }
+
+	//Start balacing
+	tx_data[0] = 0x90;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x03;
+	tx_data[3] = 0x2F;
+	tx_data[4] = 0x02;
+	status = SpiWrite(5);
+
+
+	//Read if balancing started
+	tx_data[0] = 0x80;
+	tx_data[1] = 0x01;
+	tx_data[2] = 0x05;
+	tx_data[3] = 0x2B;
+	tx_data[4] = 0x00;
+	status = SpiRead(5, 6 + 1);
+
+	uint8_t read = rx_data[4];
+
+	printf("BAL_STAT %d \r\n", read);
+
+	if (status != HAL_OK) {
+		return status;
 	}
-	crc = SpiCRC16(tx_data, dataSize + 4);
-	//tx_data[sendLen] = crc & 0xFF;
-	//tx_data[sendLen + 1] = (crc >> 8) & 0xFF;
 
 	return HAL_OK;
 }
+
 

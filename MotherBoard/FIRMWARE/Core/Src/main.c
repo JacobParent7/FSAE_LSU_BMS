@@ -141,6 +141,16 @@ int main(void)
 
   printf("Initialization complete, starting main loop...\r\n");
 
+
+  /*
+  status = simpleBalancing();
+  if(status == HAL_OK){
+	  printf("BALANCING START GOOD\r\n");
+  }
+  else
+	  printf("BALANCING START BAD %d\r\n", status);
+	*/
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -171,12 +181,13 @@ int main(void)
 
 
 	status = stackVoltageRead(ACTIVECHANNELS);
+	/*
 	if(status == HAL_OK){
 		printf("VOLTAGE READ GOOD\r\n");
 	   }
 	else
-		printf("HAL ERROR %d\r\n", status);
-
+		printf("VOLTAGE READ ERROR %d\r\n", status);
+	*/
 	HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */

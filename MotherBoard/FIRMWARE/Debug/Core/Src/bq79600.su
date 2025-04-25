@@ -6,6 +6,6 @@
 ../Core/Src/bq79600.c:377:19:SpiWrite	16	static
 ../Core/Src/bq79600.c:412:19:SpiRead	32	static
 ../Core/Src/bq79600.c:449:19:SpiClear	8	static
-../Core/Src/bq79600.c:466:19:stackVoltageRead	48	static
-../Core/Src/bq79600.c:554:10:convert_adc_to_voltage	32	static
-../Core/Src/bq79600.c:568:19:spiWriteFrame	24	static
+../Core/Src/bq79600.c:466:19:stackVoltageRead	56	static
+../Core/Src/bq79600.c:558:10:convert_adc_to_voltage	32	static
+../Core/Src/bq79600.c:572:19:simpleBalancing	16	static

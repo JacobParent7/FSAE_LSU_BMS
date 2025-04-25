@@ -7,5 +7,5 @@
 ../Core/Src/bq79600.c:412:19:SpiRead	5
 ../Core/Src/bq79600.c:449:19:SpiClear	2
 ../Core/Src/bq79600.c:466:19:stackVoltageRead	7
-../Core/Src/bq79600.c:554:10:convert_adc_to_voltage	1
-../Core/Src/bq79600.c:568:19:spiWriteFrame	2
+../Core/Src/bq79600.c:558:10:convert_adc_to_voltage	1
+../Core/Src/bq79600.c:572:19:simpleBalancing	5
